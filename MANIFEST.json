@@ -6,7 +6,7 @@
     ".github/workflows/verify.yml": "9f9ac90e052b5cf890ed44043fcb8d9feea042483d2e80ce03bfaf5802409eae",
     ".gitignore": "73e5737fdbf630845544a4c0c3a8ef6b21eaec1ab228d4fa1c6a5e1efad8d5c8",
     ".python-version": "02e735b3dfe1c32833eb550b7ff8ffa17f5f2bc3fa1e7bae61a8f5a3883ce398",
-    "README.md": "7287482debb29114611284fa1a95483f34cbe21d76db1036a48fbf424578b761",
+    "README.md": "51c3f95dbce86c6890ae70665051aa78b7b75d3b714fdb723d64994cab287f72",
     "code/01_patex_to_parquet.py": "a3677ca183c8a4778a55627751e2fa5d1456ffdd8a541486033aa15756ee729a",
     "code/02_build_applications.py": "f439373532aeb1a1883f30dfb2b8c2c756ebb50d2642441bb034aada200d056f",
     "code/03_infer_gender.py": "b6d8a98ab2dfe3c62b64d6076d1e9f9125d2c6d9aada8cd582a9babcf4dec3b8",

@@ -7,12 +7,6 @@ It contains the analysis code, aggregate results, the appendix's **33 tables and
 comprises 443,742 patent applications filed in 2010–2014 across eight utility
 technology centers.
 
-The design compares applications assigned to examiners with different leniency
-within art unit × filing year × patent class cells. C1 checks outcome predictions
-using the quintile comparisons of Kleinberg et al. (2018); C2 compares AI examiner
-twins; C3 changes the information given to an evaluator. The main citation-count
-models use Poisson loss.
-
 ## Start with the final exhibits
 
 Open [results/appendix/index.html](results/appendix/index.html) locally for the
