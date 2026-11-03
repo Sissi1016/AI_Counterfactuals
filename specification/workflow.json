@@ -1,0 +1,572 @@
+{
+  "prepare": {
+    "description": "Build application records, pilot and all-center outcomes, and extract texts",
+    "requires": "Public raw data in data/ as documented in docs/data.md",
+    "tasks": [
+      {
+        "args": [
+          "code/01_patex_to_parquet.py"
+        ]
+      },
+      {
+        "args": [
+          "code/02_build_applications.py"
+        ]
+      },
+      {
+        "args": [
+          "code/03_infer_gender.py"
+        ]
+      },
+      {
+        "args": [
+          "code/04_examiner_leniency.py"
+        ]
+      },
+      {
+        "args": [
+          "code/05_descriptives.py"
+        ]
+      },
+      {
+        "args": [
+          "code/06_pilot_sample.py"
+        ]
+      },
+      {
+        "args": [
+          "code/06b_self_citations.py"
+        ]
+      },
+      {
+        "args": [
+          "tools/data_tasks.py",
+          "all-center-citations"
+        ]
+      },
+      {
+        "args": [
+          "code/38_all_centers.py",
+          "--prepare"
+        ]
+      },
+      {
+        "args": [
+          "code/04b_leniency_window.py"
+        ]
+      },
+      {
+        "args": [
+          "code/06c_prior_art_citations.py"
+        ]
+      },
+      {
+        "args": [
+          "code/07_extract_text.py"
+        ],
+        "isolated": true
+      },
+      {
+        "args": [
+          "code/38_all_centers.py",
+          "--extract"
+        ],
+        "isolated": true
+      }
+    ]
+  },
+  "embed": {
+    "description": "Build pilot and all-center embedding vectors",
+    "requires": "prepare; Qwen3-Embedding-0.6B in models/; LLM environment",
+    "tasks": [
+      {
+        "args": [
+          "code/08_embed.py"
+        ],
+        "gpu": true
+      },
+      {
+        "args": [
+          "code/38_all_centers.py",
+          "--embed"
+        ],
+        "gpu": true
+      }
+    ]
+  },
+  "pilot": {
+    "description": "Pilot model inputs, zero-shot LLM, representation, and fine-tuning",
+    "requires": "embed; Qwen3-8B in models/; GPU and main environments",
+    "tasks": [
+      {
+        "args": [
+          "code/09_probes.py"
+        ]
+      },
+      {
+        "args": [
+          "code/12_marginal_outcomes.py"
+        ]
+      },
+      {
+        "args": [
+          "code/14_llm_marginal.py"
+        ],
+        "gpu": true
+      },
+      {
+        "args": [
+          "code/14_llm_marginal.py",
+          "--analyze"
+        ]
+      },
+      {
+        "args": [
+          "code/15_llm_features.py"
+        ],
+        "gpu": true
+      },
+      {
+        "args": [
+          "code/15_llm_features.py",
+          "--analyze"
+        ]
+      },
+      {
+        "args": [
+          "code/21_citations.py"
+        ]
+      },
+      {
+        "args": [
+          "code/30_finetune_llm.py",
+          "--prepare"
+        ]
+      },
+      {
+        "args": [
+          "code/30_finetune_llm.py"
+        ],
+        "gpu": true
+      },
+      {
+        "args": [
+          "code/30_finetune_llm.py",
+          "--analyze"
+        ]
+      },
+      {
+        "args": [
+          "code/31_q8_citations.py"
+        ]
+      }
+    ]
+  },
+  "all-centers": {
+    "description": "All-center text evaluators and zero-shot LLM",
+    "requires": "pilot and embed; Census surname input",
+    "tasks": [
+      {
+        "args": [
+          "code/38_all_centers.py",
+          "--analyze"
+        ]
+      },
+      {
+        "args": [
+          "code/40_llm_all_centers.py"
+        ],
+        "gpu": true
+      },
+      {
+        "args": [
+          "code/40_llm_all_centers.py",
+          "--analyze"
+        ]
+      },
+      {
+        "args": [
+          "code/33_ethnicity.py"
+        ]
+      }
+    ]
+  },
+  "c1": {
+    "description": "Main Poisson C1, marginal scores, and selected extensions",
+    "requires": "all-centers; existing all-center embeddings and pilot fine-tuned scores",
+    "tasks": [
+      {
+        "args": [
+          "code/35_c1_kllm.py"
+        ],
+        "env": {
+          "CFE_THREADS": "16",
+          "OMP_NUM_THREADS": "16",
+          "OPENBLAS_NUM_THREADS": "16",
+          "MKL_NUM_THREADS": "16",
+          "NUMEXPR_NUM_THREADS": "16"
+        }
+      },
+      {
+        "args": [
+          "code/35_c1_kllm.py",
+          "--fig4"
+        ],
+        "env": {
+          "CFE_THREADS": "16",
+          "OMP_NUM_THREADS": "16",
+          "OPENBLAS_NUM_THREADS": "16",
+          "MKL_NUM_THREADS": "16",
+          "NUMEXPR_NUM_THREADS": "16"
+        }
+      },
+      {
+        "args": [
+          "code/43_c1_extra.py",
+          "--forwhom"
+        ],
+        "env": {
+          "CFE_THREADS": "16",
+          "OMP_NUM_THREADS": "16",
+          "OPENBLAS_NUM_THREADS": "16",
+          "MKL_NUM_THREADS": "16",
+          "NUMEXPR_NUM_THREADS": "16"
+        }
+      },
+      {
+        "args": [
+          "code/43_c1_extra.py",
+          "--within"
+        ],
+        "env": {
+          "CFE_THREADS": "16",
+          "OMP_NUM_THREADS": "16",
+          "OPENBLAS_NUM_THREADS": "16",
+          "MKL_NUM_THREADS": "16",
+          "NUMEXPR_NUM_THREADS": "16"
+        }
+      },
+      {
+        "args": [
+          "code/43_c1_extra.py",
+          "--tail"
+        ],
+        "env": {
+          "CFE_THREADS": "16",
+          "OMP_NUM_THREADS": "16",
+          "OPENBLAS_NUM_THREADS": "16",
+          "MKL_NUM_THREADS": "16",
+          "NUMEXPR_NUM_THREADS": "16"
+        }
+      },
+      {
+        "args": [
+          "code/43_c1_extra.py",
+          "--lite"
+        ],
+        "env": {
+          "CFE_THREADS": "16",
+          "OMP_NUM_THREADS": "16",
+          "OPENBLAS_NUM_THREADS": "16",
+          "MKL_NUM_THREADS": "16",
+          "NUMEXPR_NUM_THREADS": "16"
+        }
+      },
+      {
+        "args": [
+          "code/47_c1_margin_validation.py"
+        ],
+        "env": {
+          "CFE_THREADS": "16",
+          "OMP_NUM_THREADS": "16",
+          "OPENBLAS_NUM_THREADS": "16",
+          "MKL_NUM_THREADS": "16",
+          "NUMEXPR_NUM_THREADS": "16"
+        }
+      },
+      {
+        "args": [
+          "code/49_c1_zheng_figures.py"
+        ],
+        "env": {
+          "CFE_THREADS": "16",
+          "OMP_NUM_THREADS": "16",
+          "OPENBLAS_NUM_THREADS": "16",
+          "MKL_NUM_THREADS": "16",
+          "NUMEXPR_NUM_THREADS": "16"
+        }
+      },
+      {
+        "args": [
+          "code/51_c1_table2_tails.py"
+        ],
+        "env": {
+          "CFE_THREADS": "16",
+          "OMP_NUM_THREADS": "16",
+          "OPENBLAS_NUM_THREADS": "16",
+          "MKL_NUM_THREADS": "16",
+          "NUMEXPR_NUM_THREADS": "16"
+        }
+      }
+    ]
+  },
+  "c1-squared": {
+    "description": "Squared-error sensitivity retained in the final appendix text",
+    "requires": "c1; same inputs and partitions",
+    "tasks": [
+      {
+        "args": [
+          "code/35_c1_kllm.py"
+        ],
+        "env": {
+          "CFE_LOSS": "squared_error",
+          "CFE_THREADS": "16",
+          "OMP_NUM_THREADS": "16",
+          "OPENBLAS_NUM_THREADS": "16",
+          "MKL_NUM_THREADS": "16",
+          "NUMEXPR_NUM_THREADS": "16"
+        }
+      },
+      {
+        "args": [
+          "code/35_c1_kllm.py",
+          "--fig4"
+        ],
+        "env": {
+          "CFE_LOSS": "squared_error",
+          "CFE_THREADS": "16",
+          "OMP_NUM_THREADS": "16",
+          "OPENBLAS_NUM_THREADS": "16",
+          "MKL_NUM_THREADS": "16",
+          "NUMEXPR_NUM_THREADS": "16"
+        }
+      },
+      {
+        "args": [
+          "code/43_c1_extra.py",
+          "--poisson"
+        ],
+        "env": {
+          "CFE_THREADS": "16",
+          "OMP_NUM_THREADS": "16",
+          "OPENBLAS_NUM_THREADS": "16",
+          "MKL_NUM_THREADS": "16",
+          "NUMEXPR_NUM_THREADS": "16"
+        }
+      },
+      {
+        "args": [
+          "code/43_c1_extra.py",
+          "--within"
+        ],
+        "env": {
+          "CFE_LOSS": "squared_error",
+          "CFE_THREADS": "16",
+          "OMP_NUM_THREADS": "16",
+          "OPENBLAS_NUM_THREADS": "16",
+          "MKL_NUM_THREADS": "16",
+          "NUMEXPR_NUM_THREADS": "16"
+        }
+      },
+      {
+        "args": [
+          "code/43_c1_extra.py",
+          "--tail"
+        ],
+        "env": {
+          "CFE_LOSS": "squared_error",
+          "CFE_THREADS": "16",
+          "OMP_NUM_THREADS": "16",
+          "OPENBLAS_NUM_THREADS": "16",
+          "MKL_NUM_THREADS": "16",
+          "NUMEXPR_NUM_THREADS": "16"
+        }
+      }
+    ]
+  },
+  "diagnostics": {
+    "description": "Assignment, balance, exclusion, familiarity, and prior-art diagnostics",
+    "requires": "c1 and c1-squared; pilot LLM scores",
+    "tasks": [
+      {
+        "args": [
+          "code/22_examiners.py"
+        ]
+      },
+      {
+        "args": [
+          "code/36_geography_industry.py"
+        ]
+      },
+      {
+        "args": [
+          "code/39_c3_checks.py"
+        ]
+      },
+      {
+        "args": [
+          "code/23_memorization.py"
+        ],
+        "gpu": true,
+        "env": {
+          "CFE_GPUS": "0",
+          "CFE_MAX_SEQS": "4",
+          "CFE_MEM_N": "15000"
+        }
+      },
+      {
+        "args": [
+          "code/23_memorization.py",
+          "--analyze"
+        ]
+      },
+      {
+        "args": [
+          "code/42_design_balance.py"
+        ]
+      },
+      {
+        "args": [
+          "code/46_tests_extra.py"
+        ],
+        "env": {
+          "CFE_LOSS": "squared_error"
+        }
+      },
+      {
+        "args": [
+          "code/46_tests_extra.py",
+          "--c1perm"
+        ]
+      },
+      {
+        "args": [
+          "code/41_design_examiners.py"
+        ]
+      },
+      {
+        "args": [
+          "code/06d_prior_art_diagnostics.py"
+        ]
+      }
+    ]
+  },
+  "groups": {
+    "description": "Gender, ethnicity, probability gaps, temporal and field comparisons",
+    "requires": "all-centers, c1, and diagnostics",
+    "tasks": [
+      {
+        "args": [
+          "code/44_c3_extra.py"
+        ]
+      },
+      {
+        "args": [
+          "code/44_c3_extra.py",
+          "--lite"
+        ]
+      },
+      {
+        "args": [
+          "code/50_field_mix.py"
+        ]
+      }
+    ]
+  },
+  "twins": {
+    "description": "C2 examiner twins, with C4 execution removed",
+    "requires": "pilot and all-centers",
+    "tasks": [
+      {
+        "args": [
+          "code/16_ai_examiner_inputs.py",
+          "--model",
+          "s0"
+        ],
+        "gpu": true
+      },
+      {
+        "args": [
+          "code/17_ai_examiners.py",
+          "--features",
+          "s0"
+        ]
+      },
+      {
+        "args": [
+          "code/45_twins_c4_extra.py"
+        ]
+      }
+    ]
+  },
+  "names": {
+    "description": "C3 inventor-name and surname experiments",
+    "requires": "twins, all-centers, and groups; Census surname input",
+    "tasks": [
+      {
+        "args": [
+          "code/32_twins_names.py",
+          "--prepare"
+        ]
+      },
+      {
+        "args": [
+          "code/32_twins_names.py"
+        ],
+        "gpu": true,
+        "env": {
+          "CFE_GPUS": "0"
+        }
+      },
+      {
+        "args": [
+          "code/32_twins_names.py",
+          "--analyze"
+        ]
+      },
+      {
+        "args": [
+          "code/48_name_swaps.py",
+          "--prepare"
+        ]
+      },
+      {
+        "args": [
+          "code/48_name_swaps.py"
+        ],
+        "gpu": true,
+        "env": {
+          "CFE_GPUS": "0"
+        }
+      },
+      {
+        "args": [
+          "code/48_name_swaps.py",
+          "--analyze"
+        ]
+      }
+    ]
+  },
+  "tables": {
+    "description": "Regenerate formatted analysis tables and assemble final appendix selections",
+    "requires": "All preceding stages for a full raw-data rebuild; Pandoc for refresh",
+    "tasks": [
+      {
+        "args": [
+          "code/34_extension_tables.py"
+        ]
+      },
+      {
+        "args": [
+          "tools/assemble_appendix.py",
+          "--refresh-sources"
+        ]
+      },
+      {
+        "args": [
+          "tools/assemble_proposal.py"
+        ]
+      }
+    ]
+  }
+}

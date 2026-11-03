@@ -1,0 +1,271 @@
+sample,outcome,contrast,series,kind,estimate,se
+3600,cites_ns,Female − male,Human record (truth),marginal,1.4123806194051611,0.7112039821235897
+3600,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,-0.0002632917942730906,0.00484386646467022
+3600,cites_ns,Female − male,Train on citations (granted only),implied,0.23135321107980777,0.1096319505697843
+3600,cites_ns,Female − male,Train on citations + names,implied,0.13820227287533093,0.10838537638686084
+3600,cites_ns,Female − male,Train on citations + entity status,implied,0.24108996895366985,0.1103610574464791
+3600,cites_ns,Female − male,Train on grant,implied,-0.011604054091248983,0.005565574700928752
+3600,cites_ns,Female − male,Train on first action,implied,0.04183642438215518,0.00968800336053572
+3600,cites_ns,Female − male,Train on grant + names,implied,-0.013861893565957573,0.00577726876196042
+3600,cites_ns,Female − male,Train on grant + entity status,implied,-0.02180404248529344,0.006278464577718444
+3600,cites_ns,Female − male,"LLM, zero-shot",implied,0.0018619379296103133,0.005444163887705449
+3600,cites_ns,Female − male,"LLM, lenient examiners' examples",implied,0.0112038084007402,0.008630503400148249
+3600,cites_ns,Female − male,"LLM, strict examiners' examples",implied,0.009740216335140772,0.00818323369256936
+3600,cites_ns,Female − male,blend 0.0,implied,0.23134495386317022,0.10962686422411637
+3600,cites_ns,Female − male,blend 0.1,implied,0.16778473738008248,0.10470133695334476
+3600,cites_ns,Female − male,blend 0.2,implied,0.0936285298965891,0.0985650845066022
+3600,cites_ns,Female − male,blend 0.3,implied,0.009482370226707726,0.09112239637782907
+3600,cites_ns,Female − male,blend 0.4,implied,-0.08089031320653861,0.08234683225537377
+3600,cites_ns,Female − male,blend 0.5,implied,-0.1673373647813734,0.07228318002543895
+3600,cites_ns,Female − male,blend 0.6,implied,-0.23010242936194625,0.06088355571100434
+3600,cites_ns,Female − male,blend 0.7,implied,-0.2443553001833738,0.04787329660859737
+3600,cites_ns,Female − male,blend 0.8,implied,-0.1999820567329662,0.033126302371791046
+3600,cites_ns,Female − male,blend 0.9,implied,-0.11358230174311634,0.01764840298344476
+3600,cites_ns,Female − male,blend 1.0,implied,-0.011593399572778385,0.005563470752958339
+3600,cites_ns,Female − male,No model: mean outcome of accepted cases,error,-1.4126439111994253,0.7113839506613728
+3600,cites_ns,Female − male,Train on citations (granted only),error,-1.1810274083253605,0.7014199879761488
+3600,cites_ns,Female − male,Train on citations + names,error,-1.27417834652983,0.7004131754608683
+3600,cites_ns,Female − male,Train on citations + entity status,error,-1.171290650451484,0.7018668119738252
+3600,cites_ns,Female − male,Train on grant,error,-1.4239846734964063,0.711621933697299
+3600,cites_ns,Female − male,Train on first action,error,-1.3705441950229977,0.7110141183776533
+3600,cites_ns,Female − male,Train on grant + names,error,-1.4262425129711098,0.7117055671083783
+3600,cites_ns,Female − male,Train on grant + entity status,error,-1.4341846618904412,0.7115437416451218
+3600,cites_ns,Female − male,"LLM, zero-shot",error,-1.410518681475551,0.7112479292993504
+3600,cites_ns,Female − male,"LLM, lenient examiners' examples",error,-1.40117681100441,0.7111182789779473
+3600,cites_ns,Female − male,"LLM, strict examiners' examples",error,-1.402640403070015,0.7116758860129563
+3600,cites_ns,Female − male,blend 0.0,error,-1.181035665542007,0.7014199061829739
+3600,cites_ns,Female − male,blend 0.1,error,-1.244595882025073,0.702013409225105
+3600,cites_ns,Female − male,blend 0.2,error,-1.3187520895085703,0.7029344530287115
+3600,cites_ns,Female − male,blend 0.3,error,-1.4028982491784516,0.7042846166687522
+3600,cites_ns,Female − male,blend 0.4,error,-1.4932709326116982,0.7061157024461778
+3600,cites_ns,Female − male,blend 0.5,error,-1.579717984186519,0.7083180535108989
+3600,cites_ns,Female − male,blend 0.6,error,-1.642483048767113,0.7104908313774112
+3600,cites_ns,Female − male,blend 0.7,error,-1.656735919588527,0.7120252069034452
+3600,cites_ns,Female − male,blend 0.8,error,-1.6123626761381238,0.7125757130059515
+3600,cites_ns,Female − male,blend 0.9,error,-1.525962921148266,0.7123186119444674
+3600,cites_ns,Female − male,blend 1.0,error,-1.4239740189778851,0.7116217133706882
+3600,cites_ns,Small − large,Human record (truth),marginal,-0.3599364710816775,0.41098733669706045
+3600,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,0.001136142551806607,0.0054852678479219005
+3600,cites_ns,Small − large,Train on citations (granted only),implied,0.25402772697168885,0.07479085399942999
+3600,cites_ns,Small − large,Train on citations + names,implied,0.21525821576555249,0.07281393811778197
+3600,cites_ns,Small − large,Train on citations + entity status,implied,0.17145288587935426,0.07508859522500354
+3600,cites_ns,Small − large,Train on grant,implied,-0.0029048390656076784,0.00623121978275701
+3600,cites_ns,Small − large,Train on first action,implied,-0.02459390096089642,0.008703163764862219
+3600,cites_ns,Small − large,Train on grant + names,implied,-0.0038756897673932755,0.006485898854839679
+3600,cites_ns,Small − large,Train on grant + entity status,implied,-0.026361610875284658,0.006426776519334299
+3600,cites_ns,Small − large,"LLM, zero-shot",implied,0.004696728494023805,0.0062935888855649704
+3600,cites_ns,Small − large,"LLM, lenient examiners' examples",implied,0.015409571398007138,0.007141578517682561
+3600,cites_ns,Small − large,"LLM, strict examiners' examples",implied,0.019895013513647974,0.006597516762255428
+3600,cites_ns,Small − large,blend 0.0,implied,0.25401926461893165,0.07478713225070412
+3600,cites_ns,Small − large,blend 0.1,implied,0.22786172583945863,0.07261053504779973
+3600,cites_ns,Small − large,blend 0.2,implied,0.19404468896164273,0.06964259114010897
+3600,cites_ns,Small − large,blend 0.3,implied,0.151520317314231,0.06566152087279704
+3600,cites_ns,Small − large,blend 0.4,implied,0.1008228161962692,0.0604258491894486
+3600,cites_ns,Small − large,blend 0.5,implied,0.04636113459537228,0.05373682946467624
+3600,cites_ns,Small − large,blend 0.6,implied,-0.0019740522094089386,0.045444982818463805
+3600,cites_ns,Small − large,blend 0.7,implied,-0.03204098014360435,0.035565517030084565
+3600,cites_ns,Small − large,blend 0.8,implied,-0.038617101640669116,0.02454383302122416
+3600,cites_ns,Small − large,blend 0.9,implied,-0.026290889934377226,0.013532788790669952
+3600,cites_ns,Small − large,blend 1.0,implied,-0.0029010572692023118,0.0062288211744586435
+3600,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.36107261363350385,0.4115203058647259
+3600,cites_ns,Small − large,Train on citations (granted only),error,0.6139641980533725,0.4050729238884758
+3600,cites_ns,Small − large,Train on citations + names,error,0.5751946868472497,0.405377987897894
+3600,cites_ns,Small − large,Train on citations + entity status,error,0.5313893569610398,0.4048958170237771
+3600,cites_ns,Small − large,Train on grant,error,0.3570316320160829,0.41146464459989496
+3600,cites_ns,Small − large,Train on first action,error,0.33534257012078783,0.4113588641147061
+3600,cites_ns,Small − large,Train on grant + names,error,0.35606078131428864,0.4114797191145428
+3600,cites_ns,Small − large,Train on grant + entity status,error,0.3335748602064117,0.4116152102725353
+3600,cites_ns,Small − large,"LLM, zero-shot",error,0.3646331995757127,0.411389264216664
+3600,cites_ns,Small − large,"LLM, lenient examiners' examples",error,0.37534604247969616,0.41133182975297033
+3600,cites_ns,Small − large,"LLM, strict examiners' examples",error,0.37983148459532956,0.4114105580966371
+3600,cites_ns,Small − large,blend 0.0,error,0.6139557357006105,0.40507274820244715
+3600,cites_ns,Small − large,blend 0.1,error,0.5877981969211491,0.40568404662483454
+3600,cites_ns,Small − large,blend 0.2,error,0.5539811600433333,0.4064735155104603
+3600,cites_ns,Small − large,blend 0.3,error,0.5114567883959258,0.40744725342014154
+3600,cites_ns,Small − large,blend 0.4,error,0.4607592872779647,0.40856662272584965
+3600,cites_ns,Small − large,blend 0.5,error,0.40629760567706213,0.40972217454178167
+3600,cites_ns,Small − large,blend 0.6,error,0.35796241887228386,0.410728705135007
+3600,cites_ns,Small − large,blend 0.7,error,0.327895490938078,0.4113973726507132
+3600,cites_ns,Small − large,blend 0.8,error,0.3213193694410559,0.41167121455094857
+3600,cites_ns,Small − large,blend 0.9,error,0.3336455811473434,0.4116504714949987
+3600,cites_ns,Small − large,blend 1.0,error,0.35703541381249093,0.4114643758558414
+1600,cites_ns,Female − male,Human record (truth),marginal,-0.5171106033119834,0.3312319353913162
+1600,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,0.0026638389779842786,0.0019222613484331619
+1600,cites_ns,Female − male,Train on citations (granted only),implied,-0.119491812926251,0.07993994315089437
+1600,cites_ns,Female − male,Train on citations + names,implied,-0.13440999738434778,0.07768885009013818
+1600,cites_ns,Female − male,Train on citations + entity status,implied,-0.0649107694932669,0.08493926533893079
+1600,cites_ns,Female − male,Train on grant,implied,0.00511604580492131,0.002625182720208399
+1600,cites_ns,Female − male,Train on first action,implied,0.018179920637515945,0.016479468166914736
+1600,cites_ns,Female − male,Train on grant + names,implied,0.003750400075164695,0.002522498124601793
+1600,cites_ns,Female − male,Train on grant + entity status,implied,-0.0024036865801186913,0.00374616777686691
+1600,cites_ns,Female − male,"LLM, zero-shot",implied,-0.004323499936152997,0.008557051913714543
+1600,cites_ns,Female − male,"LLM, lenient examiners' examples",implied,-0.0002285619953907858,0.0068457403263714
+1600,cites_ns,Female − male,"LLM, strict examiners' examples",implied,0.005666066428409389,0.009697893276655012
+1600,cites_ns,Female − male,blend 0.0,implied,-0.11950878107199059,0.0799475232322638
+1600,cites_ns,Female − male,blend 0.1,implied,-0.13295492899434858,0.07914630900754509
+1600,cites_ns,Female − male,blend 0.2,implied,-0.14509762766964185,0.07618406942202505
+1600,cites_ns,Female − male,blend 0.3,implied,-0.15118838671781587,0.07014780108910387
+1600,cites_ns,Female − male,blend 0.4,implied,-0.14430105522882442,0.06105191044060232
+1600,cites_ns,Female − male,blend 0.5,implied,-0.1218764471973719,0.049849658926733494
+1600,cites_ns,Female − male,blend 0.6,implied,-0.0909038117697698,0.037791014434825174
+1600,cites_ns,Female − male,blend 0.7,implied,-0.060208234841305996,0.02618171192210968
+1600,cites_ns,Female − male,blend 0.8,implied,-0.03370334777144679,0.015892268779609885
+1600,cites_ns,Female − male,blend 0.9,implied,-0.012022393032609546,0.007346413962455727
+1600,cites_ns,Female − male,blend 1.0,implied,0.005117836920383256,0.002624975996710832
+1600,cites_ns,Female − male,No model: mean outcome of accepted cases,error,0.5197744422899816,0.3314137741696927
+1600,cites_ns,Female − male,Train on citations (granted only),error,0.3976187903857396,0.32587771136762606
+1600,cites_ns,Female − male,Train on citations + names,error,0.3827006059276422,0.32189323533257097
+1600,cites_ns,Female − male,Train on citations + entity status,error,0.45219983381872314,0.32637184175651507
+1600,cites_ns,Female − male,Train on grant,error,0.5222266491169144,0.33153870756599113
+1600,cites_ns,Female − male,Train on first action,error,0.5352905239495076,0.3302653405936214
+1600,cites_ns,Female − male,Train on grant + names,error,0.5208610033871596,0.33156133179452163
+1600,cites_ns,Female − male,Train on grant + entity status,error,0.5147069167318704,0.3318542915207926
+1600,cites_ns,Female − male,"LLM, zero-shot",error,0.5127871033758439,0.3320941268791158
+1600,cites_ns,Female − male,"LLM, lenient examiners' examples",error,0.5168820413166014,0.33179943240110277
+1600,cites_ns,Female − male,"LLM, strict examiners' examples",error,0.5227766697403978,0.3321289806791141
+1600,cites_ns,Female − male,blend 0.0,error,0.3976018222399942,0.3258777032605459
+1600,cites_ns,Female − male,blend 0.1,error,0.38415567431764736,0.3263662698603219
+1600,cites_ns,Female − male,blend 0.2,error,0.3720129756423498,0.3271884270233884
+1600,cites_ns,Female − male,blend 0.3,error,0.36592221659417157,0.3286004018144446
+1600,cites_ns,Female − male,blend 0.4,error,0.37280954808317085,0.3306265232649695
+1600,cites_ns,Female − male,blend 0.5,error,0.39523415611462054,0.33251075113894135
+1600,cites_ns,Female − male,blend 0.6,error,0.42620679154222346,0.33344993698946923
+1600,cites_ns,Female − male,blend 0.7,error,0.4569023684706907,0.3334642080175507
+1600,cites_ns,Female − male,blend 0.8,error,0.48340725554054154,0.33296113947863737
+1600,cites_ns,Female − male,blend 0.9,error,0.5050882102793883,0.33226389140519325
+1600,cites_ns,Female − male,blend 1.0,error,0.5222284402323764,0.33153912172181443
+1600,cites_ns,Small − large,Human record (truth),marginal,-0.6398273622650643,0.3349190267902747
+1600,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,6.864108874560237e-05,0.0030054639154166543
+1600,cites_ns,Small − large,Train on citations (granted only),implied,-0.24271900317950923,0.0777673463576463
+1600,cites_ns,Small − large,Train on citations + names,implied,-0.2502898037704868,0.07872394538219439
+1600,cites_ns,Small − large,Train on citations + entity status,implied,-0.5805309302777621,0.0867663277858814
+1600,cites_ns,Small − large,Train on grant,implied,0.004817435014502935,0.006753773275851507
+1600,cites_ns,Small − large,Train on first action,implied,0.06770212025880551,0.013131623104375559
+1600,cites_ns,Small − large,Train on grant + names,implied,0.0002856347533699566,0.006248024877801835
+1600,cites_ns,Small − large,Train on grant + entity status,implied,-0.03497381956137624,0.007091853957449295
+1600,cites_ns,Small − large,"LLM, zero-shot",implied,-0.07151817115051773,0.009892999641566954
+1600,cites_ns,Small − large,"LLM, lenient examiners' examples",implied,-0.03512714010632356,0.006641695426851368
+1600,cites_ns,Small − large,"LLM, strict examiners' examples",implied,-0.04338567512535785,0.009485410927750576
+1600,cites_ns,Small − large,blend 0.0,implied,-0.24274426292015328,0.0777766699045355
+1600,cites_ns,Small − large,blend 0.1,implied,-0.2870822609049677,0.07732293736573824
+1600,cites_ns,Small − large,blend 0.2,implied,-0.33727629493838096,0.0770196813446699
+1600,cites_ns,Small − large,blend 0.3,implied,-0.38629770786720985,0.07776372652110845
+1600,cites_ns,Small − large,blend 0.4,implied,-0.41543911197603034,0.078180443308053
+1600,cites_ns,Small − large,blend 0.5,implied,-0.4006871581217111,0.07283299899537682
+1600,cites_ns,Small − large,blend 0.6,implied,-0.3370098856870811,0.05945373419386378
+1600,cites_ns,Small − large,blend 0.7,implied,-0.24451567107078676,0.04194042067154104
+1600,cites_ns,Small − large,blend 0.8,implied,-0.14806615032575432,0.02498126648413157
+1600,cites_ns,Small − large,blend 0.9,implied,-0.06308633785511142,0.011520393824516202
+1600,cites_ns,Small − large,blend 1.0,implied,0.004810904308636621,0.006753599938668385
+1600,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.6398960033537952,0.33490863410963573
+1600,cites_ns,Small − large,Train on citations (granted only),error,0.3971083590855467,0.3235183143253133
+1600,cites_ns,Small − large,Train on citations + names,error,0.3895375584945811,0.3240772775786473
+1600,cites_ns,Small − large,Train on citations + entity status,error,0.059296431987299836,0.32141542195946315
+1600,cites_ns,Small − large,Train on grant,error,0.6446447972795644,0.335723950880869
+1600,cites_ns,Small − large,Train on first action,error,0.7075294825238703,0.3339901734931651
+1600,cites_ns,Small − large,Train on grant + names,error,0.6401129970184214,0.3356481763243341
+1600,cites_ns,Small − large,Train on grant + entity status,error,0.6048535427036795,0.335736974905978
+1600,cites_ns,Small − large,"LLM, zero-shot",error,0.5683091911145385,0.33574590584396274
+1600,cites_ns,Small − large,"LLM, lenient examiners' examples",error,0.604700222158732,0.33564058690492937
+1600,cites_ns,Small − large,"LLM, strict examiners' examples",error,0.5964416871397058,0.3358205792043698
+1600,cites_ns,Small − large,blend 0.0,error,0.3970830993449097,0.3235175695670934
+1600,cites_ns,Small − large,blend 0.1,error,0.3527451013600989,0.32393175826764636
+1600,cites_ns,Small − large,blend 0.2,error,0.3025510673266772,0.3253957946660238
+1600,cites_ns,Small − large,blend 0.3,error,0.25352965439784925,0.328566599606879
+1600,cites_ns,Small − large,blend 0.4,error,0.22438825028903703,0.3330308023939685
+1600,cites_ns,Small − large,blend 0.5,error,0.23914020414334283,0.33646628487977276
+1600,cites_ns,Small − large,blend 0.6,error,0.3028174765779815,0.33747738513940106
+1600,cites_ns,Small − large,blend 0.7,error,0.3953116911942761,0.33703961857846637
+1600,cites_ns,Small − large,blend 0.8,error,0.4917612119392968,0.3363797088766472
+1600,cites_ns,Small − large,blend 0.9,error,0.5767410244099597,0.33594750235293375
+1600,cites_ns,Small − large,blend 1.0,error,0.6446382665736939,0.33572394333311195
+Both,cites_ns,Female − male,Human record (truth),marginal,0.08574535990729171,0.37046453204954033
+Both,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,-0.3039736594743119,0.0353602419916185
+Both,cites_ns,Female − male,Train on citations (granted only),implied,-0.20077277139536176,0.07504150895910668
+Both,cites_ns,Female − male,Train on citations + names,implied,-0.24811646875831284,0.07299967688444789
+Both,cites_ns,Female − male,Train on citations + entity status,implied,-0.16824981955932405,0.0769103539300496
+Both,cites_ns,Female − male,Train on grant,implied,-0.30466719262899966,0.03492836556292335
+Both,cites_ns,Female − male,Train on first action,implied,-0.2796737650702934,0.036842891750989634
+Both,cites_ns,Female − male,Train on grant + names,implied,-0.3058876037069649,0.034862882829347894
+Both,cites_ns,Female − male,Train on grant + entity status,implied,-0.309346404533102,0.0347345219548831
+Both,cites_ns,Female − male,"LLM, zero-shot",implied,-0.31236278676007734,0.03629322863732338
+Both,cites_ns,Female − male,"LLM, lenient examiners' examples",implied,-0.30821177363939944,0.03680548347637811
+Both,cites_ns,Female − male,"LLM, strict examiners' examples",implied,-0.3033605446195673,0.037136121104222944
+Both,cites_ns,Female − male,blend 0.0,implied,-0.2007780401535404,0.07504202805625745
+Both,cites_ns,Female − male,blend 0.1,implied,-0.2223639055052209,0.07220314436636817
+Both,cites_ns,Female − male,blend 0.2,implied,-0.2475699971583878,0.0681739090314305
+Both,cites_ns,Female − male,blend 0.3,implied,-0.27442007778703204,0.06265344684754272
+Both,cites_ns,Female − male,blend 0.4,implied,-0.2987780612239763,0.055903814774254885
+Both,cites_ns,Female − male,blend 0.5,implied,-0.31760622290449625,0.04876486346241918
+Both,cites_ns,Female − male,blend 0.6,implied,-0.3316955120702352,0.04200280544075807
+Both,cites_ns,Female − male,blend 0.7,implied,-0.33982111710383567,0.03637030556775813
+Both,cites_ns,Female − male,blend 0.8,implied,-0.3376844491257951,0.032896673900667785
+Both,cites_ns,Female − male,blend 0.9,implied,-0.32463479496093606,0.03250552138795507
+Both,cites_ns,Female − male,blend 1.0,implied,-0.3046724217388186,0.03492962838407693
+Both,cites_ns,Female − male,No model: mean outcome of accepted cases,error,-0.3897190193815761,0.37002430304032036
+Both,cites_ns,Female − male,Train on citations (granted only),error,-0.2865181313026206,0.3639682762124959
+Both,cites_ns,Female − male,Train on citations + names,error,-0.3338618286655617,0.3625481333392327
+Both,cites_ns,Female − male,Train on citations + entity status,error,-0.2539951794665922,0.36432583809052316
+Both,cites_ns,Female − male,Train on grant,error,-0.3904125525362597,0.3700767035634972
+Both,cites_ns,Female − male,Train on first action,error,-0.36541912497754847,0.3695702412201358
+Both,cites_ns,Female − male,Train on grant + names,error,-0.3916329636142196,0.3700989158620119
+Both,cites_ns,Female − male,Train on grant + entity status,error,-0.39509176444036376,0.3701905145103956
+Both,cites_ns,Female − male,"LLM, zero-shot",error,-0.39810814666735783,0.3700586308077203
+Both,cites_ns,Female − male,"LLM, lenient examiners' examples",error,-0.39395713354665723,0.36984057528658026
+Both,cites_ns,Female − male,"LLM, strict examiners' examples",error,-0.38910590452682714,0.3701941318753532
+Both,cites_ns,Female − male,blend 0.0,error,-0.28652340006081767,0.363968379733272
+Both,cites_ns,Female − male,blend 0.1,error,-0.30810926541248274,0.3643711983256026
+Both,cites_ns,Female − male,blend 0.2,error,-0.333315357065659,0.36498560714842787
+Both,cites_ns,Female − male,blend 0.3,error,-0.36016543769428994,0.3659257651958994
+Both,cites_ns,Female − male,blend 0.4,error,-0.3845234211312362,0.3672650227890739
+Both,cites_ns,Female − male,blend 0.5,error,-0.40335158281175093,0.36882159500432576
+Both,cites_ns,Female − male,blend 0.6,error,-0.41744087197750157,0.37018190703433257
+Both,cites_ns,Female − male,blend 0.7,error,-0.4255664770111155,0.3709786647436341
+Both,cites_ns,Female − male,blend 0.8,error,-0.42342980903304445,0.3710939025108797
+Both,cites_ns,Female − male,blend 0.9,error,-0.41038015486820123,0.37070462537640697
+Both,cites_ns,Female − male,blend 1.0,error,-0.39041778164610774,0.37007682333214303
+Both,cites_ns,Small − large,Human record (truth),marginal,-0.6423453786113702,0.2858790819627683
+Both,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,-0.20340351283746871,0.03115679146420707
+Both,cites_ns,Small − large,Train on citations (granted only),implied,-0.10437399123586255,0.06014039603986609
+Both,cites_ns,Small − large,Train on citations + names,implied,-0.12954461012932628,0.059022033323970075
+Both,cites_ns,Small − large,Train on citations + entity status,implied,-0.2879933219144728,0.06369507277568846
+Both,cites_ns,Small − large,Train on grant,implied,-0.20190243304185218,0.03106150474028467
+Both,cites_ns,Small − large,Train on first action,implied,-0.19362807490292022,0.0316150315902512
+Both,cites_ns,Small − large,Train on grant + names,implied,-0.20400467146251478,0.030947892102680175
+Both,cites_ns,Small − large,Train on grant + entity status,implied,-0.2290960589178812,0.030343807257569792
+Both,cites_ns,Small − large,"LLM, zero-shot",implied,-0.233412529318346,0.03181315084497321
+Both,cites_ns,Small − large,"LLM, lenient examiners' examples",implied,-0.2140093964240175,0.03239511841553127
+Both,cites_ns,Small − large,"LLM, strict examiners' examples",implied,-0.21323738430832595,0.03194733780390727
+Both,cites_ns,Small − large,blend 0.0,implied,-0.10438370520258089,0.0601401087479139
+Both,cites_ns,Small − large,blend 0.1,implied,-0.1287801969767175,0.05810601345764744
+Both,cites_ns,Small − large,blend 0.2,implied,-0.15996355251467964,0.055624619109362845
+Both,cites_ns,Small − large,blend 0.3,implied,-0.19638157503087572,0.05276558399556476
+Both,cites_ns,Small − large,blend 0.4,implied,-0.2310710215093421,0.049337685158241266
+Both,cites_ns,Small − large,blend 0.5,implied,-0.2534534992585238,0.04449358986158653
+Both,cites_ns,Small − large,blend 0.6,implied,-0.25910655533432436,0.038016182374499184
+Both,cites_ns,Small − large,blend 0.7,implied,-0.2520583811850199,0.031459337000633726
+Both,cites_ns,Small − large,blend 0.8,implied,-0.2380313011883739,0.02743858777137553
+Both,cites_ns,Small − large,blend 0.9,implied,-0.22063156912260307,0.02765774925102765
+Both,cites_ns,Small − large,blend 1.0,implied,-0.20191004785526223,0.03106222374076481
+Both,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.43894186577388783,0.28540910702262856
+Both,cites_ns,Small − large,Train on citations (granted only),error,0.5379713873754915,0.2803963690203428
+Both,cites_ns,Small − large,Train on citations + names,error,0.5128007684820542,0.28040521078876984
+Both,cites_ns,Small − large,Train on citations + entity status,error,0.354352056696905,0.2801825394869422
+Both,cites_ns,Small − large,Train on grant,error,0.44044294556951646,0.2854413534586618
+Both,cites_ns,Small − large,Train on first action,error,0.4487173037084503,0.28528692767361175
+Both,cites_ns,Small − large,Train on grant + names,error,0.4383407071488664,0.2854233358879823
+Both,cites_ns,Small − large,Train on grant + entity status,error,0.41324931969348105,0.28550820035500557
+Both,cites_ns,Small − large,"LLM, zero-shot",error,0.4089328492930362,0.2854277880891497
+Both,cites_ns,Small − large,"LLM, lenient examiners' examples",error,0.4283359821873431,0.2854343810491006
+Both,cites_ns,Small − large,"LLM, strict examiners' examples",error,0.42910799430302576,0.28545978779576603
+Both,cites_ns,Small − large,blend 0.0,error,0.5379616734087979,0.2803963069562198
+Both,cites_ns,Small − large,blend 0.1,error,0.5135651816346456,0.2807625238798168
+Both,cites_ns,Small − large,blend 0.2,error,0.4823818260966872,0.2813643331532124
+Both,cites_ns,Small − large,blend 0.3,error,0.44596380358048515,0.28228216977835485
+Both,cites_ns,Small − large,blend 0.4,error,0.4112743571020097,0.2834425650689901
+Both,cites_ns,Small − large,blend 0.5,error,0.38889187935284536,0.2844894027362152
+Both,cites_ns,Small − large,blend 0.6,error,0.3832388232770449,0.28512302359786307
+Both,cites_ns,Small − large,blend 0.7,error,0.3902869974263502,0.2853613755707784
+Both,cites_ns,Small − large,blend 0.8,error,0.4043140774230123,0.2853942572822025
+Both,cites_ns,Small − large,blend 0.9,error,0.42171380948883536,0.2854017943603395
+Both,cites_ns,Small − large,blend 1.0,error,0.4404353307561021,0.28544123587192866

@@ -1,0 +1,4 @@
+TC,Score,"Corr., citations (granted)","Spearman, prior art (granted)","Spearman, prior art (rejected)","Mean, granted","Mean, rejected",Rejected above granted median (%),Rejected in granted top quarter (%)
+All,Text,0.29,0.29,0.27,2.95,2.71,51,25
+All,"Text, within center × year",–,0.166,0.162,–,–,–,–
+All,"Text, within art unit × year",–,0.115,0.106,–,–,–,–

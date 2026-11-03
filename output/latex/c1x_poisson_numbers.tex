@@ -1,0 +1,443 @@
+% C1 follow-ups (43_c1_extra.py)
+\newcommand{\xCeFamRejAny}{10.3}
+\newcommand{\xCeFamRejFamily}{7.0}
+\newcommand{\xCeFamRejChild}{6.7}
+\newcommand{\xCeFamGrAny}{32.0}
+\newcommand{\xCeFamGrFamily}{28.0}
+\newcommand{\xCeFamGrChild}{27.9}
+\newcommand{\xCeFamTopOneAny}{16.9}
+\newcommand{\xCeFamTopOneFamily}{11.5}
+\newcommand{\xCeFamTopOneChild}{10.7}
+\newcommand{\xCeFamTopTenAny}{40.0}
+\newcommand{\xCeFamTopTenFamily}{30.0}
+\newcommand{\xCeFamTopTenChild}{30.0}
+\newcommand{\xCeFamTopTenN}{4}
+\newcommand{\xCeFamTcMin}{8.2}
+\newcommand{\xCeFamTcMax}{15.6}
+\newcommand{\xCeFamDecLow}{12.0}
+\newcommand{\xCeFamDecHigh}{13.6}
+\newcommand{\xCeFamSpAll}{0.27}
+\newcommand{\xCeFamSpClean}{0.27}
+\newcommand{\xCeExNTopRel}{0}
+\newcommand{\xCeExN}{8}
+\newcommand{\xCeUncEx}{21.6}
+\newcommand{\xCeUncAlgo}{24.2}
+\newcommand{\xCeUncRnd}{21.4}
+\newcommand{\xCeUncJudge}{21.5}
+\newcommand{\xCeUncAlgoMore}{2.6}
+\newcommand{\xCeUncAlgoMoreCI}{[1.3, 3.8]}
+\newcommand{\xCeUncJudgeMore}{$-$0.1}
+\newcommand{\xCeUncJudgeMoreCI}{[$-$1.3, 1.2]}
+\newcommand{\xCeVCitesAlgo}{6.2}
+\newcommand{\xCeVCitesAlgoCI}{[$-$2.4, 13.9]}
+\newcommand{\xCeVCitesJudge}{1.4}
+\newcommand{\xCeVCitesJudgeCI}{[$-$8.1, 9.6]}
+\newcommand{\xCeVCitesRnd}{$-$1.1}
+\newcommand{\xCeVCitesRndCI}{[$-$10.7, 7.0]}
+\newcommand{\xCeVRenewAlgo}{1.0}
+\newcommand{\xCeVRenewAlgoCI}{[0.5, 1.5]}
+\newcommand{\xCeVRenewJudge}{1.7}
+\newcommand{\xCeVRenewJudgeCI}{[1.2, 2.1]}
+\newcommand{\xCeVRenewRnd}{0.9}
+\newcommand{\xCeVRenewRndCI}{[0.4, 1.3]}
+\newcommand{\xCeVTopAlgo}{8.5}
+\newcommand{\xCeVTopAlgoCI}{[5.5, 11.4]}
+\newcommand{\xCeVTopJudge}{3.4}
+\newcommand{\xCeVTopJudgeCI}{[0.3, 6.7]}
+\newcommand{\xCeVTopRnd}{2.6}
+\newcommand{\xCeVTopRndCI}{[$-$0.5, 5.6]}
+\newcommand{\xCeVPaGAlgo}{8.0}
+\newcommand{\xCeVPaGAlgoCI}{[5.4, 10.6]}
+\newcommand{\xCeVPaGJudge}{2.1}
+\newcommand{\xCeVPaGJudgeCI}{[$-$0.4, 4.9]}
+\newcommand{\xCeVPaGRnd}{3.2}
+\newcommand{\xCeVPaGRndCI}{[0.8, 5.7]}
+\newcommand{\xCeSixExLow}{26.1}
+\newcommand{\xCeSixExHigh}{26.1}
+\newcommand{\xCeSixAlgoLow}{39.2}
+\newcommand{\xCeSixAlgoHigh}{10.2}
+\newcommand{\xCeSixAlgoBins}{20}
+\newcommand{\xCeSixExMin}{4.0}
+\newcommand{\xCeSixExMax}{5.8}
+\newcommand{\xCeMeanCitesGranted}{3.17}
+\newcommand{\xCeCfPaAbove}{42}
+\newcommand{\xCeCfPaTopQ}{20}
+\newcommand{\xCeCfAbove}{51}
+\newcommand{\xCeCfTopQ}{25}
+\newcommand{\xCeRawAlgoOverRnd}{7.3}
+\newcommand{\xCeRawAlgoOverRndCI}{[5.6, 8.9]}
+\newcommand{\xCeRawJudgeOverRnd}{2.5}
+\newcommand{\xCeRawJudgeOverRndCI}{[0.9, 4.1]}
+\newcommand{\xCeLogAlgoOverRnd}{3.2}
+\newcommand{\xCeLogAlgoOverRndCI}{[2.8, 3.7]}
+\newcommand{\xCeLogJudgeOverRnd}{0.3}
+\newcommand{\xCeLogJudgeOverRndCI}{[$-$0.2, 0.9]}
+\newcommand{\xCeTrimAlgoOverRnd}{5.6}
+\newcommand{\xCeTrimAlgoOverRndCI}{[4.8, 6.6]}
+\newcommand{\xCeTrimJudgeOverRnd}{1.1}
+\newcommand{\xCeTrimJudgeOverRndCI}{[0.0, 2.1]}
+\newcommand{\xCeVUncAlgoOverRnd}{2.8}
+\newcommand{\xCeVUncAlgoOverRndCI}{[2.4, 3.2]}
+\newcommand{\xCeVUncJudgeOverRnd}{0.1}
+\newcommand{\xCeVUncJudgeOverRndCI}{[$-$0.3, 0.5]}
+\newcommand{\xCeVRenewAlgoOverRnd}{0.1}
+\newcommand{\xCeVRenewAlgoOverRndCI}{[0.0, 0.3]}
+\newcommand{\xCeVRenewJudgeOverRnd}{0.8}
+\newcommand{\xCeVRenewJudgeOverRndCI}{[0.7, 1.0]}
+\newcommand{\xCeVTopAlgoOverRnd}{5.9}
+\newcommand{\xCeVTopAlgoOverRndCI}{[4.9, 6.8]}
+\newcommand{\xCeVTopJudgeOverRnd}{0.8}
+\newcommand{\xCeVTopJudgeOverRndCI}{[$-$0.3, 1.9]}
+\newcommand{\xCeVPaGAlgoOverRnd}{4.8}
+\newcommand{\xCeVPaGAlgoOverRndCI}{[4.1, 5.4]}
+\newcommand{\xCeVPaGJudgeOverRnd}{$-$1.1}
+\newcommand{\xCeVPaGJudgeOverRndCI}{[$-$2.1, $-$0.1]}
+\newcommand{\xCeRawEx}{20.0}
+\newcommand{\xCeRawExCI}{[9.4, 28.0]}
+\newcommand{\xCeRawAlgo}{13.8}
+\newcommand{\xCeRawRnd}{21.1}
+\newcommand{\xCeRawJudge}{18.6}
+\newcommand{\xCeRawDiff}{6.2}
+\newcommand{\xCeRawDiffCI}{[$-$3.0, 13.5]}
+\newcommand{\xCeRawRndDiff}{$-$1.1}
+\newcommand{\xCeRawJudgeDiff}{1.4}
+\newcommand{\xCeRawJudgeDiffCI}{[$-$8.2, 8.8]}
+\newcommand{\xCeLogEx}{22.7}
+\newcommand{\xCeLogExCI}{[21.0, 24.4]}
+\newcommand{\xCeLogAlgo}{18.2}
+\newcommand{\xCeLogRnd}{21.4}
+\newcommand{\xCeLogJudge}{21.0}
+\newcommand{\xCeLogDiff}{4.6}
+\newcommand{\xCeLogDiffCI}{[3.2, 5.9]}
+\newcommand{\xCeLogRndDiff}{1.4}
+\newcommand{\xCeLogJudgeDiff}{1.7}
+\newcommand{\xCeLogJudgeDiffCI}{[0.2, 3.1]}
+\newcommand{\xCeTrimEx}{24.0}
+\newcommand{\xCeTrimExCI}{[20.6, 27.8]}
+\newcommand{\xCeTrimAlgo}{15.6}
+\newcommand{\xCeTrimRnd}{21.2}
+\newcommand{\xCeTrimJudge}{20.1}
+\newcommand{\xCeTrimDiff}{8.4}
+\newcommand{\xCeTrimDiffCI}{[5.4, 11.7]}
+\newcommand{\xCeTrimRndDiff}{2.7}
+\newcommand{\xCeTrimJudgeDiff}{3.8}
+\newcommand{\xCeTrimJudgeDiffCI}{[0.5, 7.2]}
+\newcommand{\xCeTrimShare}{0.98}
+\newcommand{\xCeTrimMean}{2.36}
+\newcommand{\xCeRawMean}{3.11}
+\newcommand{\xCePermShare}{6.8}
+\newcommand{\xCePermShareTen}{13.1}
+\newcommand{\xCePermCells}{4,154}
+\newcommand{\xCePermThreeSix}{6.6}
+\newcommand{\xCePermMax}{13.1}
+\newcommand{\xCePermMaxTC}{1700}
+\newcommand{\xCePermMin}{4.4}
+\newcommand{\xCePermMinTC}{2100}
+\newcommand{\xCeTrimMain}{8.4}
+\newcommand{\xCeTrimMainCI}{[5.2, 11.6]}
+\newcommand{\xCeDiffMain}{6.2}
+\newcommand{\xCeDiffMainCI}{[$-$2.6, 13.4]}
+\newcommand{\xCeSelMain}{7.3}
+\newcommand{\xCeSelMainCI}{[5.6, 8.9]}
+\newcommand{\xCeRndGapMain}{$-$1.1}
+\newcommand{\xCeRndGapMainCI}{[$-$11.6, 6.4]}
+\newcommand{\xCeSelTrimMain}{5.6}
+\newcommand{\xCeSelTrimMainCI}{[4.6, 6.6]}
+\newcommand{\xCeRndGapTrimMain}{2.7}
+\newcommand{\xCeRndGapTrimMainCI}{[$-$0.3, 5.8]}
+\newcommand{\xCeTrimTen}{9.6}
+\newcommand{\xCeTrimTenCI}{[6.3, 13.2]}
+\newcommand{\xCeDiffTen}{8.2}
+\newcommand{\xCeDiffTenCI}{[$-$0.1, 16.7]}
+\newcommand{\xCeSelTen}{8.0}
+\newcommand{\xCeSelTenCI}{[6.2, 9.6]}
+\newcommand{\xCeRndGapTen}{0.2}
+\newcommand{\xCeRndGapTenCI}{[$-$9.1, 8.8]}
+\newcommand{\xCeSelTrimTen}{6.3}
+\newcommand{\xCeSelTrimTenCI}{[5.2, 7.2]}
+\newcommand{\xCeRndGapTrimTen}{3.3}
+\newcommand{\xCeRndGapTrimTenCI}{[0.3, 6.6]}
+\newcommand{\xCeTrimFifteen}{10.3}
+\newcommand{\xCeTrimFifteenCI}{[5.6, 14.5]}
+\newcommand{\xCeDiffFifteen}{12.2}
+\newcommand{\xCeDiffFifteenCI}{[4.8, 19.2]}
+\newcommand{\xCeSelFifteen}{8.3}
+\newcommand{\xCeSelFifteenCI}{[6.3, 10.0]}
+\newcommand{\xCeRndGapFifteen}{3.9}
+\newcommand{\xCeRndGapFifteenCI}{[$-$3.0, 10.2]}
+\newcommand{\xCeSelTrimFifteen}{6.5}
+\newcommand{\xCeSelTrimFifteenCI}{[5.1, 7.9]}
+\newcommand{\xCeRndGapTrimFifteen}{3.8}
+\newcommand{\xCeRndGapTrimFifteenCI}{[$-$0.6, 7.6]}
+\newcommand{\xCeTrimWin}{8.7}
+\newcommand{\xCeTrimWinCI}{[6.1, 11.5]}
+\newcommand{\xCeDiffWin}{7.3}
+\newcommand{\xCeDiffWinCI}{[1.8, 13.0]}
+\newcommand{\xCeSelWin}{6.9}
+\newcommand{\xCeSelWinCI}{[5.1, 8.8]}
+\newcommand{\xCeRndGapWin}{0.3}
+\newcommand{\xCeRndGapWinCI}{[$-$6.1, 6.0]}
+\newcommand{\xCeSelTrimWin}{5.6}
+\newcommand{\xCeSelTrimWinCI}{[4.7, 6.5]}
+\newcommand{\xCeRndGapTrimWin}{3.1}
+\newcommand{\xCeRndGapTrimWinCI}{[0.3, 6.0]}
+\newcommand{\xCeTrimDock}{6.2}
+\newcommand{\xCeTrimDockCI}{[$-$2.2, 13.6]}
+\newcommand{\xCeDiffDock}{10.7}
+\newcommand{\xCeDiffDockCI}{[$-$3.0, 21.7]}
+\newcommand{\xCeSelDock}{5.4}
+\newcommand{\xCeSelDockCI}{[3.2, 7.9]}
+\newcommand{\xCeRndGapDock}{5.4}
+\newcommand{\xCeRndGapDockCI}{[$-$8.2, 15.8]}
+\newcommand{\xCeSelTrimDock}{4.6}
+\newcommand{\xCeSelTrimDockCI}{[2.7, 6.4]}
+\newcommand{\xCeRndGapTrimDock}{1.6}
+\newcommand{\xCeRndGapTrimDockCI}{[$-$6.1, 8.9]}
+\newcommand{\xCeNoAuDiff}{10.4}
+\newcommand{\xCeNoAuDiffCI}{[5.9, 14.2]}
+\newcommand{\xCeNoAuEx}{25.0}
+\newcommand{\xCeNoAuSel}{6.6}
+\newcommand{\xCeNoAuSelCI}{[5.4, 7.7]}
+\newcommand{\xCeNoAuTrimDiff}{9.0}
+\newcommand{\xCeNoAuTrimDiffCI}{[6.2, 11.9]}
+\newcommand{\xCeNoTcDiff}{9.8}
+\newcommand{\xCeNoTcDiffCI}{[5.6, 14.6]}
+\newcommand{\xCeNoTcEx}{24.6}
+\newcommand{\xCeNoTcSel}{5.2}
+\newcommand{\xCeNoTcSelCI}{[4.1, 6.2]}
+\newcommand{\xCeNoTcTrimDiff}{7.8}
+\newcommand{\xCeNoTcTrimDiffCI}{[5.1, 10.6]}
+\newcommand{\xCeStapleCells}{5}
+\newcommand{\xCeStapleApps}{0.14}
+\newcommand{\xCeStapleWeight}{6.6}
+\newcommand{\xCeStapleCitesLenient}{118.0}
+\newcommand{\xCeOtherCitesLenient}{2.39}
+\newcommand{\xCeTimeDiff}{2.5}
+\newcommand{\xCeTimeDiffCI}{[$-$9.8, 14.8]}
+\newcommand{\xCeTimeMainDiff}{3.1}
+\newcommand{\xCeTimeMainDiffCI}{[$-$9.5, 15.4]}
+\newcommand{\xCeTimeRefitDiff}{3.1}
+\newcommand{\xCeTimeRefitDiffCI}{[$-$9.5, 15.4]}
+\newcommand{\xCeTimeEx}{15.4}
+\newcommand{\xCeTimeTrimDiff}{6.1}
+\newcommand{\xCeTimeTrimDiffCI}{[2.1, 10.2]}
+\newcommand{\xCeTimeTrimMainDiff}{6.5}
+\newcommand{\xCeTimeTrimMainDiffCI}{[2.2, 10.6]}
+\newcommand{\xCeTimeTrimRefitDiff}{6.5}
+\newcommand{\xCeTimeTrimRefitDiffCI}{[2.2, 10.6]}
+\newcommand{\xCeTimeTrimEx}{22.0}
+\newcommand{\xCeNoEntityDiff}{5.6}
+\newcommand{\xCeNoEntityDiffCI}{[$-$3.8, 12.7]}
+\newcommand{\xCeNoEntityMainDiff}{6.2}
+\newcommand{\xCeNoEntityMainDiffCI}{[$-$3.3, 13.3]}
+\newcommand{\xCeNoEntityRefitDiff}{6.2}
+\newcommand{\xCeNoEntityRefitDiffCI}{[$-$3.3, 13.3]}
+\newcommand{\xCeNoEntityEx}{20.0}
+\newcommand{\xCeNoEntityTrimDiff}{7.9}
+\newcommand{\xCeNoEntityTrimDiffCI}{[4.8, 11.0]}
+\newcommand{\xCeNoEntityTrimMainDiff}{8.4}
+\newcommand{\xCeNoEntityTrimMainDiffCI}{[5.2, 11.5]}
+\newcommand{\xCeNoEntityTrimRefitDiff}{8.4}
+\newcommand{\xCeNoEntityTrimRefitDiffCI}{[5.2, 11.5]}
+\newcommand{\xCeNoEntityTrimEx}{24.0}
+\newcommand{\xCeTimeCorr}{0.31}
+\newcommand{\xCeTimeMainCorr}{0.37}
+\newcommand{\xCeNoEntityCorr}{0.34}
+\newcommand{\xCeNoEntityMainCorr}{0.33}
+\newcommand{\xCeTimeN}{71,344}
+\newcommand{\xCePoisTrimDiff}{8.4}
+\newcommand{\xCePoisTrimDiffCI}{[5.3, 11.3]}
+\newcommand{\xCePoisSel}{7.3}
+\newcommand{\xCePoisSelCI}{[5.6, 8.9]}
+\newcommand{\xCePoisTrimSel}{5.6}
+\newcommand{\xCePoisTrimSelCI}{[4.7, 6.6]}
+\newcommand{\xCePoisDiff}{6.2}
+\newcommand{\xCePoisDiffCI}{[$-$2.4, 13.9]}
+\newcommand{\xCePoisRerank}{19.9}
+\newcommand{\xCePoisRerankCI}{[16.9, 23.2]}
+\newcommand{\xCePoisLevelScore}{2.82}
+\newcommand{\xCePoisLevelObs}{2.98}
+\newcommand{\xCePoisCorr}{0.29}
+\newcommand{\xCePoisSpRej}{0.27}
+\newcommand{\xCePoisSpGr}{0.29}
+\newcommand{\xCeNegTrain}{7.4}
+\newcommand{\xCeNegScoreRej}{7.9}
+\newcommand{\xCeFwExLost}{20.0}
+\newcommand{\xCeFwExFem}{9.5}
+\newcommand{\xCeFwExFemCI}{[7.3, 11.6]}
+\newcommand{\xCeFwExGap}{$-$3.3}
+\newcommand{\xCeFwExGapCI}{[$-$4.6, $-$2.1]}
+\newcommand{\xCeFwExGapPooled}{$-$7.4}
+\newcommand{\xCeFwExOt}{0.31}
+\newcommand{\xCeFwExOtCI}{[$-$2.74, 4.61]}
+\newcommand{\xCeFwExOtFem}{3.26}
+\newcommand{\xCeFwExOtMale}{2.95}
+\newcommand{\xCeFwExOtTrim}{$-$0.70}
+\newcommand{\xCeFwExOtTrimCI}{[$-$1.72, 0.63]}
+\newcommand{\xCeFwExOtTrimFem}{2.13}
+\newcommand{\xCeFwExOtTrimMale}{2.83}
+\newcommand{\xCeFwAlgoLost}{13.8}
+\newcommand{\xCeFwAlgoBetter}{6.2}
+\newcommand{\xCeFwAlgoBetterCI}{[$-$2.4, 13.9]}
+\newcommand{\xCeFwAlgoRerank}{19.9}
+\newcommand{\xCeFwAlgoRerankCI}{[17.1, 22.9]}
+\newcommand{\xCeFwAlgoFem}{8.7}
+\newcommand{\xCeFwAlgoFemCI}{[7.9, 9.5]}
+\newcommand{\xCeFwAlgoGap}{$-$0.3}
+\newcommand{\xCeFwAlgoGapCI}{[$-$1.2, 0.7]}
+\newcommand{\xCeFwAlgoGapPooled}{$-$5.9}
+\newcommand{\xCeFwAlgoOt}{0.56}
+\newcommand{\xCeFwAlgoOtCI}{[$-$0.55, 2.01]}
+\newcommand{\xCeFwAlgoOtFem}{2.55}
+\newcommand{\xCeFwAlgoOtMale}{1.98}
+\newcommand{\xCeFwAlgoOtWithin}{0.67}
+\newcommand{\xCeFwAlgoOtWithinCI}{[$-$0.44, 2.07]}
+\newcommand{\xCeFwAlgoOtTrim}{0.31}
+\newcommand{\xCeFwAlgoOtTrimCI}{[$-$0.48, 1.29]}
+\newcommand{\xCeFwAlgoOtTrimFem}{2.15}
+\newcommand{\xCeFwAlgoOtTrimMale}{1.84}
+\newcommand{\xCeFwAlgoOtTrimWithin}{0.43}
+\newcommand{\xCeFwAlgoOtTrimWithinCI}{[$-$0.35, 1.42]}
+\newcommand{\xCeFwJudgeLost}{18.6}
+\newcommand{\xCeFwJudgeBetter}{1.4}
+\newcommand{\xCeFwJudgeBetterCI}{[$-$8.1, 9.6]}
+\newcommand{\xCeFwJudgeRerank}{4.2}
+\newcommand{\xCeFwJudgeRerankCI}{[2.1, 6.1]}
+\newcommand{\xCeFwJudgeFem}{9.0}
+\newcommand{\xCeFwJudgeFemCI}{[8.3, 9.9]}
+\newcommand{\xCeFwJudgeGap}{$-$4.0}
+\newcommand{\xCeFwJudgeGapCI}{[$-$5.1, $-$2.9]}
+\newcommand{\xCeFwJudgeGapPooled}{$-$12.4}
+\newcommand{\xCeFwJudgeOt}{$-$1.09}
+\newcommand{\xCeFwJudgeOtCI}{[$-$1.90, $-$0.38]}
+\newcommand{\xCeFwJudgeOtFem}{1.93}
+\newcommand{\xCeFwJudgeOtMale}{3.02}
+\newcommand{\xCeFwJudgeOtWithin}{$-$0.90}
+\newcommand{\xCeFwJudgeOtWithinCI}{[$-$1.61, $-$0.24]}
+\newcommand{\xCeFwJudgeOtTrim}{$-$0.57}
+\newcommand{\xCeFwJudgeOtTrimCI}{[$-$0.97, $-$0.17]}
+\newcommand{\xCeFwJudgeOtTrimFem}{1.82}
+\newcommand{\xCeFwJudgeOtTrimMale}{2.39}
+\newcommand{\xCeFwJudgeOtTrimWithin}{$-$0.44}
+\newcommand{\xCeFwJudgeOtTrimWithinCI}{[$-$0.84, $-$0.04]}
+\newcommand{\xCeFwEqLost}{13.9}
+\newcommand{\xCeFwEqBetter}{6.1}
+\newcommand{\xCeFwEqBetterCI}{[$-$2.8, 14.1]}
+\newcommand{\xCeFwEqRerank}{19.7}
+\newcommand{\xCeFwEqRerankCI}{[17.1, 22.9]}
+\newcommand{\xCeFwEqFem}{8.5}
+\newcommand{\xCeFwEqFemCI}{[7.9, 9.0]}
+\newcommand{\xCeFwEqGap}{5.5}
+\newcommand{\xCeFwEqGapCI}{[4.6, 6.5]}
+\newcommand{\xCeFwEqGapPooled}{0.0}
+\newcommand{\xCeFwEqOt}{0.34}
+\newcommand{\xCeFwEqOtCI}{[$-$0.33, 1.34]}
+\newcommand{\xCeFwEqOtFem}{2.27}
+\newcommand{\xCeFwEqOtMale}{1.94}
+\newcommand{\xCeFwEqOtWithin}{0.48}
+\newcommand{\xCeFwEqOtWithinCI}{[$-$0.18, 1.46]}
+\newcommand{\xCeFwEqOtTrim}{$-$0.07}
+\newcommand{\xCeFwEqOtTrimCI}{[$-$0.36, 0.28]}
+\newcommand{\xCeFwEqOtTrimFem}{1.76}
+\newcommand{\xCeFwEqOtTrimMale}{1.83}
+\newcommand{\xCeFwEqOtTrimWithin}{0.08}
+\newcommand{\xCeFwEqOtTrimWithinCI}{[$-$0.20, 0.41]}
+\newcommand{\xCeFwRate}{17.1}
+\newcommand{\xCeExPoolPaMean}{56}
+\newcommand{\xCeExPoolPaAboveFifty}{52}
+\newcommand{\xCeExPoolPaAboveSeventyFive}{32}
+\newcommand{\xCeExAllPaMean}{50}
+\newcommand{\xCeExAllPaAboveFifty}{42}
+\newcommand{\xCeExAllPaAboveSeventyFive}{24}
+\newcommand{\xCeExOldPaMean}{64}
+\newcommand{\xCeExOldPaAboveFifty}{75}
+\newcommand{\xCeExOldPaAboveSeventyFive}{31}
+\newcommand{\xCeExDrawPaMean}{58}
+\newcommand{\xCeExDrawPaAboveFifty}{50}
+\newcommand{\xCeExDrawPaAboveSeventyFive}{12}
+\newcommand{\xCeExPoolN}{632}
+\newcommand{\xCeExPoolMinN}{39}
+\newcommand{\xCeExPoolMaxN}{149}
+\newcommand{\xCeExPoolFallback}{0.5}
+\newcommand{\xCeExDrawFallback}{0}
+\newcommand{\xCeExDrawAboveFiftyN}{4}
+\newcommand{\xCeExDrawAboveSeventyFiveN}{1}
+\newcommand{\xCeExOldN}{16}
+\newcommand{\xCeExOldRel}{3}
+\newcommand{\xCeExSeed}{20261101}
+\newcommand{\xCeWrRejPooled}{0.269}
+\newcommand{\xCeWrRejPooledCI}{[0.252, 0.281]}
+\newcommand{\xCeWrGrPooled}{0.288}
+\newcommand{\xCeWrGrPooledCI}{[0.271, 0.300]}
+\newcommand{\xCeWrCitesGrPooled}{0.222}
+\newcommand{\xCeWrCitesGrPooledCI}{[0.205, 0.237]}
+\newcommand{\xCeWrDiffPooled}{$-$0.019}
+\newcommand{\xCeWrDiffPooledCI}{[$-$0.030, $-$0.009]}
+\newcommand{\xCeWrRejTcYear}{0.162}
+\newcommand{\xCeWrRejTcYearCI}{[0.149, 0.173]}
+\newcommand{\xCeWrGrTcYear}{0.166}
+\newcommand{\xCeWrGrTcYearCI}{[0.154, 0.176]}
+\newcommand{\xCeWrCitesGrTcYear}{0.142}
+\newcommand{\xCeWrCitesGrTcYearCI}{[0.131, 0.154]}
+\newcommand{\xCeWrDiffTcYear}{$-$0.004}
+\newcommand{\xCeWrDiffTcYearCI}{[$-$0.014, 0.007]}
+\newcommand{\xCeWrRejAuYear}{0.106}
+\newcommand{\xCeWrRejAuYearCI}{[0.098, 0.114]}
+\newcommand{\xCeWrGrAuYear}{0.115}
+\newcommand{\xCeWrGrAuYearCI}{[0.107, 0.121]}
+\newcommand{\xCeWrCitesGrAuYear}{0.110}
+\newcommand{\xCeWrCitesGrAuYearCI}{[0.104, 0.117]}
+\newcommand{\xCeWrDiffAuYear}{$-$0.009}
+\newcommand{\xCeWrDiffAuYearCI}{[$-$0.018, 0.000]}
+\newcommand{\xCeWrRejClsYear}{0.105}
+\newcommand{\xCeWrRejClsYearCI}{[0.096, 0.112]}
+\newcommand{\xCeWrGrClsYear}{0.112}
+\newcommand{\xCeWrGrClsYearCI}{[0.103, 0.117]}
+\newcommand{\xCeWrCitesGrClsYear}{0.105}
+\newcommand{\xCeWrCitesGrClsYearCI}{[0.098, 0.109]}
+\newcommand{\xCeWrDiffClsYear}{$-$0.007}
+\newcommand{\xCeWrDiffClsYearCI}{[$-$0.014, 0.001]}
+\newcommand{\xCeExTsApp}{12833779}
+\newcommand{\xCeExTsTitle}{Digital walker}
+\newcommand{\xCeExTsYear}{2010}
+\newcommand{\xCeExTsUspc}{135}
+\newcommand{\xCeExTsScore}{6.3}
+\newcommand{\xCeExTsFieldPct}{100.0}
+\newcommand{\xCeExTsPaPct}{66}
+\newcommand{\xCeExTsPaRaw}{4}
+\newcommand{\xCeSixJudgeLow}{26.9}
+\newcommand{\xCeSixJudgeHigh}{25.5}
+\newcommand{\xCeSixAlgoPooledLow}{65.6}
+\newcommand{\xCeLvObsTrimTwo}{2.84}
+\newcommand{\xCeLvObsTrimTwoCI}{[1.74, 3.98]}
+\newcommand{\xCeLvObsTrimThree}{2.79}
+\newcommand{\xCeLvObsTrimThreeCI}{[2.13, 3.47]}
+\newcommand{\xCeLvObsTrimFour}{2.66}
+\newcommand{\xCeLvObsTrimFourCI}{[2.25, 3.10]}
+\newcommand{\xCeLvObsTrimFive}{2.80}
+\newcommand{\xCeLvObsTrimFiveCI}{[2.48, 3.12]}
+\newcommand{\xCeLvObsTrimPooled}{2.77}
+\newcommand{\xCeLvObsTrimPooledCI}{[2.34, 3.23]}
+\newcommand{\xCeLvScoreTrimTwo}{2.94}
+\newcommand{\xCeLvScoreTrimTwoCI}{[2.70, 3.22]}
+\newcommand{\xCeLvScoreTrimThree}{2.79}
+\newcommand{\xCeLvScoreTrimThreeCI}{[2.62, 2.96]}
+\newcommand{\xCeLvScoreTrimFour}{2.84}
+\newcommand{\xCeLvScoreTrimFourCI}{[2.65, 3.07]}
+\newcommand{\xCeLvScoreTrimFive}{2.77}
+\newcommand{\xCeLvScoreTrimFiveCI}{[2.61, 2.94]}
+\newcommand{\xCeLvScoreTrimPooled}{2.81}
+\newcommand{\xCeLvScoreTrimPooledCI}{[2.65, 2.98]}
+\newcommand{\xCeLvGrantedTrim}{2.46}
+\newcommand{\xCeLvGrantedRaw}{3.25}
+\newcommand{\xCeCapCells}{160}
+\newcommand{\xCeCapCellsAll}{4,154}
+\newcommand{\xCeCapCellsShare}{3.9}
+\newcommand{\xCeCapAppsShare}{3.2}
+\newcommand{\xCeCapAlgoDrop}{13.8}
+\newcommand{\xCeCapAlgoCap}{13.9}
+\newcommand{\xCeCapAlgoDropFive}{24.6}
+\newcommand{\xCeCapAlgoCapFive}{24.9}
+\newcommand{\xCeGridMaxTrees}{2,500}
+\newcommand{\xCeGridModels}{10}
+\newcommand{\xCeGridAtMax}{6}

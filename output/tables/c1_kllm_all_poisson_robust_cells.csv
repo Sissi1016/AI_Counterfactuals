@@ -1,0 +1,5 @@
+tc,sample,n,cells,examiners_per_cell_quintile,single_examiner_quintiles
+all,Cells with at least ten examiners,155732,2475,3.0,0.13090909090909092
+all,Cells with at least fifteen examiners,87216,960,4.0,0.03729166666666667
+all,Leniency from the same period (filing years t - 2 to t + 2),190965,4147,2.0,0.36074270557029176
+all,Applications docketed to an examiner only once,29634,1073,1.0,0.5269338303821063

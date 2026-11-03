@@ -1,0 +1,31 @@
+series,tech_center,fold,alpha
+Train on citations (granted only),3600,0,10000.0
+Train on citations + names,3600,0,10000.0
+Train on citations + entity status,3600,0,10000.0
+Train on citations (granted only),3600,1,10000.0
+Train on citations + names,3600,1,10000.0
+Train on citations + entity status,3600,1,10000.0
+Train on citations (granted only),3600,2,10000.0
+Train on citations + names,3600,2,10000.0
+Train on citations + entity status,3600,2,10000.0
+Train on citations (granted only),3600,3,10000.0
+Train on citations + names,3600,3,10000.0
+Train on citations + entity status,3600,3,10000.0
+Train on citations (granted only),3600,4,10000.0
+Train on citations + names,3600,4,10000.0
+Train on citations + entity status,3600,4,10000.0
+Train on citations (granted only),1600,0,10000.0
+Train on citations + names,1600,0,10000.0
+Train on citations + entity status,1600,0,10000.0
+Train on citations (granted only),1600,1,10000.0
+Train on citations + names,1600,1,10000.0
+Train on citations + entity status,1600,1,10000.0
+Train on citations (granted only),1600,2,10000.0
+Train on citations + names,1600,2,10000.0
+Train on citations + entity status,1600,2,10000.0
+Train on citations (granted only),1600,3,10000.0
+Train on citations + names,1600,3,10000.0
+Train on citations + entity status,1600,3,10000.0
+Train on citations (granted only),1600,4,10000.0
+Train on citations + names,1600,4,10000.0
+Train on citations + entity status,1600,4,10000.0

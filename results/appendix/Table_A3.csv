@@ -1,0 +1,8 @@
+,All centers,,,TC 3600,,
+Cells: art unit × year ×,Cells,Covered (%),p < 0.05 (%),Cells,Covered (%),p < 0.05 (%)
+"Index: predicted grant (text score, gender, entity size, inventors)",,,,,,
+USPC class,"4,884",92.4,11.5,667,89.7,9.6
+USPC subclass,"10,869",28.4,5.4,"1,967",31.8,5.9
+"USPC class, residualized leniency","4,884",92.4,11.3,667,89.7,11.5
+Index: predicted citations (C1; test and imputation sets),,,,,,
+"USPC class, Poisson model (main)","4,154",90.3,6.8,578,87.1,6.6

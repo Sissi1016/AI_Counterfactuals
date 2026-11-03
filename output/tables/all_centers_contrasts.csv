@@ -1,0 +1,235 @@
+sample,outcome,contrast,series,kind,estimate,se
+1600,cites_ns,Female − male,Human record (truth),marginal,-0.5171106033119817,0.33123193539131607
+1600,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,-0.00039303863272865946,0.0012353368279528494
+1600,cites_ns,Female − male,Train on grant,implied,-0.0013828879515607184,0.0022755996169621187
+1600,cites_ns,Female − male,Train on grant + names,implied,-0.00288698596671888,0.0022144865947292427
+1600,cites_ns,Female − male,Train on first action,implied,0.018888680416114578,0.01695747082461351
+1600,cites_ns,Female − male,Train on citations (granted only),implied,-0.0876872399456321,0.07525487354197608
+1600,cites_ns,Female − male,Train on citations + names,implied,-0.10228635430065802,0.07286482853907622
+1600,cites_ns,Female − male,No model: mean outcome of accepted cases,error,0.5167175646792626,0.33131523719682104
+1600,cites_ns,Female − male,Train on grant,error,0.515727715360434,0.33149015013505123
+1600,cites_ns,Female − male,Train on grant + names,error,0.5142236173452744,0.3315601256138626
+1600,cites_ns,Female − male,Train on first action,error,0.535999283728102,0.3302923613852123
+1600,cites_ns,Female − male,Train on citations (granted only),error,0.4294233633663561,0.3288652928412695
+1600,cites_ns,Female − male,Train on citations + names,error,0.41482424901133264,0.3248220750916816
+1600,cites_ns,Small − large,Human record (truth),marginal,-0.639827362265065,0.3349190267902747
+1600,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,-0.001180589078662475,0.0019583564993483015
+1600,cites_ns,Small − large,Train on grant,implied,-0.0022920085807713875,0.006749069995496994
+1600,cites_ns,Small − large,Train on grant + names,implied,-0.008561398739411974,0.006155524000374909
+1600,cites_ns,Small − large,Train on first action,implied,0.06507366519777813,0.014508773496245936
+1600,cites_ns,Small − large,Train on citations (granted only),implied,-0.22243938607257707,0.07769835060725234
+1600,cites_ns,Small − large,Train on citations + names,implied,-0.22451929750917943,0.07941011889206229
+1600,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.6386467731864014,0.3351410690680325
+1600,cites_ns,Small − large,Train on grant,error,0.637535353684293,0.33594789257533725
+1600,cites_ns,Small − large,Train on grant + names,error,0.6312659635256448,0.3358552832321758
+1600,cites_ns,Small − large,Train on first action,error,0.7049010274628464,0.33480142562956783
+1600,cites_ns,Small − large,Train on citations (granted only),error,0.4173879761924828,0.32451570952154035
+1600,cites_ns,Small − large,Train on citations + names,error,0.4153080647558754,0.3249998104664168
+1700,cites_ns,Female − male,Human record (truth),marginal,-0.5842062815845704,0.4329086877016302
+1700,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,0.002901420463248927,0.0038507927471900364
+1700,cites_ns,Female − male,Train on grant,implied,0.014901166610568284,0.006201392565400815
+1700,cites_ns,Female − male,Train on grant + names,implied,0.007366706486754637,0.0042504251722499985
+1700,cites_ns,Female − male,Train on first action,implied,-0.00949246919423663,0.007166498254342717
+1700,cites_ns,Female − male,Train on citations (granted only),implied,-0.05788086603419407,0.06783077259927787
+1700,cites_ns,Female − male,Train on citations + names,implied,-0.040394423934528856,0.06720173364111658
+1700,cites_ns,Female − male,No model: mean outcome of accepted cases,error,0.5871077020478274,0.4326670036220637
+1700,cites_ns,Female − male,Train on grant,error,0.5991074481951391,0.4328480600000219
+1700,cites_ns,Female − male,Train on grant + names,error,0.5915729880713263,0.4329381096089574
+1700,cites_ns,Female − male,Train on first action,error,0.5747138123903326,0.43276332238745946
+1700,cites_ns,Female − male,Train on citations (granted only),error,0.5263254155503668,0.42833252024247065
+1700,cites_ns,Female − male,Train on citations + names,error,0.5438118576500369,0.43005239856861377
+1700,cites_ns,Small − large,Human record (truth),marginal,-0.715733878111815,0.368313198955933
+1700,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,0.0031686512390680655,0.004758023901020333
+1700,cites_ns,Small − large,Train on grant,implied,0.0197539972375822,0.006032423186745312
+1700,cites_ns,Small − large,Train on grant + names,implied,0.00907749422023163,0.005297761313808868
+1700,cites_ns,Small − large,Train on first action,implied,-0.003168560257852393,0.007218519504861481
+1700,cites_ns,Small − large,Train on citations (granted only),implied,0.0899976008497454,0.05054818839034885
+1700,cites_ns,Small − large,Train on citations + names,implied,0.069408209189324,0.05095593720366454
+1700,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.7189025293508926,0.3683496562019281
+1700,cites_ns,Small − large,Train on grant,error,0.7354878753494055,0.3688540756449808
+1700,cites_ns,Small − large,Train on grant + names,error,0.72481137233205,0.36877236143132924
+1700,cites_ns,Small − large,Train on first action,error,0.7125653178539622,0.3682703664693297
+1700,cites_ns,Small − large,Train on citations (granted only),error,0.805731478961563,0.36372431978887315
+1700,cites_ns,Small − large,Train on citations + names,error,0.7851420873011488,0.36423360535617094
+2100,cites_ns,Female − male,Human record (truth),marginal,-0.9067586642683465,0.9671675186112166
+2100,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,-0.009841348099064895,0.005586636646556219
+2100,cites_ns,Female − male,Train on grant,implied,0.10180527063923783,0.040076586333330395
+2100,cites_ns,Female − male,Train on grant + names,implied,0.11003099403037675,0.039492196822439554
+2100,cites_ns,Female − male,Train on first action,implied,0.09510705712527745,0.04431618259957922
+2100,cites_ns,Female − male,Train on citations (granted only),implied,0.1717257197328892,0.16294592181839107
+2100,cites_ns,Female − male,Train on citations + names,implied,0.18506212476084816,0.17037081603224333
+2100,cites_ns,Female − male,No model: mean outcome of accepted cases,error,0.8969173161692854,0.9672428579171124
+2100,cites_ns,Female − male,Train on grant,error,1.0085639349075763,0.9671070956034367
+2100,cites_ns,Female − male,Train on grant + names,error,1.0167896582987213,0.9668240914319498
+2100,cites_ns,Female − male,Train on first action,error,1.0018657213936226,0.9668415200247075
+2100,cites_ns,Female − male,Train on citations (granted only),error,1.0784843840012386,0.9502528565508106
+2100,cites_ns,Female − male,Train on citations + names,error,1.091820789029199,0.9444056770452536
+2100,cites_ns,Small − large,Human record (truth),marginal,-0.4461733462431079,0.6204552054520646
+2100,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,-0.0005343657765002341,0.004876261743463725
+2100,cites_ns,Small − large,Train on grant,implied,0.23636147457825318,0.023554135885575426
+2100,cites_ns,Small − large,Train on grant + names,implied,0.21715398338288994,0.02195448783282111
+2100,cites_ns,Small − large,Train on first action,implied,0.07150206262684522,0.026227380365330337
+2100,cites_ns,Small − large,Train on citations (granted only),implied,0.19459530133908176,0.09485095460650692
+2100,cites_ns,Small − large,Train on citations + names,implied,0.14062178903027966,0.09624646201740038
+2100,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.44563898046661854,0.620795522064249
+2100,cites_ns,Small − large,Train on grant,error,0.6825348208213582,0.620209668433138
+2100,cites_ns,Small − large,Train on grant + names,error,0.6633273296260208,0.621624456862775
+2100,cites_ns,Small − large,Train on first action,error,0.5176754088699553,0.62040393530725
+2100,cites_ns,Small − large,Train on citations (granted only),error,0.6407686475822003,0.6151506540623157
+2100,cites_ns,Small − large,Train on citations + names,error,0.586795135273395,0.6142508238342523
+2400,cites_ns,Female − male,Human record (truth),marginal,-1.8567447200950604,1.4049295742606263
+2400,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,0.00232411010570166,0.0054969684297825555
+2400,cites_ns,Female − male,Train on grant,implied,-0.0006530616000222089,0.015562683561939135
+2400,cites_ns,Female − male,Train on grant + names,implied,-0.002173343284182838,0.014673281857095282
+2400,cites_ns,Female − male,Train on first action,implied,0.094227447040653,0.041100235947440854
+2400,cites_ns,Female − male,Train on citations (granted only),implied,0.553811999958449,0.22793002271861187
+2400,cites_ns,Female − male,Train on citations + names,implied,0.5030178528960891,0.23412980122187058
+2400,cites_ns,Female − male,No model: mean outcome of accepted cases,error,1.8590688302007887,1.40525006997769
+2400,cites_ns,Female − male,Train on grant,error,1.8560916584950555,1.4059665310757115
+2400,cites_ns,Female − male,Train on grant + names,error,1.8545713768108996,1.406082581574958
+2400,cites_ns,Female − male,Train on first action,error,1.9509721671357316,1.405244858990098
+2400,cites_ns,Female − male,Train on citations (granted only),error,2.410556720053534,1.3874310677203032
+2400,cites_ns,Female − male,Train on citations + names,error,2.3597625729911544,1.3879464257455474
+2400,cites_ns,Small − large,Human record (truth),marginal,-1.3583334450940336,1.1403718908541771
+2400,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,-0.005133310882522668,0.004620428417714394
+2400,cites_ns,Small − large,Train on grant,implied,0.06258860114880127,0.010067876439971053
+2400,cites_ns,Small − large,Train on grant + names,implied,0.04999999392690535,0.010188013477036687
+2400,cites_ns,Small − large,Train on first action,implied,0.042151925079604524,0.021867328022796836
+2400,cites_ns,Small − large,Train on citations (granted only),implied,0.06129504058424251,0.1135240481576711
+2400,cites_ns,Small − large,Train on citations + names,implied,0.013740391829022869,0.11730899770115392
+2400,cites_ns,Small − large,No model: mean outcome of accepted cases,error,1.3532001342115243,1.1406034806301102
+2400,cites_ns,Small − large,Train on grant,error,1.4209220462428511,1.14097797120868
+2400,cites_ns,Small − large,Train on grant + names,error,1.4083334390209437,1.1410342940032223
+2400,cites_ns,Small − large,Train on first action,error,1.4004853701736637,1.1398709687548347
+2400,cites_ns,Small − large,Train on citations (granted only),error,1.419628485678302,1.1397920511527813
+2400,cites_ns,Small − large,Train on citations + names,error,1.3720738369230583,1.1375559114994525
+2600,cites_ns,Female − male,Human record (truth),marginal,-1.738992578500926,1.1478677003155173
+2600,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,-0.0031701842749765063,0.0076605585387999895
+2600,cites_ns,Female − male,Train on grant,implied,-0.0033467854041231426,0.07896675591073729
+2600,cites_ns,Female − male,Train on grant + names,implied,-0.027652689506929562,0.0749300690174401
+2600,cites_ns,Female − male,Train on first action,implied,-0.05088990521962167,0.08831012281529506
+2600,cites_ns,Female − male,Train on citations (granted only),implied,-0.18512704562063087,0.22951986178985825
+2600,cites_ns,Female − male,Train on citations + names,implied,-0.2896815235850285,0.22281067143242372
+2600,cites_ns,Female − male,No model: mean outcome of accepted cases,error,1.7358223942258935,1.1483787151390885
+2600,cites_ns,Female − male,Train on grant,error,1.7356457930967635,1.1483152437685147
+2600,cites_ns,Female − male,Train on grant + names,error,1.7113398889939457,1.148570466510387
+2600,cites_ns,Female − male,Train on first action,error,1.6881026732812792,1.1513494464216634
+2600,cites_ns,Female − male,Train on citations (granted only),error,1.553865532880253,1.146051727448679
+2600,cites_ns,Female − male,Train on citations + names,error,1.4493110549158625,1.145278699514595
+2600,cites_ns,Small − large,Human record (truth),marginal,-0.9960770107623187,0.7536908090970119
+2600,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,0.005787940372332212,0.007940041491448658
+2600,cites_ns,Small − large,Train on grant,implied,0.42934804271475135,0.044833614692141074
+2600,cites_ns,Small − large,Train on grant + names,implied,0.4112460244922307,0.04414947067524134
+2600,cites_ns,Small − large,Train on first action,implied,-0.07974863828459666,0.05369439090661742
+2600,cites_ns,Small − large,Train on citations (granted only),implied,0.5775670198326082,0.14970677575576016
+2600,cites_ns,Small − large,Train on citations + names,implied,0.4978200223534599,0.14680872850018942
+2600,cites_ns,Small − large,No model: mean outcome of accepted cases,error,1.0018649511346498,0.7545835718527923
+2600,cites_ns,Small − large,Train on grant,error,1.4254250534770745,0.7511261780704259
+2600,cites_ns,Small − large,Train on grant + names,error,1.4073230352545332,0.7501837278980374
+2600,cites_ns,Small − large,Train on first action,error,0.9163283724777203,0.7532212187911131
+2600,cites_ns,Small − large,Train on citations (granted only),error,1.573644030594925,0.7344365107265077
+2600,cites_ns,Small − large,Train on citations + names,error,1.493897033115767,0.7328406601346819
+2800,cites_ns,Female − male,Human record (truth),marginal,-0.630033363777676,1.2156749189807092
+2800,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,-0.005776173778866411,0.0076353801797378424
+2800,cites_ns,Female − male,Train on grant,implied,-0.00392195600681422,0.014727691048638162
+2800,cites_ns,Female − male,Train on grant + names,implied,0.009541691764155313,0.02001126240347803
+2800,cites_ns,Female − male,Train on first action,implied,0.010655415408888924,0.042438225454322895
+2800,cites_ns,Female − male,Train on citations (granted only),implied,-0.000993968899209996,0.23500122353538272
+2800,cites_ns,Female − male,Train on citations + names,implied,0.02419108977655915,0.2445077759549247
+2800,cites_ns,Female − male,No model: mean outcome of accepted cases,error,0.6242571899988117,1.215896691461177
+2800,cites_ns,Female − male,Train on grant,error,0.626111407770848,1.2168210386417264
+2800,cites_ns,Female − male,Train on grant + names,error,0.6395750555418271,1.2169876440065344
+2800,cites_ns,Female − male,Train on first action,error,0.6406887791865666,1.2189559819278686
+2800,cites_ns,Female − male,Train on citations (granted only),error,0.6290393948784828,1.191945403498867
+2800,cites_ns,Female − male,Train on citations + names,error,0.6542244535542263,1.1907363547139214
+2800,cites_ns,Small − large,Human record (truth),marginal,-1.2008499962252595,0.7572960629624469
+2800,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,-0.010698110244403036,0.007738144929947807
+2800,cites_ns,Small − large,Train on grant,implied,0.051259786688663045,0.010671436297427117
+2800,cites_ns,Small − large,Train on grant + names,implied,0.08904987814792786,0.013976063545438195
+2800,cites_ns,Small − large,Train on first action,implied,-0.002612187275547573,0.0211304938248137
+2800,cites_ns,Small − large,Train on citations (granted only),implied,0.5451408248144647,0.11057020178558004
+2800,cites_ns,Small − large,Train on citations + names,implied,0.5222254778791298,0.1143451558926454
+2800,cites_ns,Small − large,No model: mean outcome of accepted cases,error,1.1901518859808589,0.7575358266967803
+2800,cites_ns,Small − large,Train on grant,error,1.2521097829139138,0.7579063030590713
+2800,cites_ns,Small − large,Train on grant + names,error,1.289899874373175,0.7581445161011264
+2800,cites_ns,Small − large,Train on first action,error,1.1982378089497072,0.757189223473325
+2800,cites_ns,Small − large,Train on citations (granted only),error,1.7459908210397117,0.7559894858742268
+2800,cites_ns,Small − large,Train on citations + names,error,1.7230754741043859,0.756538213919066
+3600,cites_ns,Female − male,Human record (truth),marginal,1.4123806194051598,0.7112039821235897
+3600,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,-0.004205487300313671,0.0017733787736818503
+3600,cites_ns,Female − male,Train on grant,implied,-0.023311680053967,0.004339810748289033
+3600,cites_ns,Female − male,Train on grant + names,implied,-0.029127537152077387,0.005333086033009649
+3600,cites_ns,Female − male,Train on first action,implied,0.03525099836187495,0.008621631225945073
+3600,cites_ns,Female − male,Train on citations (granted only),implied,0.2260730511190867,0.11017382568747539
+3600,cites_ns,Female − male,Train on citations + names,implied,0.1300158755850136,0.10885917070747346
+3600,cites_ns,Female − male,No model: mean outcome of accepted cases,error,-1.4165861067054668,0.7112225365503495
+3600,cites_ns,Female − male,Train on grant,error,-1.4356922994591095,0.7113844711854908
+3600,cites_ns,Female − male,Train on grant + names,error,-1.4415081565572372,0.7116013912566782
+3600,cites_ns,Female − male,Train on first action,error,-1.3771296210432777,0.710481623746689
+3600,cites_ns,Female − male,Train on citations (granted only),error,-1.1863075682860562,0.7057254261724736
+3600,cites_ns,Female − male,Train on citations + names,error,-1.2823647438201626,0.7041249782069435
+3600,cites_ns,Small − large,Human record (truth),marginal,-0.3599364710816726,0.4109873366970601
+3600,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,-0.00654360872266313,0.0019412632987038428
+3600,cites_ns,Small − large,Train on grant,implied,-0.011884136313094373,0.003981103553278383
+3600,cites_ns,Small − large,Train on grant + names,implied,-0.011894721813294318,0.004559158498640664
+3600,cites_ns,Small − large,Train on first action,implied,-0.03262064746580773,0.006757866398039264
+3600,cites_ns,Small − large,Train on citations (granted only),implied,0.2798842786398201,0.07620454545963924
+3600,cites_ns,Small − large,Train on citations + names,implied,0.24356334301063587,0.07385314678502176
+3600,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.35339286235901535,0.41102578815447266
+3600,cites_ns,Small − large,Train on grant,error,0.348052334768579,0.4111737844053742
+3600,cites_ns,Small − large,Train on grant + names,error,0.3480417492683777,0.4112064616091948
+3600,cites_ns,Small − large,Train on first action,error,0.32731582361585587,0.4112149056410608
+3600,cites_ns,Small − large,Train on citations (granted only),error,0.6398207497215054,0.4061884549178835
+3600,cites_ns,Small − large,Train on citations + names,error,0.603499814092308,0.4060899186147044
+3700,cites_ns,Female − male,Human record (truth),marginal,2.624176700405735,1.8468904933197936
+3700,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,0.0058217291345101785,0.018485621743446062
+3700,cites_ns,Female − male,Train on grant,implied,-1.6871035570886552,0.2616259107021911
+3700,cites_ns,Female − male,Train on grant + names,implied,-1.7824686781037409,0.25239920957351736
+3700,cites_ns,Female − male,Train on first action,implied,-0.30119752076135864,0.050606009415618006
+3700,cites_ns,Female − male,Train on citations (granted only),implied,-0.30118460311932616,0.8879840640934661
+3700,cites_ns,Female − male,Train on citations + names,implied,-0.4233181554186123,1.0250262874128373
+3700,cites_ns,Female − male,No model: mean outcome of accepted cases,error,-2.618354971271284,1.8477726556358929
+3700,cites_ns,Female − male,Train on grant,error,-4.311280257494403,1.836582662574667
+3700,cites_ns,Female − male,Train on grant + names,error,-4.406645378509509,1.8335446542160947
+3700,cites_ns,Female − male,Train on first action,error,-2.925374221167103,1.8457242481615106
+3700,cites_ns,Female − male,Train on citations (granted only),error,-2.9253613035250847,2.359257973498884
+3700,cites_ns,Female − male,Train on citations + names,error,-3.047494855824345,2.489878705879081
+3700,cites_ns,Small − large,Human record (truth),marginal,-1.8855490858423483,1.232014023576004
+3700,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,-0.031121628930239176,0.019636330535162835
+3700,cites_ns,Small − large,Train on grant,implied,-2.1600243674823525,0.21104870554379407
+3700,cites_ns,Small − large,Train on grant + names,implied,-2.273868227417504,0.2275235338002301
+3700,cites_ns,Small − large,Train on first action,implied,-0.1240576862316436,0.040411589090524176
+3700,cites_ns,Small − large,Train on citations (granted only),implied,-0.7170915867373879,0.9613235710449544
+3700,cites_ns,Small − large,Train on citations + names,implied,-0.8479509990109677,0.9209142394415533
+3700,cites_ns,Small − large,No model: mean outcome of accepted cases,error,1.8544274569120978,1.2326738966302924
+3700,cites_ns,Small − large,Train on grant,error,-0.2744752816399998,1.2438113117873515
+3700,cites_ns,Small − large,Train on grant + names,error,-0.388319141575147,1.247599525184023
+3700,cites_ns,Small − large,Train on first action,error,1.761491399610724,1.233249216261079
+3700,cites_ns,Small − large,Train on citations (granted only),error,1.1684574991049659,1.3047895000393126
+3700,cites_ns,Small − large,Train on citations + names,error,1.0375980868313595,1.2611855399909035
+All centers,cites_ns,Female − male,Human record (truth),marginal,0.011359695275865889,0.4771348659982094
+All centers,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,-0.182307320857527,0.06119542113428843
+All centers,cites_ns,Female − male,Train on grant,implied,-0.5794270351020301,0.06756914340429922
+All centers,cites_ns,Female − male,Train on grant + names,implied,-0.6091271781860224,0.06603850265885096
+All centers,cites_ns,Female − male,Train on first action,implied,-0.23708609359902466,0.053692574395543036
+All centers,cites_ns,Female − male,Train on citations (granted only),implied,-0.21257950471566112,0.21326402972632094
+All centers,cites_ns,Female − male,Train on citations + names,implied,-0.27094260394472336,0.24438434923878297
+All centers,cites_ns,Female − male,No model: mean outcome of accepted cases,error,-0.19366701613340281,0.4807629473943209
+All centers,cites_ns,Female − male,Train on grant,error,-0.5907867303779505,0.4765369360097878
+All centers,cites_ns,Female − male,Train on grant + names,error,-0.6204868734618629,0.4759748305667653
+All centers,cites_ns,Female − male,Train on first action,error,-0.24844578887493246,0.4794740651019175
+All centers,cites_ns,Female − male,Train on citations (granted only),error,-0.22393919999158782,0.5887074163894112
+All centers,cites_ns,Female − male,Train on citations + names,error,-0.2823022992205932,0.6175798163670823
+All centers,cites_ns,Small − large,Human record (truth),marginal,-1.1606705512820632,0.2975863284536546
+All centers,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,0.3000621815772444,0.04782172743370458
+All centers,cites_ns,Small − large,Train on grant,implied,-0.38779868990425026,0.05222714242869388
+All centers,cites_ns,Small − large,Train on grant + names,implied,-0.41564625958205115,0.055074455231835774
+All centers,cites_ns,Small − large,Train on first action,implied,0.23124096894983692,0.04624902950445098
+All centers,cites_ns,Small − large,Train on citations (granted only),implied,0.06975893914405074,0.18570315450526229
+All centers,cites_ns,Small − large,Train on citations + names,implied,0.011934993519367332,0.1778160559144442
+All centers,cites_ns,Small − large,No model: mean outcome of accepted cases,error,1.4607327328593063,0.29851030722025407
+All centers,cites_ns,Small − large,Train on grant,error,0.7728718613778618,0.29884416226022864
+All centers,cites_ns,Small − large,Train on grant + names,error,0.7450242917000746,0.29971659238858517
+All centers,cites_ns,Small − large,Train on first action,error,1.391911520231881,0.29816577263798677
+All centers,cites_ns,Small − large,Train on citations (granted only),error,1.2304294904261381,0.3030804084234412
+All centers,cites_ns,Small − large,Train on citations + names,error,1.1726055448014894,0.29699418495941815

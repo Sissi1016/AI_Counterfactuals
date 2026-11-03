@@ -1,0 +1,13 @@
+,All centers,TC 3600,"Centers, CI <0 / >0 (of 8)"
+Cells: Art unit × year × USPC class,,,
+Female first inventor,"−0.12 [−0.20, −0.03]","0.04 [−0.16, 0.23]",1 / 0
+Small entity,"−0.95 [−1.12, −0.79]","−0.91 [−1.29, −0.52]",7 / 0
+Inventors,"0.015 [0.009, 0.021]","0.021 [0.009, 0.033]",0 / 3
+Pred. grant score (log-odds),"0.012 [0.009, 0.015]","0.009 [0.002, 0.017]",0 / 4
+Evaluators’ predictions (class cells),,,
+Trained on grant,"0.010 [0.003, 0.017]","0.001 [0.000, 0.003]",1 / 1
+Trained on grant + names,"0.012 [0.004, 0.019]","0.001 [0.000, 0.003]",1 / 1
+Trained on first action,"−0.002 [−0.004, 0.000]","0.001 [−0.001, 0.003]",1 / 0
+Trained on citations,"−0.004 [−0.026, 0.018]","0.002 [−0.007, 0.010]",1 / 1
+Trained on citations + names,"−0.002 [−0.024, 0.020]","0.001 [−0.008, 0.009]",1 / 1
+"LLM, zero-shot","0.007 [0.004, 0.010]","0.000 [0.000, 0.001]",0 / 2

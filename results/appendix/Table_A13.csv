@@ -1,0 +1,20 @@
+,Estimate,95% CI
+Levels,,
+Mean citations of the marginal applications,2.98,"[1.78, 4.31]"
+Mean score of the same applications,2.75,"[2.31, 3.44]"
+computed from the rejected side (check),2.82,"[2.63, 3.02]"
+Score − citations,−0.22,"[−1.16, 0.72]"
+Mean guess,3.34,"[3.14, 3.57]"
+"Error of a single score, citations top-coded",,
+Mean absolute error: score,3.18,"[2.88, 3.53]"
+guess,3.14,"[2.82, 3.58]"
+share of the guess’s error removed (%),−1,"[−6, 3]"
+Range around a prediction: (1 + citations) within a factor of (1 + prediction),,
+Factor that holds 50% of marginal applications: score,2.3,"[2.25, 2.4]"
+guess,2.4,"[2.35, 2.6]"
+Factor that holds 80% of marginal applications: score,3.65,"[3.5, 3.85]"
+guess,4.25,"[4.05, 4.4]"
+Prior-art citations of the same marginal applications (observed),,
+as rejected (stricter quintile),2.92,"[2.64, 3.21]"
+as granted (most lenient quintile),4.38,"[3.86, 4.94]"
+"ratio, granted to rejected",1.50,"[1.31, 1.72]"

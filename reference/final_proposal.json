@@ -1,0 +1,28 @@
+{
+  "source_document_sha256": "6c643b36c278ec598f21f3c4932bc68365274ab341ed27b2c995da169c332f36",
+  "source_document_distributed": false,
+  "tables": 1,
+  "figures": [
+    {
+      "id": "Figure 1",
+      "file": "results/proposal/figures/Figure_1.png",
+      "sha256": "5abf3d47a3c6ecd1fc7812779a75a3c045caa16ba49224502655d9340eed0814",
+      "caption": "Counterfactual selection and citation outcomes. (a) Where the strictest examiners’ additional rejections fall across 20 bins of predicted citations, compared with the two models at the same rejection rate within each cell (5% per bin). (b) Mean prior-art citations by decile of predicted citations within center and filing year.",
+      "source_figure": "output/figures/journal/fig_main_c1_poisson.png",
+      "scripts": [
+        "code/43_c1_extra.py"
+      ]
+    },
+    {
+      "id": "Figure 2",
+      "file": "results/proposal/figures/Figure_2.png",
+      "sha256": "1d6ce12438ca2394f6c60491fe88ab575acb5bc1b9f83bd63a1d9158a5960077",
+      "caption": "Gender and racial differences in grant decisions: (a) female–male differences by technology center; (b) differences relative to White first inventors (surname-inferred), eight centers pooled. Each model grants the examiners’ share of applications in its center. Filled markers: decisions; hollow markers: predicted probabilities before thresholding. Percentage points within art unit × filing year, 95% CIs.",
+      "source_figure": "output/figures/journal/fig_main_c3.png",
+      "scripts": [
+        "code/44_c3_extra.py"
+      ]
+    }
+  ],
+  "table_numeric_cells_match_final_appendix": true
+}

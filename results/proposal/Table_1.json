@@ -1,0 +1,65 @@
+{
+  "id": "Table 1",
+  "caption": "Citations forgone and gender differences under alternative rejection rules, at the stricter examiners’ rejection rates within each cell; F − M is female minus male. Test and imputation samples; 95% CIs from 500 bootstrap draws of art units",
+  "section": "Proposal",
+  "scripts": [
+    "code/35_c1_kllm.py",
+    "code/43_c1_extra.py"
+  ],
+  "sources": [
+    "output/latex/c1x_poisson_tab_forwhom.tex",
+    "output/latex/ext_tab_kllm_contraction.tex",
+    "output/latex/ext_tab_kllm_gender.tex",
+    "derived:random_loss"
+  ],
+  "rows": [
+    [
+      "",
+      "How accurate",
+      "",
+      "For whom",
+      "",
+      ""
+    ],
+    [
+      "",
+      "Citations lost (%)",
+      "Gain over examiners (pp)",
+      "Women rejected (%)",
+      "F − M grants (pp)",
+      "F − M citations at margin"
+    ],
+    [
+      "Stricter examiners",
+      "20.0",
+      "",
+      "9.5 [7.3, 11.6]",
+      "−3.3 [−4.6, −2.1]",
+      "0.31 [−2.74, 4.61]"
+    ],
+    [
+      "Random rejections",
+      "21.1",
+      "−1.1 [−10.7, 7.0]",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Model learning citations",
+      "13.8",
+      "6.2 [−2.4, 13.9]",
+      "8.7 [7.9, 9.5]",
+      "−0.3 [−1.2, 0.7]",
+      "0.56 [−0.55, 2.01]"
+    ],
+    [
+      "Model learning decisions",
+      "18.6",
+      "1.4 [−8.1, 9.6]",
+      "9.0 [8.3, 9.9]",
+      "−4.0 [−5.1, −2.9]",
+      "−1.09 [−1.90, −0.38]"
+    ]
+  ]
+}

@@ -1,0 +1,10 @@
+Section,Results in prose,Scripts,Sources
+A1,"Sample period, publication, truncation, and prior-art sources",06d; 38; 41,prior_art_diagnostics_*.csv; design_examiners.csv; all_centers_summary.csv
+A2,"Examiner identity, docketing, contemporaneous leniency, and within-cell variation",04b; 22; 41,design_examiners.csv; code/04b_leniency_window.py; data/processed/leniency_window.parquet (rebuilt)
+A3,Poisson and squared-error relative calibration and diagnostic tests,35; 41; 42; 46,"c1_kllm_all{,_poisson}_fig4.csv; design_*.csv; tx_*.csv"
+A4,LLM familiarity diagnostics,23; 46,memorization_*.csv; tx_memorization.csv
+A5,"Squared-error sensitivity, score error, and within-field correlations",35; 43; 47,"c1_kllm_all_*.csv; c1x_poisson_compare.csv; c1x{,_poisson}_within.csv; c1mv_poisson_metrics.csv"
+A5,Model-size and blended-target results retained in prose after table removal,15; 21; 31,q8_citations_fit.csv; q8_citations_gaps.csv; citations_gaps.csv
+A6,"Twin thresholds, predictive power, common sample, and uncertainty",17; 45,ai_examiners_summary.csv; c2x_*.csv
+A7,Text predicts gender; neutral-name and swap comparisons,09; 32; 48,probes_3600.csv; twins_names_summary.csv; nsw_*.csv
+Proposal 3.4,"Share of the female − male gap in predicted grant rates that remains when each first inventor's name is replaced by a randomly drawn common male first name and White surname: 96% (95% CI [82, 109]); gap −7.1 before and −6.8 after",48,"nsw_numbers.tex (xNsGapFemOrig, xNsGapFemNeutral, xNsGapFemNeutralRemaining and their CI macros)"

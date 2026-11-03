@@ -1,0 +1,2 @@
+features,n_examiners,n_common,n_train_median,auc_leniency_median,auc_text_median,corr_leniency,spearman_leniency,ai_grant_min,ai_grant_max,agreement_median,ai_gap_median,ai_gap_min,ai_gap_max,human_gap,human_gap_se,corr_individual_gap,n_individual_gap
+s0,20,3972,867.0,0.6951011011011011,0.673318312964575,0.9545038852816663,0.9503759398496239,0.43630287,0.91533744,0.8564954682779456,-0.1512179539208283,-0.1845668914188254,-0.08286980190842165,-0.08345782345604114,0.024868412913342335,0.09841932536768196,19

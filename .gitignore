@@ -1,0 +1,15 @@
+/data
+/models
+/.venv/
+/.venv-llm/
+/.cache/
+/results/rebuilt/
+__pycache__/
+*.pyc
+*.parquet
+*.log
+.env
+*.key
+.DS_Store
+# examiner-level files, never distributed
+output/tables/examiner_gender_gap.csv

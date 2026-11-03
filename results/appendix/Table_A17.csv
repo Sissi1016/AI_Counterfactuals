@@ -1,0 +1,3 @@
+Rule,"Imputed, α=1","Imputed, α=1.5","Imputed, α=∞",Observed
+Algorithm (citations),"26.0 [23.5, 28.9]","17.7 [15.8, 19.9]","1.2 [0.0, 2.3]","16.0 [13.7, 18.1]"
+"Algorithm (prior art, all applications)","36.4 [33.6, 39.8]","27.4 [25.3, 30.0]","9.4 [8.4, 10.4]","25.8 [23.4, 28.5]"

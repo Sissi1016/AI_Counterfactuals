@@ -1,0 +1,13 @@
+tc,model,n,cv,depth,rate,trees
+all,training: cites,94427,-9.407867444799084,4.0,0.025,2500.0
+all,imputation: cites,94438,-9.44357060882748,3.0,0.025,2500.0
+all,training: uncited,94427,0.609624326508919,4.0,0.05,2300.0
+all,imputation: uncited,94438,0.6092568556878111,3.0,0.05,2300.0
+all,training: judge,141357,0.7182028761487598,4.0,0.1,1000.0
+all,training: cites_pa,94427,-7.069328710977534,4.0,0.025,2500.0
+all,imputation: cites_pa,94438,-7.100496013132864,4.0,0.025,2100.0
+all,training: pa_all,141357,-5.557861606950505,4.0,0.1,2500.0
+all,training: pa_sel,94427,-5.776294791628466,4.0,0.05,2500.0
+all,imputation: pa_sel,94438,-5.865540540255056,4.0,0.1,2500.0
+all,training: lenient,24490,,4.0,0.025,2500.0
+all,linear (Poisson GLM): cites,94427,-10.167295786468953,,0.1,

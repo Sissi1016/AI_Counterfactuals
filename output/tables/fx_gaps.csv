@@ -1,0 +1,61 @@
+tc,outcome,label,fe,b,se,n
+1600,granted,Examiners: grants,cell,-0.020993136125347762,0.006934265392098168,37486
+1600,granted,Examiners: grants,class,-0.0189898735777171,0.0069129215922562786,37486
+1600,granted,Examiners: grants,subclass,-0.012540044468239055,0.007092132334359311,37486
+1600,dec_grant,Evaluator trained on grants: decisions,cell,-0.018363794613545738,0.00655325209078263,37486
+1600,dec_grant,Evaluator trained on grants: decisions,class,-0.014364962778148624,0.0064646426177785874,37486
+1600,dec_grant,Evaluator trained on grants: decisions,subclass,-0.006357868155389549,0.006590434958775111,37486
+1600,dec_cites,Evaluator trained on citations: decisions,cell,-0.038729485680789176,0.00701564149735782,37486
+1600,dec_cites,Evaluator trained on citations: decisions,class,-0.03928631993655262,0.006953393079957506,37486
+1600,dec_cites,Evaluator trained on citations: decisions,subclass,-0.027838006956162134,0.006784089095669388,37486
+1600,dec_llm,"Qwen3-8B, zero-shot: decisions",cell,-0.0030845125775270953,0.006714994785424717,37486
+1600,dec_llm,"Qwen3-8B, zero-shot: decisions",class,-0.001447946031982558,0.006673984748161941,37486
+1600,dec_llm,"Qwen3-8B, zero-shot: decisions",subclass,-0.0008555909684887316,0.006981094741127097,37486
+1600,z_grant,"Score, trained on grants (SD)",cell,-0.06932466034018432,0.012411416274773497,37486
+1600,z_grant,"Score, trained on grants (SD)",class,-0.062341258293454445,0.012268747855584242,37486
+1600,z_grant,"Score, trained on grants (SD)",subclass,-0.0281281415896398,0.009518242146676585,37486
+1600,z_cites,"Score, trained on citations (SD)",cell,-0.11939062077103739,0.014289570706220096,37486
+1600,z_cites,"Score, trained on citations (SD)",class,-0.12000736622780529,0.013896196777475164,37486
+1600,z_cites,"Score, trained on citations (SD)",subclass,-0.08935132021071049,0.013250859645566763,37486
+1600,z_llm,"Score, Qwen3-8B zero-shot (SD)",cell,-0.01900859288590519,0.01303847706818417,37486
+1600,z_llm,"Score, Qwen3-8B zero-shot (SD)",class,-0.015774619848229948,0.013002430885697656,37486
+1600,z_llm,"Score, Qwen3-8B zero-shot (SD)",subclass,0.0020350749031259334,0.0121872668669616,37486
+1600,log_cites,"Log citations, granted patents",cell,-0.050132825264668605,0.012754400069486622,22795
+1600,log_cites,"Log citations, granted patents",class,-0.051248300567660166,0.012834991751757013,22795
+1600,log_cites,"Log citations, granted patents",subclass,-0.04037883912984813,0.013756083552716828,22795
+1600,log_pa,"Log prior-art citations, published applications",cell,-0.03471614149214666,0.010688253864327904,37484
+1600,log_pa,"Log prior-art citations, published applications",class,-0.034868386894896186,0.01067874399360426,37484
+1600,log_pa,"Log prior-art citations, published applications",subclass,-0.032392271936397724,0.011409276427872681,37484
+1600,renew_4y,"Renewed at four years, granted patents",cell,-0.016808538349797054,0.006983048868589932,22795
+1600,renew_4y,"Renewed at four years, granted patents",class,-0.015938304211514338,0.006952210104267375,22795
+1600,renew_4y,"Renewed at four years, granted patents",subclass,-0.01188650136250596,0.007244048084787527,22795
+1700,granted,Examiners: grants,cell,-0.009259265000876963,0.00769606396214842,47235
+1700,granted,Examiners: grants,class,-0.010629583891132516,0.007610872069342645,47235
+1700,granted,Examiners: grants,subclass,-0.010227918010356772,0.008447536981080594,47235
+1700,dec_grant,Evaluator trained on grants: decisions,cell,-0.01776480656011985,0.007881682514380643,47235
+1700,dec_grant,Evaluator trained on grants: decisions,class,-0.02288574157233687,0.007704962036525534,47235
+1700,dec_grant,Evaluator trained on grants: decisions,subclass,-0.014858810730026876,0.008502706331150037,47235
+1700,dec_cites,Evaluator trained on citations: decisions,cell,-0.009893448028501917,0.008050250318083244,47235
+1700,dec_cites,Evaluator trained on citations: decisions,class,-0.0036247536895692256,0.007990089504114789,47235
+1700,dec_cites,Evaluator trained on citations: decisions,subclass,0.0016746739689309945,0.00852643077693464,47235
+1700,dec_llm,"Qwen3-8B, zero-shot: decisions",cell,0.021486446323284534,0.007515628424813384,47235
+1700,dec_llm,"Qwen3-8B, zero-shot: decisions",class,0.017115762293192262,0.007453321877677274,47235
+1700,dec_llm,"Qwen3-8B, zero-shot: decisions",subclass,0.002110020797439497,0.008304752804762387,47235
+1700,z_grant,"Score, trained on grants (SD)",cell,-0.07827671959431869,0.016070605654051856,47235
+1700,z_grant,"Score, trained on grants (SD)",class,-0.08685488248465774,0.015316266601516882,47235
+1700,z_grant,"Score, trained on grants (SD)",subclass,-0.0744818297904908,0.01552345452814806,47235
+1700,z_cites,"Score, trained on citations (SD)",cell,-0.017006278545301772,0.01556508848896293,47235
+1700,z_cites,"Score, trained on citations (SD)",class,-0.004353130810300218,0.014899403896262885,47235
+1700,z_cites,"Score, trained on citations (SD)",subclass,-0.004446834309243848,0.014926586393748702,47235
+1700,z_llm,"Score, Qwen3-8B zero-shot (SD)",cell,0.04095089391672564,0.017032307633257103,47235
+1700,z_llm,"Score, Qwen3-8B zero-shot (SD)",class,0.02953786381956089,0.01692923063083014,47235
+1700,z_llm,"Score, Qwen3-8B zero-shot (SD)",subclass,-0.010808186767036912,0.018057338832600404,47235
+1700,log_cites,"Log citations, granted patents",cell,-0.013768143768173162,0.013426061690118979,29315
+1700,log_cites,"Log citations, granted patents",class,-0.012751910782559214,0.013482880733508472,29315
+1700,log_cites,"Log citations, granted patents",subclass,-0.024408138640233563,0.016504145326760075,29315
+1700,log_pa,"Log prior-art citations, published applications",cell,-0.011139382247850651,0.010380618410201088,47235
+1700,log_pa,"Log prior-art citations, published applications",class,-0.00801762926400517,0.010377635113201169,47235
+1700,log_pa,"Log prior-art citations, published applications",subclass,-0.008418363895889527,0.012095777593662926,47235
+1700,renew_4y,"Renewed at four years, granted patents",cell,-0.0009142188260931623,0.007033412075656772,29315
+1700,renew_4y,"Renewed at four years, granted patents",class,-0.002087484176475409,0.0069337777688953835,29315
+1700,renew_4y,"Renewed at four years, granted patents",subclass,-0.00806934429568217,0.008383850662828398,29315

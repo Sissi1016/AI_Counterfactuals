@@ -1,0 +1,6 @@
+check,corr,max_abs_diff,spearman,n
+refitted main model vs cached predictions (all applications),1.0,0.0,,
+main model: granted test applications filed 2013–2014,0.3721948961518333,,0.20398106017851447,17658.0
+Algorithm trained on 2010–2012 filings: granted test applications filed 2013–2014,0.3148236893499496,,0.19779067697912076,17658.0
+main model: granted test applications filed 2010–2014,0.32878373616969153,,0.23473273497041225,47221.0
+Algorithm without entity size and number of inventors: granted test applications filed 2010–2014,0.3398325858665242,,0.22903338707151635,47221.0

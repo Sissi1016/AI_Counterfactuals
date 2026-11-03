@@ -1,0 +1,51 @@
+File,Role
+code/01_patex_to_parquet.py,Analysis or data preparation
+code/02_build_applications.py,Analysis or data preparation
+code/03_infer_gender.py,Analysis or data preparation
+code/04_examiner_leniency.py,Analysis or data preparation
+code/04b_leniency_window.py,Analysis or data preparation
+code/05_descriptives.py,Analysis or data preparation
+code/06_pilot_sample.py,Analysis or data preparation
+code/06b_self_citations.py,Analysis or data preparation
+code/06c_prior_art_citations.py,Analysis or data preparation
+code/06d_prior_art_diagnostics.py,Analysis or data preparation
+code/07_extract_text.py,Analysis or data preparation
+code/08_embed.py,Analysis or data preparation
+code/09_probes.py,Analysis or data preparation
+code/10_llm_prompting.py,Analysis or data preparation
+code/11_bootstrap.py,Imported support module
+code/12_marginal_outcomes.py,Imported support module
+code/13_figures_tables.py,Imported support module
+code/14_llm_marginal.py,Analysis or data preparation
+code/15_llm_features.py,Analysis or data preparation
+code/16_ai_examiner_inputs.py,Analysis or data preparation
+code/17_ai_examiners.py,Analysis or data preparation
+code/18_assignment_checks.py,Analysis or data preparation
+code/20_journal_figures.py,Imported support module
+code/21_citations.py,Imported support module
+code/22_examiners.py,Analysis or data preparation
+code/23_memorization.py,Analysis or data preparation
+code/24_human_record.py,Analysis or data preparation
+code/25_draft_tests.py,Imported support module
+code/29_citation_tables.py,Imported support module
+code/30_finetune_llm.py,Analysis or data preparation
+code/31_q8_citations.py,Analysis or data preparation
+code/32_twins_names.py,Analysis or data preparation
+code/33_ethnicity.py,Analysis or data preparation
+code/34_extension_tables.py,Analysis or data preparation
+code/35_c1_kllm.py,Analysis or data preparation
+code/36_geography_industry.py,Analysis or data preparation
+code/38_all_centers.py,Analysis or data preparation
+code/39_c3_checks.py,Analysis or data preparation
+code/40_llm_all_centers.py,Analysis or data preparation
+code/41_design_examiners.py,Analysis or data preparation
+code/42_design_balance.py,Analysis or data preparation
+code/43_c1_extra.py,Analysis or data preparation
+code/44_c3_extra.py,Analysis or data preparation
+code/45_twins_c4_extra.py,Analysis or data preparation
+code/46_tests_extra.py,Analysis or data preparation
+code/47_c1_margin_validation.py,Analysis or data preparation
+code/48_name_swaps.py,Analysis or data preparation
+code/49_c1_zheng_figures.py,Analysis or data preparation
+code/50_field_mix.py,Analysis or data preparation
+code/51_c1_table2_tails.py,Analysis or data preparation

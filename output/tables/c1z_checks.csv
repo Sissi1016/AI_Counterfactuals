@@ -1,0 +1,14 @@
+check,ours,c35,abs_diff
+"Extra rejection rate, quintile 2 vs most lenient (35's Table III)",0.07349828143635148,0.07349828143635143,5.551115123125783e-17
+"Extra rejection rate, quintile 3 vs most lenient (35's Table III)",0.129429375880623,0.129429375880623,0.0
+"Extra rejection rate, quintile 4 vs most lenient (35's Table III)",0.1887757961553457,0.18877579615534568,2.7755575615628914e-17
+"Extra rejection rate, quintile 5 vs most lenient (35's Table III)",0.29417777599952677,0.2941777759995268,5.551115123125783e-17
+Max |rule − strictest| extra rejections per cell (algorithm),1.1102230246251565e-16,0.0,1.1102230246251565e-16
+"Extra rejection rate, cell-weighted (algorithm) vs strictest quintile (35)",0.2941777759995267,0.2941777759995268,1.1102230246251565e-16
+Max |rule − strictest| extra rejections per cell (judge),1.1102230246251565e-16,0.0,1.1102230246251565e-16
+"Extra rejection rate, cell-weighted (judge) vs strictest quintile (35)",0.2941777759995267,0.2941777759995268,1.1102230246251565e-16
+Max |lenient reject rate by bin − 35's Figure VI|,2.220446049250313e-16,0.0,2.220446049250313e-16
+Max |strictest reject rate by bin − 35's Figure VI|,2.220446049250313e-16,0.0,2.220446049250313e-16
+Max |strictest share of extra rejections by bin − 35's Figure VI|,3.469446951953614e-17,0.0,3.469446951953614e-17
+Test-set grant rate (35's fit table),0.6681050948655187,0.6681050948655187,0.0
+"Grant rate, lowest 1% of predicted citations (35's fit table)",0.6746817538896747,0.6746817538896747,0.0

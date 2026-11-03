@@ -1,0 +1,36 @@
+{
+  "validation_date": "2026-11-02",
+  "artifact_scope": "Analysis code, results, and reproduction documentation",
+  "final_word_documents_sha256": {
+    "proposal": "6c643b36c278ec598f21f3c4932bc68365274ab341ed27b2c995da169c332f36",
+    "appendix": "aa47a5e48e271c826fc7614b524a866b8c704d81277ebad74ca2a6ad2be20c74"
+  },
+  "appendix_tables": 33,
+  "appendix_table_cells_compared_with_final_word": 1680,
+  "appendix_result_cell_bindings": 972,
+  "appendix_figures": 9,
+  "main_text_tables": 1,
+  "main_text_table_cells_compared_with_final_word": 43,
+  "main_text_result_cell_bindings": 16,
+  "main_text_figures": 2,
+  "captions_compared_with_final_word": 45,
+  "graphics_compared_byte_for_byte_with_final_word": 11,
+  "proposal_result_numbers_traced": {
+    "distinct_numbers": 67,
+    "in_appendix": 66,
+    "in_package_sources_only": 1
+  },
+  "table_assembly_checks": "passed",
+  "release_verification": "passed",
+  "stage_command_plans_checked": 11,
+  "sensitive_text_scan": "passed",
+  "image_and_pdf_metadata_scan": "passed",
+  "csv_identity_fields_scan": "passed",
+  "figure_reconstruction_rerun_for_this_release": false,
+  "compiled_caches_included": false,
+  "private_documents_included": false,
+  "local_git_history_or_commit_identifiers_included": false,
+  "raw_data_or_model_weights_included": false,
+  "raw_data_pipeline_rerun": false,
+  "gpu_training_rerun": false
+}

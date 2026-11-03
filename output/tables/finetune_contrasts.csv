@@ -1,0 +1,103 @@
+sample,outcome,contrast,series,kind,estimate,se
+3600,cites_ns,Female − male,Human record (truth),marginal,1.4123806194051598,0.7112039821235897
+3600,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,-0.00026329179427442284,0.00484386646467022
+3600,cites_ns,Female − male,LLM fine-tuned on citations,implied,0.08235317281673682,0.07522205342946782
+3600,cites_ns,Female − male,LLM fine-tuned on the draft's C1 sample,implied,-0.02118258999839906,0.07099038835027385
+3600,cites_ns,Female − male,LLM fine-tuned on grant,implied,0.07589857934658761,0.010545748154179704
+3600,cites_ns,Female − male,Train on grant,implied,-0.011604054091250315,0.0055655747009287545
+3600,cites_ns,Female − male,Train on citations (granted only),implied,0.23135321107980644,0.10963195056978424
+3600,cites_ns,Female − male,"LLM, zero-shot",implied,0.0018619379296094252,0.00544416388770571
+3600,cites_ns,Female − male,"LLM fine-tuned on the draft's C1 sample, as given",implied,-0.026299696676049367,0.03882196847609291
+3600,cites_ns,Female − male,No model: mean outcome of accepted cases,error,-1.4126439111994253,0.7113839506613729
+3600,cites_ns,Female − male,LLM fine-tuned on citations,error,-1.3300274465884188,0.710203715512869
+3600,cites_ns,Female − male,LLM fine-tuned on the draft's C1 sample,error,-1.4335632094035407,0.7144852089326424
+3600,cites_ns,Female − male,LLM fine-tuned on grant,error,-1.3364820400585815,0.710854203594589
+3600,cites_ns,Female − male,Train on grant,error,-1.4239846734964061,0.711621933697299
+3600,cites_ns,Female − male,Train on citations (granted only),error,-1.1810274083253605,0.7014199879761488
+3600,cites_ns,Female − male,"LLM, zero-shot",error,-1.4105186814755515,0.7112479292993505
+3600,cites_ns,Female − male,"LLM fine-tuned on the draft's C1 sample, as given",error,-1.4386803160811907,0.7131394505819277
+3600,cites_ns,Small − large,Human record (truth),marginal,-0.3599364710816726,0.4109873366970601
+3600,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,0.001136142551811048,0.005485267847921889
+3600,cites_ns,Small − large,LLM fine-tuned on citations,implied,0.17628106318093595,0.06267876863495599
+3600,cites_ns,Small − large,LLM fine-tuned on the draft's C1 sample,implied,0.4113116556155805,0.05378845590676681
+3600,cites_ns,Small − large,LLM fine-tuned on grant,implied,0.013145371242726078,0.008807701681304004
+3600,cites_ns,Small − large,Train on grant,implied,-0.0029048390656032375,0.006231219782757
+3600,cites_ns,Small − large,Train on citations (granted only),implied,0.25402772697169196,0.07479085399942993
+3600,cites_ns,Small − large,"LLM, zero-shot",implied,0.004696728494027802,0.006293588885565266
+3600,cites_ns,Small − large,"LLM fine-tuned on the draft's C1 sample, as given",implied,0.1745628174439282,0.03194841438963145
+3600,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.3610726136335037,0.4115203058647255
+3600,cites_ns,Small − large,LLM fine-tuned on citations,error,0.5362175342626209,0.4115955970539728
+3600,cites_ns,Small − large,LLM fine-tuned on the draft's C1 sample,error,0.7712481266972677,0.40850666744562103
+3600,cites_ns,Small − large,LLM fine-tuned on grant,error,0.3730818423244487,0.41128158343133386
+3600,cites_ns,Small − large,Train on grant,error,0.3570316320160826,0.4114646445998947
+3600,cites_ns,Small − large,Train on citations (granted only),error,0.613964198053372,0.40507292388847566
+3600,cites_ns,Small − large,"LLM, zero-shot",error,0.3646331995757113,0.4113892642166637
+3600,cites_ns,Small − large,"LLM fine-tuned on the draft's C1 sample, as given",error,0.5344992885256035,0.40871197006937354
+1600,cites_ns,Female − male,Human record (truth),marginal,-0.5171106033119819,0.33123193539131607
+1600,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,0.002663838977985611,0.001922261348433166
+1600,cites_ns,Female − male,LLM fine-tuned on citations,implied,-0.10859255854855365,0.04644886188014594
+1600,cites_ns,Female − male,LLM fine-tuned on the draft's C1 sample,implied,-0.07714418047886418,0.023442544693564563
+1600,cites_ns,Female − male,LLM fine-tuned on grant,implied,-0.0007522287419263751,0.00462284749735073
+1600,cites_ns,Female − male,Train on grant,implied,0.005116045804922642,0.002625182720208407
+1600,cites_ns,Female − male,Train on citations (granted only),implied,-0.11949181292625011,0.07993994315089435
+1600,cites_ns,Female − male,"LLM, zero-shot",implied,-0.004323499936151887,0.008557051913714538
+1600,cites_ns,Female − male,"LLM fine-tuned on the draft's C1 sample, as given",implied,-0.057450318078489326,0.016125750960667738
+1600,cites_ns,Female − male,No model: mean outcome of accepted cases,error,0.5197744422899812,0.33141377416969253
+1600,cites_ns,Female − male,LLM fine-tuned on citations,error,0.40851804476343617,0.3353839240381488
+1600,cites_ns,Female − male,LLM fine-tuned on the draft's C1 sample,error,0.43996642283313364,0.3311395948571023
+1600,cites_ns,Female − male,LLM fine-tuned on grant,error,0.5163583745700584,0.331894811791301
+1600,cites_ns,Female − male,Train on grant,error,0.5222266491169142,0.3315387075659911
+1600,cites_ns,Female − male,Train on citations (granted only),error,0.3976187903857394,0.325877711367626
+1600,cites_ns,Female − male,"LLM, zero-shot",error,0.5127871033758435,0.3320941268791157
+1600,cites_ns,Female − male,"LLM fine-tuned on the draft's C1 sample, as given",error,0.45966028523349733,0.331088110202283
+1600,cites_ns,Small − large,Human record (truth),marginal,-0.639827362265065,0.3349190267902747
+1600,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,6.864108874515829e-05,0.0030054639154166525
+1600,cites_ns,Small − large,LLM fine-tuned on citations,implied,0.04768936321132866,0.04788716530175034
+1600,cites_ns,Small − large,LLM fine-tuned on the draft's C1 sample,implied,-0.039278436874141454,0.02812509519436285
+1600,cites_ns,Small − large,LLM fine-tuned on grant,implied,-0.03214008439758076,0.00850600797328873
+1600,cites_ns,Small − large,Train on grant,implied,0.004817435014502269,0.006753773275851512
+1600,cites_ns,Small − large,Train on citations (granted only),implied,-0.24271900317950967,0.07776734635764632
+1600,cites_ns,Small − large,"LLM, zero-shot",implied,-0.0715181711505184,0.009892999641566957
+1600,cites_ns,Small − large,"LLM fine-tuned on the draft's C1 sample, as given",implied,-0.014066063695731712,0.018183846172321504
+1600,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.6398960033537952,0.3349086341096357
+1600,cites_ns,Small − large,LLM fine-tuned on citations,error,0.6875167254763851,0.3355397188252856
+1600,cites_ns,Small − large,LLM fine-tuned on the draft's C1 sample,error,0.6005489253909205,0.3314375473865997
+1600,cites_ns,Small − large,LLM fine-tuned on grant,error,0.6076872778674888,0.3358164799747465
+1600,cites_ns,Small − large,Train on grant,error,0.6446447972795645,0.335723950880869
+1600,cites_ns,Small − large,Train on citations (granted only),error,0.3971083590855466,0.32351831432531325
+1600,cites_ns,Small − large,"LLM, zero-shot",error,0.5683091911145384,0.33574590584396274
+1600,cites_ns,Small − large,"LLM fine-tuned on the draft's C1 sample, as given",error,0.625761298569327,0.3337107369023452
+Both,cites_ns,Female − male,Human record (truth),marginal,0.08574535990729171,0.37046453204954005
+Both,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,-0.3039736594743112,0.03536024199161848
+Both,cites_ns,Female − male,LLM fine-tuned on citations,implied,-0.28811893102513086,0.05640774700860159
+Both,cites_ns,Female − male,LLM fine-tuned on the draft's C1 sample,implied,-0.3021468976278199,0.04591456000386699
+Both,cites_ns,Female − male,LLM fine-tuned on grant,implied,-0.29529101663349566,0.03854186531999243
+Both,cites_ns,Female − male,Train on grant,implied,-0.30466719262899855,0.03492836556292334
+Both,cites_ns,Female − male,Train on citations (granted only),implied,-0.20077277139536198,0.0750415089591066
+Both,cites_ns,Female − male,"LLM, zero-shot",implied,-0.3123627867600769,0.03629322863732333
+Both,cites_ns,Female − male,"LLM fine-tuned on the draft's C1 sample, as given",implied,-0.19268807042628233,0.02762230695258272
+Both,cites_ns,Female − male,No model: mean outcome of accepted cases,error,-0.3897190193815758,0.37002430304032013
+Both,cites_ns,Female − male,LLM fine-tuned on citations,error,-0.3738642909323957,0.3694835672219325
+Both,cites_ns,Female − male,LLM fine-tuned on the draft's C1 sample,error,-0.387892257535082,0.36968311527138265
+Both,cites_ns,Female − male,LLM fine-tuned on grant,error,-0.3810363765407574,0.3696702536777565
+Both,cites_ns,Female − male,Train on grant,error,-0.3904125525362597,0.3700767035634971
+Both,cites_ns,Female − male,Train on citations (granted only),error,-0.2865181313026203,0.3639682762124956
+Both,cites_ns,Female − male,"LLM, zero-shot",error,-0.39810814666735755,0.37005863080771995
+Both,cites_ns,Female − male,"LLM fine-tuned on the draft's C1 sample, as given",error,-0.2784334303335484,0.3698393528568793
+Both,cites_ns,Small − large,Human record (truth),marginal,-0.6423453786113793,0.28587908196276884
+Both,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,-0.20340351283747715,0.031156791464207058
+Both,cites_ns,Small − large,LLM fine-tuned on citations,implied,-0.05223262879117563,0.04984552410919388
+Both,cites_ns,Small − large,LLM fine-tuned on the draft's C1 sample,implied,0.05711792810574412,0.044806453146503104
+Both,cites_ns,Small − large,LLM fine-tuned on grant,implied,-0.22425149705312553,0.033990374658156165
+Both,cites_ns,Small − large,Train on grant,implied,-0.20190243304186106,0.03106150474028466
+Both,cites_ns,Small − large,Train on citations (granted only),implied,-0.10437399123587121,0.060140396039866144
+Both,cites_ns,Small − large,"LLM, zero-shot",implied,-0.233412529318354,0.031813150844973166
+Both,cites_ns,Small − large,"LLM fine-tuned on the draft's C1 sample, as given",implied,-0.003457381838359863,0.027457668762447124
+Both,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.4389418657738885,0.2854091070226291
+Both,cites_ns,Small − large,LLM fine-tuned on citations,error,0.5901127498202169,0.2847614653501857
+Both,cites_ns,Small − large,LLM fine-tuned on the draft's C1 sample,error,0.6994633067171159,0.2828356744336455
+Both,cites_ns,Small − large,LLM fine-tuned on grant,error,0.4180938815582391,0.285492730299447
+Both,cites_ns,Small − large,Train on grant,error,0.4404429455695171,0.2854413534586623
+Both,cites_ns,Small − large,Train on citations (granted only),error,0.5379713873754925,0.2803963690203434
+Both,cites_ns,Small − large,"LLM, zero-shot",error,0.40893284929303697,0.28542778808915026
+Both,cites_ns,Small − large,"LLM fine-tuned on the draft's C1 sample, as given",error,0.6388879967730161,0.2835436903769716

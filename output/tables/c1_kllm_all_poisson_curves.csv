@@ -1,0 +1,2350 @@
+tc,sample,outcome,rule,pp,change
+all,test + imputation,cites,Algorithm (trained on citations),0.0,-0.0
+all,test + imputation,cites,Algorithm (trained on citations),0.5,-0.003669804590292852
+all,test + imputation,cites,Algorithm (trained on citations),1.0,-0.007339609180585704
+all,test + imputation,cites,Algorithm (trained on citations),1.5,-0.011009301884439993
+all,test + imputation,cites,Algorithm (trained on citations),2.0,-0.014661792714334397
+all,test + imputation,cites,Algorithm (trained on citations),2.5,-0.018313475466743057
+all,test + imputation,cites,Algorithm (trained on citations),3.0,-0.021997615582975555
+all,test + imputation,cites,Algorithm (trained on citations),3.5,-0.025768196220220013
+all,test + imputation,cites,Algorithm (trained on citations),4.0,-0.029584650913426814
+all,test + imputation,cites,Algorithm (trained on citations),4.5,-0.03317863673969719
+all,test + imputation,cites,Algorithm (trained on citations),5.0,-0.03709101493404357
+all,test + imputation,cites,Algorithm (trained on citations),5.5,-0.04115671901453895
+all,test + imputation,cites,Algorithm (trained on citations),6.0,-0.04513047625708769
+all,test + imputation,cites,Algorithm (trained on citations),6.5,-0.04904974429243858
+all,test + imputation,cites,Algorithm (trained on citations),7.0,-0.052851743188516806
+all,test + imputation,cites,Algorithm (trained on citations),7.5,-0.05665384565211416
+all,test + imputation,cites,Algorithm (trained on citations),8.0,-0.06052399219280748
+all,test + imputation,cites,Algorithm (trained on citations),8.5,-0.06437276960082376
+all,test + imputation,cites,Algorithm (trained on citations),9.0,-0.06836875908415502
+all,test + imputation,cites,Algorithm (trained on citations),9.5,-0.07224214108752507
+all,test + imputation,cites,Algorithm (trained on citations),10.0,-0.07618210784174165
+all,test + imputation,cites,Algorithm (trained on citations),10.5,-0.08023388802631357
+all,test + imputation,cites,Algorithm (trained on citations),11.0,-0.08421709000163982
+all,test + imputation,cites,Algorithm (trained on citations),11.5,-0.08822475225924589
+all,test + imputation,cites,Algorithm (trained on citations),12.0,-0.09228854515192869
+all,test + imputation,cites,Algorithm (trained on citations),12.5,-0.09636064833146446
+all,test + imputation,cites,Algorithm (trained on citations),13.0,-0.10030191424420819
+all,test + imputation,cites,Algorithm (trained on citations),13.5,-0.10439835660213409
+all,test + imputation,cites,Algorithm (trained on citations),14.0,-0.10846857858599404
+all,test + imputation,cites,Algorithm (trained on citations),14.5,-0.11240216946009646
+all,test + imputation,cites,Algorithm (trained on citations),15.0,-0.11641825977055331
+all,test + imputation,cites,Algorithm (trained on citations),15.5,-0.12030282501952017
+all,test + imputation,cites,Algorithm (trained on citations),16.0,-0.12418858366541603
+all,test + imputation,cites,Algorithm (trained on citations),16.5,-0.12806535205338834
+all,test + imputation,cites,Algorithm (trained on citations),17.0,-0.13227319428592846
+all,test + imputation,cites,Algorithm (trained on citations),17.5,-0.1367768983526288
+all,test + imputation,cites,Algorithm (trained on citations),18.0,-0.14133070876446932
+all,test + imputation,cites,Algorithm (trained on citations),18.5,-0.14609557339513785
+all,test + imputation,cites,Algorithm (trained on citations),19.0,-0.15070228099828475
+all,test + imputation,cites,Algorithm (trained on citations),19.5,-0.15560682176534252
+all,test + imputation,cites,Algorithm (trained on citations),20.0,-0.16054166719201937
+all,test + imputation,cites,Algorithm (trained on citations),20.5,-0.16461929617001433
+all,test + imputation,cites,Algorithm (trained on citations),21.0,-0.16882722121208057
+all,test + imputation,cites,Algorithm (trained on citations),21.5,-0.1730204028771287
+all,test + imputation,cites,Algorithm (trained on citations),22.0,-0.17730344460312147
+all,test + imputation,cites,Algorithm (trained on citations),22.5,-0.18128022186015408
+all,test + imputation,cites,Algorithm (trained on citations),23.0,-0.18561894304642687
+all,test + imputation,cites,Algorithm (trained on citations),23.5,-0.18982534290223801
+all,test + imputation,cites,Algorithm (trained on citations),24.0,-0.1943556327384634
+all,test + imputation,cites,Algorithm (trained on citations),24.5,-0.19894819423293206
+all,test + imputation,cites,Algorithm (trained on citations),25.0,-0.20386725982662457
+all,test + imputation,cites,Algorithm (trained on citations),25.5,-0.2084809316773608
+all,test + imputation,cites,Algorithm (trained on citations),26.0,-0.21361780888204987
+all,test + imputation,cites,Algorithm (trained on citations),26.5,-0.21824694797712535
+all,test + imputation,cites,Algorithm (trained on citations),27.0,-0.22315034568179376
+all,test + imputation,cites,Algorithm (trained on citations),27.5,-0.22787509627033933
+all,test + imputation,cites,Algorithm (trained on citations),28.0,-0.23240246893628272
+all,test + imputation,cites,Algorithm (trained on citations),28.5,-0.23708132606920318
+all,test + imputation,cites,Algorithm (trained on citations),29.0,-0.2418887393614491
+all,test + imputation,cites,Algorithm (trained on citations),29.5,-0.24661377214396651
+all,test + imputation,cites,Algorithm (trained on citations),30.0,-0.25152917067563707
+all,test + imputation,cites,Algorithm (trained on citations),30.5,-0.25643952786871793
+all,test + imputation,cites,Algorithm (trained on citations),31.0,-0.26205623990844357
+all,test + imputation,cites,Algorithm (trained on citations),31.5,-0.2678042423373501
+all,test + imputation,cites,Algorithm (trained on citations),32.0,-0.27390955721923155
+all,test + imputation,cites,Algorithm (trained on citations),32.5,-0.27979237085129033
+all,test + imputation,cites,Algorithm (trained on citations),33.0,-0.2854968376653123
+all,test + imputation,cites,Algorithm (trained on citations),33.5,-0.2893631925152992
+all,test + imputation,cites,Algorithm (trained on citations),34.0,-0.29495820526478345
+all,test + imputation,cites,Algorithm (trained on citations),34.5,-0.29995225456090646
+all,test + imputation,cites,Algorithm (trained on citations),35.0,-0.30543709636875743
+all,test + imputation,cites,Algorithm (trained on citations),35.5,-0.3111009342800793
+all,test + imputation,cites,Algorithm (trained on citations),36.0,-0.31719582615632774
+all,test + imputation,cites,Algorithm (trained on citations),36.5,-0.3232667541238317
+all,test + imputation,cites,Algorithm (trained on citations),37.0,-0.32936999803532846
+all,test + imputation,cites,Algorithm (trained on citations),37.5,-0.33536888712676427
+all,test + imputation,cites,Algorithm (trained on citations),38.0,-0.3410436723733926
+all,test + imputation,cites,Algorithm (trained on citations),38.5,-0.34665865617605307
+all,test + imputation,cites,Algorithm (trained on citations),39.0,-0.3525912663372656
+all,test + imputation,cites,Algorithm (trained on citations),39.5,-0.35852171549083267
+all,test + imputation,cites,Algorithm (trained on citations),40.0,-0.3644995348357859
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,0.0,-0.0
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,0.5,-0.004043619845539609
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,1.0,-0.008087239691079218
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,1.5,-0.012130523877303099
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,2.0,-0.016215722919430478
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,2.5,-0.020348730758660255
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,3.0,-0.024475799866657037
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,3.5,-0.028559550997541625
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,4.0,-0.03253876845199034
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,4.5,-0.03616875145435499
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,5.0,-0.039952603506245764
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,5.5,-0.04366544407881033
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,6.0,-0.0473188592425602
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,6.5,-0.05113604120487079
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,7.0,-0.05518409801382487
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,7.5,-0.05921696014322675
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,8.0,-0.0632958026412459
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,8.5,-0.06723104876847166
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,9.0,-0.07118572642550465
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,9.5,-0.07502539212061195
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,10.0,-0.07891261810363945
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,10.5,-0.08350080729486761
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,11.0,-0.08815431245961389
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,11.5,-0.09290940784708021
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,12.0,-0.09770128726472377
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,12.5,-0.10242760351399784
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,13.0,-0.10705635326218418
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,13.5,-0.11154398784775742
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,14.0,-0.11562823648518004
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,14.5,-0.11976452606842071
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,15.0,-0.12413509832659707
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,15.5,-0.12852605458276678
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,16.0,-0.1329712468183358
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,16.5,-0.13738655424769028
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,17.0,-0.14168983743433364
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,17.5,-0.14612136822900654
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,18.0,-0.15046974307539712
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,18.5,-0.15487990538790375
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,19.0,-0.15919085017400192
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,19.5,-0.16383142728241917
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,20.0,-0.1685633447515391
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,20.5,-0.17309736419070734
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,21.0,-0.17765895636993065
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,21.5,-0.18222543877118044
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,22.0,-0.18676760557944866
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,22.5,-0.19088847035553444
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,23.0,-0.19526183459649313
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,23.5,-0.1998596918804749
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,24.0,-0.20451111563900737
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,24.5,-0.20901542285064958
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,25.0,-0.2136850006364689
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,25.5,-0.21750004487638425
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,26.0,-0.22202614826265138
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,26.5,-0.22639726644183886
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,27.0,-0.2316183775441429
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,27.5,-0.2367108871032043
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,28.0,-0.2418273909720784
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,28.5,-0.2468149010339562
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,29.0,-0.2515492964216374
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,29.5,-0.2561148200576431
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,30.0,-0.26061858957067263
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,30.5,-0.2646753308050295
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,31.0,-0.26942188400138783
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,31.5,-0.2741646108042996
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,32.0,-0.27926022913576304
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,32.5,-0.2843681464471743
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,33.0,-0.289271278603271
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,33.5,-0.29238403975839844
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,34.0,-0.29736700090360035
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,34.5,-0.30177596858572575
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,35.0,-0.3066138152200867
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,35.5,-0.3117322800399643
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,36.0,-0.31733220065692225
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,36.5,-0.3226840728873261
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,37.0,-0.32810346115371636
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,37.5,-0.33349503579350925
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,38.0,-0.33864886157854873
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,38.5,-0.3436182202323867
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,39.0,-0.34903411680475
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,39.5,-0.3544481445040491
+all,test + imputation,cites,Algorithm trained on the most lenient quintile's grants,40.0,-0.3601409878727504
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),0.0,-0.0
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),0.5,-0.003416764973569931
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),1.0,-0.006833529947139862
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),1.5,-0.010258986543414462
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),2.0,-0.013669800616224007
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),2.5,-0.017069214489195197
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),3.0,-0.02057950917172927
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),3.5,-0.024081416667245184
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),4.0,-0.027515611546120197
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),4.5,-0.03096650167406171
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),5.0,-0.034376998163275024
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),5.5,-0.03770971587738572
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),6.0,-0.04108915451450406
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),6.5,-0.04465692618611563
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),7.0,-0.04849368497107149
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),7.5,-0.05230803337632931
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),8.0,-0.056042044634751216
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),8.5,-0.059431440927722366
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),9.0,-0.06291624231703298
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),9.5,-0.06646140693149187
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),10.0,-0.07018907924340177
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),10.5,-0.07424048892213031
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),11.0,-0.0784268359093112
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),11.5,-0.08263110094950889
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),12.0,-0.08665804844582083
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),12.5,-0.09059253602167187
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),13.0,-0.09433843701723325
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),13.5,-0.09814847743929433
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),14.0,-0.10208897331667344
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),14.5,-0.10613540736755478
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),15.0,-0.110553359724591
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),15.5,-0.11480061840117832
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),16.0,-0.11912950596101644
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),16.5,-0.12329673667903703
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),17.0,-0.1278626459222427
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),17.5,-0.1326581133187268
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),18.0,-0.13743588842378715
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),18.5,-0.14229975115648544
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),19.0,-0.14689804269090317
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),19.5,-0.15169378845393774
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),20.0,-0.1564418689940793
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),20.5,-0.1606734899322376
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),21.0,-0.16505195450113735
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),21.5,-0.16964186557464328
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),22.0,-0.17430870978616636
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),22.5,-0.17861886614560252
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),23.0,-0.1833157621872931
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),23.5,-0.1882924747978123
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),24.0,-0.19338170594399107
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),24.5,-0.1982183719951154
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),25.0,-0.20320013143792762
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),25.5,-0.20769590763801085
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),26.0,-0.21293750893690302
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),26.5,-0.21789127662143365
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),27.0,-0.22322826094529835
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),27.5,-0.2286408879278849
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),28.0,-0.2339383935075731
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),28.5,-0.239503813362418
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),29.0,-0.2455126113435428
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),29.5,-0.2515044643389229
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),30.0,-0.2580582196124204
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),30.5,-0.26393138520579856
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),31.0,-0.2700823970442056
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),31.5,-0.2755903535479198
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),32.0,-0.28089445603512236
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),32.5,-0.28610606362587376
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),33.0,-0.2913414772734602
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),33.5,-0.294783077682872
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),34.0,-0.2999305394754429
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),34.5,-0.30452221053761797
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),35.0,-0.30967359311457965
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),35.5,-0.3147089004976304
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),36.0,-0.3199808803496216
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),36.5,-0.3252140296667027
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),37.0,-0.33080662820827483
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),37.5,-0.33604547478741864
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),38.0,-0.34116870344599814
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),38.5,-0.34623726633389246
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),39.0,-0.35124435758940215
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),39.5,-0.356137897405341
+all,test + imputation,cites,Algorithm trained on prior-art citations (all applications),40.0,-0.36125185741132826
+all,test + imputation,cites,Predicted examiner (trained on grants),0.0,-0.0
+all,test + imputation,cites,Predicted examiner (trained on grants),0.5,-0.004822539487379791
+all,test + imputation,cites,Predicted examiner (trained on grants),1.0,-0.009645078974759582
+all,test + imputation,cites,Predicted examiner (trained on grants),1.5,-0.014462128222363644
+all,test + imputation,cites,Predicted examiner (trained on grants),2.0,-0.019268296981202904
+all,test + imputation,cites,Predicted examiner (trained on grants),2.5,-0.024038821088085444
+all,test + imputation,cites,Predicted examiner (trained on grants),3.0,-0.028858993881795126
+all,test + imputation,cites,Predicted examiner (trained on grants),3.5,-0.03381608233210544
+all,test + imputation,cites,Predicted examiner (trained on grants),4.0,-0.038698440477894176
+all,test + imputation,cites,Predicted examiner (trained on grants),4.5,-0.04356370078630702
+all,test + imputation,cites,Predicted examiner (trained on grants),5.0,-0.0485583369459852
+all,test + imputation,cites,Predicted examiner (trained on grants),5.5,-0.0535279832078533
+all,test + imputation,cites,Predicted examiner (trained on grants),6.0,-0.05903643987007414
+all,test + imputation,cites,Predicted examiner (trained on grants),6.5,-0.06484708001408789
+all,test + imputation,cites,Predicted examiner (trained on grants),7.0,-0.07046654776566875
+all,test + imputation,cites,Predicted examiner (trained on grants),7.5,-0.07614010645414748
+all,test + imputation,cites,Predicted examiner (trained on grants),8.0,-0.0814825480994289
+all,test + imputation,cites,Predicted examiner (trained on grants),8.5,-0.0869239834688771
+all,test + imputation,cites,Predicted examiner (trained on grants),9.0,-0.09256686650031187
+all,test + imputation,cites,Predicted examiner (trained on grants),9.5,-0.09804820213005809
+all,test + imputation,cites,Predicted examiner (trained on grants),10.0,-0.10363021455972873
+all,test + imputation,cites,Predicted examiner (trained on grants),10.5,-0.10937291404044004
+all,test + imputation,cites,Predicted examiner (trained on grants),11.0,-0.11504653550230107
+all,test + imputation,cites,Predicted examiner (trained on grants),11.5,-0.12084169971909449
+all,test + imputation,cites,Predicted examiner (trained on grants),12.0,-0.12641440964404468
+all,test + imputation,cites,Predicted examiner (trained on grants),12.5,-0.13192696775704552
+all,test + imputation,cites,Predicted examiner (trained on grants),13.0,-0.1371944414033924
+all,test + imputation,cites,Predicted examiner (trained on grants),13.5,-0.14284076592932873
+all,test + imputation,cites,Predicted examiner (trained on grants),14.0,-0.14895874889555805
+all,test + imputation,cites,Predicted examiner (trained on grants),14.5,-0.1550602285247554
+all,test + imputation,cites,Predicted examiner (trained on grants),15.0,-0.16112155680069745
+all,test + imputation,cites,Predicted examiner (trained on grants),15.5,-0.1669563804397723
+all,test + imputation,cites,Predicted examiner (trained on grants),16.0,-0.17278547155993648
+all,test + imputation,cites,Predicted examiner (trained on grants),16.5,-0.17873733000680012
+all,test + imputation,cites,Predicted examiner (trained on grants),17.0,-0.18418489083550788
+all,test + imputation,cites,Predicted examiner (trained on grants),17.5,-0.18940430409034553
+all,test + imputation,cites,Predicted examiner (trained on grants),18.0,-0.1949112654936518
+all,test + imputation,cites,Predicted examiner (trained on grants),18.5,-0.20111236159661755
+all,test + imputation,cites,Predicted examiner (trained on grants),19.0,-0.20713271593166255
+all,test + imputation,cites,Predicted examiner (trained on grants),19.5,-0.2134133566840908
+all,test + imputation,cites,Predicted examiner (trained on grants),20.0,-0.21975934116780857
+all,test + imputation,cites,Predicted examiner (trained on grants),20.5,-0.2259155167840861
+all,test + imputation,cites,Predicted examiner (trained on grants),21.0,-0.23224625347604821
+all,test + imputation,cites,Predicted examiner (trained on grants),21.5,-0.23848806714174567
+all,test + imputation,cites,Predicted examiner (trained on grants),22.0,-0.24437398973876492
+all,test + imputation,cites,Predicted examiner (trained on grants),22.5,-0.2499983930681325
+all,test + imputation,cites,Predicted examiner (trained on grants),23.0,-0.25585145798050346
+all,test + imputation,cites,Predicted examiner (trained on grants),23.5,-0.26172231512628474
+all,test + imputation,cites,Predicted examiner (trained on grants),24.0,-0.2673663449060517
+all,test + imputation,cites,Predicted examiner (trained on grants),24.5,-0.2728537424422648
+all,test + imputation,cites,Predicted examiner (trained on grants),25.0,-0.2784301910202119
+all,test + imputation,cites,Predicted examiner (trained on grants),25.5,-0.28330694060756667
+all,test + imputation,cites,Predicted examiner (trained on grants),26.0,-0.2889010697310451
+all,test + imputation,cites,Predicted examiner (trained on grants),26.5,-0.2941356431545843
+all,test + imputation,cites,Predicted examiner (trained on grants),27.0,-0.2997534206614075
+all,test + imputation,cites,Predicted examiner (trained on grants),27.5,-0.3055020406371596
+all,test + imputation,cites,Predicted examiner (trained on grants),28.0,-0.31112175740332226
+all,test + imputation,cites,Predicted examiner (trained on grants),28.5,-0.31680256473832163
+all,test + imputation,cites,Predicted examiner (trained on grants),29.0,-0.32275775562995096
+all,test + imputation,cites,Predicted examiner (trained on grants),29.5,-0.3284625653603202
+all,test + imputation,cites,Predicted examiner (trained on grants),30.0,-0.3345168123554021
+all,test + imputation,cites,Predicted examiner (trained on grants),30.5,-0.33998774928880626
+all,test + imputation,cites,Predicted examiner (trained on grants),31.0,-0.3459130094186146
+all,test + imputation,cites,Predicted examiner (trained on grants),31.5,-0.3519344264843678
+all,test + imputation,cites,Predicted examiner (trained on grants),32.0,-0.3585954768103478
+all,test + imputation,cites,Predicted examiner (trained on grants),32.5,-0.3651972479862752
+all,test + imputation,cites,Predicted examiner (trained on grants),33.0,-0.37179333354270677
+all,test + imputation,cites,Predicted examiner (trained on grants),33.5,-0.37705859983847084
+all,test + imputation,cites,Predicted examiner (trained on grants),34.0,-0.3843612877132509
+all,test + imputation,cites,Predicted examiner (trained on grants),34.5,-0.39107036081132734
+all,test + imputation,cites,Predicted examiner (trained on grants),35.0,-0.39803774115175905
+all,test + imputation,cites,Predicted examiner (trained on grants),35.5,-0.40452133489376363
+all,test + imputation,cites,Predicted examiner (trained on grants),36.0,-0.4108753976191746
+all,test + imputation,cites,Predicted examiner (trained on grants),36.5,-0.417264418068281
+all,test + imputation,cites,Predicted examiner (trained on grants),37.0,-0.42375024370342274
+all,test + imputation,cites,Predicted examiner (trained on grants),37.5,-0.43033744496586057
+all,test + imputation,cites,Predicted examiner (trained on grants),38.0,-0.43684566249598433
+all,test + imputation,cites,Predicted examiner (trained on grants),38.5,-0.443272620569261
+all,test + imputation,cites,Predicted examiner (trained on grants),39.0,-0.44941003069794483
+all,test + imputation,cites,Predicted examiner (trained on grants),39.5,-0.4557319094454314
+all,test + imputation,cites,Predicted examiner (trained on grants),40.0,-0.4622423574553866
+all,test + imputation,cites,Random,0.0,-0.0
+all,test + imputation,cites,Random,0.5,-0.006189032178917465
+all,test + imputation,cites,Random,1.0,-0.01237806435783493
+all,test + imputation,cites,Random,1.5,-0.01856709653675235
+all,test + imputation,cites,Random,2.0,-0.02475612871566986
+all,test + imputation,cites,Random,2.5,-0.030945160894587275
+all,test + imputation,cites,Random,3.0,-0.0371341930735047
+all,test + imputation,cites,Random,3.5,-0.043323225252422215
+all,test + imputation,cites,Random,4.0,-0.04951225743133972
+all,test + imputation,cites,Random,4.5,-0.0557012896102573
+all,test + imputation,cites,Random,5.0,-0.06189032178917455
+all,test + imputation,cites,Random,5.5,-0.068079353968092
+all,test + imputation,cites,Random,6.0,-0.07426143974368866
+all,test + imputation,cites,Random,6.5,-0.080449893055663
+all,test + imputation,cites,Random,7.0,-0.08663834636763693
+all,test + imputation,cites,Random,7.5,-0.0928267996796111
+all,test + imputation,cites,Random,8.0,-0.09901525299158515
+all,test + imputation,cites,Random,8.5,-0.10511297788321357
+all,test + imputation,cites,Random,9.0,-0.11128046705917022
+all,test + imputation,cites,Random,9.5,-0.11740644792123096
+all,test + imputation,cites,Random,10.0,-0.12358573465392726
+all,test + imputation,cites,Random,10.5,-0.12972319396282816
+all,test + imputation,cites,Random,11.0,-0.13590048891343903
+all,test + imputation,cites,Random,11.5,-0.14207778386405004
+all,test + imputation,cites,Random,12.0,-0.14825507881466066
+all,test + imputation,cites,Random,12.5,-0.15443237376527177
+all,test + imputation,cites,Random,13.0,-0.1604899990744542
+all,test + imputation,cites,Random,13.5,-0.16662566472316534
+all,test + imputation,cites,Random,14.0,-0.17278207670489504
+all,test + imputation,cites,Random,14.5,-0.17882820557320553
+all,test + imputation,cites,Random,15.0,-0.18499469542055727
+all,test + imputation,cites,Random,15.5,-0.19113436443694978
+all,test + imputation,cites,Random,16.0,-0.19729998909620622
+all,test + imputation,cites,Random,16.5,-0.20346561375546274
+all,test + imputation,cites,Random,17.0,-0.20958983427766964
+all,test + imputation,cites,Random,17.5,-0.2157542411681891
+all,test + imputation,cites,Random,18.0,-0.2218363452014524
+all,test + imputation,cites,Random,18.5,-0.22799303800884105
+all,test + imputation,cites,Random,19.0,-0.2339351715124895
+all,test + imputation,cites,Random,19.5,-0.24009136023650215
+all,test + imputation,cites,Random,20.0,-0.24624754896051504
+all,test + imputation,cites,Random,20.5,-0.2523320176453079
+all,test + imputation,cites,Random,21.0,-0.258486457100072
+all,test + imputation,cites,Random,21.5,-0.2646408965548356
+all,test + imputation,cites,Random,22.0,-0.2707953360095995
+all,test + imputation,cites,Random,22.5,-0.2766591124337809
+all,test + imputation,cites,Random,23.0,-0.28279407506631077
+all,test + imputation,cites,Random,23.5,-0.28893213153406067
+all,test + imputation,cites,Random,24.0,-0.2950796236943592
+all,test + imputation,cites,Random,24.5,-0.3011036263473456
+all,test + imputation,cites,Random,25.0,-0.30724859831361734
+all,test + imputation,cites,Random,25.5,-0.31272709001926147
+all,test + imputation,cites,Random,26.0,-0.3188589937451303
+all,test + imputation,cites,Random,26.5,-0.32466432832926023
+all,test + imputation,cites,Random,27.0,-0.3307503081066176
+all,test + imputation,cites,Random,27.5,-0.3367871262720534
+all,test + imputation,cites,Random,28.0,-0.34262992472197806
+all,test + imputation,cites,Random,28.5,-0.34850219135728344
+all,test + imputation,cites,Random,29.0,-0.3545921760058754
+all,test + imputation,cites,Random,29.5,-0.3605546971950676
+all,test + imputation,cites,Random,30.0,-0.3666657937576964
+all,test + imputation,cites,Random,30.5,-0.3723532703978716
+all,test + imputation,cites,Random,31.0,-0.37839876347337426
+all,test + imputation,cites,Random,31.5,-0.3842705032080704
+all,test + imputation,cites,Random,32.0,-0.3903700350050248
+all,test + imputation,cites,Random,32.5,-0.39641078454475764
+all,test + imputation,cites,Random,33.0,-0.4025094119992927
+all,test + imputation,cites,Random,33.5,-0.40711589284497507
+all,test + imputation,cites,Random,34.0,-0.41319224945460203
+all,test + imputation,cites,Random,34.5,-0.4187987603188794
+all,test + imputation,cites,Random,35.0,-0.42486830756987726
+all,test + imputation,cites,Random,35.5,-0.4307689253301616
+all,test + imputation,cites,Random,36.0,-0.43678622017151203
+all,test + imputation,cites,Random,36.5,-0.4426759919662498
+all,test + imputation,cites,Random,37.0,-0.4487400466507203
+all,test + imputation,cites,Random,37.5,-0.4548041013351893
+all,test + imputation,cites,Random,38.0,-0.4606894488492164
+all,test + imputation,cites,Random,38.5,-0.46652970217293693
+all,test + imputation,cites,Random,39.0,-0.4724842221117706
+all,test + imputation,cites,Random,39.5,-0.47842534028142897
+all,test + imputation,cites,Random,40.0,-0.4844813572470159
+all,test + imputation,cites,"Algorithm, examiners' female share",0.0,-0.0
+all,test + imputation,cites,"Algorithm, examiners' female share",0.5,-0.0036318718288025167
+all,test + imputation,cites,"Algorithm, examiners' female share",1.0,-0.007263743657605033
+all,test + imputation,cites,"Algorithm, examiners' female share",1.5,-0.010898575046582737
+all,test + imputation,cites,"Algorithm, examiners' female share",2.0,-0.0145238140999522
+all,test + imputation,cites,"Algorithm, examiners' female share",2.5,-0.018175339704572847
+all,test + imputation,cites,"Algorithm, examiners' female share",3.0,-0.021824049814029713
+all,test + imputation,cites,"Algorithm, examiners' female share",3.5,-0.02565768132533312
+all,test + imputation,cites,"Algorithm, examiners' female share",4.0,-0.02948000091857871
+all,test + imputation,cites,"Algorithm, examiners' female share",4.5,-0.03320397554845183
+all,test + imputation,cites,"Algorithm, examiners' female share",5.0,-0.036648028156679786
+all,test + imputation,cites,"Algorithm, examiners' female share",5.5,-0.040485295834591185
+all,test + imputation,cites,"Algorithm, examiners' female share",6.0,-0.044368926771776555
+all,test + imputation,cites,"Algorithm, examiners' female share",6.5,-0.04820910972347401
+all,test + imputation,cites,"Algorithm, examiners' female share",7.0,-0.052010791216563206
+all,test + imputation,cites,"Algorithm, examiners' female share",7.5,-0.05579159356683862
+all,test + imputation,cites,"Algorithm, examiners' female share",8.0,-0.0594672850363353
+all,test + imputation,cites,"Algorithm, examiners' female share",8.5,-0.06326660786337687
+all,test + imputation,cites,"Algorithm, examiners' female share",9.0,-0.06714338240828692
+all,test + imputation,cites,"Algorithm, examiners' female share",9.5,-0.0711420727562692
+all,test + imputation,cites,"Algorithm, examiners' female share",10.0,-0.0751744607058709
+all,test + imputation,cites,"Algorithm, examiners' female share",10.5,-0.07903566403257603
+all,test + imputation,cites,"Algorithm, examiners' female share",11.0,-0.08281064469925216
+all,test + imputation,cites,"Algorithm, examiners' female share",11.5,-0.08663219667239759
+all,test + imputation,cites,"Algorithm, examiners' female share",12.0,-0.0903693054760443
+all,test + imputation,cites,"Algorithm, examiners' female share",12.5,-0.09405488572921912
+all,test + imputation,cites,"Algorithm, examiners' female share",13.0,-0.09786760726392134
+all,test + imputation,cites,"Algorithm, examiners' female share",13.5,-0.10165225335693037
+all,test + imputation,cites,"Algorithm, examiners' female share",14.0,-0.10527271800723068
+all,test + imputation,cites,"Algorithm, examiners' female share",14.5,-0.10905295086698794
+all,test + imputation,cites,"Algorithm, examiners' female share",15.0,-0.11282444083198519
+all,test + imputation,cites,"Algorithm, examiners' female share",15.5,-0.11629529394485912
+all,test + imputation,cites,"Algorithm, examiners' female share",16.0,-0.11994084708368573
+all,test + imputation,cites,"Algorithm, examiners' female share",16.5,-0.12360147860180463
+all,test + imputation,cites,"Algorithm, examiners' female share",17.0,-0.12711753813926135
+all,test + imputation,cites,"Algorithm, examiners' female share",17.5,-0.13083229639743266
+all,test + imputation,cites,"Algorithm, examiners' female share",18.0,-0.13481113392597074
+all,test + imputation,cites,"Algorithm, examiners' female share",18.5,-0.13858267205641547
+all,test + imputation,cites,"Algorithm, examiners' female share",19.0,-0.14242295670458868
+all,test + imputation,cites,"Algorithm, examiners' female share",19.5,-0.14633881977400803
+all,test + imputation,cites,"Algorithm, examiners' female share",20.0,-0.15043196874926873
+all,test + imputation,cites,"Algorithm, examiners' female share",20.5,-0.15507335343444498
+all,test + imputation,cites,"Algorithm, examiners' female share",21.0,-0.15941053971903824
+all,test + imputation,cites,"Algorithm, examiners' female share",21.5,-0.16377405601402745
+all,test + imputation,cites,"Algorithm, examiners' female share",22.0,-0.1682577329912509
+all,test + imputation,cites,"Algorithm, examiners' female share",22.5,-0.1719960999635885
+all,test + imputation,cites,"Algorithm, examiners' female share",23.0,-0.17606962159728612
+all,test + imputation,cites,"Algorithm, examiners' female share",23.5,-0.1802253322604061
+all,test + imputation,cites,"Algorithm, examiners' female share",24.0,-0.18440235244590705
+all,test + imputation,cites,"Algorithm, examiners' female share",24.5,-0.18827696722901865
+all,test + imputation,cites,"Algorithm, examiners' female share",25.0,-0.19224488890793262
+all,test + imputation,cites,"Algorithm, examiners' female share",25.5,-0.19695137897769
+all,test + imputation,cites,"Algorithm, examiners' female share",26.0,-0.20101692485922512
+all,test + imputation,cites,"Algorithm, examiners' female share",26.5,-0.20524845231205158
+all,test + imputation,cites,"Algorithm, examiners' female share",27.0,-0.2092605546222138
+all,test + imputation,cites,"Algorithm, examiners' female share",27.5,-0.21359938758516334
+all,test + imputation,cites,"Algorithm, examiners' female share",28.0,-0.21780356368666529
+all,test + imputation,cites,"Algorithm, examiners' female share",28.5,-0.22266970254052684
+all,test + imputation,cites,"Algorithm, examiners' female share",29.0,-0.22750940238144027
+all,test + imputation,cites,"Algorithm, examiners' female share",29.5,-0.23386530634283362
+all,test + imputation,cites,"Algorithm, examiners' female share",30.0,-0.23911010420708342
+all,test + imputation,cites,"Algorithm, examiners' female share",30.5,-0.24480482684788524
+all,test + imputation,cites,"Algorithm, examiners' female share",31.0,-0.2500953648810393
+all,test + imputation,cites,"Algorithm, examiners' female share",31.5,-0.2549983791796023
+all,test + imputation,cites,"Algorithm, examiners' female share",32.0,-0.26080232499067457
+all,test + imputation,cites,"Algorithm, examiners' female share",32.5,-0.2664679128215509
+all,test + imputation,cites,"Algorithm, examiners' female share",33.0,-0.2726436495743097
+all,test + imputation,cites,"Algorithm, examiners' female share",33.5,-0.27752190275984867
+all,test + imputation,cites,"Algorithm, examiners' female share",34.0,-0.2841617537344314
+all,test + imputation,cites,"Algorithm, examiners' female share",34.5,-0.2903664153733544
+all,test + imputation,cites,"Algorithm, examiners' female share",35.0,-0.2968816199402245
+all,test + imputation,cites,"Algorithm, examiners' female share",35.5,-0.30246079287551875
+all,test + imputation,cites,"Algorithm, examiners' female share",36.0,-0.30850188241264964
+all,test + imputation,cites,"Algorithm, examiners' female share",36.5,-0.31327924174431215
+all,test + imputation,cites,"Algorithm, examiners' female share",37.0,-0.3173514749471311
+all,test + imputation,cites,"Algorithm, examiners' female share",37.5,-0.3228970231072984
+all,test + imputation,cites,"Algorithm, examiners' female share",38.0,-0.32871552606196364
+all,test + imputation,cites,"Algorithm, examiners' female share",38.5,-0.3329667904892193
+all,test + imputation,cites,"Algorithm, examiners' female share",39.0,-0.3386173985732158
+all,test + imputation,cites,"Algorithm, examiners' female share",39.5,-0.34405837966103087
+all,test + imputation,cites,"Algorithm, examiners' female share",40.0,-0.3497746993455073
+all,test + imputation,cites,"Algorithm, equal rates for women and men",0.0,-0.0
+all,test + imputation,cites,"Algorithm, equal rates for women and men",0.5,-0.003751508828904695
+all,test + imputation,cites,"Algorithm, equal rates for women and men",1.0,-0.00750301765780939
+all,test + imputation,cites,"Algorithm, equal rates for women and men",1.5,-0.011256521996465863
+all,test + imputation,cites,"Algorithm, equal rates for women and men",2.0,-0.014998936075876318
+all,test + imputation,cites,"Algorithm, equal rates for women and men",2.5,-0.01876546038340261
+all,test + imputation,cites,"Algorithm, equal rates for women and men",3.0,-0.022562199154603967
+all,test + imputation,cites,"Algorithm, equal rates for women and men",3.5,-0.026479094721050978
+all,test + imputation,cites,"Algorithm, equal rates for women and men",4.0,-0.03045336361441309
+all,test + imputation,cites,"Algorithm, equal rates for women and men",4.5,-0.034280852606405655
+all,test + imputation,cites,"Algorithm, equal rates for women and men",5.0,-0.03809287434465707
+all,test + imputation,cites,"Algorithm, equal rates for women and men",5.5,-0.0420339438289407
+all,test + imputation,cites,"Algorithm, equal rates for women and men",6.0,-0.04601843720111009
+all,test + imputation,cites,"Algorithm, equal rates for women and men",6.5,-0.04998766444202279
+all,test + imputation,cites,"Algorithm, equal rates for women and men",7.0,-0.053964925549319254
+all,test + imputation,cites,"Algorithm, equal rates for women and men",7.5,-0.057923511831087196
+all,test + imputation,cites,"Algorithm, equal rates for women and men",8.0,-0.06186514546735792
+all,test + imputation,cites,"Algorithm, equal rates for women and men",8.5,-0.0657537285564855
+all,test + imputation,cites,"Algorithm, equal rates for women and men",9.0,-0.06979017661148784
+all,test + imputation,cites,"Algorithm, equal rates for women and men",9.5,-0.0738091897681977
+all,test + imputation,cites,"Algorithm, equal rates for women and men",10.0,-0.07777706219331276
+all,test + imputation,cites,"Algorithm, equal rates for women and men",10.5,-0.08171681525011583
+all,test + imputation,cites,"Algorithm, equal rates for women and men",11.0,-0.08568904475305318
+all,test + imputation,cites,"Algorithm, equal rates for women and men",11.5,-0.08956501346900725
+all,test + imputation,cites,"Algorithm, equal rates for women and men",12.0,-0.09347581319655654
+all,test + imputation,cites,"Algorithm, equal rates for women and men",12.5,-0.09731529701413874
+all,test + imputation,cites,"Algorithm, equal rates for women and men",13.0,-0.10107183512514013
+all,test + imputation,cites,"Algorithm, equal rates for women and men",13.5,-0.10497431239649309
+all,test + imputation,cites,"Algorithm, equal rates for women and men",14.0,-0.10891009892688303
+all,test + imputation,cites,"Algorithm, equal rates for women and men",14.5,-0.11258340693515353
+all,test + imputation,cites,"Algorithm, equal rates for women and men",15.0,-0.11634349420918738
+all,test + imputation,cites,"Algorithm, equal rates for women and men",15.5,-0.12008034774945847
+all,test + imputation,cites,"Algorithm, equal rates for women and men",16.0,-0.1238545576768679
+all,test + imputation,cites,"Algorithm, equal rates for women and men",16.5,-0.12762878506851863
+all,test + imputation,cites,"Algorithm, equal rates for women and men",17.0,-0.13179819182135763
+all,test + imputation,cites,"Algorithm, equal rates for women and men",17.5,-0.13630399412062835
+all,test + imputation,cites,"Algorithm, equal rates for women and men",18.0,-0.14078666306171422
+all,test + imputation,cites,"Algorithm, equal rates for women and men",18.5,-0.14552413798844543
+all,test + imputation,cites,"Algorithm, equal rates for women and men",19.0,-0.15015656541836395
+all,test + imputation,cites,"Algorithm, equal rates for women and men",19.5,-0.1550300174439183
+all,test + imputation,cites,"Algorithm, equal rates for women and men",20.0,-0.15986728549610252
+all,test + imputation,cites,"Algorithm, equal rates for women and men",20.5,-0.1641188988013636
+all,test + imputation,cites,"Algorithm, equal rates for women and men",21.0,-0.16852096099824562
+all,test + imputation,cites,"Algorithm, equal rates for women and men",21.5,-0.1729412332385237
+all,test + imputation,cites,"Algorithm, equal rates for women and men",22.0,-0.17755179773067092
+all,test + imputation,cites,"Algorithm, equal rates for women and men",22.5,-0.18196239808417633
+all,test + imputation,cites,"Algorithm, equal rates for women and men",23.0,-0.18659320093953938
+all,test + imputation,cites,"Algorithm, equal rates for women and men",23.5,-0.1912204113742304
+all,test + imputation,cites,"Algorithm, equal rates for women and men",24.0,-0.19598951012334578
+all,test + imputation,cites,"Algorithm, equal rates for women and men",24.5,-0.20076085119454307
+all,test + imputation,cites,"Algorithm, equal rates for women and men",25.0,-0.20592626820851515
+all,test + imputation,cites,"Algorithm, equal rates for women and men",25.5,-0.21056307958113266
+all,test + imputation,cites,"Algorithm, equal rates for women and men",26.0,-0.21593663085021023
+all,test + imputation,cites,"Algorithm, equal rates for women and men",26.5,-0.22097859128681024
+all,test + imputation,cites,"Algorithm, equal rates for women and men",27.0,-0.2260039790897216
+all,test + imputation,cites,"Algorithm, equal rates for women and men",27.5,-0.23088323753765289
+all,test + imputation,cites,"Algorithm, equal rates for women and men",28.0,-0.23550104128949995
+all,test + imputation,cites,"Algorithm, equal rates for women and men",28.5,-0.2401489741911685
+all,test + imputation,cites,"Algorithm, equal rates for women and men",29.0,-0.24508528510642233
+all,test + imputation,cites,"Algorithm, equal rates for women and men",29.5,-0.2500289039456329
+all,test + imputation,cites,"Algorithm, equal rates for women and men",30.0,-0.2550440677110467
+all,test + imputation,cites,"Algorithm, equal rates for women and men",30.5,-0.2598438903517296
+all,test + imputation,cites,"Algorithm, equal rates for women and men",31.0,-0.26519280883932855
+all,test + imputation,cites,"Algorithm, equal rates for women and men",31.5,-0.27059373734231185
+all,test + imputation,cites,"Algorithm, equal rates for women and men",32.0,-0.27623276367316113
+all,test + imputation,cites,"Algorithm, equal rates for women and men",32.5,-0.28199306615735525
+all,test + imputation,cites,"Algorithm, equal rates for women and men",33.0,-0.2879249232141656
+all,test + imputation,cites,"Algorithm, equal rates for women and men",33.5,-0.2921205915826081
+all,test + imputation,cites,"Algorithm, equal rates for women and men",34.0,-0.2981287038394551
+all,test + imputation,cites,"Algorithm, equal rates for women and men",34.5,-0.3036544248935607
+all,test + imputation,cites,"Algorithm, equal rates for women and men",35.0,-0.3098464969751492
+all,test + imputation,cites,"Algorithm, equal rates for women and men",35.5,-0.3161470769502976
+all,test + imputation,cites,"Algorithm, equal rates for women and men",36.0,-0.32244477049639825
+all,test + imputation,cites,"Algorithm, equal rates for women and men",36.5,-0.32817255736843026
+all,test + imputation,cites,"Algorithm, equal rates for women and men",37.0,-0.33381040884868607
+all,test + imputation,cites,"Algorithm, equal rates for women and men",37.5,-0.3394175123686377
+all,test + imputation,cites,"Algorithm, equal rates for women and men",38.0,-0.34478772501909205
+all,test + imputation,cites,"Algorithm, equal rates for women and men",38.5,-0.35019252699606107
+all,test + imputation,cites,"Algorithm, equal rates for women and men",39.0,-0.35580557189224804
+all,test + imputation,cites,"Algorithm, equal rates for women and men",39.5,-0.361546258014175
+all,test + imputation,cites,"Algorithm, equal rates for women and men",40.0,-0.3674711138588337
+all,test + imputation,uncited,Algorithm (trained on no citations),0.0,-0.0
+all,test + imputation,uncited,Algorithm (trained on no citations),0.5,-0.00740406467447763
+all,test + imputation,uncited,Algorithm (trained on no citations),1.0,-0.01480812934895526
+all,test + imputation,uncited,Algorithm (trained on no citations),1.5,-0.022207340958215957
+all,test + imputation,uncited,Algorithm (trained on no citations),2.0,-0.029593878682116055
+all,test + imputation,uncited,Algorithm (trained on no citations),2.5,-0.03709470173955441
+all,test + imputation,uncited,Algorithm (trained on no citations),3.0,-0.04455625856676526
+all,test + imputation,uncited,Algorithm (trained on no citations),3.5,-0.05192978242462495
+all,test + imputation,uncited,Algorithm (trained on no citations),4.0,-0.05925728320923022
+all,test + imputation,uncited,Algorithm (trained on no citations),4.5,-0.06652140534399614
+all,test + imputation,uncited,Algorithm (trained on no citations),5.0,-0.07384295761651313
+all,test + imputation,uncited,Algorithm (trained on no citations),5.5,-0.08121880314777286
+all,test + imputation,uncited,Algorithm (trained on no citations),6.0,-0.08850678011297006
+all,test + imputation,uncited,Algorithm (trained on no citations),6.5,-0.09580281701482751
+all,test + imputation,uncited,Algorithm (trained on no citations),7.0,-0.10304121693440674
+all,test + imputation,uncited,Algorithm (trained on no citations),7.5,-0.1100386673079216
+all,test + imputation,uncited,Algorithm (trained on no citations),8.0,-0.11711147736229155
+all,test + imputation,uncited,Algorithm (trained on no citations),8.5,-0.12412103935768654
+all,test + imputation,uncited,Algorithm (trained on no citations),9.0,-0.13116261892099784
+all,test + imputation,uncited,Algorithm (trained on no citations),9.5,-0.13813462887194677
+all,test + imputation,uncited,Algorithm (trained on no citations),10.0,-0.145185416666332
+all,test + imputation,uncited,Algorithm (trained on no citations),10.5,-0.15215178927528072
+all,test + imputation,uncited,Algorithm (trained on no citations),11.0,-0.15914254862306862
+all,test + imputation,uncited,Algorithm (trained on no citations),11.5,-0.1661573030871133
+all,test + imputation,uncited,Algorithm (trained on no citations),12.0,-0.17318562084939257
+all,test + imputation,uncited,Algorithm (trained on no citations),12.5,-0.18031147531286712
+all,test + imputation,uncited,Algorithm (trained on no citations),13.0,-0.18728014469316376
+all,test + imputation,uncited,Algorithm (trained on no citations),13.5,-0.19419503663417315
+all,test + imputation,uncited,Algorithm (trained on no citations),14.0,-0.20112454011119174
+all,test + imputation,uncited,Algorithm (trained on no citations),14.5,-0.20792593868914178
+all,test + imputation,uncited,Algorithm (trained on no citations),15.0,-0.2148581022256016
+all,test + imputation,uncited,Algorithm (trained on no citations),15.5,-0.22181058502410425
+all,test + imputation,uncited,Algorithm (trained on no citations),16.0,-0.22880518319085275
+all,test + imputation,uncited,Algorithm (trained on no citations),16.5,-0.23571088662274448
+all,test + imputation,uncited,Algorithm (trained on no citations),17.0,-0.24257937520047684
+all,test + imputation,uncited,Algorithm (trained on no citations),17.5,-0.24945948837241483
+all,test + imputation,uncited,Algorithm (trained on no citations),18.0,-0.2561696171017935
+all,test + imputation,uncited,Algorithm (trained on no citations),18.5,-0.2629103443289434
+all,test + imputation,uncited,Algorithm (trained on no citations),19.0,-0.2695625326918595
+all,test + imputation,uncited,Algorithm (trained on no citations),19.5,-0.2764506713371991
+all,test + imputation,uncited,Algorithm (trained on no citations),20.0,-0.2833904820368029
+all,test + imputation,uncited,Algorithm (trained on no citations),20.5,-0.29022234591010787
+all,test + imputation,uncited,Algorithm (trained on no citations),21.0,-0.297212368421174
+all,test + imputation,uncited,Algorithm (trained on no citations),21.5,-0.3041937212067218
+all,test + imputation,uncited,Algorithm (trained on no citations),22.0,-0.3110750792281435
+all,test + imputation,uncited,Algorithm (trained on no citations),22.5,-0.3176433472658537
+all,test + imputation,uncited,Algorithm (trained on no citations),23.0,-0.3243268471181447
+all,test + imputation,uncited,Algorithm (trained on no citations),23.5,-0.3311403422451565
+all,test + imputation,uncited,Algorithm (trained on no citations),24.0,-0.3379536460189369
+all,test + imputation,uncited,Algorithm (trained on no citations),24.5,-0.34442209841193644
+all,test + imputation,uncited,Algorithm (trained on no citations),25.0,-0.35120969971435706
+all,test + imputation,uncited,Algorithm (trained on no citations),25.5,-0.3573806995807745
+all,test + imputation,uncited,Algorithm (trained on no citations),26.0,-0.3639856353832041
+all,test + imputation,uncited,Algorithm (trained on no citations),26.5,-0.370241468965348
+all,test + imputation,uncited,Algorithm (trained on no citations),27.0,-0.37665851544769213
+all,test + imputation,uncited,Algorithm (trained on no citations),27.5,-0.38310049151320263
+all,test + imputation,uncited,Algorithm (trained on no citations),28.0,-0.3889592826255697
+all,test + imputation,uncited,Algorithm (trained on no citations),28.5,-0.3950898189650889
+all,test + imputation,uncited,Algorithm (trained on no citations),29.0,-0.4012033813418709
+all,test + imputation,uncited,Algorithm (trained on no citations),29.5,-0.4075561189364669
+all,test + imputation,uncited,Algorithm (trained on no citations),30.0,-0.41396920979074153
+all,test + imputation,uncited,Algorithm (trained on no citations),30.5,-0.4197989276147047
+all,test + imputation,uncited,Algorithm (trained on no citations),31.0,-0.42586056431540464
+all,test + imputation,uncited,Algorithm (trained on no citations),31.5,-0.4319838235213233
+all,test + imputation,uncited,Algorithm (trained on no citations),32.0,-0.43826942904314115
+all,test + imputation,uncited,Algorithm (trained on no citations),32.5,-0.4443946936751559
+all,test + imputation,uncited,Algorithm (trained on no citations),33.0,-0.450795036061627
+all,test + imputation,uncited,Algorithm (trained on no citations),33.5,-0.45567149003834473
+all,test + imputation,uncited,Algorithm (trained on no citations),34.0,-0.4620206568541341
+all,test + imputation,uncited,Algorithm (trained on no citations),34.5,-0.468142349203496
+all,test + imputation,uncited,Algorithm (trained on no citations),35.0,-0.4745735991461627
+all,test + imputation,uncited,Algorithm (trained on no citations),35.5,-0.4806930571745585
+all,test + imputation,uncited,Algorithm (trained on no citations),36.0,-0.48650421012538014
+all,test + imputation,uncited,Algorithm (trained on no citations),36.5,-0.49238463987954373
+all,test + imputation,uncited,Algorithm (trained on no citations),37.0,-0.49862666097167735
+all,test + imputation,uncited,Algorithm (trained on no citations),37.5,-0.5048385027020009
+all,test + imputation,uncited,Algorithm (trained on no citations),38.0,-0.5104635527684843
+all,test + imputation,uncited,Algorithm (trained on no citations),38.5,-0.5158899905849562
+all,test + imputation,uncited,Algorithm (trained on no citations),39.0,-0.5215347263458937
+all,test + imputation,uncited,Algorithm (trained on no citations),39.5,-0.5273798353676015
+all,test + imputation,uncited,Algorithm (trained on no citations),40.0,-0.5333525625042708
+all,test + imputation,uncited,Predicted examiner (trained on grants),0.0,-0.0
+all,test + imputation,uncited,Predicted examiner (trained on grants),0.5,-0.00625003431333574
+all,test + imputation,uncited,Predicted examiner (trained on grants),1.0,-0.01250006862667148
+all,test + imputation,uncited,Predicted examiner (trained on grants),1.5,-0.018759581897131422
+all,test + imputation,uncited,Predicted examiner (trained on grants),2.0,-0.025047456280486026
+all,test + imputation,uncited,Predicted examiner (trained on grants),2.5,-0.03132697381698032
+all,test + imputation,uncited,Predicted examiner (trained on grants),3.0,-0.03759258331203129
+all,test + imputation,uncited,Predicted examiner (trained on grants),3.5,-0.043758141170818506
+all,test + imputation,uncited,Predicted examiner (trained on grants),4.0,-0.05001552770689488
+all,test + imputation,uncited,Predicted examiner (trained on grants),4.5,-0.05632819185259853
+all,test + imputation,uncited,Predicted examiner (trained on grants),5.0,-0.0626591023677372
+all,test + imputation,uncited,Predicted examiner (trained on grants),5.5,-0.0689615099699366
+all,test + imputation,uncited,Predicted examiner (trained on grants),6.0,-0.07525217125684074
+all,test + imputation,uncited,Predicted examiner (trained on grants),6.5,-0.08166467689576358
+all,test + imputation,uncited,Predicted examiner (trained on grants),7.0,-0.08809193822553774
+all,test + imputation,uncited,Predicted examiner (trained on grants),7.5,-0.09437215627044364
+all,test + imputation,uncited,Predicted examiner (trained on grants),8.0,-0.10074751564388153
+all,test + imputation,uncited,Predicted examiner (trained on grants),8.5,-0.10703680274085561
+all,test + imputation,uncited,Predicted examiner (trained on grants),9.0,-0.1133034509866297
+all,test + imputation,uncited,Predicted examiner (trained on grants),9.5,-0.11963029416042334
+all,test + imputation,uncited,Predicted examiner (trained on grants),10.0,-0.12612192990230436
+all,test + imputation,uncited,Predicted examiner (trained on grants),10.5,-0.13251342250393092
+all,test + imputation,uncited,Predicted examiner (trained on grants),11.0,-0.13896614159977275
+all,test + imputation,uncited,Predicted examiner (trained on grants),11.5,-0.14536378519714407
+all,test + imputation,uncited,Predicted examiner (trained on grants),12.0,-0.15177634326427494
+all,test + imputation,uncited,Predicted examiner (trained on grants),12.5,-0.15820408413602075
+all,test + imputation,uncited,Predicted examiner (trained on grants),13.0,-0.16459316084858194
+all,test + imputation,uncited,Predicted examiner (trained on grants),13.5,-0.1707924943885073
+all,test + imputation,uncited,Predicted examiner (trained on grants),14.0,-0.17696948890829015
+all,test + imputation,uncited,Predicted examiner (trained on grants),14.5,-0.18296137535987358
+all,test + imputation,uncited,Predicted examiner (trained on grants),15.0,-0.18911383842975538
+all,test + imputation,uncited,Predicted examiner (trained on grants),15.5,-0.1953656209562593
+all,test + imputation,uncited,Predicted examiner (trained on grants),16.0,-0.2016780550184962
+all,test + imputation,uncited,Predicted examiner (trained on grants),16.5,-0.2079939261861141
+all,test + imputation,uncited,Predicted examiner (trained on grants),17.0,-0.21437612421468094
+all,test + imputation,uncited,Predicted examiner (trained on grants),17.5,-0.22089851964284016
+all,test + imputation,uncited,Predicted examiner (trained on grants),18.0,-0.2271850156943393
+all,test + imputation,uncited,Predicted examiner (trained on grants),18.5,-0.23351321437578396
+all,test + imputation,uncited,Predicted examiner (trained on grants),19.0,-0.23974793254052792
+all,test + imputation,uncited,Predicted examiner (trained on grants),19.5,-0.2460759399696035
+all,test + imputation,uncited,Predicted examiner (trained on grants),20.0,-0.2524035214188021
+all,test + imputation,uncited,Predicted examiner (trained on grants),20.5,-0.2586029712693782
+all,test + imputation,uncited,Predicted examiner (trained on grants),21.0,-0.2649312832523012
+all,test + imputation,uncited,Predicted examiner (trained on grants),21.5,-0.2713038654619043
+all,test + imputation,uncited,Predicted examiner (trained on grants),22.0,-0.27772566950061406
+all,test + imputation,uncited,Predicted examiner (trained on grants),22.5,-0.2838894340716199
+all,test + imputation,uncited,Predicted examiner (trained on grants),23.0,-0.2900768782715359
+all,test + imputation,uncited,Predicted examiner (trained on grants),23.5,-0.2964271850255957
+all,test + imputation,uncited,Predicted examiner (trained on grants),24.0,-0.3027625242602622
+all,test + imputation,uncited,Predicted examiner (trained on grants),24.5,-0.30876664832345785
+all,test + imputation,uncited,Predicted examiner (trained on grants),25.0,-0.3150904231530349
+all,test + imputation,uncited,Predicted examiner (trained on grants),25.5,-0.3209306386782956
+all,test + imputation,uncited,Predicted examiner (trained on grants),26.0,-0.32724124201986926
+all,test + imputation,uncited,Predicted examiner (trained on grants),26.5,-0.33318926053503983
+all,test + imputation,uncited,Predicted examiner (trained on grants),27.0,-0.33930485720035014
+all,test + imputation,uncited,Predicted examiner (trained on grants),27.5,-0.34527887890145675
+all,test + imputation,uncited,Predicted examiner (trained on grants),28.0,-0.3506545194891412
+all,test + imputation,uncited,Predicted examiner (trained on grants),28.5,-0.3564076406849323
+all,test + imputation,uncited,Predicted examiner (trained on grants),29.0,-0.36221412275621573
+all,test + imputation,uncited,Predicted examiner (trained on grants),29.5,-0.3682935191885035
+all,test + imputation,uncited,Predicted examiner (trained on grants),30.0,-0.37442622420548116
+all,test + imputation,uncited,Predicted examiner (trained on grants),30.5,-0.3800592082877933
+all,test + imputation,uncited,Predicted examiner (trained on grants),31.0,-0.3860100356787635
+all,test + imputation,uncited,Predicted examiner (trained on grants),31.5,-0.3920887379127701
+all,test + imputation,uncited,Predicted examiner (trained on grants),32.0,-0.39818946876681854
+all,test + imputation,uncited,Predicted examiner (trained on grants),32.5,-0.40398289780847163
+all,test + imputation,uncited,Predicted examiner (trained on grants),33.0,-0.4099808338171695
+all,test + imputation,uncited,Predicted examiner (trained on grants),33.5,-0.4143420890203468
+all,test + imputation,uncited,Predicted examiner (trained on grants),34.0,-0.420267558055317
+all,test + imputation,uncited,Predicted examiner (trained on grants),34.5,-0.4258867407031372
+all,test + imputation,uncited,Predicted examiner (trained on grants),35.0,-0.4318279976548129
+all,test + imputation,uncited,Predicted examiner (trained on grants),35.5,-0.43755376067365664
+all,test + imputation,uncited,Predicted examiner (trained on grants),36.0,-0.44315791840488455
+all,test + imputation,uncited,Predicted examiner (trained on grants),36.5,-0.44890855303872484
+all,test + imputation,uncited,Predicted examiner (trained on grants),37.0,-0.45504831918365934
+all,test + imputation,uncited,Predicted examiner (trained on grants),37.5,-0.4611222787364791
+all,test + imputation,uncited,Predicted examiner (trained on grants),38.0,-0.46666070342706634
+all,test + imputation,uncited,Predicted examiner (trained on grants),38.5,-0.47205361365598675
+all,test + imputation,uncited,Predicted examiner (trained on grants),39.0,-0.47774105380847465
+all,test + imputation,uncited,Predicted examiner (trained on grants),39.5,-0.48367277653109014
+all,test + imputation,uncited,Predicted examiner (trained on grants),40.0,-0.48968820916895495
+all,test + imputation,uncited,Random,0.0,-0.0
+all,test + imputation,uncited,Random,0.5,-0.006333745744932267
+all,test + imputation,uncited,Random,1.0,-0.012667491489864534
+all,test + imputation,uncited,Random,1.5,-0.01900123723479678
+all,test + imputation,uncited,Random,2.0,-0.025334982979729068
+all,test + imputation,uncited,Random,2.5,-0.03166872872466134
+all,test + imputation,uncited,Random,3.0,-0.03800247446959356
+all,test + imputation,uncited,Random,3.5,-0.044336220214525796
+all,test + imputation,uncited,Random,4.0,-0.050669965959458135
+all,test + imputation,uncited,Random,4.5,-0.0570037117043904
+all,test + imputation,uncited,Random,5.0,-0.06333745744932268
+all,test + imputation,uncited,Random,5.5,-0.06967120319425481
+all,test + imputation,uncited,Random,6.0,-0.07595648626717497
+all,test + imputation,uncited,Random,6.5,-0.08228619345610629
+all,test + imputation,uncited,Random,7.0,-0.08861590064503741
+all,test + imputation,uncited,Random,7.5,-0.09482484439100619
+all,test + imputation,uncited,Random,8.0,-0.10114650068374008
+all,test + imputation,uncited,Random,8.5,-0.1073378631723583
+all,test + imputation,uncited,Random,9.0,-0.11348824204118448
+all,test + imputation,uncited,Random,9.5,-0.11968102321570419
+all,test + imputation,uncited,Random,10.0,-0.12598002443758308
+all,test + imputation,uncited,Random,10.5,-0.13222069418896026
+all,test + imputation,uncited,Random,11.0,-0.13851691772176736
+all,test + imputation,uncited,Random,11.5,-0.1448131412545754
+all,test + imputation,uncited,Random,12.0,-0.15110936478738266
+all,test + imputation,uncited,Random,12.5,-0.1574055883201904
+all,test + imputation,uncited,Random,13.0,-0.16370181185299812
+all,test + imputation,uncited,Random,13.5,-0.16989488412769893
+all,test + imputation,uncited,Random,14.0,-0.17608345409621304
+all,test + imputation,uncited,Random,14.5,-0.1821826251243652
+all,test + imputation,uncited,Random,15.0,-0.18846478461141195
+all,test + imputation,uncited,Random,15.5,-0.19469154885789783
+all,test + imputation,uncited,Random,16.0,-0.2009719214017011
+all,test + imputation,uncited,Random,16.5,-0.20725229394550437
+all,test + imputation,uncited,Random,17.0,-0.2134904048369247
+all,test + imputation,uncited,Random,17.5,-0.21976953439095212
+all,test + imputation,uncited,Random,18.0,-0.22590551726941902
+all,test + imputation,uncited,Random,18.5,-0.23214290952475541
+all,test + imputation,uncited,Random,19.0,-0.2382737001462454
+all,test + imputation,uncited,Random,19.5,-0.24454406067640969
+all,test + imputation,uncited,Random,20.0,-0.2508144212065737
+all,test + imputation,uncited,Random,20.5,-0.25687831200677425
+all,test + imputation,uncited,Random,21.0,-0.2631436366898669
+all,test + imputation,uncited,Random,21.5,-0.26940896137295856
+all,test + imputation,uncited,Random,22.0,-0.2756742860560499
+all,test + imputation,uncited,Random,22.5,-0.2816881483138026
+all,test + imputation,uncited,Random,23.0,-0.2877670336742789
+all,test + imputation,uncited,Random,23.5,-0.2939893503860585
+all,test + imputation,uncited,Random,24.0,-0.3002444429474646
+all,test + imputation,uncited,Random,24.5,-0.30618387663264535
+all,test + imputation,uncited,Random,25.0,-0.31243252717616804
+all,test + imputation,uncited,Random,25.5,-0.31818003124729405
+all,test + imputation,uncited,Random,26.0,-0.3244188553893964
+all,test + imputation,uncited,Random,26.5,-0.33032671064835994
+all,test + imputation,uncited,Random,27.0,-0.3364804753683042
+all,test + imputation,uncited,Random,27.5,-0.34254846699406627
+all,test + imputation,uncited,Random,28.0,-0.3480524944048502
+all,test + imputation,uncited,Random,28.5,-0.35395130557074944
+all,test + imputation,uncited,Random,29.0,-0.35987400527997854
+all,test + imputation,uncited,Random,29.5,-0.36599474014143746
+all,test + imputation,uncited,Random,30.0,-0.37219804082179914
+all,test + imputation,uncited,Random,30.5,-0.3779289397598007
+all,test + imputation,uncited,Random,31.0,-0.3839203108278668
+all,test + imputation,uncited,Random,31.5,-0.3900456115841291
+all,test + imputation,uncited,Random,32.0,-0.39623681176800374
+all,test + imputation,uncited,Random,32.5,-0.40219006920069106
+all,test + imputation,uncited,Random,33.0,-0.40837760872685525
+all,test + imputation,uncited,Random,33.5,-0.4129316732858072
+all,test + imputation,uncited,Random,34.0,-0.4190948325885799
+all,test + imputation,uncited,Random,34.5,-0.424975577884199
+all,test + imputation,uncited,Random,35.0,-0.4311346442303468
+all,test + imputation,uncited,Random,35.5,-0.43703111988540816
+all,test + imputation,uncited,Random,36.0,-0.4427064218712282
+all,test + imputation,uncited,Random,36.5,-0.4484379795163651
+all,test + imputation,uncited,Random,37.0,-0.45458096553713795
+all,test + imputation,uncited,Random,37.5,-0.46072395155791
+all,test + imputation,uncited,Random,38.0,-0.4663391277152018
+all,test + imputation,uncited,Random,38.5,-0.4718020546289314
+all,test + imputation,uncited,Random,39.0,-0.47756419455899146
+all,test + imputation,uncited,Random,39.5,-0.4835640456375908
+all,test + imputation,uncited,Random,40.0,-0.48968510950642086
+all,test + imputation,renew,Algorithm (trained on citations),0.0,-0.0
+all,test + imputation,renew,Algorithm (trained on citations),0.5,-0.006236670358186251
+all,test + imputation,renew,Algorithm (trained on citations),1.0,-0.012473340716372502
+all,test + imputation,renew,Algorithm (trained on citations),1.5,-0.018707575605151263
+all,test + imputation,renew,Algorithm (trained on citations),2.0,-0.0249407852145645
+all,test + imputation,renew,Algorithm (trained on citations),2.5,-0.03120463188816727
+all,test + imputation,renew,Algorithm (trained on citations),3.0,-0.03748602465739444
+all,test + imputation,renew,Algorithm (trained on citations),3.5,-0.04374959971542198
+all,test + imputation,renew,Algorithm (trained on citations),4.0,-0.05001288531609199
+all,test + imputation,renew,Algorithm (trained on citations),4.5,-0.05625030039643689
+all,test + imputation,renew,Algorithm (trained on citations),5.0,-0.06246536959808438
+all,test + imputation,renew,Algorithm (trained on citations),5.5,-0.06865918985898965
+all,test + imputation,renew,Algorithm (trained on citations),6.0,-0.07483882083477017
+all,test + imputation,renew,Algorithm (trained on citations),6.5,-0.08108944911562463
+all,test + imputation,renew,Algorithm (trained on citations),7.0,-0.08736218390678759
+all,test + imputation,renew,Algorithm (trained on citations),7.5,-0.09356327671536285
+all,test + imputation,renew,Algorithm (trained on citations),8.0,-0.09982314116708106
+all,test + imputation,renew,Algorithm (trained on citations),8.5,-0.10599151829604292
+all,test + imputation,renew,Algorithm (trained on citations),9.0,-0.11220238697561784
+all,test + imputation,renew,Algorithm (trained on citations),9.5,-0.1183908381097523
+all,test + imputation,renew,Algorithm (trained on citations),10.0,-0.12468965394709532
+all,test + imputation,renew,Algorithm (trained on citations),10.5,-0.1309159767853757
+all,test + imputation,renew,Algorithm (trained on citations),11.0,-0.13718522155985313
+all,test + imputation,renew,Algorithm (trained on citations),11.5,-0.1434368692029254
+all,test + imputation,renew,Algorithm (trained on citations),12.0,-0.14966737930452548
+all,test + imputation,renew,Algorithm (trained on citations),12.5,-0.15587563102187993
+all,test + imputation,renew,Algorithm (trained on citations),13.0,-0.1619966545434776
+all,test + imputation,renew,Algorithm (trained on citations),13.5,-0.168193787832575
+all,test + imputation,renew,Algorithm (trained on citations),14.0,-0.1744626610057715
+all,test + imputation,renew,Algorithm (trained on citations),14.5,-0.18058767663898123
+all,test + imputation,renew,Algorithm (trained on citations),15.0,-0.1868668179631686
+all,test + imputation,renew,Algorithm (trained on citations),15.5,-0.19303918587914695
+all,test + imputation,renew,Algorithm (trained on citations),16.0,-0.1993102083206469
+all,test + imputation,renew,Algorithm (trained on citations),16.5,-0.20557059202421027
+all,test + imputation,renew,Algorithm (trained on citations),17.0,-0.21176792992445873
+all,test + imputation,renew,Algorithm (trained on citations),17.5,-0.21805149775086022
+all,test + imputation,renew,Algorithm (trained on citations),18.0,-0.2242036827591615
+all,test + imputation,renew,Algorithm (trained on citations),18.5,-0.23044915247954378
+all,test + imputation,renew,Algorithm (trained on citations),19.0,-0.23651608345416703
+all,test + imputation,renew,Algorithm (trained on citations),19.5,-0.24279001725321198
+all,test + imputation,renew,Algorithm (trained on citations),20.0,-0.24905339389134143
+all,test + imputation,renew,Algorithm (trained on citations),20.5,-0.255093646656784
+all,test + imputation,renew,Algorithm (trained on citations),21.0,-0.2613304039095528
+all,test + imputation,renew,Algorithm (trained on citations),21.5,-0.26756263046742235
+all,test + imputation,renew,Algorithm (trained on citations),22.0,-0.2737920698883768
+all,test + imputation,renew,Algorithm (trained on citations),22.5,-0.27968542804025087
+all,test + imputation,renew,Algorithm (trained on citations),23.0,-0.2858559005639664
+all,test + imputation,renew,Algorithm (trained on citations),23.5,-0.2920909670968862
+all,test + imputation,renew,Algorithm (trained on citations),24.0,-0.29835868024954104
+all,test + imputation,renew,Algorithm (trained on citations),24.5,-0.3043660335622358
+all,test + imputation,renew,Algorithm (trained on citations),25.0,-0.31059405875949114
+all,test + imputation,renew,Algorithm (trained on citations),25.5,-0.316074470995583
+all,test + imputation,renew,Algorithm (trained on citations),26.0,-0.3222713271825711
+all,test + imputation,renew,Algorithm (trained on citations),26.5,-0.3279775234248188
+all,test + imputation,renew,Algorithm (trained on citations),27.0,-0.33405150440829806
+all,test + imputation,renew,Algorithm (trained on citations),27.5,-0.34000867809271534
+all,test + imputation,renew,Algorithm (trained on citations),28.0,-0.34564994203764965
+all,test + imputation,renew,Algorithm (trained on citations),28.5,-0.3515405735238997
+all,test + imputation,renew,Algorithm (trained on citations),29.0,-0.35755930027350447
+all,test + imputation,renew,Algorithm (trained on citations),29.5,-0.3636671922875285
+all,test + imputation,renew,Algorithm (trained on citations),30.0,-0.3698851586494046
+all,test + imputation,renew,Algorithm (trained on citations),30.5,-0.375702334166934
+all,test + imputation,renew,Algorithm (trained on citations),31.0,-0.3816931510001854
+all,test + imputation,renew,Algorithm (trained on citations),31.5,-0.38760011006476847
+all,test + imputation,renew,Algorithm (trained on citations),32.0,-0.3936375079239567
+all,test + imputation,renew,Algorithm (trained on citations),32.5,-0.3994986109467502
+all,test + imputation,renew,Algorithm (trained on citations),33.0,-0.4055489028142821
+all,test + imputation,renew,Algorithm (trained on citations),33.5,-0.4100215758806123
+all,test + imputation,renew,Algorithm (trained on citations),34.0,-0.4161562302604735
+all,test + imputation,renew,Algorithm (trained on citations),34.5,-0.42196532155131744
+all,test + imputation,renew,Algorithm (trained on citations),35.0,-0.42810210523619674
+all,test + imputation,renew,Algorithm (trained on citations),35.5,-0.433907157796185
+all,test + imputation,renew,Algorithm (trained on citations),36.0,-0.4396854966415949
+all,test + imputation,renew,Algorithm (trained on citations),36.5,-0.4453711657731074
+all,test + imputation,renew,Algorithm (trained on citations),37.0,-0.45142815928741736
+all,test + imputation,renew,Algorithm (trained on citations),37.5,-0.45749281410381526
+all,test + imputation,renew,Algorithm (trained on citations),38.0,-0.4631442360277057
+all,test + imputation,renew,Algorithm (trained on citations),38.5,-0.4685891597503552
+all,test + imputation,renew,Algorithm (trained on citations),39.0,-0.474390876438779
+all,test + imputation,renew,Algorithm (trained on citations),39.5,-0.48037811939475583
+all,test + imputation,renew,Algorithm (trained on citations),40.0,-0.4864777698066654
+all,test + imputation,renew,Predicted examiner (trained on grants),0.0,-0.0
+all,test + imputation,renew,Predicted examiner (trained on grants),0.5,-0.00596714772319025
+all,test + imputation,renew,Predicted examiner (trained on grants),1.0,-0.0119342954463805
+all,test + imputation,renew,Predicted examiner (trained on grants),1.5,-0.017908816305504095
+all,test + imputation,renew,Predicted examiner (trained on grants),2.0,-0.023855523211528104
+all,test + imputation,renew,Predicted examiner (trained on grants),2.5,-0.029789869070329204
+all,test + imputation,renew,Predicted examiner (trained on grants),3.0,-0.03570133571217049
+all,test + imputation,renew,Predicted examiner (trained on grants),3.5,-0.041624784725440005
+all,test + imputation,renew,Predicted examiner (trained on grants),4.0,-0.047603843901189956
+all,test + imputation,renew,Predicted examiner (trained on grants),4.5,-0.05357230782464146
+all,test + imputation,renew,Predicted examiner (trained on grants),5.0,-0.05956469247164307
+all,test + imputation,renew,Predicted examiner (trained on grants),5.5,-0.06555439976263151
+all,test + imputation,renew,Predicted examiner (trained on grants),6.0,-0.0715245136902351
+all,test + imputation,renew,Predicted examiner (trained on grants),6.5,-0.07753090225270608
+all,test + imputation,renew,Predicted examiner (trained on grants),7.0,-0.08354890769367483
+all,test + imputation,renew,Predicted examiner (trained on grants),7.5,-0.08952098563214492
+all,test + imputation,renew,Predicted examiner (trained on grants),8.0,-0.0955458530182452
+all,test + imputation,renew,Predicted examiner (trained on grants),8.5,-0.1014375780035731
+all,test + imputation,renew,Predicted examiner (trained on grants),9.0,-0.10736622629185667
+all,test + imputation,renew,Predicted examiner (trained on grants),9.5,-0.11328882117897078
+all,test + imputation,renew,Predicted examiner (trained on grants),10.0,-0.11930908359318586
+all,test + imputation,renew,Predicted examiner (trained on grants),10.5,-0.12528184301338335
+all,test + imputation,renew,Predicted examiner (trained on grants),11.0,-0.1313452151563743
+all,test + imputation,renew,Predicted examiner (trained on grants),11.5,-0.1373597663240349
+all,test + imputation,renew,Predicted examiner (trained on grants),12.0,-0.14339416484920903
+all,test + imputation,renew,Predicted examiner (trained on grants),12.5,-0.14945244521709242
+all,test + imputation,renew,Predicted examiner (trained on grants),13.0,-0.1554089228716737
+all,test + imputation,renew,Predicted examiner (trained on grants),13.5,-0.1614020477110979
+all,test + imputation,renew,Predicted examiner (trained on grants),14.0,-0.16749355682240563
+all,test + imputation,renew,Predicted examiner (trained on grants),14.5,-0.17346954253260136
+all,test + imputation,renew,Predicted examiner (trained on grants),15.0,-0.17966720208387493
+all,test + imputation,renew,Predicted examiner (trained on grants),15.5,-0.18577521321195384
+all,test + imputation,renew,Predicted examiner (trained on grants),16.0,-0.19197552660845835
+all,test + imputation,renew,Predicted examiner (trained on grants),16.5,-0.19818534448542377
+all,test + imputation,renew,Predicted examiner (trained on grants),17.0,-0.20429514916393968
+all,test + imputation,renew,Predicted examiner (trained on grants),17.5,-0.2104766276324078
+all,test + imputation,renew,Predicted examiner (trained on grants),18.0,-0.21652846692698324
+all,test + imputation,renew,Predicted examiner (trained on grants),18.5,-0.22269318523778733
+all,test + imputation,renew,Predicted examiner (trained on grants),19.0,-0.22873799423050917
+all,test + imputation,renew,Predicted examiner (trained on grants),19.5,-0.23500349298187911
+all,test + imputation,renew,Predicted examiner (trained on grants),20.0,-0.241283003450746
+all,test + imputation,renew,Predicted examiner (trained on grants),20.5,-0.24737288663006393
+all,test + imputation,renew,Predicted examiner (trained on grants),21.0,-0.2536634437799832
+all,test + imputation,renew,Predicted examiner (trained on grants),21.5,-0.2599231785600464
+all,test + imputation,renew,Predicted examiner (trained on grants),22.0,-0.2661388017701666
+all,test + imputation,renew,Predicted examiner (trained on grants),22.5,-0.2720419422755017
+all,test + imputation,renew,Predicted examiner (trained on grants),23.0,-0.27814818820893705
+all,test + imputation,renew,Predicted examiner (trained on grants),23.5,-0.2842692961241783
+all,test + imputation,renew,Predicted examiner (trained on grants),24.0,-0.2904003871582369
+all,test + imputation,renew,Predicted examiner (trained on grants),24.5,-0.2962699651621434
+all,test + imputation,renew,Predicted examiner (trained on grants),25.0,-0.3023713297618559
+all,test + imputation,renew,Predicted examiner (trained on grants),25.5,-0.3078156064586434
+all,test + imputation,renew,Predicted examiner (trained on grants),26.0,-0.313958060020603
+all,test + imputation,renew,Predicted examiner (trained on grants),26.5,-0.3196170170801217
+all,test + imputation,renew,Predicted examiner (trained on grants),27.0,-0.32570376002962553
+all,test + imputation,renew,Predicted examiner (trained on grants),27.5,-0.33170236535256353
+all,test + imputation,renew,Predicted examiner (trained on grants),28.0,-0.3373453206905987
+all,test + imputation,renew,Predicted examiner (trained on grants),28.5,-0.3432540131298027
+all,test + imputation,renew,Predicted examiner (trained on grants),29.0,-0.3492824131766815
+all,test + imputation,renew,Predicted examiner (trained on grants),29.5,-0.35538067110967153
+all,test + imputation,renew,Predicted examiner (trained on grants),30.0,-0.3615684092349099
+all,test + imputation,renew,Predicted examiner (trained on grants),30.5,-0.36735298752273604
+all,test + imputation,renew,Predicted examiner (trained on grants),31.0,-0.37337437749956587
+all,test + imputation,renew,Predicted examiner (trained on grants),31.5,-0.37939729364968044
+all,test + imputation,renew,Predicted examiner (trained on grants),32.0,-0.38558061878391925
+all,test + imputation,renew,Predicted examiner (trained on grants),32.5,-0.3915883372691065
+all,test + imputation,renew,Predicted examiner (trained on grants),33.0,-0.3978000837058305
+all,test + imputation,renew,Predicted examiner (trained on grants),33.5,-0.40239200352024324
+all,test + imputation,renew,Predicted examiner (trained on grants),34.0,-0.40862248264932477
+all,test + imputation,renew,Predicted examiner (trained on grants),34.5,-0.41453385256581765
+all,test + imputation,renew,Predicted examiner (trained on grants),35.0,-0.42075870773040625
+all,test + imputation,renew,Predicted examiner (trained on grants),35.5,-0.4266287550774419
+all,test + imputation,renew,Predicted examiner (trained on grants),36.0,-0.43250908929340315
+all,test + imputation,renew,Predicted examiner (trained on grants),36.5,-0.4383392621509651
+all,test + imputation,renew,Predicted examiner (trained on grants),37.0,-0.4445477307331771
+all,test + imputation,renew,Predicted examiner (trained on grants),37.5,-0.4507424156225167
+all,test + imputation,renew,Predicted examiner (trained on grants),38.0,-0.4565256156544365
+all,test + imputation,renew,Predicted examiner (trained on grants),38.5,-0.46202502977479143
+all,test + imputation,renew,Predicted examiner (trained on grants),39.0,-0.46785836137590037
+all,test + imputation,renew,Predicted examiner (trained on grants),39.5,-0.47389076714146877
+all,test + imputation,renew,Predicted examiner (trained on grants),40.0,-0.4800388985231352
+all,test + imputation,renew,Random,0.0,-0.0
+all,test + imputation,renew,Random,0.5,-0.006319336635714504
+all,test + imputation,renew,Random,1.0,-0.012638673271429007
+all,test + imputation,renew,Random,1.5,-0.018958009907143497
+all,test + imputation,renew,Random,2.0,-0.025277346542858015
+all,test + imputation,renew,Random,2.5,-0.03159668317857262
+all,test + imputation,renew,Random,3.0,-0.037916019814286994
+all,test + imputation,renew,Random,3.5,-0.044235356450001574
+all,test + imputation,renew,Random,4.0,-0.05055469308571603
+all,test + imputation,renew,Random,4.5,-0.05687402972143048
+all,test + imputation,renew,Random,5.0,-0.06319336635714524
+all,test + imputation,renew,Random,5.5,-0.0695127029928597
+all,test + imputation,renew,Random,6.0,-0.07578100055465184
+all,test + imputation,renew,Random,6.5,-0.08209608393420628
+all,test + imputation,renew,Random,7.0,-0.08841116731376063
+all,test + imputation,renew,Random,7.5,-0.09466265941366413
+all,test + imputation,renew,Random,8.0,-0.10097350337457511
+all,test + imputation,renew,Random,8.5,-0.10714910652173831
+all,test + imputation,renew,Random,9.0,-0.1133658484973933
+all,test + imputation,renew,Random,9.5,-0.11957540792190141
+all,test + imputation,renew,Random,10.0,-0.12586885044410678
+all,test + imputation,renew,Random,10.5,-0.13210087354969813
+all,test + imputation,renew,Random,11.0,-0.13839139133777917
+all,test + imputation,renew,Random,11.5,-0.14468190912585974
+all,test + imputation,renew,Random,12.0,-0.15097242691394047
+all,test + imputation,renew,Random,12.5,-0.15726294470202182
+all,test + imputation,renew,Random,13.0,-0.1634437327679447
+all,test + imputation,renew,Random,13.5,-0.16964854785448322
+all,test + imputation,renew,Random,14.0,-0.1759044897980154
+all,test + imputation,renew,Random,14.5,-0.18200489159559669
+all,test + imputation,renew,Random,15.0,-0.18828092234027252
+all,test + imputation,renew,Random,15.5,-0.19445250956929794
+all,test + imputation,renew,Random,16.0,-0.2007251711683076
+all,test + imputation,renew,Random,16.5,-0.20699783276731673
+all,test + imputation,renew,Random,17.0,-0.21318045614542383
+all,test + imputation,renew,Random,17.5,-0.2194504695614665
+all,test + imputation,renew,Random,18.0,-0.2255948298033037
+all,test + imputation,renew,Random,18.5,-0.23182157755725075
+all,test + imputation,renew,Random,19.0,-0.23788568881668884
+all,test + imputation,renew,Random,19.5,-0.2441458385223911
+all,test + imputation,renew,Random,20.0,-0.2504059882280934
+all,test + imputation,renew,Random,20.5,-0.2564590215864741
+all,test + imputation,renew,Random,21.0,-0.2627141196739491
+all,test + imputation,renew,Random,21.5,-0.2689692177614236
+all,test + imputation,renew,Random,22.0,-0.2752243158488996
+all,test + imputation,renew,Random,22.5,-0.28114859179726337
+all,test + imputation,renew,Random,23.0,-0.28732487367058784
+all,test + imputation,renew,Random,23.5,-0.2935357829387903
+all,test + imputation,renew,Random,24.0,-0.2997812251289766
+all,test + imputation,renew,Random,24.5,-0.3057985774377018
+all,test + imputation,renew,Random,25.0,-0.31203936473234967
+all,test + imputation,renew,Random,25.5,-0.3175617033126269
+all,test + imputation,renew,Random,26.0,-0.32378840337758014
+all,test + imputation,renew,Random,26.5,-0.32953779721439713
+all,test + imputation,renew,Random,27.0,-0.33567237084164575
+all,test + imputation,renew,Random,27.5,-0.34169496226905516
+all,test + imputation,renew,Random,28.0,-0.3473624315062234
+all,test + imputation,renew,Random,28.5,-0.35325506530130774
+all,test + imputation,renew,Random,29.0,-0.3592619529541073
+all,test + imputation,renew,Random,29.5,-0.36534546308365234
+all,test + imputation,renew,Random,30.0,-0.3715377590681196
+all,test + imputation,renew,Random,30.5,-0.3773471954587651
+all,test + imputation,renew,Random,31.0,-0.38337928993779075
+all,test + imputation,renew,Random,31.5,-0.38940404527676226
+all,test + imputation,renew,Random,32.0,-0.3955850618684562
+all,test + imputation,renew,Random,32.5,-0.4015869427406373
+all,test + imputation,renew,Random,33.0,-0.4077652033981842
+all,test + imputation,renew,Random,33.5,-0.41233302338375205
+all,test + imputation,renew,Random,34.0,-0.4184872476133581
+all,test + imputation,renew,Random,34.5,-0.4243187509003168
+all,test + imputation,renew,Random,35.0,-0.4304682980148138
+all,test + imputation,renew,Random,35.5,-0.43630256251685645
+all,test + imputation,renew,Random,36.0,-0.44213472081976823
+all,test + imputation,renew,Random,36.5,-0.4479136347864165
+all,test + imputation,renew,Random,37.0,-0.4540494380026682
+all,test + imputation,renew,Random,37.5,-0.4601852412189211
+all,test + imputation,renew,Random,38.0,-0.4659020981100502
+all,test + imputation,renew,Random,38.5,-0.4713843454333691
+all,test + imputation,renew,Random,39.0,-0.4772130227873352
+all,test + imputation,renew,Random,39.5,-0.4832148099494762
+all,test + imputation,renew,Random,40.0,-0.48933145311339554
+all,test + imputation,top10,Algorithm (trained on citations),0.0,-0.0
+all,test + imputation,top10,Algorithm (trained on citations),0.5,-0.0039022820315000625
+all,test + imputation,top10,Algorithm (trained on citations),1.0,-0.007804564063000125
+all,test + imputation,top10,Algorithm (trained on citations),1.5,-0.011706846094500198
+all,test + imputation,top10,Algorithm (trained on citations),2.0,-0.01563169064939009
+all,test + imputation,top10,Algorithm (trained on citations),2.5,-0.019602339724709282
+all,test + imputation,top10,Algorithm (trained on citations),3.0,-0.02370249818992728
+all,test + imputation,top10,Algorithm (trained on citations),3.5,-0.027938057185546723
+all,test + imputation,top10,Algorithm (trained on citations),4.0,-0.032224299376837774
+all,test + imputation,top10,Algorithm (trained on citations),4.5,-0.03640626486219707
+all,test + imputation,top10,Algorithm (trained on citations),5.0,-0.040820838442408164
+all,test + imputation,top10,Algorithm (trained on citations),5.5,-0.04540056740492674
+all,test + imputation,top10,Algorithm (trained on citations),6.0,-0.049775397819511125
+all,test + imputation,top10,Algorithm (trained on citations),6.5,-0.054114594398050164
+all,test + imputation,top10,Algorithm (trained on citations),7.0,-0.0581793822894353
+all,test + imputation,top10,Algorithm (trained on citations),7.5,-0.06223389097651535
+all,test + imputation,top10,Algorithm (trained on citations),8.0,-0.06650071978488067
+all,test + imputation,top10,Algorithm (trained on citations),8.5,-0.07076918665008614
+all,test + imputation,top10,Algorithm (trained on citations),9.0,-0.0754870082344004
+all,test + imputation,top10,Algorithm (trained on citations),9.5,-0.08004168523780705
+all,test + imputation,top10,Algorithm (trained on citations),10.0,-0.08492806533448591
+all,test + imputation,top10,Algorithm (trained on citations),10.5,-0.09004225677239637
+all,test + imputation,top10,Algorithm (trained on citations),11.0,-0.09489834981139703
+all,test + imputation,top10,Algorithm (trained on citations),11.5,-0.09964714602547148
+all,test + imputation,top10,Algorithm (trained on citations),12.0,-0.1044868733245018
+all,test + imputation,top10,Algorithm (trained on citations),12.5,-0.10940077845684026
+all,test + imputation,top10,Algorithm (trained on citations),13.0,-0.11405170785028775
+all,test + imputation,top10,Algorithm (trained on citations),13.5,-0.11898287122657387
+all,test + imputation,top10,Algorithm (trained on citations),14.0,-0.12390304089633576
+all,test + imputation,top10,Algorithm (trained on citations),14.5,-0.1283239795940448
+all,test + imputation,top10,Algorithm (trained on citations),15.0,-0.13316847633903148
+all,test + imputation,top10,Algorithm (trained on citations),15.5,-0.1377672713376929
+all,test + imputation,top10,Algorithm (trained on citations),16.0,-0.1421520551700632
+all,test + imputation,top10,Algorithm (trained on citations),16.5,-0.14661150267237807
+all,test + imputation,top10,Algorithm (trained on citations),17.0,-0.15110463091802984
+all,test + imputation,top10,Algorithm (trained on citations),17.5,-0.15608071252703307
+all,test + imputation,top10,Algorithm (trained on citations),18.0,-0.1612222207377266
+all,test + imputation,top10,Algorithm (trained on citations),18.5,-0.16637582918057045
+all,test + imputation,top10,Algorithm (trained on citations),19.0,-0.17127976063867265
+all,test + imputation,top10,Algorithm (trained on citations),19.5,-0.17636573892000404
+all,test + imputation,top10,Algorithm (trained on citations),20.0,-0.18157327492810008
+all,test + imputation,top10,Algorithm (trained on citations),20.5,-0.1865383048097508
+all,test + imputation,top10,Algorithm (trained on citations),21.0,-0.19160348443765182
+all,test + imputation,top10,Algorithm (trained on citations),21.5,-0.19659249178737073
+all,test + imputation,top10,Algorithm (trained on citations),22.0,-0.20160668451769306
+all,test + imputation,top10,Algorithm (trained on citations),22.5,-0.20619186647481608
+all,test + imputation,top10,Algorithm (trained on citations),23.0,-0.21144974393287774
+all,test + imputation,top10,Algorithm (trained on citations),23.5,-0.21663929706359153
+all,test + imputation,top10,Algorithm (trained on citations),24.0,-0.22187337137233423
+all,test + imputation,top10,Algorithm (trained on citations),24.5,-0.22700473176950445
+all,test + imputation,top10,Algorithm (trained on citations),25.0,-0.2323148275243833
+all,test + imputation,top10,Algorithm (trained on citations),25.5,-0.23664175793233325
+all,test + imputation,top10,Algorithm (trained on citations),26.0,-0.24237871593479074
+all,test + imputation,top10,Algorithm (trained on citations),26.5,-0.24762343547076232
+all,test + imputation,top10,Algorithm (trained on citations),27.0,-0.253199101128177
+all,test + imputation,top10,Algorithm (trained on citations),27.5,-0.2583072974879878
+all,test + imputation,top10,Algorithm (trained on citations),28.0,-0.2632276536830653
+all,test + imputation,top10,Algorithm (trained on citations),28.5,-0.26816040915591877
+all,test + imputation,top10,Algorithm (trained on citations),29.0,-0.27348318658615933
+all,test + imputation,top10,Algorithm (trained on citations),29.5,-0.2785686582360141
+all,test + imputation,top10,Algorithm (trained on citations),30.0,-0.28415195737208415
+all,test + imputation,top10,Algorithm (trained on citations),30.5,-0.28955413525233525
+all,test + imputation,top10,Algorithm (trained on citations),31.0,-0.29558919564682395
+all,test + imputation,top10,Algorithm (trained on citations),31.5,-0.3014716431290243
+all,test + imputation,top10,Algorithm (trained on citations),32.0,-0.30770959912940726
+all,test + imputation,top10,Algorithm (trained on citations),32.5,-0.3136419429253398
+all,test + imputation,top10,Algorithm (trained on citations),33.0,-0.3194388368630201
+all,test + imputation,top10,Algorithm (trained on citations),33.5,-0.32259399990811355
+all,test + imputation,top10,Algorithm (trained on citations),34.0,-0.3282149270174933
+all,test + imputation,top10,Algorithm (trained on citations),34.5,-0.3334241511701461
+all,test + imputation,top10,Algorithm (trained on citations),35.0,-0.33925717003854744
+all,test + imputation,top10,Algorithm (trained on citations),35.5,-0.34489288039182353
+all,test + imputation,top10,Algorithm (trained on citations),36.0,-0.35101380005611604
+all,test + imputation,top10,Algorithm (trained on citations),36.5,-0.35689433744897836
+all,test + imputation,top10,Algorithm (trained on citations),37.0,-0.36285523333776504
+all,test + imputation,top10,Algorithm (trained on citations),37.5,-0.3687919482279299
+all,test + imputation,top10,Algorithm (trained on citations),38.0,-0.3742469024643363
+all,test + imputation,top10,Algorithm (trained on citations),38.5,-0.3791718044646875
+all,test + imputation,top10,Algorithm (trained on citations),39.0,-0.3848234638757563
+all,test + imputation,top10,Algorithm (trained on citations),39.5,-0.39043960661489346
+all,test + imputation,top10,Algorithm (trained on citations),40.0,-0.39652274605042986
+all,test + imputation,top10,Predicted examiner (trained on grants),0.0,-0.0
+all,test + imputation,top10,Predicted examiner (trained on grants),0.5,-0.005763466280750324
+all,test + imputation,top10,Predicted examiner (trained on grants),1.0,-0.011526932561500648
+all,test + imputation,top10,Predicted examiner (trained on grants),1.5,-0.017290398842250983
+all,test + imputation,top10,Predicted examiner (trained on grants),2.0,-0.023041013043609247
+all,test + imputation,top10,Predicted examiner (trained on grants),2.5,-0.0287013383861825
+all,test + imputation,top10,Predicted examiner (trained on grants),3.0,-0.03433518817456122
+all,test + imputation,top10,Predicted examiner (trained on grants),3.5,-0.04022583254348209
+all,test + imputation,top10,Predicted examiner (trained on grants),4.0,-0.04608675910296575
+all,test + imputation,top10,Predicted examiner (trained on grants),4.5,-0.051887882180615304
+all,test + imputation,top10,Predicted examiner (trained on grants),5.0,-0.058000047792393906
+all,test + imputation,top10,Predicted examiner (trained on grants),5.5,-0.06429215273349352
+all,test + imputation,top10,Predicted examiner (trained on grants),6.0,-0.07096592866544703
+all,test + imputation,top10,Predicted examiner (trained on grants),6.5,-0.07769066073725685
+all,test + imputation,top10,Predicted examiner (trained on grants),7.0,-0.08415873642620834
+all,test + imputation,top10,Predicted examiner (trained on grants),7.5,-0.09055102680910684
+all,test + imputation,top10,Predicted examiner (trained on grants),8.0,-0.09682269987437257
+all,test + imputation,top10,Predicted examiner (trained on grants),8.5,-0.10296140998437567
+all,test + imputation,top10,Predicted examiner (trained on grants),9.0,-0.10942713823195534
+all,test + imputation,top10,Predicted examiner (trained on grants),9.5,-0.1154128807978535
+all,test + imputation,top10,Predicted examiner (trained on grants),10.0,-0.12150342053864416
+all,test + imputation,top10,Predicted examiner (trained on grants),10.5,-0.12779949062191
+all,test + imputation,top10,Predicted examiner (trained on grants),11.0,-0.13397954231695736
+all,test + imputation,top10,Predicted examiner (trained on grants),11.5,-0.14013009204573293
+all,test + imputation,top10,Predicted examiner (trained on grants),12.0,-0.14607471357062923
+all,test + imputation,top10,Predicted examiner (trained on grants),12.5,-0.1520673696693572
+all,test + imputation,top10,Predicted examiner (trained on grants),13.0,-0.15772021140848114
+all,test + imputation,top10,Predicted examiner (trained on grants),13.5,-0.16370748565830578
+all,test + imputation,top10,Predicted examiner (trained on grants),14.0,-0.1697319311462247
+all,test + imputation,top10,Predicted examiner (trained on grants),14.5,-0.17540311344302414
+all,test + imputation,top10,Predicted examiner (trained on grants),15.0,-0.18153398266811904
+all,test + imputation,top10,Predicted examiner (trained on grants),15.5,-0.18728046735542547
+all,test + imputation,top10,Predicted examiner (trained on grants),16.0,-0.1930889800300169
+all,test + imputation,top10,Predicted examiner (trained on grants),16.5,-0.19896287747420996
+all,test + imputation,top10,Predicted examiner (trained on grants),17.0,-0.20469584721948758
+all,test + imputation,top10,Predicted examiner (trained on grants),17.5,-0.21051044736065663
+all,test + imputation,top10,Predicted examiner (trained on grants),18.0,-0.21639473237239218
+all,test + imputation,top10,Predicted examiner (trained on grants),18.5,-0.22252273314909846
+all,test + imputation,top10,Predicted examiner (trained on grants),19.0,-0.228442871400335
+all,test + imputation,top10,Predicted examiner (trained on grants),19.5,-0.23460038925048554
+all,test + imputation,top10,Predicted examiner (trained on grants),20.0,-0.24077036648288608
+all,test + imputation,top10,Predicted examiner (trained on grants),20.5,-0.24689624167714885
+all,test + imputation,top10,Predicted examiner (trained on grants),21.0,-0.25315543689361913
+all,test + imputation,top10,Predicted examiner (trained on grants),21.5,-0.2594069263511953
+all,test + imputation,top10,Predicted examiner (trained on grants),22.0,-0.26536922782368894
+all,test + imputation,top10,Predicted examiner (trained on grants),22.5,-0.2708892264830325
+all,test + imputation,top10,Predicted examiner (trained on grants),23.0,-0.276870725100203
+all,test + imputation,top10,Predicted examiner (trained on grants),23.5,-0.2828541209059616
+all,test + imputation,top10,Predicted examiner (trained on grants),24.0,-0.28909385538474613
+all,test + imputation,top10,Predicted examiner (trained on grants),24.5,-0.2951486392630672
+all,test + imputation,top10,Predicted examiner (trained on grants),25.0,-0.3012030160539344
+all,test + imputation,top10,Predicted examiner (trained on grants),25.5,-0.3057495060020538
+all,test + imputation,top10,Predicted examiner (trained on grants),26.0,-0.3117657650619819
+all,test + imputation,top10,Predicted examiner (trained on grants),26.5,-0.3176530933356968
+all,test + imputation,top10,Predicted examiner (trained on grants),27.0,-0.3239636981629117
+all,test + imputation,top10,Predicted examiner (trained on grants),27.5,-0.3302751568771121
+all,test + imputation,top10,Predicted examiner (trained on grants),28.0,-0.3364334565549803
+all,test + imputation,top10,Predicted examiner (trained on grants),28.5,-0.3426034028969979
+all,test + imputation,top10,Predicted examiner (trained on grants),29.0,-0.3492193299361648
+all,test + imputation,top10,Predicted examiner (trained on grants),29.5,-0.3552922855926646
+all,test + imputation,top10,Predicted examiner (trained on grants),30.0,-0.361509488227186
+all,test + imputation,top10,Predicted examiner (trained on grants),30.5,-0.3671002257369208
+all,test + imputation,top10,Predicted examiner (trained on grants),31.0,-0.37321503461287114
+all,test + imputation,top10,Predicted examiner (trained on grants),31.5,-0.3794027940976965
+all,test + imputation,top10,Predicted examiner (trained on grants),32.0,-0.38638789319167116
+all,test + imputation,top10,Predicted examiner (trained on grants),32.5,-0.3932729159832648
+all,test + imputation,top10,Predicted examiner (trained on grants),33.0,-0.4003035962336414
+all,test + imputation,top10,Predicted examiner (trained on grants),33.5,-0.40505335614827165
+all,test + imputation,top10,Predicted examiner (trained on grants),34.0,-0.4120916956409411
+all,test + imputation,top10,Predicted examiner (trained on grants),34.5,-0.4186265460474116
+all,test + imputation,top10,Predicted examiner (trained on grants),35.0,-0.425311844527613
+all,test + imputation,top10,Predicted examiner (trained on grants),35.5,-0.4313949018695701
+all,test + imputation,top10,Predicted examiner (trained on grants),36.0,-0.4377871638637693
+all,test + imputation,top10,Predicted examiner (trained on grants),36.5,-0.44417815089836743
+all,test + imputation,top10,Predicted examiner (trained on grants),37.0,-0.4506829806682972
+all,test + imputation,top10,Predicted examiner (trained on grants),37.5,-0.45712092384561404
+all,test + imputation,top10,Predicted examiner (trained on grants),38.0,-0.46341413643184276
+all,test + imputation,top10,Predicted examiner (trained on grants),38.5,-0.46937023904881564
+all,test + imputation,top10,Predicted examiner (trained on grants),39.0,-0.47589110788622635
+all,test + imputation,top10,Predicted examiner (trained on grants),39.5,-0.4822689111561316
+all,test + imputation,top10,Predicted examiner (trained on grants),40.0,-0.48903998076579336
+all,test + imputation,top10,Random,0.0,-0.0
+all,test + imputation,top10,Random,0.5,-0.006334178966058936
+all,test + imputation,top10,Random,1.0,-0.012668357932117872
+all,test + imputation,top10,Random,1.5,-0.01900253689817678
+all,test + imputation,top10,Random,2.0,-0.025336715864235745
+all,test + imputation,top10,Random,2.5,-0.031670894830294595
+all,test + imputation,top10,Random,3.0,-0.03800507379635356
+all,test + imputation,top10,Random,3.5,-0.04433925276241246
+all,test + imputation,top10,Random,4.0,-0.05067343172847149
+all,test + imputation,top10,Random,4.5,-0.05700761069453035
+all,test + imputation,top10,Random,5.0,-0.06334178966058919
+all,test + imputation,top10,Random,5.5,-0.06967596862664827
+all,test + imputation,top10,Random,6.0,-0.07601014759270712
+all,test + imputation,top10,Random,6.5,-0.08234432655876618
+all,test + imputation,top10,Random,7.0,-0.08867850552482492
+all,test + imputation,top10,Random,7.5,-0.09501268449088388
+all,test + imputation,top10,Random,8.0,-0.10134686345694298
+all,test + imputation,top10,Random,8.5,-0.10742992703898571
+all,test + imputation,top10,Random,9.0,-0.11374933451186728
+all,test + imputation,top10,Random,9.5,-0.11984627667293844
+all,test + imputation,top10,Random,10.0,-0.1261539754451981
+all,test + imputation,top10,Random,10.5,-0.13246167421745833
+all,test + imputation,top10,Random,11.0,-0.13876937298971823
+all,test + imputation,top10,Random,11.5,-0.14507707176197793
+all,test + imputation,top10,Random,12.0,-0.15138477053423796
+all,test + imputation,top10,Random,12.5,-0.1576924693064976
+all,test + imputation,top10,Random,13.0,-0.16379340485318283
+all,test + imputation,top10,Random,13.5,-0.17009315119368998
+all,test + imputation,top10,Random,14.0,-0.17639289753419649
+all,test + imputation,top10,Random,14.5,-0.18226089015320873
+all,test + imputation,top10,Random,15.0,-0.18854574843435404
+all,test + imputation,top10,Random,15.5,-0.1948306067154991
+all,test + imputation,top10,Random,16.0,-0.2011154649966446
+all,test + imputation,top10,Random,16.5,-0.2074003232777893
+all,test + imputation,top10,Random,17.0,-0.21356316760245012
+all,test + imputation,top10,Random,17.5,-0.21984443723781646
+all,test + imputation,top10,Random,18.0,-0.22612570687318256
+all,test + imputation,top10,Random,18.5,-0.23240697650854916
+all,test + imputation,top10,Random,19.0,-0.23849863043769118
+all,test + imputation,top10,Random,19.5,-0.24477491018605127
+all,test + imputation,top10,Random,20.0,-0.2510511899344113
+all,test + imputation,top10,Random,20.5,-0.25732746968277187
+all,test + imputation,top10,Random,21.0,-0.2636037494311326
+all,test + imputation,top10,Random,21.5,-0.26988002917949233
+all,test + imputation,top10,Random,22.0,-0.27615630892785303
+all,test + imputation,top10,Random,22.5,-0.28199061617060434
+all,test + imputation,top10,Random,23.0,-0.2882570743077286
+all,test + imputation,top10,Random,23.5,-0.29452353244485374
+all,test + imputation,top10,Random,24.0,-0.300789990581978
+all,test + imputation,top10,Random,24.5,-0.30691222798524054
+all,test + imputation,top10,Random,25.0,-0.31317574284208155
+all,test + imputation,top10,Random,25.5,-0.3180236446189983
+all,test + imputation,top10,Random,26.0,-0.3242594023566268
+all,test + imputation,top10,Random,26.5,-0.3301261009491084
+all,test + imputation,top10,Random,27.0,-0.3363548953066396
+all,test + imputation,top10,Random,27.5,-0.3424216471079068
+all,test + imputation,top10,Random,28.0,-0.3483152587537847
+all,test + imputation,top10,Random,28.5,-0.3541659869567133
+all,test + imputation,top10,Random,29.0,-0.3603794253243744
+all,test + imputation,top10,Random,29.5,-0.3662596595443604
+all,test + imputation,top10,Random,30.0,-0.3724674503840952
+all,test + imputation,top10,Random,30.5,-0.3781597494642187
+all,test + imputation,top10,Random,31.0,-0.3841866035189687
+all,test + imputation,top10,Random,31.5,-0.3899843125807102
+all,test + imputation,top10,Random,32.0,-0.39617453976453054
+all,test + imputation,top10,Random,32.5,-0.40222973986579436
+all,test + imputation,top10,Random,33.0,-0.40841788970988274
+all,test + imputation,top10,Random,33.5,-0.41237702720321917
+all,test + imputation,top10,Random,34.0,-0.4185319082062503
+all,test + imputation,top10,Random,34.5,-0.42427175942056244
+all,test + imputation,top10,Random,35.0,-0.4304206254991208
+all,test + imputation,top10,Random,35.5,-0.43621258543095587
+all,test + imputation,top10,Random,36.0,-0.44235642466237834
+all,test + imputation,top10,Random,36.5,-0.4482434588242009
+all,test + imputation,top10,Random,37.0,-0.4543837801779575
+all,test + imputation,top10,Random,37.5,-0.4605241015317133
+all,test + imputation,top10,Random,38.0,-0.4665072477386474
+all,test + imputation,top10,Random,38.5,-0.47210631567823014
+all,test + imputation,top10,Random,39.0,-0.4780966065187016
+all,test + imputation,top10,Random,39.5,-0.4839340042721781
+all,test + imputation,top10,Random,40.0,-0.49005975116169886
+all,test + imputation,pa_granted,Algorithm (trained on citations),0.0,-0.0
+all,test + imputation,pa_granted,Algorithm (trained on citations),0.5,-0.004600548068715254
+all,test + imputation,pa_granted,Algorithm (trained on citations),1.0,-0.009201096137430509
+all,test + imputation,pa_granted,Algorithm (trained on citations),1.5,-0.013799298998097603
+all,test + imputation,pa_granted,Algorithm (trained on citations),2.0,-0.018377362763659682
+all,test + imputation,pa_granted,Algorithm (trained on citations),2.5,-0.02291294294037663
+all,test + imputation,pa_granted,Algorithm (trained on citations),3.0,-0.027453270058719666
+all,test + imputation,pa_granted,Algorithm (trained on citations),3.5,-0.03202963589229146
+all,test + imputation,pa_granted,Algorithm (trained on citations),4.0,-0.03669874595614129
+all,test + imputation,pa_granted,Algorithm (trained on citations),4.5,-0.041521013266131813
+all,test + imputation,pa_granted,Algorithm (trained on citations),5.0,-0.046435076259921444
+all,test + imputation,pa_granted,Algorithm (trained on citations),5.5,-0.0514762818068278
+all,test + imputation,pa_granted,Algorithm (trained on citations),6.0,-0.05642123694946209
+all,test + imputation,pa_granted,Algorithm (trained on citations),6.5,-0.06124727505317042
+all,test + imputation,pa_granted,Algorithm (trained on citations),7.0,-0.06597491396611957
+all,test + imputation,pa_granted,Algorithm (trained on citations),7.5,-0.0706218988961617
+all,test + imputation,pa_granted,Algorithm (trained on citations),8.0,-0.07527944106336716
+all,test + imputation,pa_granted,Algorithm (trained on citations),8.5,-0.07953631308581083
+all,test + imputation,pa_granted,Algorithm (trained on citations),9.0,-0.08443236252002538
+all,test + imputation,pa_granted,Algorithm (trained on citations),9.5,-0.08916000274211781
+all,test + imputation,pa_granted,Algorithm (trained on citations),10.0,-0.0942241006119169
+all,test + imputation,pa_granted,Algorithm (trained on citations),10.5,-0.0993477354373558
+all,test + imputation,pa_granted,Algorithm (trained on citations),11.0,-0.10442511342583188
+all,test + imputation,pa_granted,Algorithm (trained on citations),11.5,-0.1095819389786536
+all,test + imputation,pa_granted,Algorithm (trained on citations),12.0,-0.11477950836221382
+all,test + imputation,pa_granted,Algorithm (trained on citations),12.5,-0.11997977916279434
+all,test + imputation,pa_granted,Algorithm (trained on citations),13.0,-0.12361470144241447
+all,test + imputation,pa_granted,Algorithm (trained on citations),13.5,-0.1284837330716948
+all,test + imputation,pa_granted,Algorithm (trained on citations),14.0,-0.13375452504676005
+all,test + imputation,pa_granted,Algorithm (trained on citations),14.5,-0.13880298246648795
+all,test + imputation,pa_granted,Algorithm (trained on citations),15.0,-0.14393021869924627
+all,test + imputation,pa_granted,Algorithm (trained on citations),15.5,-0.14880686585912065
+all,test + imputation,pa_granted,Algorithm (trained on citations),16.0,-0.15377843783997167
+all,test + imputation,pa_granted,Algorithm (trained on citations),16.5,-0.15868127724707468
+all,test + imputation,pa_granted,Algorithm (trained on citations),17.0,-0.16370824856044935
+all,test + imputation,pa_granted,Algorithm (trained on citations),17.5,-0.16885996142010057
+all,test + imputation,pa_granted,Algorithm (trained on citations),18.0,-0.1740373900528
+all,test + imputation,pa_granted,Algorithm (trained on citations),18.5,-0.17935165922028348
+all,test + imputation,pa_granted,Algorithm (trained on citations),19.0,-0.184768759288788
+all,test + imputation,pa_granted,Algorithm (trained on citations),19.5,-0.19037240619228324
+all,test + imputation,pa_granted,Algorithm (trained on citations),20.0,-0.19598391655144556
+all,test + imputation,pa_granted,Algorithm (trained on citations),20.5,-0.20090559679108166
+all,test + imputation,pa_granted,Algorithm (trained on citations),21.0,-0.20644393880135553
+all,test + imputation,pa_granted,Algorithm (trained on citations),21.5,-0.21211741934699876
+all,test + imputation,pa_granted,Algorithm (trained on citations),22.0,-0.2178118839383261
+all,test + imputation,pa_granted,Algorithm (trained on citations),22.5,-0.2233793478413213
+all,test + imputation,pa_granted,Algorithm (trained on citations),23.0,-0.22883628332946396
+all,test + imputation,pa_granted,Algorithm (trained on citations),23.5,-0.23425444049337882
+all,test + imputation,pa_granted,Algorithm (trained on citations),24.0,-0.23971690869578421
+all,test + imputation,pa_granted,Algorithm (trained on citations),24.5,-0.24459628232453537
+all,test + imputation,pa_granted,Algorithm (trained on citations),25.0,-0.2501198025884622
+all,test + imputation,pa_granted,Algorithm (trained on citations),25.5,-0.25397418986019515
+all,test + imputation,pa_granted,Algorithm (trained on citations),26.0,-0.25950366261071395
+all,test + imputation,pa_granted,Algorithm (trained on citations),26.5,-0.26400685882775315
+all,test + imputation,pa_granted,Algorithm (trained on citations),27.0,-0.2694426738126399
+all,test + imputation,pa_granted,Algorithm (trained on citations),27.5,-0.2748971342863316
+all,test + imputation,pa_granted,Algorithm (trained on citations),28.0,-0.2801208817290399
+all,test + imputation,pa_granted,Algorithm (trained on citations),28.5,-0.28561938266761544
+all,test + imputation,pa_granted,Algorithm (trained on citations),29.0,-0.2912572479510598
+all,test + imputation,pa_granted,Algorithm (trained on citations),29.5,-0.29694924122163896
+all,test + imputation,pa_granted,Algorithm (trained on citations),30.0,-0.30281858259610217
+all,test + imputation,pa_granted,Algorithm (trained on citations),30.5,-0.3080355475259427
+all,test + imputation,pa_granted,Algorithm (trained on citations),31.0,-0.31364983604800917
+all,test + imputation,pa_granted,Algorithm (trained on citations),31.5,-0.3192529750492572
+all,test + imputation,pa_granted,Algorithm (trained on citations),32.0,-0.32517731912629766
+all,test + imputation,pa_granted,Algorithm (trained on citations),32.5,-0.33119715025154584
+all,test + imputation,pa_granted,Algorithm (trained on citations),33.0,-0.33722684878509995
+all,test + imputation,pa_granted,Algorithm (trained on citations),33.5,-0.3406227959954691
+all,test + imputation,pa_granted,Algorithm (trained on citations),34.0,-0.3468496464074026
+all,test + imputation,pa_granted,Algorithm (trained on citations),34.5,-0.35218718365913604
+all,test + imputation,pa_granted,Algorithm (trained on citations),35.0,-0.3583813019681259
+all,test + imputation,pa_granted,Algorithm (trained on citations),35.5,-0.3644998753584207
+all,test + imputation,pa_granted,Algorithm (trained on citations),36.0,-0.3701317224590502
+all,test + imputation,pa_granted,Algorithm (trained on citations),36.5,-0.37579647397849664
+all,test + imputation,pa_granted,Algorithm (trained on citations),37.0,-0.3819724841196958
+all,test + imputation,pa_granted,Algorithm (trained on citations),37.5,-0.3880950764681526
+all,test + imputation,pa_granted,Algorithm (trained on citations),38.0,-0.3934164168471439
+all,test + imputation,pa_granted,Algorithm (trained on citations),38.5,-0.398880362916152
+all,test + imputation,pa_granted,Algorithm (trained on citations),39.0,-0.40455053667772695
+all,test + imputation,pa_granted,Algorithm (trained on citations),39.5,-0.41039219448648073
+all,test + imputation,pa_granted,Algorithm (trained on citations),40.0,-0.41630648883509996
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),0.0,-0.0
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),0.5,-0.007099884569289485
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),1.0,-0.01419976913857897
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),1.5,-0.021301345590762848
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),2.0,-0.028392174747487148
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),2.5,-0.03547598495060164
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),3.0,-0.042756529454496865
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),3.5,-0.05013259396899842
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),4.0,-0.05738225274104953
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),4.5,-0.06447727610035643
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),5.0,-0.0714364471352005
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),5.5,-0.07815287267217455
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),6.0,-0.08472794997453482
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),6.5,-0.0912783153573109
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),7.0,-0.0976787193914294
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),7.5,-0.10388069815235369
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),8.0,-0.11016602276132118
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),8.5,-0.11612084091539016
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),9.0,-0.12274116409518995
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),9.5,-0.12926566737411843
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),10.0,-0.13600180988913144
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),10.5,-0.14275544454602157
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),11.0,-0.1496750185495311
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),11.5,-0.1565277353554869
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),12.0,-0.16332199126417424
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),12.5,-0.1701557978342794
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),13.0,-0.17524503963141363
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),13.5,-0.1816846353907157
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),14.0,-0.18842338297381006
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),14.5,-0.1949485365083682
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),15.0,-0.20155609774224412
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),15.5,-0.20773725803605392
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),16.0,-0.21409838048961896
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),16.5,-0.2206069962555084
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),17.0,-0.22717127196798745
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),17.5,-0.23374041654618524
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),18.0,-0.24024643471088647
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),18.5,-0.24693249824814142
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),19.0,-0.25344241523360456
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),19.5,-0.2598873441427266
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),20.0,-0.26632736456496925
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),20.5,-0.27231887217284867
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),21.0,-0.2789608684572729
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),21.5,-0.28580254880106715
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),22.0,-0.29260443781103634
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),22.5,-0.29918459809013703
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),23.0,-0.3055609953260559
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),23.5,-0.31197435869281054
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),24.0,-0.31830224328730616
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),24.5,-0.3239389066579586
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),25.0,-0.3300907213653865
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),25.5,-0.33442977006430696
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),26.0,-0.3402293663032427
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),26.5,-0.3450901739938297
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),27.0,-0.35095014693128923
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),27.5,-0.35689045818544707
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),28.0,-0.36268582586690007
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),28.5,-0.36865999216698087
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),29.0,-0.3746544259625516
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),29.5,-0.380540662308977
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),30.0,-0.3864694744665739
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),30.5,-0.39184192116859146
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),31.0,-0.3976267776064382
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),31.5,-0.40340071085388773
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),32.0,-0.40956073968599227
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),32.5,-0.4158711627609234
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),33.0,-0.42240525260172795
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),33.5,-0.4267144813758713
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),34.0,-0.43363004106401215
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),34.5,-0.43979985737283755
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),35.0,-0.44665824777572943
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),35.5,-0.4532825182832287
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),36.0,-0.4594398873203578
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),36.5,-0.4657653610851403
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),37.0,-0.47248332174003754
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),37.5,-0.47915907646488454
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),38.0,-0.4852173322462745
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),38.5,-0.4914040058253954
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),39.0,-0.4974381851717026
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),39.5,-0.5036476127625334
+all,test + imputation,pa_granted,Predicted examiner (trained on grants),40.0,-0.5098000673612493
+all,test + imputation,pa_granted,Random,0.0,-0.0
+all,test + imputation,pa_granted,Random,0.5,-0.006450822311497265
+all,test + imputation,pa_granted,Random,1.0,-0.01290164462299453
+all,test + imputation,pa_granted,Random,1.5,-0.019352466934491712
+all,test + imputation,pa_granted,Random,2.0,-0.02580328924598906
+all,test + imputation,pa_granted,Random,2.5,-0.03225411155748629
+all,test + imputation,pa_granted,Random,3.0,-0.038704933868983424
+all,test + imputation,pa_granted,Random,3.5,-0.045155756180480844
+all,test + imputation,pa_granted,Random,4.0,-0.05160657849197812
+all,test + imputation,pa_granted,Random,4.5,-0.05805740080347542
+all,test + imputation,pa_granted,Random,5.0,-0.06450822311497258
+all,test + imputation,pa_granted,Random,5.5,-0.07095904542646987
+all,test + imputation,pa_granted,Random,6.0,-0.07736894351647497
+all,test + imputation,pa_granted,Random,6.5,-0.08381635547618181
+all,test + imputation,pa_granted,Random,7.0,-0.09026376743588783
+all,test + imputation,pa_granted,Random,7.5,-0.09668757656900269
+all,test + imputation,pa_granted,Random,8.0,-0.10313341500693643
+all,test + imputation,pa_granted,Random,8.5,-0.10905956116428042
+all,test + imputation,pa_granted,Random,9.0,-0.11546168763893745
+all,test + imputation,pa_granted,Random,9.5,-0.12171401619201287
+all,test + imputation,pa_granted,Random,10.0,-0.12812001704422413
+all,test + imputation,pa_granted,Random,10.5,-0.1344557056809012
+all,test + imputation,pa_granted,Random,11.0,-0.14085835833237256
+all,test + imputation,pa_granted,Random,11.5,-0.14726101098384387
+all,test + imputation,pa_granted,Random,12.0,-0.15366366363531497
+all,test + imputation,pa_granted,Random,12.5,-0.160066316286787
+all,test + imputation,pa_granted,Random,13.0,-0.16477773135796697
+all,test + imputation,pa_granted,Random,13.5,-0.17083463151617248
+all,test + imputation,pa_granted,Random,14.0,-0.17716184009084573
+all,test + imputation,pa_granted,Random,14.5,-0.18332297287215674
+all,test + imputation,pa_granted,Random,15.0,-0.1896444546953344
+all,test + imputation,pa_granted,Random,15.5,-0.19576530105295178
+all,test + imputation,pa_granted,Random,16.0,-0.2020803107643373
+all,test + imputation,pa_granted,Random,16.5,-0.2083953204757226
+all,test + imputation,pa_granted,Random,17.0,-0.21467641420301412
+all,test + imputation,pa_granted,Random,17.5,-0.2209904263854552
+all,test + imputation,pa_granted,Random,18.0,-0.2272813646080613
+all,test + imputation,pa_granted,Random,18.5,-0.23356278724871687
+all,test + imputation,pa_granted,Random,19.0,-0.23981755465895924
+all,test + imputation,pa_granted,Random,19.5,-0.2461285429394582
+all,test + imputation,pa_granted,Random,20.0,-0.2524395312199573
+all,test + imputation,pa_granted,Random,20.5,-0.25821293916990773
+all,test + imputation,pa_granted,Random,21.0,-0.2645108157350279
+all,test + imputation,pa_granted,Random,21.5,-0.2708086923001476
+all,test + imputation,pa_granted,Random,22.0,-0.27710656886526713
+all,test + imputation,pa_granted,Random,22.5,-0.2833112617047411
+all,test + imputation,pa_granted,Random,23.0,-0.2895251387932552
+all,test + imputation,pa_granted,Random,23.5,-0.2957908502637985
+all,test + imputation,pa_granted,Random,24.0,-0.3020842726098356
+all,test + imputation,pa_granted,Random,24.5,-0.3078071169858788
+all,test + imputation,pa_granted,Random,25.0,-0.3140888948835497
+all,test + imputation,pa_granted,Random,25.5,-0.3187956511315571
+all,test + imputation,pa_granted,Random,26.0,-0.3250465462517846
+all,test + imputation,pa_granted,Random,26.5,-0.3303428979109233
+all,test + imputation,pa_granted,Random,27.0,-0.33653272163663756
+all,test + imputation,pa_granted,Random,27.5,-0.3427252067923697
+all,test + imputation,pa_granted,Random,28.0,-0.3486443596811805
+all,test + imputation,pa_granted,Random,28.5,-0.3547136400053976
+all,test + imputation,pa_granted,Random,29.0,-0.36088280673645534
+all,test + imputation,pa_granted,Random,29.5,-0.3670286724918721
+all,test + imputation,pa_granted,Random,30.0,-0.3732494974493616
+all,test + imputation,pa_granted,Random,30.5,-0.3789417082598617
+all,test + imputation,pa_granted,Random,31.0,-0.38501793450583327
+all,test + imputation,pa_granted,Random,31.5,-0.3910090346492452
+all,test + imputation,pa_granted,Random,32.0,-0.3972155272627262
+all,test + imputation,pa_granted,Random,32.5,-0.4034179059778848
+all,test + imputation,pa_granted,Random,33.0,-0.4096243353006214
+all,test + imputation,pa_granted,Random,33.5,-0.41341774179174823
+all,test + imputation,pa_granted,Random,34.0,-0.41958815584834147
+all,test + imputation,pa_granted,Random,34.5,-0.4249817952139448
+all,test + imputation,pa_granted,Random,35.0,-0.4311409516663208
+all,test + imputation,pa_granted,Random,35.5,-0.43719369560687743
+all,test + imputation,pa_granted,Random,36.0,-0.4428578905870827
+all,test + imputation,pa_granted,Random,36.5,-0.44854143748018915
+all,test + imputation,pa_granted,Random,37.0,-0.4546858407333431
+all,test + imputation,pa_granted,Random,37.5,-0.46083024398649697
+all,test + imputation,pa_granted,Random,38.0,-0.46640778954224243
+all,test + imputation,pa_granted,Random,38.5,-0.4722019736290407
+all,test + imputation,pa_granted,Random,39.0,-0.4781949737856769
+all,test + imputation,pa_granted,Random,39.5,-0.4843167525404703
+all,test + imputation,pa_granted,Random,40.0,-0.4904473443447803
+all,lock box,cites,Algorithm (trained on citations),0.0,-0.0
+all,lock box,cites,Algorithm (trained on citations),0.5,-0.004461096908283137
+all,lock box,cites,Algorithm (trained on citations),1.0,-0.008922193816566275
+all,lock box,cites,Algorithm (trained on citations),1.5,-0.013378557069863663
+all,lock box,cites,Algorithm (trained on citations),2.0,-0.01778748821122382
+all,lock box,cites,Algorithm (trained on citations),2.5,-0.022071110520641552
+all,lock box,cites,Algorithm (trained on citations),3.0,-0.02634882443961351
+all,lock box,cites,Algorithm (trained on citations),3.5,-0.03034257798283409
+all,lock box,cites,Algorithm (trained on citations),4.0,-0.034118060681750564
+all,lock box,cites,Algorithm (trained on citations),4.5,-0.03783499140674478
+all,lock box,cites,Algorithm (trained on citations),5.0,-0.04150244064609047
+all,lock box,cites,Algorithm (trained on citations),5.5,-0.045163689625976666
+all,lock box,cites,Algorithm (trained on citations),6.0,-0.04883425801765187
+all,lock box,cites,Algorithm (trained on citations),6.5,-0.05263913518170257
+all,lock box,cites,Algorithm (trained on citations),7.0,-0.05664521323939071
+all,lock box,cites,Algorithm (trained on citations),7.5,-0.06075205795938934
+all,lock box,cites,Algorithm (trained on citations),8.0,-0.06485101717152929
+all,lock box,cites,Algorithm (trained on citations),8.5,-0.06883226159276438
+all,lock box,cites,Algorithm (trained on citations),9.0,-0.07276330923978751
+all,lock box,cites,Algorithm (trained on citations),9.5,-0.0766545022952286
+all,lock box,cites,Algorithm (trained on citations),10.0,-0.08035690593948687
+all,lock box,cites,Algorithm (trained on citations),10.5,-0.08411361687607458
+all,lock box,cites,Algorithm (trained on citations),11.0,-0.08797268323756893
+all,lock box,cites,Algorithm (trained on citations),11.5,-0.0918891283131557
+all,lock box,cites,Algorithm (trained on citations),12.0,-0.09584333601914022
+all,lock box,cites,Algorithm (trained on citations),12.5,-0.10006751422720349
+all,lock box,cites,Algorithm (trained on citations),13.0,-0.10463193197071839
+all,lock box,cites,Algorithm (trained on citations),13.5,-0.10936774248757282
+all,lock box,cites,Algorithm (trained on citations),14.0,-0.1140491927784646
+all,lock box,cites,Algorithm (trained on citations),14.5,-0.11849745308163961
+all,lock box,cites,Algorithm (trained on citations),15.0,-0.12275893807607101
+all,lock box,cites,Algorithm (trained on citations),15.5,-0.1270372459456703
+all,lock box,cites,Algorithm (trained on citations),16.0,-0.13118956047408947
+all,lock box,cites,Algorithm (trained on citations),16.5,-0.13535283075886673
+all,lock box,cites,Algorithm (trained on citations),17.0,-0.1392591595538696
+all,lock box,cites,Algorithm (trained on citations),17.5,-0.1436067181946422
+all,lock box,cites,Algorithm (trained on citations),18.0,-0.14799957122414245
+all,lock box,cites,Algorithm (trained on citations),18.5,-0.1523288395418017
+all,lock box,cites,Algorithm (trained on citations),19.0,-0.1566304929276864
+all,lock box,cites,Algorithm (trained on citations),19.5,-0.160345862369555
+all,lock box,cites,Algorithm (trained on citations),20.0,-0.16452638706191558
+all,lock box,cites,Algorithm (trained on citations),20.5,-0.1686499280253432
+all,lock box,cites,Algorithm (trained on citations),21.0,-0.17258852660033772
+all,lock box,cites,Algorithm (trained on citations),21.5,-0.17675872216501418
+all,lock box,cites,Algorithm (trained on citations),22.0,-0.18048871916909012
+all,lock box,cites,Algorithm (trained on citations),22.5,-0.18457766158056707
+all,lock box,cites,Algorithm (trained on citations),23.0,-0.18875631337422044
+all,lock box,cites,Algorithm (trained on citations),23.5,-0.19300247675929505
+all,lock box,cites,Algorithm (trained on citations),24.0,-0.19727336047923288
+all,lock box,cites,Algorithm (trained on citations),24.5,-0.20152309699589996
+all,lock box,cites,Algorithm (trained on citations),25.0,-0.20571024845586622
+all,lock box,cites,Algorithm (trained on citations),25.5,-0.21016214938421493
+all,lock box,cites,Algorithm (trained on citations),26.0,-0.21491307746154814
+all,lock box,cites,Algorithm (trained on citations),26.5,-0.21978697953906434
+all,lock box,cites,Algorithm (trained on citations),27.0,-0.22457389881832968
+all,lock box,cites,Algorithm (trained on citations),27.5,-0.2290163939786501
+all,lock box,cites,Algorithm (trained on citations),28.0,-0.23448069873530014
+all,lock box,cites,Algorithm (trained on citations),28.5,-0.24030661573615125
+all,lock box,cites,Algorithm (trained on citations),29.0,-0.24570247492272854
+all,lock box,cites,Algorithm (trained on citations),29.5,-0.25137666073773374
+all,lock box,cites,Algorithm (trained on citations),30.0,-0.2562407345668402
+all,lock box,cites,Algorithm (trained on citations),30.5,-0.2610565621440342
+all,lock box,cites,Algorithm (trained on citations),31.0,-0.26608256651132983
+all,lock box,cites,Algorithm (trained on citations),31.5,-0.2707065330766322
+all,lock box,cites,Algorithm (trained on citations),32.0,-0.2763198326985651
+all,lock box,cites,Algorithm (trained on citations),32.5,-0.28232054973355813
+all,lock box,cites,Algorithm (trained on citations),33.0,-0.28873669659373025
+all,lock box,cites,Algorithm (trained on citations),33.5,-0.29024774741335413
+all,lock box,cites,Algorithm (trained on citations),34.0,-0.29648372328944567
+all,lock box,cites,Algorithm (trained on citations),34.5,-0.3017911060004457
+all,lock box,cites,Algorithm (trained on citations),35.0,-0.30648693756289747
+all,lock box,cites,Algorithm (trained on citations),35.5,-0.3113025664066631
+all,lock box,cites,Algorithm (trained on citations),36.0,-0.3161509733913937
+all,lock box,cites,Algorithm (trained on citations),36.5,-0.320953720807508
+all,lock box,cites,Algorithm (trained on citations),37.0,-0.3263700639991237
+all,lock box,cites,Algorithm (trained on citations),37.5,-0.33242144365799814
+all,lock box,cites,Algorithm (trained on citations),38.0,-0.33851695261724196
+all,lock box,cites,Algorithm (trained on citations),38.5,-0.34426960860053424
+all,lock box,cites,Algorithm (trained on citations),39.0,-0.35035379874164563
+all,lock box,cites,Algorithm (trained on citations),39.5,-0.35627672555370776
+all,lock box,cites,Algorithm (trained on citations),40.0,-0.36173295520139553
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,0.0,-0.0
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,0.5,-0.004480077907034742
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,1.0,-0.008960155814069485
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,1.5,-0.013444924767916209
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,2.0,-0.01798694165619884
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,2.5,-0.022627328315291646
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,3.0,-0.027356553047587218
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,3.5,-0.03248610809530798
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,4.0,-0.037979366196609576
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,4.5,-0.043446866875621194
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,5.0,-0.048755458102650806
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,5.5,-0.054055784729988655
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,6.0,-0.05927924865202274
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,6.5,-0.06447818068375728
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,7.0,-0.06907811456434004
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,7.5,-0.07368448734950103
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,8.0,-0.07825875357850692
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,8.5,-0.0826159493922745
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,9.0,-0.08671873775604524
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,9.5,-0.09080535143158412
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,10.0,-0.09499484595659903
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,10.5,-0.0992170370843597
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,11.0,-0.10343658749623497
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,11.5,-0.10767596204617798
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,12.0,-0.11207039519774738
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,12.5,-0.11662408640407301
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,13.0,-0.12102953089723141
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,13.5,-0.12545759093071848
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,14.0,-0.1298486767156914
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,14.5,-0.13447080464865802
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,15.0,-0.13910191193083707
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,15.5,-0.14360369382453347
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,16.0,-0.14781438995301974
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,16.5,-0.15278255146872283
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,17.0,-0.1576182131522871
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,17.5,-0.16282583647097598
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,18.0,-0.16758784766678478
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,18.5,-0.17194147994593859
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,19.0,-0.17583698011380086
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,19.5,-0.1792362405438237
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,20.0,-0.18319378411273823
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,20.5,-0.18734080638749526
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,21.0,-0.1914174219775421
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,21.5,-0.19585498155061645
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,22.0,-0.1999318650286848
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,22.5,-0.2046370842724277
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,23.0,-0.20937136665973932
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,23.5,-0.21411517633764213
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,24.0,-0.2188110397969206
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,24.5,-0.22343490872123467
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,25.0,-0.22819424552838663
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,25.5,-0.23315447936296654
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,26.0,-0.23837721010811277
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,26.5,-0.24366472719051124
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,27.0,-0.2490523698805428
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,27.5,-0.25409313970937
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,28.0,-0.2599991472518423
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,28.5,-0.26640191191118506
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,29.0,-0.2722883016697438
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,29.5,-0.2788175808716452
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,30.0,-0.2848516024186586
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,30.5,-0.29048762624200475
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,31.0,-0.2962087336239093
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,31.5,-0.30116118870274117
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,32.0,-0.3062739668390021
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,32.5,-0.3112276615919713
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,33.0,-0.31597532464568484
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,33.5,-0.3161282919311149
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,34.0,-0.32124490488873175
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,34.5,-0.32626790419726903
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,35.0,-0.3311116608355026
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,35.5,-0.3361531744723292
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,36.0,-0.3412313865329899
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,36.5,-0.34631410533004603
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,37.0,-0.3521210330380037
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,37.5,-0.35860398440592556
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,38.0,-0.36492399209456183
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,38.5,-0.37099762321978297
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,39.0,-0.3770293243987372
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,39.5,-0.3824309206487115
+all,lock box,cites,Algorithm trained on the most lenient quintile's grants,40.0,-0.38772036307057606
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),0.0,-0.0
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),0.5,-0.004622341697395869
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),1.0,-0.009244683394791738
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),1.5,-0.013867067700361366
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),2.0,-0.01848991805639797
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),2.5,-0.023166378050722906
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),3.0,-0.02759624728380376
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),3.5,-0.03160449359501233
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),4.0,-0.03544797863485972
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),4.5,-0.03937082612006331
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),5.0,-0.043373783892264185
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),5.5,-0.04697761499044806
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),6.0,-0.05038250361560472
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),6.5,-0.05391750508277179
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),7.0,-0.05757172255054639
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),7.5,-0.061211122439725506
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),8.0,-0.06492093455870233
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),8.5,-0.06899013658786539
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),9.0,-0.07332622135398702
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),9.5,-0.07768013428426797
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),10.0,-0.08206328471709441
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),10.5,-0.08668435286481631
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),11.0,-0.09102086256007633
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),11.5,-0.09544730995096193
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),12.0,-0.09994445160119222
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),12.5,-0.1045965813575768
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),13.0,-0.10934332601959833
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),13.5,-0.11424540529565656
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),14.0,-0.11905977586931264
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),14.5,-0.12383170697105049
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),15.0,-0.12893786490985787
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),15.5,-0.13465579464430855
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),16.0,-0.14051915582257218
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),16.5,-0.14624398704881783
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),17.0,-0.15081625221209277
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),17.5,-0.15542405773137363
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),18.0,-0.16000297157465357
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),18.5,-0.16464732350566363
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),19.0,-0.16949423574261394
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),19.5,-0.1738363802753615
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),20.0,-0.1787868798405639
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),20.5,-0.18337673519464143
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),21.0,-0.1879032529026981
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),21.5,-0.19283415483239622
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),22.0,-0.19736332159743203
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),22.5,-0.20253756085515745
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),23.0,-0.20841052726036968
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),23.5,-0.21409151398994808
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),24.0,-0.2198007811043858
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),24.5,-0.22542103939449884
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),25.0,-0.23051292538724985
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),25.5,-0.23516624502669836
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),26.0,-0.2403860522183992
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),26.5,-0.2456099434015045
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),27.0,-0.25047674899894595
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),27.5,-0.2548202045327906
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),28.0,-0.25958559279573107
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),28.5,-0.26391233548811194
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),29.0,-0.26766460152923405
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),29.5,-0.27214414745176974
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),30.0,-0.27691797356307063
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),30.5,-0.28169406453474316
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),31.0,-0.2866445603807474
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),31.5,-0.29128294654867803
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),32.0,-0.29639658999564167
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),32.5,-0.301280770090317
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),33.0,-0.305952167550014
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),33.5,-0.3059549459769393
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),34.0,-0.3109158271469121
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),34.5,-0.31590017621477307
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),35.0,-0.3207098066390712
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),35.5,-0.3257143716691236
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),36.0,-0.33073637355832314
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),36.5,-0.33566681392013653
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),37.0,-0.3406327915209731
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),37.5,-0.34533881854640214
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),38.0,-0.3498143911425524
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),38.5,-0.35403070488814425
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),39.0,-0.35863868016845896
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),39.5,-0.3633640133285353
+all,lock box,cites,Algorithm trained on prior-art citations (all applications),40.0,-0.3682075645392219
+all,lock box,cites,Predicted examiner (trained on grants),0.0,-0.0
+all,lock box,cites,Predicted examiner (trained on grants),0.5,-0.0058838151264166165
+all,lock box,cites,Predicted examiner (trained on grants),1.0,-0.011767630252833233
+all,lock box,cites,Predicted examiner (trained on grants),1.5,-0.017656306858756878
+all,lock box,cites,Predicted examiner (trained on grants),2.0,-0.02343163095636781
+all,lock box,cites,Predicted examiner (trained on grants),2.5,-0.02907758128729536
+all,lock box,cites,Predicted examiner (trained on grants),3.0,-0.034721708890303564
+all,lock box,cites,Predicted examiner (trained on grants),3.5,-0.040251688436277175
+all,lock box,cites,Predicted examiner (trained on grants),4.0,-0.045906036396903535
+all,lock box,cites,Predicted examiner (trained on grants),4.5,-0.051685145276287675
+all,lock box,cites,Predicted examiner (trained on grants),5.0,-0.057367248949673315
+all,lock box,cites,Predicted examiner (trained on grants),5.5,-0.06305508861716415
+all,lock box,cites,Predicted examiner (trained on grants),6.0,-0.06877298701288287
+all,lock box,cites,Predicted examiner (trained on grants),6.5,-0.07463539397698617
+all,lock box,cites,Predicted examiner (trained on grants),7.0,-0.0811009101391327
+all,lock box,cites,Predicted examiner (trained on grants),7.5,-0.08756700937299555
+all,lock box,cites,Predicted examiner (trained on grants),8.0,-0.09406891945394748
+all,lock box,cites,Predicted examiner (trained on grants),8.5,-0.10053461315347181
+all,lock box,cites,Predicted examiner (trained on grants),9.0,-0.10686427973607004
+all,lock box,cites,Predicted examiner (trained on grants),9.5,-0.11326783729872589
+all,lock box,cites,Predicted examiner (trained on grants),10.0,-0.11924746642314593
+all,lock box,cites,Predicted examiner (trained on grants),10.5,-0.12495316130870372
+all,lock box,cites,Predicted examiner (trained on grants),11.0,-0.13100774168534432
+all,lock box,cites,Predicted examiner (trained on grants),11.5,-0.13718072030462083
+all,lock box,cites,Predicted examiner (trained on grants),12.0,-0.1434812666414406
+all,lock box,cites,Predicted examiner (trained on grants),12.5,-0.14981484936843587
+all,lock box,cites,Predicted examiner (trained on grants),13.0,-0.15627410076508158
+all,lock box,cites,Predicted examiner (trained on grants),13.5,-0.16290032688637673
+all,lock box,cites,Predicted examiner (trained on grants),14.0,-0.16947906505488622
+all,lock box,cites,Predicted examiner (trained on grants),14.5,-0.175877579623083
+all,lock box,cites,Predicted examiner (trained on grants),15.0,-0.1821953661288752
+all,lock box,cites,Predicted examiner (trained on grants),15.5,-0.1887359673566824
+all,lock box,cites,Predicted examiner (trained on grants),16.0,-0.19509786132275925
+all,lock box,cites,Predicted examiner (trained on grants),16.5,-0.20138470498368985
+all,lock box,cites,Predicted examiner (trained on grants),17.0,-0.20726128083505177
+all,lock box,cites,Predicted examiner (trained on grants),17.5,-0.21332189200622656
+all,lock box,cites,Predicted examiner (trained on grants),18.0,-0.2194137972836636
+all,lock box,cites,Predicted examiner (trained on grants),18.5,-0.22548868786052503
+all,lock box,cites,Predicted examiner (trained on grants),19.0,-0.23123731702960956
+all,lock box,cites,Predicted examiner (trained on grants),19.5,-0.23648461518692634
+all,lock box,cites,Predicted examiner (trained on grants),20.0,-0.24223418255590978
+all,lock box,cites,Predicted examiner (trained on grants),20.5,-0.24727845339505236
+all,lock box,cites,Predicted examiner (trained on grants),21.0,-0.25239097584790915
+all,lock box,cites,Predicted examiner (trained on grants),21.5,-0.2575616890647877
+all,lock box,cites,Predicted examiner (trained on grants),22.0,-0.2621773576347028
+all,lock box,cites,Predicted examiner (trained on grants),22.5,-0.2672034030118801
+all,lock box,cites,Predicted examiner (trained on grants),23.0,-0.2723092244617382
+all,lock box,cites,Predicted examiner (trained on grants),23.5,-0.2773439221664899
+all,lock box,cites,Predicted examiner (trained on grants),24.0,-0.2825934180589041
+all,lock box,cites,Predicted examiner (trained on grants),24.5,-0.2881777814181153
+all,lock box,cites,Predicted examiner (trained on grants),25.0,-0.29365484377524437
+all,lock box,cites,Predicted examiner (trained on grants),25.5,-0.2995749467766337
+all,lock box,cites,Predicted examiner (trained on grants),26.0,-0.30572075029434365
+all,lock box,cites,Predicted examiner (trained on grants),26.5,-0.31184003794768766
+all,lock box,cites,Predicted examiner (trained on grants),27.0,-0.3179507410398708
+all,lock box,cites,Predicted examiner (trained on grants),27.5,-0.32362544310178126
+all,lock box,cites,Predicted examiner (trained on grants),28.0,-0.329912626057037
+all,lock box,cites,Predicted examiner (trained on grants),28.5,-0.3360786821327458
+all,lock box,cites,Predicted examiner (trained on grants),29.0,-0.34158363736459035
+all,lock box,cites,Predicted examiner (trained on grants),29.5,-0.3473624105989579
+all,lock box,cites,Predicted examiner (trained on grants),30.0,-0.3529193312067443
+all,lock box,cites,Predicted examiner (trained on grants),30.5,-0.3582021733945011
+all,lock box,cites,Predicted examiner (trained on grants),31.0,-0.3635689682473375
+all,lock box,cites,Predicted examiner (trained on grants),31.5,-0.36852823152579167
+all,lock box,cites,Predicted examiner (trained on grants),32.0,-0.37449953551408405
+all,lock box,cites,Predicted examiner (trained on grants),32.5,-0.38048327790345726
+all,lock box,cites,Predicted examiner (trained on grants),33.0,-0.38642730321546565
+all,lock box,cites,Predicted examiner (trained on grants),33.5,-0.3878029898183159
+all,lock box,cites,Predicted examiner (trained on grants),34.0,-0.39278645235082904
+all,lock box,cites,Predicted examiner (trained on grants),34.5,-0.39780998097827003
+all,lock box,cites,Predicted examiner (trained on grants),35.0,-0.40263061441950204
+all,lock box,cites,Predicted examiner (trained on grants),35.5,-0.407494387728884
+all,lock box,cites,Predicted examiner (trained on grants),36.0,-0.4123302761852226
+all,lock box,cites,Predicted examiner (trained on grants),36.5,-0.4171685074271162
+all,lock box,cites,Predicted examiner (trained on grants),37.0,-0.42215531136083195
+all,lock box,cites,Predicted examiner (trained on grants),37.5,-0.4272596823054111
+all,lock box,cites,Predicted examiner (trained on grants),38.0,-0.43250127956586526
+all,lock box,cites,Predicted examiner (trained on grants),38.5,-0.437727115971712
+all,lock box,cites,Predicted examiner (trained on grants),39.0,-0.4433473047645965
+all,lock box,cites,Predicted examiner (trained on grants),39.5,-0.44906041706894506
+all,lock box,cites,Predicted examiner (trained on grants),40.0,-0.45444289887991696
+all,lock box,cites,Random,0.0,-0.0
+all,lock box,cites,Random,0.5,-0.006101529702441605
+all,lock box,cites,Random,1.0,-0.01220305940488321
+all,lock box,cites,Random,1.5,-0.01830458910732484
+all,lock box,cites,Random,2.0,-0.02440611880976642
+all,lock box,cites,Random,2.5,-0.030507648512208083
+all,lock box,cites,Random,3.0,-0.03660917821464968
+all,lock box,cites,Random,3.5,-0.04271070791709134
+all,lock box,cites,Random,4.0,-0.04881223761953284
+all,lock box,cites,Random,4.5,-0.05491376732197461
+all,lock box,cites,Random,5.0,-0.06101529702441617
+all,lock box,cites,Random,5.5,-0.06711682672685766
+all,lock box,cites,Random,6.0,-0.07321835642929936
+all,lock box,cites,Random,6.5,-0.07931988613174112
+all,lock box,cites,Random,7.0,-0.08542141583418268
+all,lock box,cites,Random,7.5,-0.09152294553662423
+all,lock box,cites,Random,8.0,-0.09762447523906569
+all,lock box,cites,Random,8.5,-0.10372600494150759
+all,lock box,cites,Random,9.0,-0.10982753464394922
+all,lock box,cites,Random,9.5,-0.11592906434639084
+all,lock box,cites,Random,10.0,-0.12203059404883233
+all,lock box,cites,Random,10.5,-0.128132123751274
+all,lock box,cites,Random,11.0,-0.13423365345371532
+all,lock box,cites,Random,11.5,-0.14033518315615737
+all,lock box,cites,Random,12.0,-0.14643671285859872
+all,lock box,cites,Random,12.5,-0.15253824256104048
+all,lock box,cites,Random,13.0,-0.1585265000666858
+all,lock box,cites,Random,13.5,-0.16462367314617352
+all,lock box,cites,Random,14.0,-0.1707208462256615
+all,lock box,cites,Random,14.5,-0.17679685890788938
+all,lock box,cites,Random,15.0,-0.18289330231850628
+all,lock box,cites,Random,15.5,-0.18898974572912336
+all,lock box,cites,Random,16.0,-0.1950861891397397
+all,lock box,cites,Random,16.5,-0.20118263255035712
+all,lock box,cites,Random,17.0,-0.20690798329600266
+all,lock box,cites,Random,17.5,-0.2129935122164728
+all,lock box,cites,Random,18.0,-0.2190790411369439
+all,lock box,cites,Random,18.5,-0.22516457005741447
+all,lock box,cites,Random,19.0,-0.2312500989778853
+all,lock box,cites,Random,19.5,-0.23685743209702398
+all,lock box,cites,Random,20.0,-0.24293069958669136
+all,lock box,cites,Random,20.5,-0.24876760818092453
+all,lock box,cites,Random,21.0,-0.2545152653663288
+all,lock box,cites,Random,21.5,-0.26057515263695596
+all,lock box,cites,Random,22.0,-0.26623012741947893
+all,lock box,cites,Random,22.5,-0.2722808121335584
+all,lock box,cites,Random,23.0,-0.2783314968476379
+all,lock box,cites,Random,23.5,-0.2843821815617165
+all,lock box,cites,Random,24.0,-0.2904328662757956
+all,lock box,cites,Random,24.5,-0.2964835509898745
+all,lock box,cites,Random,25.0,-0.302534235703954
+all,lock box,cites,Random,25.5,-0.30836385106915154
+all,lock box,cites,Random,26.0,-0.31441020109011597
+all,lock box,cites,Random,26.5,-0.3204565511110795
+all,lock box,cites,Random,27.0,-0.32637912002146774
+all,lock box,cites,Random,27.5,-0.33189115977040917
+all,lock box,cites,Random,28.0,-0.33792554449350737
+all,lock box,cites,Random,28.5,-0.3439599292166056
+all,lock box,cites,Random,29.0,-0.3495917351486313
+all,lock box,cites,Random,29.5,-0.35561917885809036
+all,lock box,cites,Random,30.0,-0.3616466225675497
+all,lock box,cites,Random,30.5,-0.36756236405266496
+all,lock box,cites,Random,31.0,-0.37358797657811876
+all,lock box,cites,Random,31.5,-0.37919824769249805
+all,lock box,cites,Random,32.0,-0.3852172674971404
+all,lock box,cites,Random,32.5,-0.39123628730178384
+all,lock box,cites,Random,33.0,-0.3972553071064271
+all,lock box,cites,Random,33.5,-0.3991002765219734
+all,lock box,cites,Random,34.0,-0.4050569970670778
+all,lock box,cites,Random,34.5,-0.411013717612182
+all,lock box,cites,Random,35.0,-0.41684211078261674
+all,lock box,cites,Random,35.5,-0.4227969980795113
+all,lock box,cites,Random,36.0,-0.42875188537640607
+all,lock box,cites,Random,36.5,-0.4345846031096122
+all,lock box,cites,Random,37.0,-0.4405378168508391
+all,lock box,cites,Random,37.5,-0.44649103059206724
+all,lock box,cites,Random,38.0,-0.452331322720605
+all,lock box,cites,Random,38.5,-0.45795458162588865
+all,lock box,cites,Random,39.0,-0.46390204372492566
+all,lock box,cites,Random,39.5,-0.4698495058239642
+all,lock box,cites,Random,40.0,-0.47579696792300097
+all,lock box,cites,"Algorithm, examiners' female share",0.0,-0.0
+all,lock box,cites,"Algorithm, examiners' female share",0.5,-0.0051321741762146095
+all,lock box,cites,"Algorithm, examiners' female share",1.0,-0.010264348352429219
+all,lock box,cites,"Algorithm, examiners' female share",1.5,-0.015396522528643843
+all,lock box,cites,"Algorithm, examiners' female share",2.0,-0.020501006896934956
+all,lock box,cites,"Algorithm, examiners' female share",2.5,-0.025493306629886393
+all,lock box,cites,"Algorithm, examiners' female share",3.0,-0.030364180349012903
+all,lock box,cites,"Algorithm, examiners' female share",3.5,-0.03535891358699569
+all,lock box,cites,"Algorithm, examiners' female share",4.0,-0.03964659869041372
+all,lock box,cites,"Algorithm, examiners' female share",4.5,-0.043722238219603096
+all,lock box,cites,"Algorithm, examiners' female share",5.0,-0.04770130847321589
+all,lock box,cites,"Algorithm, examiners' female share",5.5,-0.05166016631362875
+all,lock box,cites,"Algorithm, examiners' female share",6.0,-0.055599014516107825
+all,lock box,cites,"Algorithm, examiners' female share",6.5,-0.05949144255763794
+all,lock box,cites,"Algorithm, examiners' female share",7.0,-0.06317172175225133
+all,lock box,cites,"Algorithm, examiners' female share",7.5,-0.067088005571555
+all,lock box,cites,"Algorithm, examiners' female share",8.0,-0.0709903923476644
+all,lock box,cites,"Algorithm, examiners' female share",8.5,-0.07516557690152335
+all,lock box,cites,"Algorithm, examiners' female share",9.0,-0.07935116318545878
+all,lock box,cites,"Algorithm, examiners' female share",9.5,-0.083163819521257
+all,lock box,cites,"Algorithm, examiners' female share",10.0,-0.08687665270771563
+all,lock box,cites,"Algorithm, examiners' female share",10.5,-0.09070594936667707
+all,lock box,cites,"Algorithm, examiners' female share",11.0,-0.09447286825959614
+all,lock box,cites,"Algorithm, examiners' female share",11.5,-0.09816264742063568
+all,lock box,cites,"Algorithm, examiners' female share",12.0,-0.10184621869180174
+all,lock box,cites,"Algorithm, examiners' female share",12.5,-0.10556172570661207
+all,lock box,cites,"Algorithm, examiners' female share",13.0,-0.10946422639310324
+all,lock box,cites,"Algorithm, examiners' female share",13.5,-0.1132906433337381
+all,lock box,cites,"Algorithm, examiners' female share",14.0,-0.11817935362553185
+all,lock box,cites,"Algorithm, examiners' female share",14.5,-0.12339337509241095
+all,lock box,cites,"Algorithm, examiners' female share",15.0,-0.12865990607901184
+all,lock box,cites,"Algorithm, examiners' female share",15.5,-0.1339492638572552
+all,lock box,cites,"Algorithm, examiners' female share",16.0,-0.13934600101580044
+all,lock box,cites,"Algorithm, examiners' female share",16.5,-0.1423295811390478
+all,lock box,cites,"Algorithm, examiners' female share",17.0,-0.14755845774217985
+all,lock box,cites,"Algorithm, examiners' female share",17.5,-0.1523136118637815
+all,lock box,cites,"Algorithm, examiners' female share",18.0,-0.15705670737754132
+all,lock box,cites,"Algorithm, examiners' female share",18.5,-0.16152577221641434
+all,lock box,cites,"Algorithm, examiners' female share",19.0,-0.16470158182384292
+all,lock box,cites,"Algorithm, examiners' female share",19.5,-0.16875087923489485
+all,lock box,cites,"Algorithm, examiners' female share",20.0,-0.17321047853689103
+all,lock box,cites,"Algorithm, examiners' female share",20.5,-0.17690903090133028
+all,lock box,cites,"Algorithm, examiners' female share",21.0,-0.18126431781663166
+all,lock box,cites,"Algorithm, examiners' female share",21.5,-0.18533520287156155
+all,lock box,cites,"Algorithm, examiners' female share",22.0,-0.18953729825087598
+all,lock box,cites,"Algorithm, examiners' female share",22.5,-0.1937066657142438
+all,lock box,cites,"Algorithm, examiners' female share",23.0,-0.1975511626778848
+all,lock box,cites,"Algorithm, examiners' female share",23.5,-0.20205055843211794
+all,lock box,cites,"Algorithm, examiners' female share",24.0,-0.2078353303202177
+all,lock box,cites,"Algorithm, examiners' female share",24.5,-0.2139405414679148
+all,lock box,cites,"Algorithm, examiners' female share",25.0,-0.21937105126729609
+all,lock box,cites,"Algorithm, examiners' female share",25.5,-0.22502352666745762
+all,lock box,cites,"Algorithm, examiners' female share",26.0,-0.22959354702149476
+all,lock box,cites,"Algorithm, examiners' female share",26.5,-0.2343296346872158
+all,lock box,cites,"Algorithm, examiners' female share",27.0,-0.23898164003534975
+all,lock box,cites,"Algorithm, examiners' female share",27.5,-0.24291615639825725
+all,lock box,cites,"Algorithm, examiners' female share",28.0,-0.24759616376852628
+all,lock box,cites,"Algorithm, examiners' female share",28.5,-0.25171572628306776
+all,lock box,cites,"Algorithm, examiners' female share",29.0,-0.2467084367481905
+all,lock box,cites,"Algorithm, examiners' female share",29.5,-0.25284657276284844
+all,lock box,cites,"Algorithm, examiners' female share",30.0,-0.2592719998643714
+all,lock box,cites,"Algorithm, examiners' female share",30.5,-0.26511970216733033
+all,lock box,cites,"Algorithm, examiners' female share",31.0,-0.27085570871279474
+all,lock box,cites,"Algorithm, examiners' female share",31.5,-0.27706438450792564
+all,lock box,cites,"Algorithm, examiners' female share",32.0,-0.2795254082512845
+all,lock box,cites,"Algorithm, examiners' female share",32.5,-0.2844425940512959
+all,lock box,cites,"Algorithm, examiners' female share",33.0,-0.2900553237808294
+all,lock box,cites,"Algorithm, examiners' female share",33.5,-0.2950017518314558
+all,lock box,cites,"Algorithm, examiners' female share",34.0,-0.30096055273995154
+all,lock box,cites,"Algorithm, examiners' female share",34.5,-0.30836154534457916
+all,lock box,cites,"Algorithm, examiners' female share",35.0,-0.3134636381332333
+all,lock box,cites,"Algorithm, examiners' female share",35.5,-0.31952849748911166
+all,lock box,cites,"Algorithm, examiners' female share",36.0,-0.32495511536098415
+all,lock box,cites,"Algorithm, examiners' female share",36.5,-0.3306835067041184
+all,lock box,cites,"Algorithm, examiners' female share",37.0,-0.3363667853318881
+all,lock box,cites,"Algorithm, examiners' female share",37.5,-0.3423133134999136
+all,lock box,cites,"Algorithm, examiners' female share",38.0,-0.34748650543350745
+all,lock box,cites,"Algorithm, examiners' female share",38.5,-0.3530065662581913
+all,lock box,cites,"Algorithm, examiners' female share",39.0,-0.3605940558599162
+all,lock box,cites,"Algorithm, examiners' female share",39.5,-0.3678453587772739
+all,lock box,cites,"Algorithm, examiners' female share",40.0,-0.3752774910352378
+all,lock box,cites,"Algorithm, equal rates for women and men",0.0,-0.0
+all,lock box,cites,"Algorithm, equal rates for women and men",0.5,-0.00455125549705545
+all,lock box,cites,"Algorithm, equal rates for women and men",1.0,-0.0091025109941109
+all,lock box,cites,"Algorithm, equal rates for women and men",1.5,-0.013651512223205303
+all,lock box,cites,"Algorithm, equal rates for women and men",2.0,-0.018170220897855933
+all,lock box,cites,"Algorithm, equal rates for women and men",2.5,-0.022596253031600275
+all,lock box,cites,"Algorithm, equal rates for women and men",3.0,-0.02697619088825558
+all,lock box,cites,"Algorithm, equal rates for women and men",3.5,-0.031214793043111144
+all,lock box,cites,"Algorithm, equal rates for women and men",4.0,-0.03516703686012723
+all,lock box,cites,"Algorithm, equal rates for women and men",4.5,-0.03913176978736845
+all,lock box,cites,"Algorithm, equal rates for women and men",5.0,-0.04308221710271298
+all,lock box,cites,"Algorithm, equal rates for women and men",5.5,-0.047026332254685214
+all,lock box,cites,"Algorithm, equal rates for women and men",6.0,-0.05104134296260097
+all,lock box,cites,"Algorithm, equal rates for women and men",6.5,-0.054989349555475
+all,lock box,cites,"Algorithm, equal rates for women and men",7.0,-0.05894573535202048
+all,lock box,cites,"Algorithm, equal rates for women and men",7.5,-0.06283813862942102
+all,lock box,cites,"Algorithm, equal rates for women and men",8.0,-0.06675966028997424
+all,lock box,cites,"Algorithm, equal rates for women and men",8.5,-0.07068693416240551
+all,lock box,cites,"Algorithm, equal rates for women and men",9.0,-0.07464116433818313
+all,lock box,cites,"Algorithm, equal rates for women and men",9.5,-0.07845057503622749
+all,lock box,cites,"Algorithm, equal rates for women and men",10.0,-0.08231498189182694
+all,lock box,cites,"Algorithm, equal rates for women and men",10.5,-0.08618099857719726
+all,lock box,cites,"Algorithm, equal rates for women and men",11.0,-0.09000354999973868
+all,lock box,cites,"Algorithm, equal rates for women and men",11.5,-0.09379322837155898
+all,lock box,cites,"Algorithm, equal rates for women and men",12.0,-0.09760233118470577
+all,lock box,cites,"Algorithm, equal rates for women and men",12.5,-0.10147529997545836
+all,lock box,cites,"Algorithm, equal rates for women and men",13.0,-0.10528375852868178
+all,lock box,cites,"Algorithm, equal rates for women and men",13.5,-0.10926240812114743
+all,lock box,cites,"Algorithm, equal rates for women and men",14.0,-0.11356429728319062
+all,lock box,cites,"Algorithm, equal rates for women and men",14.5,-0.11805937544069323
+all,lock box,cites,"Algorithm, equal rates for women and men",15.0,-0.12269339866573754
+all,lock box,cites,"Algorithm, equal rates for women and men",15.5,-0.12743854746417133
+all,lock box,cites,"Algorithm, equal rates for women and men",16.0,-0.13212660968195197
+all,lock box,cites,"Algorithm, equal rates for women and men",16.5,-0.1365325162276093
+all,lock box,cites,"Algorithm, equal rates for women and men",17.0,-0.14052181369810446
+all,lock box,cites,"Algorithm, equal rates for women and men",17.5,-0.14491043438668175
+all,lock box,cites,"Algorithm, equal rates for women and men",18.0,-0.1492046613220608
+all,lock box,cites,"Algorithm, equal rates for women and men",18.5,-0.15356207434142102
+all,lock box,cites,"Algorithm, equal rates for women and men",19.0,-0.15788437812225756
+all,lock box,cites,"Algorithm, equal rates for women and men",19.5,-0.16166838406811945
+all,lock box,cites,"Algorithm, equal rates for women and men",20.0,-0.16586580119736466
+all,lock box,cites,"Algorithm, equal rates for women and men",20.5,-0.16993333032351687
+all,lock box,cites,"Algorithm, equal rates for women and men",21.0,-0.17390637287313146
+all,lock box,cites,"Algorithm, equal rates for women and men",21.5,-0.17822015735907698
+all,lock box,cites,"Algorithm, equal rates for women and men",22.0,-0.1821398103690427
+all,lock box,cites,"Algorithm, equal rates for women and men",22.5,-0.1866633741410669
+all,lock box,cites,"Algorithm, equal rates for women and men",23.0,-0.19110075174745322
+all,lock box,cites,"Algorithm, equal rates for women and men",23.5,-0.1956005928312906
+all,lock box,cites,"Algorithm, equal rates for women and men",24.0,-0.19997838939659757
+all,lock box,cites,"Algorithm, equal rates for women and men",24.5,-0.20438038437295003
+all,lock box,cites,"Algorithm, equal rates for women and men",25.0,-0.2088446353535677
+all,lock box,cites,"Algorithm, equal rates for women and men",25.5,-0.21293742946771313
+all,lock box,cites,"Algorithm, equal rates for women and men",26.0,-0.21731243310143203
+all,lock box,cites,"Algorithm, equal rates for women and men",26.5,-0.22181054669941447
+all,lock box,cites,"Algorithm, equal rates for women and men",27.0,-0.22629153166582228
+all,lock box,cites,"Algorithm, equal rates for women and men",27.5,-0.23047650261295247
+all,lock box,cites,"Algorithm, equal rates for women and men",28.0,-0.23537769158382515
+all,lock box,cites,"Algorithm, equal rates for women and men",28.5,-0.24057671986395746
+all,lock box,cites,"Algorithm, equal rates for women and men",29.0,-0.24549660364395862
+all,lock box,cites,"Algorithm, equal rates for women and men",29.5,-0.2507930611460778
+all,lock box,cites,"Algorithm, equal rates for women and men",30.0,-0.25628291279316967
+all,lock box,cites,"Algorithm, equal rates for women and men",30.5,-0.2620327048624466
+all,lock box,cites,"Algorithm, equal rates for women and men",31.0,-0.26790277676259644
+all,lock box,cites,"Algorithm, equal rates for women and men",31.5,-0.27301993539521485
+all,lock box,cites,"Algorithm, equal rates for women and men",32.0,-0.2785569070210012
+all,lock box,cites,"Algorithm, equal rates for women and men",32.5,-0.28423790951489364
+all,lock box,cites,"Algorithm, equal rates for women and men",33.0,-0.28997012139619294
+all,lock box,cites,"Algorithm, equal rates for women and men",33.5,-0.29090684981671616
+all,lock box,cites,"Algorithm, equal rates for women and men",34.0,-0.2969567746122312
+all,lock box,cites,"Algorithm, equal rates for women and men",34.5,-0.30252927583653577
+all,lock box,cites,"Algorithm, equal rates for women and men",35.0,-0.30777917471065486
+all,lock box,cites,"Algorithm, equal rates for women and men",35.5,-0.3132505656575081
+all,lock box,cites,"Algorithm, equal rates for women and men",36.0,-0.31879538737236096
+all,lock box,cites,"Algorithm, equal rates for women and men",36.5,-0.3243621721802642
+all,lock box,cites,"Algorithm, equal rates for women and men",37.0,-0.33010973718298614
+all,lock box,cites,"Algorithm, equal rates for women and men",37.5,-0.33577544711011065
+all,lock box,cites,"Algorithm, equal rates for women and men",38.0,-0.34137819461428415
+all,lock box,cites,"Algorithm, equal rates for women and men",38.5,-0.3467714278251048
+all,lock box,cites,"Algorithm, equal rates for women and men",39.0,-0.35276672274646054
+all,lock box,cites,"Algorithm, equal rates for women and men",39.5,-0.3589039336094761
+all,lock box,cites,"Algorithm, equal rates for women and men",40.0,-0.36534511757375226
+all,lock box,uncited,Algorithm (trained on no citations),0.0,-0.0
+all,lock box,uncited,Algorithm (trained on no citations),0.5,-0.007007753068600642
+all,lock box,uncited,Algorithm (trained on no citations),1.0,-0.014015506137201284
+all,lock box,uncited,Algorithm (trained on no citations),1.5,-0.02102325920580196
+all,lock box,uncited,Algorithm (trained on no citations),2.0,-0.027981993361532367
+all,lock box,uncited,Algorithm (trained on no citations),2.5,-0.034859037039231655
+all,lock box,uncited,Algorithm (trained on no citations),3.0,-0.04177978382622702
+all,lock box,uncited,Algorithm (trained on no citations),3.5,-0.04875649885837893
+all,lock box,uncited,Algorithm (trained on no citations),4.0,-0.055642820428631515
+all,lock box,uncited,Algorithm (trained on no citations),4.5,-0.06261914426925054
+all,lock box,uncited,Algorithm (trained on no citations),5.0,-0.06963479617285324
+all,lock box,uncited,Algorithm (trained on no citations),5.5,-0.07657650030643817
+all,lock box,uncited,Algorithm (trained on no citations),6.0,-0.08354724256938525
+all,lock box,uncited,Algorithm (trained on no citations),6.5,-0.09063095355850895
+all,lock box,uncited,Algorithm (trained on no citations),7.0,-0.09772289914664258
+all,lock box,uncited,Algorithm (trained on no citations),7.5,-0.10477508217881575
+all,lock box,uncited,Algorithm (trained on no citations),8.0,-0.11187550040007324
+all,lock box,uncited,Algorithm (trained on no citations),8.5,-0.11903289488425602
+all,lock box,uncited,Algorithm (trained on no citations),9.0,-0.12617555816609805
+all,lock box,uncited,Algorithm (trained on no citations),9.5,-0.13328247812385527
+all,lock box,uncited,Algorithm (trained on no citations),10.0,-0.14032552872909398
+all,lock box,uncited,Algorithm (trained on no citations),10.5,-0.1473094612517498
+all,lock box,uncited,Algorithm (trained on no citations),11.0,-0.1541399079194967
+all,lock box,uncited,Algorithm (trained on no citations),11.5,-0.16089395360207834
+all,lock box,uncited,Algorithm (trained on no citations),12.0,-0.1675787560201932
+all,lock box,uncited,Algorithm (trained on no citations),12.5,-0.17434424613773938
+all,lock box,uncited,Algorithm (trained on no citations),13.0,-0.1811620824426283
+all,lock box,uncited,Algorithm (trained on no citations),13.5,-0.18805408047814634
+all,lock box,uncited,Algorithm (trained on no citations),14.0,-0.19490770618570744
+all,lock box,uncited,Algorithm (trained on no citations),14.5,-0.20161446958287987
+all,lock box,uncited,Algorithm (trained on no citations),15.0,-0.20829725512773115
+all,lock box,uncited,Algorithm (trained on no citations),15.5,-0.2150333901274059
+all,lock box,uncited,Algorithm (trained on no citations),16.0,-0.221909238686276
+all,lock box,uncited,Algorithm (trained on no citations),16.5,-0.22879249047389452
+all,lock box,uncited,Algorithm (trained on no citations),17.0,-0.23485848729976602
+all,lock box,uncited,Algorithm (trained on no citations),17.5,-0.24159562139514518
+all,lock box,uncited,Algorithm (trained on no citations),18.0,-0.2482782089697022
+all,lock box,uncited,Algorithm (trained on no citations),18.5,-0.2550131905638004
+all,lock box,uncited,Algorithm (trained on no citations),19.0,-0.26181446504674877
+all,lock box,uncited,Algorithm (trained on no citations),19.5,-0.26832014952160366
+all,lock box,uncited,Algorithm (trained on no citations),20.0,-0.2751522153595402
+all,lock box,uncited,Algorithm (trained on no citations),20.5,-0.281422395772592
+all,lock box,uncited,Algorithm (trained on no citations),21.0,-0.28738385652761245
+all,lock box,uncited,Algorithm (trained on no citations),21.5,-0.2938043429784782
+all,lock box,uncited,Algorithm (trained on no citations),22.0,-0.29961783690871024
+all,lock box,uncited,Algorithm (trained on no citations),22.5,-0.3060361329034314
+all,lock box,uncited,Algorithm (trained on no citations),23.0,-0.3124974604610857
+all,lock box,uncited,Algorithm (trained on no citations),23.5,-0.31895851032762
+all,lock box,uncited,Algorithm (trained on no citations),24.0,-0.32535004621028907
+all,lock box,uncited,Algorithm (trained on no citations),24.5,-0.3318106714383937
+all,lock box,uncited,Algorithm (trained on no citations),25.0,-0.3382495159684471
+all,lock box,uncited,Algorithm (trained on no citations),25.5,-0.34375396208515413
+all,lock box,uncited,Algorithm (trained on no citations),26.0,-0.3501852752456925
+all,lock box,uncited,Algorithm (trained on no citations),26.5,-0.35674579988604044
+all,lock box,uncited,Algorithm (trained on no citations),27.0,-0.36312258400790215
+all,lock box,uncited,Algorithm (trained on no citations),27.5,-0.36934149432025204
+all,lock box,uncited,Algorithm (trained on no citations),28.0,-0.3756478327461679
+all,lock box,uncited,Algorithm (trained on no citations),28.5,-0.3818460446226287
+all,lock box,uncited,Algorithm (trained on no citations),29.0,-0.38757543878757206
+all,lock box,uncited,Algorithm (trained on no citations),29.5,-0.3938039699927154
+all,lock box,uncited,Algorithm (trained on no citations),30.0,-0.3999686357118114
+all,lock box,uncited,Algorithm (trained on no citations),30.5,-0.4060556900466939
+all,lock box,uncited,Algorithm (trained on no citations),31.0,-0.4121840665910298
+all,lock box,uncited,Algorithm (trained on no citations),31.5,-0.41778313158414554
+all,lock box,uncited,Algorithm (trained on no citations),32.0,-0.4238963309118537
+all,lock box,uncited,Algorithm (trained on no citations),32.5,-0.4299968922558334
+all,lock box,uncited,Algorithm (trained on no citations),33.0,-0.4360969817876264
+all,lock box,uncited,Algorithm (trained on no citations),33.5,-0.43732797791504496
+all,lock box,uncited,Algorithm (trained on no citations),34.0,-0.443247774764243
+all,lock box,uncited,Algorithm (trained on no citations),34.5,-0.44917780253320005
+all,lock box,uncited,Algorithm (trained on no citations),35.0,-0.45497977879803536
+all,lock box,uncited,Algorithm (trained on no citations),35.5,-0.46094048974672086
+all,lock box,uncited,Algorithm (trained on no citations),36.0,-0.46689315996145525
+all,lock box,uncited,Algorithm (trained on no citations),36.5,-0.47227273476314197
+all,lock box,uncited,Algorithm (trained on no citations),37.0,-0.478290290761787
+all,lock box,uncited,Algorithm (trained on no citations),37.5,-0.4844259006239605
+all,lock box,uncited,Algorithm (trained on no citations),38.0,-0.49023315405042145
+all,lock box,uncited,Algorithm (trained on no citations),38.5,-0.4959494977349007
+all,lock box,uncited,Algorithm (trained on no citations),39.0,-0.501807484780072
+all,lock box,uncited,Algorithm (trained on no citations),39.5,-0.5076404719615467
+all,lock box,uncited,Algorithm (trained on no citations),40.0,-0.5134363631334502
+all,lock box,uncited,Predicted examiner (trained on grants),0.0,-0.0
+all,lock box,uncited,Predicted examiner (trained on grants),0.5,-0.0062593377004708
+all,lock box,uncited,Predicted examiner (trained on grants),1.0,-0.0125186754009416
+all,lock box,uncited,Predicted examiner (trained on grants),1.5,-0.0187877424096999
+all,lock box,uncited,Predicted examiner (trained on grants),2.0,-0.025168314188261695
+all,lock box,uncited,Predicted examiner (trained on grants),2.5,-0.03163475606031067
+all,lock box,uncited,Predicted examiner (trained on grants),3.0,-0.03810647809804064
+all,lock box,uncited,Predicted examiner (trained on grants),3.5,-0.0446622462690878
+all,lock box,uncited,Predicted examiner (trained on grants),4.0,-0.05087516475743201
+all,lock box,uncited,Predicted examiner (trained on grants),4.5,-0.05724299390223988
+all,lock box,uncited,Predicted examiner (trained on grants),5.0,-0.06363105028237646
+all,lock box,uncited,Predicted examiner (trained on grants),5.5,-0.06999012564823848
+all,lock box,uncited,Predicted examiner (trained on grants),6.0,-0.07622467798818089
+all,lock box,uncited,Predicted examiner (trained on grants),6.5,-0.08235527266743053
+all,lock box,uncited,Predicted examiner (trained on grants),7.0,-0.0885938205011999
+all,lock box,uncited,Predicted examiner (trained on grants),7.5,-0.09495643868819872
+all,lock box,uncited,Predicted examiner (trained on grants),8.0,-0.10138868904521223
+all,lock box,uncited,Predicted examiner (trained on grants),8.5,-0.10780590785890161
+all,lock box,uncited,Predicted examiner (trained on grants),9.0,-0.11419109702040893
+all,lock box,uncited,Predicted examiner (trained on grants),9.5,-0.1204958797188889
+all,lock box,uncited,Predicted examiner (trained on grants),10.0,-0.12675358742377824
+all,lock box,uncited,Predicted examiner (trained on grants),10.5,-0.13304591361654203
+all,lock box,uncited,Predicted examiner (trained on grants),11.0,-0.1393484104343744
+all,lock box,uncited,Predicted examiner (trained on grants),11.5,-0.14563070684549223
+all,lock box,uncited,Predicted examiner (trained on grants),12.0,-0.15186591989683607
+all,lock box,uncited,Predicted examiner (trained on grants),12.5,-0.15814260385952555
+all,lock box,uncited,Predicted examiner (trained on grants),13.0,-0.16430890897064446
+all,lock box,uncited,Predicted examiner (trained on grants),13.5,-0.17039721248627862
+all,lock box,uncited,Predicted examiner (trained on grants),14.0,-0.17643734277806103
+all,lock box,uncited,Predicted examiner (trained on grants),14.5,-0.18238152685904627
+all,lock box,uncited,Predicted examiner (trained on grants),15.0,-0.18836023086415327
+all,lock box,uncited,Predicted examiner (trained on grants),15.5,-0.1943316810536988
+all,lock box,uncited,Predicted examiner (trained on grants),16.0,-0.2003863134563732
+all,lock box,uncited,Predicted examiner (trained on grants),16.5,-0.2064348541580071
+all,lock box,uncited,Predicted examiner (trained on grants),17.0,-0.21176749139105674
+all,lock box,uncited,Predicted examiner (trained on grants),17.5,-0.2179233049054122
+all,lock box,uncited,Predicted examiner (trained on grants),18.0,-0.22410037027857357
+all,lock box,uncited,Predicted examiner (trained on grants),18.5,-0.23033449598149114
+all,lock box,uncited,Predicted examiner (trained on grants),19.0,-0.23659891081161927
+all,lock box,uncited,Predicted examiner (trained on grants),19.5,-0.24254956970721986
+all,lock box,uncited,Predicted examiner (trained on grants),20.0,-0.24882846658052618
+all,lock box,uncited,Predicted examiner (trained on grants),20.5,-0.25476176466630956
+all,lock box,uncited,Predicted examiner (trained on grants),21.0,-0.2602997864557996
+all,lock box,uncited,Predicted examiner (trained on grants),21.5,-0.26645782340315344
+all,lock box,uncited,Predicted examiner (trained on grants),22.0,-0.27199097632980535
+all,lock box,uncited,Predicted examiner (trained on grants),22.5,-0.27818497611553994
+all,lock box,uncited,Predicted examiner (trained on grants),23.0,-0.28441128237763674
+all,lock box,uncited,Predicted examiner (trained on grants),23.5,-0.29064018202757924
+all,lock box,uncited,Predicted examiner (trained on grants),24.0,-0.2967415957891589
+all,lock box,uncited,Predicted examiner (trained on grants),24.5,-0.3027712904815239
+all,lock box,uncited,Predicted examiner (trained on grants),25.0,-0.3087961301875011
+all,lock box,uncited,Predicted examiner (trained on grants),25.5,-0.31382261660773514
+all,lock box,uncited,Predicted examiner (trained on grants),26.0,-0.3198121010376931
+all,lock box,uncited,Predicted examiner (trained on grants),26.5,-0.32587978159244696
+all,lock box,uncited,Predicted examiner (trained on grants),27.0,-0.33179650902835206
+all,lock box,uncited,Predicted examiner (trained on grants),27.5,-0.3374394454030224
+all,lock box,uncited,Predicted examiner (trained on grants),28.0,-0.34322973814805563
+all,lock box,uncited,Predicted examiner (trained on grants),28.5,-0.34903955402407366
+all,lock box,uncited,Predicted examiner (trained on grants),29.0,-0.3543424098612778
+all,lock box,uncited,Predicted examiner (trained on grants),29.5,-0.36011725431348407
+all,lock box,uncited,Predicted examiner (trained on grants),30.0,-0.3659398969750668
+all,lock box,uncited,Predicted examiner (trained on grants),30.5,-0.3717560557967078
+all,lock box,uncited,Predicted examiner (trained on grants),31.0,-0.37780856539627583
+all,lock box,uncited,Predicted examiner (trained on grants),31.5,-0.3834671192095253
+all,lock box,uncited,Predicted examiner (trained on grants),32.0,-0.3897403677467391
+all,lock box,uncited,Predicted examiner (trained on grants),32.5,-0.3960095262704621
+all,lock box,uncited,Predicted examiner (trained on grants),33.0,-0.40221651751154336
+all,lock box,uncited,Predicted examiner (trained on grants),33.5,-0.4033057091800153
+all,lock box,uncited,Predicted examiner (trained on grants),34.0,-0.4094188156404445
+all,lock box,uncited,Predicted examiner (trained on grants),34.5,-0.41547555921359325
+all,lock box,uncited,Predicted examiner (trained on grants),35.0,-0.4213722395585794
+all,lock box,uncited,Predicted examiner (trained on grants),35.5,-0.42746678747557315
+all,lock box,uncited,Predicted examiner (trained on grants),36.0,-0.433605030186791
+all,lock box,uncited,Predicted examiner (trained on grants),36.5,-0.43915027374249355
+all,lock box,uncited,Predicted examiner (trained on grants),37.0,-0.4452010767096718
+all,lock box,uncited,Predicted examiner (trained on grants),37.5,-0.451190175450215
+all,lock box,uncited,Predicted examiner (trained on grants),38.0,-0.45690141232672726
+all,lock box,uncited,Predicted examiner (trained on grants),38.5,-0.4625231123351353
+all,lock box,uncited,Predicted examiner (trained on grants),39.0,-0.4684049212113031
+all,lock box,uncited,Predicted examiner (trained on grants),39.5,-0.4742330142241698
+all,lock box,uncited,Predicted examiner (trained on grants),40.0,-0.480123293959849
+all,lock box,uncited,Random,0.0,-0.0
+all,lock box,uncited,Random,0.5,-0.006207662998480155
+all,lock box,uncited,Random,1.0,-0.01241532599696031
+all,lock box,uncited,Random,1.5,-0.018622988995440338
+all,lock box,uncited,Random,2.0,-0.02483065199392062
+all,lock box,uncited,Random,2.5,-0.031038314992400676
+all,lock box,uncited,Random,3.0,-0.037245977990880676
+all,lock box,uncited,Random,3.5,-0.043453640989360914
+all,lock box,uncited,Random,4.0,-0.04948964812664406
+all,lock box,uncited,Random,4.5,-0.05567585414247446
+all,lock box,uncited,Random,5.0,-0.06186206015830488
+all,lock box,uncited,Random,5.5,-0.06804826617413538
+all,lock box,uncited,Random,6.0,-0.07423447218996561
+all,lock box,uncited,Random,6.5,-0.08042067820579647
+all,lock box,uncited,Random,7.0,-0.08660688422162677
+all,lock box,uncited,Random,7.5,-0.09279309023745744
+all,lock box,uncited,Random,8.0,-0.09897929625328812
+all,lock box,uncited,Random,8.5,-0.10516550226911811
+all,lock box,uncited,Random,9.0,-0.11135170828494892
+all,lock box,uncited,Random,9.5,-0.11753791430077913
+all,lock box,uncited,Random,10.0,-0.12372412031660976
+all,lock box,uncited,Random,10.5,-0.1299103263324407
+all,lock box,uncited,Random,11.0,-0.13609653234827077
+all,lock box,uncited,Random,11.5,-0.14228273836410124
+all,lock box,uncited,Random,12.0,-0.14846894437993122
+all,lock box,uncited,Random,12.5,-0.15465515039576208
+all,lock box,uncited,Random,13.0,-0.16084135641159295
+all,lock box,uncited,Random,13.5,-0.167027562427423
+all,lock box,uncited,Random,14.0,-0.17321376844325354
+all,lock box,uncited,Random,14.5,-0.17930848218715864
+all,lock box,uncited,Random,15.0,-0.18549153329706144
+all,lock box,uncited,Random,15.5,-0.19167458440696308
+all,lock box,uncited,Random,16.0,-0.19785763551686592
+all,lock box,uncited,Random,16.5,-0.20404068662676658
+all,lock box,uncited,Random,17.0,-0.20944106166134915
+all,lock box,uncited,Random,17.5,-0.21560109288668325
+all,lock box,uncited,Random,18.0,-0.2217611241120174
+all,lock box,uncited,Random,18.5,-0.22792115533735122
+all,lock box,uncited,Random,19.0,-0.2340811865626845
+all,lock box,uncited,Random,19.5,-0.23989197559351724
+all,lock box,uncited,Random,20.0,-0.24604305189078715
+all,lock box,uncited,Random,20.5,-0.2518380717722359
+all,lock box,uncited,Random,21.0,-0.25736047177525084
+all,lock box,uncited,Random,21.5,-0.2634881020556125
+all,lock box,uncited,Random,22.0,-0.26896728328917513
+all,lock box,uncited,Random,22.5,-0.2750801760912014
+all,lock box,uncited,Random,23.0,-0.28119306889322826
+all,lock box,uncited,Random,23.5,-0.28730596169525513
+all,lock box,uncited,Random,24.0,-0.293418854497281
+all,lock box,uncited,Random,24.5,-0.29953174729930865
+all,lock box,uncited,Random,25.0,-0.3056446401013352
+all,lock box,uncited,Random,25.5,-0.31083853380414744
+all,lock box,uncited,Random,26.0,-0.3169334070159944
+all,lock box,uncited,Random,26.5,-0.32302828022784047
+all,lock box,uncited,Random,27.0,-0.32901329517787464
+all,lock box,uncited,Random,27.5,-0.3348334072296298
+all,lock box,uncited,Random,28.0,-0.34092128736107796
+all,lock box,uncited,Random,28.5,-0.34700916749252647
+all,lock box,uncited,Random,29.0,-0.35260562242773325
+all,lock box,uncited,Random,29.5,-0.35868502971097305
+all,lock box,uncited,Random,30.0,-0.36476443699420835
+all,lock box,uncited,Random,30.5,-0.37066623072248267
+all,lock box,uncited,Random,31.0,-0.3767427263080979
+all,lock box,uncited,Random,31.5,-0.3823204233311208
+all,lock box,uncited,Random,32.0,-0.38838900147923455
+all,lock box,uncited,Random,32.5,-0.39445757962734607
+all,lock box,uncited,Random,33.0,-0.40052615777545764
+all,lock box,uncited,Random,33.5,-0.4014792776881418
+all,lock box,uncited,Random,34.0,-0.4074715057133358
+all,lock box,uncited,Random,34.5,-0.4134637337385326
+all,lock box,uncited,Random,35.0,-0.4192849054277337
+all,lock box,uncited,Random,35.5,-0.4252746897909873
+all,lock box,uncited,Random,36.0,-0.4312644741542412
+all,lock box,uncited,Random,36.5,-0.43672887180886133
+all,lock box,uncited,Random,37.0,-0.44271145909391635
+all,lock box,uncited,Random,37.5,-0.44869404637896937
+all,lock box,uncited,Random,38.0,-0.45439957534924197
+all,lock box,uncited,Random,38.5,-0.46010480010763444
+all,lock box,uncited,Random,39.0,-0.4660801871220174
+all,lock box,uncited,Random,39.5,-0.4720555741364022
+all,lock box,uncited,Random,40.0,-0.4780309611507875

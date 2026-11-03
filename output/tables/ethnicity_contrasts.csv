@@ -1,0 +1,82 @@
+sample,outcome,contrast,series,kind,estimate,se,comparison
+3600,cites_ns,Asian − White,Human record (truth),marginal,0.9717725818968299,0.8389384968199499,asian
+3600,cites_ns,Asian − White,No model: mean outcome of accepted cases,implied,-0.0007714017426763142,0.00555308835445184,asian
+3600,cites_ns,Asian − White,Train on grant,implied,-0.010454963434934239,0.007071665236157205,asian
+3600,cites_ns,Asian − White,Train on citations (granted only),implied,0.3838080133461861,0.1402042320532705,asian
+3600,cites_ns,Asian − White,"LLM, zero-shot",implied,-0.004464630701491501,0.006283574121100886,asian
+3600,cites_ns,Asian − White,No model: mean outcome of accepted cases,error,-0.9725439836395114,0.8389349347307786,asian
+3600,cites_ns,Asian − White,Train on grant,error,-0.9822275453317825,0.8386509937192118,asian
+3600,cites_ns,Asian − White,Train on citations (granted only),error,-0.5879645685506407,0.8225523682378381,asian
+3600,cites_ns,Asian − White,"LLM, zero-shot",error,-0.9762372125982987,0.8392010092953964,asian
+1600,cites_ns,Asian − White,Human record (truth),marginal,0.5278441265094347,0.900521204582984,asian
+1600,cites_ns,Asian − White,No model: mean outcome of accepted cases,implied,0.0045098848518776435,0.002392826732822928,asian
+1600,cites_ns,Asian − White,Train on grant,implied,0.009705263194111247,0.004021287831847113,asian
+1600,cites_ns,Asian − White,Train on citations (granted only),implied,0.13501252793033447,0.11682713662623144,asian
+1600,cites_ns,Asian − White,"LLM, zero-shot",implied,-0.006195935074120085,0.010588771750392119,asian
+1600,cites_ns,Asian − White,No model: mean outcome of accepted cases,error,-0.5233342416575539,0.9007347402011511,asian
+1600,cites_ns,Asian − White,Train on grant,error,-0.5181388633153209,0.9009398904812744,asian
+1600,cites_ns,Asian − White,Train on citations (granted only),error,-0.3928315985791071,0.8960951603842109,asian
+1600,cites_ns,Asian − White,"LLM, zero-shot",error,-0.5340400615835615,0.900798672826574,asian
+Both,cites_ns,Asian − White,Human record (truth),marginal,0.5743183975994834,0.6215774730540559,asian
+Both,cites_ns,Asian − White,No model: mean outcome of accepted cases,implied,-0.1893687264251036,0.04009302851003913,asian
+Both,cites_ns,Asian − White,Train on grant,implied,-0.18983577685426978,0.03953698990574948,asian
+Both,cites_ns,Asian − White,Train on citations (granted only),implied,0.11139533739608432,0.09722359731148568,asian
+Both,cites_ns,Asian − White,"LLM, zero-shot",implied,-0.20120267582430085,0.04104342404266265,asian
+Both,cites_ns,Asian − White,No model: mean outcome of accepted cases,error,-0.7636871240245883,0.6207712582453684,asian
+Both,cites_ns,Asian − White,Train on grant,error,-0.7641541744537603,0.620715813037032,asian
+Both,cites_ns,Asian − White,Train on citations (granted only),error,-0.4629230602034219,0.6133041643876732,asian
+Both,cites_ns,Asian − White,"LLM, zero-shot",error,-0.7755210734238055,0.6208741012122826,asian
+3600,cites_ns,Hispanic − White,Human record (truth),marginal,2.7064582816157934,1.8751983632348415,hispanic
+3600,cites_ns,Hispanic − White,No model: mean outcome of accepted cases,implied,-0.015508254723946013,0.010832392336349599,hispanic
+3600,cites_ns,Hispanic − White,Train on grant,implied,-0.02412902403277295,0.012801026971209268,hispanic
+3600,cites_ns,Hispanic − White,Train on citations (granted only),implied,0.18089310686335613,0.30833870222248044,hispanic
+3600,cites_ns,Hispanic − White,"LLM, zero-shot",implied,-0.013462076843584914,0.012005420719273966,hispanic
+3600,cites_ns,Hispanic − White,No model: mean outcome of accepted cases,error,-2.7219665363397345,1.877205475431988,hispanic
+3600,cites_ns,Hispanic − White,Train on grant,error,-2.7305873056485837,1.8774945221967467,hispanic
+3600,cites_ns,Hispanic − White,Train on citations (granted only),error,-2.5255651747524284,1.8066478016715328,hispanic
+3600,cites_ns,Hispanic − White,"LLM, zero-shot",error,-2.719920358459344,1.8756651436820369,hispanic
+1600,cites_ns,Hispanic − White,Human record (truth),marginal,2.0133136153263296,1.4717521580322666,hispanic
+1600,cites_ns,Hispanic − White,No model: mean outcome of accepted cases,implied,0.0035672891411153707,0.007606641026015804,hispanic
+1600,cites_ns,Hispanic − White,Train on grant,implied,0.012365882081175616,0.010542612914885355,hispanic
+1600,cites_ns,Hispanic − White,Train on citations (granted only),implied,0.04254845887575942,0.3382271135350836,hispanic
+1600,cites_ns,Hispanic − White,"LLM, zero-shot",implied,-0.017357851600535712,0.03868624639154536,hispanic
+1600,cites_ns,Hispanic − White,No model: mean outcome of accepted cases,error,-2.0097463261852155,1.4704971134667366,hispanic
+1600,cites_ns,Hispanic − White,Train on grant,error,-2.0009477332451544,1.4705543660546567,hispanic
+1600,cites_ns,Hispanic − White,Train on citations (granted only),error,-1.970765156450576,1.4540065283089425,hispanic
+1600,cites_ns,Hispanic − White,"LLM, zero-shot",error,-2.0306714669268686,1.4680284780347743,hispanic
+Both,cites_ns,Hispanic − White,Human record (truth),marginal,2.5943027242475427,1.4274602086453256,hispanic
+Both,cites_ns,Hispanic − White,No model: mean outcome of accepted cases,implied,0.09436170479198758,0.10794619518758124,hispanic
+Both,cites_ns,Hispanic − White,Train on grant,implied,0.08955388378050166,0.1067207078596372,hispanic
+Both,cites_ns,Hispanic − White,Train on citations (granted only),implied,0.21711533037528463,0.2655538133718424,hispanic
+Both,cites_ns,Hispanic − White,"LLM, zero-shot",implied,0.09318289409943281,0.11209811402486376,hispanic
+Both,cites_ns,Hispanic − White,No model: mean outcome of accepted cases,error,-2.499941019455558,1.4075257850439553,hispanic
+Both,cites_ns,Hispanic − White,Train on grant,error,-2.5047488404670553,1.4080694301372683,hispanic
+Both,cites_ns,Hispanic − White,Train on citations (granted only),error,-2.3771873938722785,1.3563154466528324,hispanic
+Both,cites_ns,Hispanic − White,"LLM, zero-shot",error,-2.5011198301481308,1.4056519885842225,hispanic
+3600,cites_ns,Black − White,Human record (truth),marginal,1.2374508926035017,2.9850125227631352,black
+3600,cites_ns,Black − White,No model: mean outcome of accepted cases,implied,-0.027305291057774905,0.018912661979572643,black
+3600,cites_ns,Black − White,Train on grant,implied,-0.04906814952326766,0.027389075174367877,black
+3600,cites_ns,Black − White,Train on citations (granted only),implied,-0.5361572343488845,0.5698052587675764,black
+3600,cites_ns,Black − White,"LLM, zero-shot",implied,-0.03035893792344435,0.02315413720480734,black
+3600,cites_ns,Black − White,No model: mean outcome of accepted cases,error,-1.2647561836612746,2.991902812492552,black
+3600,cites_ns,Black − White,Train on grant,error,-1.2865190421267858,2.996707418312272,black
+3600,cites_ns,Black − White,Train on citations (granted only),error,-1.7736081269523816,3.237386992831944,black
+3600,cites_ns,Black − White,"LLM, zero-shot",error,-1.2678098305269205,2.9936582321445515,black
+1600,cites_ns,Black − White,Human record (truth),marginal,-1.6114404794388855,0.2829058803742527,black
+1600,cites_ns,Black − White,No model: mean outcome of accepted cases,implied,0.03725745408496217,0.07279666360454139,black
+1600,cites_ns,Black − White,Train on grant,implied,0.011426853182707752,0.08119804929183512,black
+1600,cites_ns,Black − White,Train on citations (granted only),implied,-0.5549681269746704,1.2430429256615292,black
+1600,cites_ns,Black − White,"LLM, zero-shot",implied,0.2077338618769493,0.21780252888904494,black
+1600,cites_ns,Black − White,No model: mean outcome of accepted cases,error,1.6486979335238479,0.29693911366015124,black
+1600,cites_ns,Black − White,Train on grant,error,1.6228673326215965,0.2940230190298604,black
+1600,cites_ns,Black − White,Train on citations (granted only),error,1.0564723524642123,1.2353971402698731,black
+1600,cites_ns,Black − White,"LLM, zero-shot",error,1.819174341315833,0.391957251271033,black
+Both,cites_ns,Black − White,Human record (truth),marginal,0.4601490713676144,2.4535275737829956,black
+Both,cites_ns,Black − White,No model: mean outcome of accepted cases,implied,0.04128687669952269,0.25580605648752686,black
+Both,cites_ns,Black − White,Train on grant,implied,0.021900909581096695,0.25127542101022704,black
+Both,cites_ns,Black − White,Train on citations (granted only),implied,-0.6093999062525794,0.559596381777018,black
+Both,cites_ns,Black − White,"LLM, zero-shot",implied,0.06237203801870628,0.2565319807609902,black
+Both,cites_ns,Black − White,No model: mean outcome of accepted cases,error,-0.4188621946680976,2.3492565803473253,black
+Both,cites_ns,Black − White,Train on grant,error,-0.43824816178652987,2.3545085103117387,black
+Both,cites_ns,Black − White,Train on citations (granted only),error,-1.06954897762022,2.5716512643911775,black
+Both,cites_ns,Black − White,"LLM, zero-shot",error,-0.39777703334893005,2.3530181462248754,black

@@ -1,0 +1,97 @@
+[
+  [
+    "Result in the proposal",
+    "Where in this appendix",
+    "Scripts"
+  ],
+  [
+    "Sample, outcome, and prior-art citations of rejected applications",
+    "A1, Table A1",
+    "01–06c, 38"
+  ],
+  [
+    "Examiners, assignment cells, and leniency",
+    "A2, Table A2",
+    "04, 04b, 22, 41"
+  ],
+  [
+    "Comparable applications and no selection beyond the text: balance, monotonicity, exclusion, and finer cells",
+    "A3, Tables A3–A10",
+    "18, 35, 39, 41, 42, 46"
+  ],
+  [
+    "No sign that the language model answers from memory (two pilot centers)",
+    "A4, Table A11",
+    "23, 46"
+  ],
+  [
+    "Where the extra rejections fall across predicted citations (proposal Figure 1a)",
+    "A5, Figure A3",
+    "35, 43, 49"
+  ],
+  [
+    "Citations lost by stricter examiners, random rejections, and the two models, also top-coded (proposal Table 1)",
+    "A5, Tables A14 and A19, Figure A6",
+    "35, 43"
+  ],
+  [
+    "Reranking judged on prior-art citations, which rejected applications also have",
+    "A5, Table A17",
+    "06c, 35"
+  ],
+  [
+    "Rank correlations within center and filing year (proposal Figure 1b)",
+    "A5, Table A18, Figure A7c",
+    "35, 43"
+  ],
+  [
+    "Scores at the margin against a guess, and the range around a single score",
+    "A5, Table A13, Figure A7",
+    "47"
+  ],
+  [
+    "The very top and bottom of the predictions, boosted against linear model",
+    "A5, Table A12",
+    "51"
+  ],
+  [
+    "Women’s share of the rejections, the gender gap in grants, and citations at each rule’s margin (proposal Table 1)",
+    "A5, Table A19",
+    "43"
+  ],
+  [
+    "Gender gap of the examiners and of models trained on decisions, on citations, or on nothing (proposal Figure 2a)",
+    "A5, Tables A22, A23, and A25",
+    "30, 38, 40, 44"
+  ],
+  [
+    "The part of the gap added by one cutoff (hollow markers in proposal Figure 2a)",
+    "A5, Table A24 (pooled and TC 3600)",
+    "44"
+  ],
+  [
+    "Fields where outcomes differ by gender, such as biotechnology",
+    "A5, Table A21",
+    "50"
+  ],
+  [
+    "The examiners’ bar for women and men",
+    "A5, Tables A10, A27, and A28",
+    "24, 39"
+  ],
+  [
+    "Race and ethnicity of the first inventor (proposal Figure 2b)",
+    "A5, Table A29",
+    "33, 44"
+  ],
+  [
+    "C2: AI twins, their bars, and who bears the randomness of who decides",
+    "A6, Tables A30 and A31, Figures A8 and A9",
+    "16, 17, 45"
+  ],
+  [
+    "C3: what the text reveals, changing only the name, and common and rare first names",
+    "A7, Tables A32 and A33",
+    "32, 39, 48"
+  ]
+]

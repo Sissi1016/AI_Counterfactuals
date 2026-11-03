@@ -1,0 +1,12 @@
+Evaluator,All centers (pp),× examiners,TC 3600 (pp),× examiners
+Examiners and text-embedding evaluators,,,,
+Examiners,"−4.0 [−4.5, −3.4]",1.00,"−7.5 [−8.9, −6.1]",1.00
+Trained on grant,"−7.0 [−7.6, −6.4]",1.77,"−14.1 [−15.7, −12.5]",1.88
+Trained on grant + names,"−7.3 [−7.9, −6.7]",1.84,"−14.2 [−15.8, −12.6]",1.89
+Trained on first action,"−5.6 [−6.1, −5.0]",1.41,"−9.9 [−11.3, −8.6]",1.33
+Trained on citations,"−1.1 [−1.6, −0.6]",0.27,"1.3 [0.0, 2.6]",−0.18
+Trained on citations + names,"−1.9 [−2.4, −1.3]",0.47,"−1.1 [−2.4, 0.2]",0.15
+Qwen3-8B,,,,
+"LLM, zero-shot","−4.1 [−4.6, −3.5]",1.02,"−8.1 [−9.6, −6.6]",1.09
+LLM fine-tuned on grant,–,–,"−14.6 [−16.2, −12.9]",1.95
+LLM fine-tuned on citations,–,–,"1.2 [−0.1, 2.6]",−0.16

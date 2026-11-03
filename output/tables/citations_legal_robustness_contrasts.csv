@@ -1,0 +1,199 @@
+sample,outcome,contrast,series,kind,estimate,se,design
+3600,cites_ns,Female − male,Human record (truth),marginal,1.4123806194051602,0.7112039821235895,Main design
+3600,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,-0.00026329179427397875,0.004843866464670222,Main design
+3600,cites_ns,Female − male,Train on grant,implied,-0.011604054091249871,0.005565574700928764,Main design
+3600,cites_ns,Female − male,Train on first action,implied,0.041836424382154735,0.009688003360535716,Main design
+3600,cites_ns,Female − male,Train on citations (granted only),implied,0.23135321107979445,0.10963195056978417,Main design
+3600,cites_ns,Female − male,"LLM, zero-shot",implied,0.0018619379295881089,0.005444163887705513,Main design
+3600,cites_ns,Female − male,No model: mean outcome of accepted cases,error,-1.4126439111994251,0.7113839506613727,Main design
+3600,cites_ns,Female − male,Train on grant,error,-1.423984673496406,0.7116219336972989,Main design
+3600,cites_ns,Female − male,Train on first action,error,-1.3705441950229948,0.7110141183776529,Main design
+3600,cites_ns,Female − male,Train on citations (granted only),error,-1.1810274083253591,0.7014199879761487,Main design
+3600,cites_ns,Female − male,"LLM, zero-shot",error,-1.4105186814755477,0.7112479292993503,Main design
+3600,cites_ns,Small − large,Human record (truth),marginal,-0.35993647108167703,0.41098733669706045,Main design
+3600,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,0.0011361425518070511,0.005485267847921898,Main design
+3600,cites_ns,Small − large,Train on grant,implied,-0.00290483906560679,0.006231219782757009,Main design
+3600,cites_ns,Small − large,Train on first action,implied,-0.024593900960895976,0.008703163764862219,Main design
+3600,cites_ns,Small − large,Train on citations (granted only),implied,0.2540277269716835,0.07479085399943003,Main design
+3600,cites_ns,Small − large,"LLM, zero-shot",implied,0.0046967284940651055,0.006293588885564869,Main design
+3600,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.36107261363350385,0.41152030586472593,Main design
+3600,cites_ns,Small − large,Train on grant,error,0.357031632016083,0.41146464459989496,Main design
+3600,cites_ns,Small − large,Train on first action,error,0.33534257012078694,0.4113588641147061,Main design
+3600,cites_ns,Small − large,Train on citations (granted only),error,0.613964198053372,0.4050729238884759,Main design
+3600,cites_ns,Small − large,"LLM, zero-shot",error,0.36463319957571133,0.411389264216664,Main design
+1600,cites_ns,Female − male,Human record (truth),marginal,-0.5171106033119834,0.3312319353913162,Main design
+1600,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,0.0026638389779842786,0.0019222613484331616,Main design
+1600,cites_ns,Female − male,Train on grant,implied,0.00511604580492131,0.0026251827202083988,Main design
+1600,cites_ns,Female − male,Train on first action,implied,0.018179920637515945,0.01647946816691474,Main design
+1600,cites_ns,Female − male,Train on citations (granted only),implied,-0.119491812926251,0.07993994315089438,Main design
+1600,cites_ns,Female − male,"LLM, zero-shot",implied,-0.004323499936152997,0.008557051913714545,Main design
+1600,cites_ns,Female − male,No model: mean outcome of accepted cases,error,0.5197744422899816,0.3314137741696927,Main design
+1600,cites_ns,Female − male,Train on grant,error,0.5222266491169144,0.33153870756599113,Main design
+1600,cites_ns,Female − male,Train on first action,error,0.5352905239495072,0.3302653405936214,Main design
+1600,cites_ns,Female − male,Train on citations (granted only),error,0.3976187903857392,0.3258777113676261,Main design
+1600,cites_ns,Female − male,"LLM, zero-shot",error,0.5127871033758417,0.3320941268791159,Main design
+1600,cites_ns,Small − large,Human record (truth),marginal,-0.6398273622650643,0.3349190267902747,Main design
+1600,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,6.864108874560237e-05,0.0030054639154166543,Main design
+1600,cites_ns,Small − large,Train on grant,implied,0.004817435014502935,0.006753773275851507,Main design
+1600,cites_ns,Small − large,Train on first action,implied,0.06770212025880551,0.013131623104375562,Main design
+1600,cites_ns,Small − large,Train on citations (granted only),implied,-0.24271900317950923,0.0777673463576463,Main design
+1600,cites_ns,Small − large,"LLM, zero-shot",implied,-0.07151817115051773,0.00989299964156695,Main design
+1600,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.6398960033537952,0.33490863410963573,Main design
+1600,cites_ns,Small − large,Train on grant,error,0.6446447972795644,0.335723950880869,Main design
+1600,cites_ns,Small − large,Train on first action,error,0.7075294825238728,0.3339901734931651,Main design
+1600,cites_ns,Small − large,Train on citations (granted only),error,0.39710835908554765,0.32351831432531336,Main design
+1600,cites_ns,Small − large,"LLM, zero-shot",error,0.568309191114536,0.33574590584396274,Main design
+Both,cites_ns,Female − male,Human record (truth),marginal,0.08574535990729171,0.3704645320495403,Main design
+Both,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,-0.3039736594743119,0.03536024199161851,Main design
+Both,cites_ns,Female − male,Train on grant,implied,-0.30466719262899966,0.03492836556292335,Main design
+Both,cites_ns,Female − male,Train on first action,implied,-0.2796737650702934,0.036842891750989634,Main design
+Both,cites_ns,Female − male,Train on citations (granted only),implied,-0.20077277139535865,0.07504150895910666,Main design
+Both,cites_ns,Female − male,"LLM, zero-shot",implied,-0.3123627867600942,0.03629322863732345,Main design
+Both,cites_ns,Female − male,No model: mean outcome of accepted cases,error,-0.38971901938157605,0.37002430304032036,Main design
+Both,cites_ns,Female − male,Train on grant,error,-0.3904125525362598,0.3700767035634972,Main design
+Both,cites_ns,Female − male,Train on first action,error,-0.36541912497754936,0.3695702412201358,Main design
+Both,cites_ns,Female − male,Train on citations (granted only),error,-0.28651813130261905,0.3639682762124959,Main design
+Both,cites_ns,Female − male,"LLM, zero-shot",error,-0.3981081466673554,0.3700586308077203,Main design
+Both,cites_ns,Small − large,Human record (truth),marginal,-0.6423453786113702,0.2858790819627683,Main design
+Both,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,-0.20340351283746871,0.03115679146420707,Main design
+Both,cites_ns,Small − large,Train on grant,implied,-0.20190243304185218,0.03106150474028467,Main design
+Both,cites_ns,Small − large,Train on first action,implied,-0.19362807490292022,0.0316150315902512,Main design
+Both,cites_ns,Small − large,Train on citations (granted only),implied,-0.10437399123586943,0.0601403960398661,Main design
+Both,cites_ns,Small − large,"LLM, zero-shot",implied,-0.23341252931829537,0.03181315084497314,Main design
+Both,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.43894186577388783,0.2854091070226285,Main design
+Both,cites_ns,Small − large,Train on grant,error,0.44044294556951635,0.2854413534586618,Main design
+Both,cites_ns,Small − large,Train on first action,error,0.4487173037084502,0.28528692767361175,Main design
+Both,cites_ns,Small − large,Train on citations (granted only),error,0.5379713873754918,0.2803963690203428,Main design
+Both,cites_ns,Small − large,"LLM, zero-shot",error,0.4089328492930395,0.28542778808914965,Main design
+3600,cites_ns,Female − male,Human record (truth),marginal,2.4018350426593393,0.9642410382467038,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,-0.0016347547757371572,0.00879101741980056,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Female − male,Train on grant,implied,-0.01799692381370699,0.009578114290940286,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Female − male,Train on first action,implied,0.042230349085928154,0.013077673311949008,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Female − male,Train on citations (granted only),implied,0.6147962764118171,0.17838441733950985,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Female − male,"LLM, zero-shot",implied,0.002087227383491097,0.010099600232381397,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Female − male,No model: mean outcome of accepted cases,error,-2.4034697974350885,0.9647356767810824,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Female − male,Train on grant,error,-2.4198319664730583,0.964804223370664,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Female − male,Train on first action,error,-2.359604693573427,0.9633114295401648,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Female − male,Train on citations (granted only),error,-1.7870387662475562,0.9505678339363338,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Female − male,"LLM, zero-shot",error,-2.399747815275849,0.9646607334432898,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Small − large,Human record (truth),marginal,0.038947731827498444,0.6266713854103714,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,-0.0017201834548696837,0.009030618303057897,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Small − large,Train on grant,implied,-0.013050506400725581,0.00951886155926895,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Small − large,Train on first action,implied,0.006035784601524874,0.010390969254528294,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Small − large,Train on citations (granted only),implied,0.3826081079967705,0.11379214051437574,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Small − large,"LLM, zero-shot",implied,0.00029897404823442386,0.010151815261259788,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Small − large,No model: mean outcome of accepted cases,error,-0.04066791528238539,0.6279594042396958,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Small − large,Train on grant,error,-0.051998238228216365,0.627727205275375,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Small − large,Train on first action,error,-0.03291194722598026,0.6279740530102063,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Small − large,Train on citations (granted only),error,0.3436603761692594,0.6268265981645943,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Small − large,"LLM, zero-shot",error,-0.03864875777927221,0.6277341962439601,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Female − male,Human record (truth),marginal,-0.5135906413203153,0.3481791766727716,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,0.004118225607378845,0.0024702134714580863,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Female − male,Train on grant,implied,0.006208147506301165,0.0034300006936727767,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Female − male,Train on first action,implied,0.011256484231896735,0.021165023740026705,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Female − male,Train on citations (granted only),implied,-0.052173617190453214,0.09306219909320548,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Female − male,"LLM, zero-shot",implied,-0.015403680151916621,0.010952472453488385,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Female − male,No model: mean outcome of accepted cases,error,0.5177088669276935,0.3482569397589476,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Female − male,Train on grant,error,0.5197987888266109,0.34856316687308614,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Female − male,Train on first action,error,0.5248471255522041,0.34855384521175836,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Female − male,Train on citations (granted only),error,0.46141702412986496,0.35277438683245427,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Female − male,"LLM, zero-shot",error,0.49818696116839567,0.34893830237254014,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Small − large,Human record (truth),marginal,-0.7002449010577403,0.3474968550020065,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,-0.0005033759241963587,0.003848192845309843,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Small − large,Train on grant,implied,0.006529140331091199,0.008932484622102367,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Small − large,Train on first action,implied,0.07672360083643204,0.016316447789642516,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Small − large,Train on citations (granted only),implied,-0.21743548427308923,0.08445679647392837,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Small − large,"LLM, zero-shot",implied,-0.09062768500905038,0.012408267683923904,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.699741525133546,0.347540151397816,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Small − large,Train on grant,error,0.7067740413888302,0.34903155794083973,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Small − large,Train on first action,error,0.7769685018941794,0.3452855026897774,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Small − large,Train on citations (granted only),error,0.48280941678465183,0.33626580682626306,"Without the classes most affected by Mayo, Myriad and Alice"
+1600,cites_ns,Small − large,"LLM, zero-shot",error,0.6096172160486882,0.34911704171199054,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Female − male,Human record (truth),marginal,0.1196350852139223,0.40177045788866145,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,-0.4011584793440657,0.04834944048152647,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Female − male,Train on grant,implied,-0.4047853424380241,0.048320001247377384,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Female − male,Train on first action,implied,-0.3749489689702812,0.04939434473352234,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Female − male,Train on citations (granted only),implied,-0.2092836538082099,0.10151944607747214,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Female − male,"LLM, zero-shot",implied,-0.4199104036241976,0.05005302884739593,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Female − male,No model: mean outcome of accepted cases,error,-0.5207935645579738,0.40029760730381164,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Female − male,Train on grant,error,-0.5244204276519395,0.40030740338526966,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Female − male,Train on first action,error,-0.49458405418420126,0.40034483631767814,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Female − male,Train on citations (granted only),error,-0.3289187390221262,0.39652341203496577,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Female − male,"LLM, zero-shot",error,-0.5395454888380918,0.4003175155023489,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Small − large,Human record (truth),marginal,-0.34838197697675,0.37958574505265563,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,-0.04990973292757417,0.04041785600196975,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Small − large,Train on grant,implied,-0.05280064637226145,0.04061739572660066,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Small − large,Train on first action,implied,-0.01008606449860272,0.03988948951764651,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Small − large,Train on citations (granted only),implied,0.059453765963042304,0.08020460703449933,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Small − large,"LLM, zero-shot",implied,-0.0909731247669785,0.040582701687102304,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.2984722440491756,0.380708194773074,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Small − large,Train on grant,error,0.2955813306044859,0.38087083684046436,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Small − large,Train on first action,error,0.3382959124781396,0.38025830059726534,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Small − large,Train on citations (granted only),error,0.4078357429397828,0.3779167551065143,"Without the classes most affected by Mayo, Myriad and Alice"
+Both,cites_ns,Small − large,"LLM, zero-shot",error,0.2574088522097437,0.38089547770861565,"Without the classes most affected by Mayo, Myriad and Alice"
+3600,cites_ns,Female − male,Human record (truth),marginal,1.4582361411647309,0.7309329013844369,Cells × year of first action
+3600,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,-0.0012964249556759455,0.005153549201013066,Cells × year of first action
+3600,cites_ns,Female − male,Train on grant,implied,-0.013825275509155688,0.006091794077169871,Cells × year of first action
+3600,cites_ns,Female − male,Train on first action,implied,0.046340430741525385,0.011045201528006452,Cells × year of first action
+3600,cites_ns,Female − male,Train on citations (granted only),implied,0.20233080909971823,0.114986201072758,Cells × year of first action
+3600,cites_ns,Female − male,"LLM, zero-shot",implied,5.11172222559253e-05,0.005731239541300551,Cells × year of first action
+3600,cites_ns,Female − male,No model: mean outcome of accepted cases,error,-1.4595325661204368,0.731087410577305,Cells × year of first action
+3600,cites_ns,Female − male,Train on grant,error,-1.4720614166739,0.7313907354663652,Cells × year of first action
+3600,cites_ns,Female − male,Train on first action,error,-1.4118957104232104,0.7306112696511053,Cells × year of first action
+3600,cites_ns,Female − male,Train on citations (granted only),error,-1.2559053320649907,0.7299599396976219,Cells × year of first action
+3600,cites_ns,Female − male,"LLM, zero-shot",error,-1.4581850239424923,0.7310551797597911,Cells × year of first action
+3600,cites_ns,Small − large,Human record (truth),marginal,-0.23121936157749845,0.43981562778564826,Cells × year of first action
+3600,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,0.0004401682813290897,0.005519903041681498,Cells × year of first action
+3600,cites_ns,Small − large,Train on grant,implied,-0.0036459796290975177,0.006358659614787733,Cells × year of first action
+3600,cites_ns,Small − large,Train on first action,implied,-0.02715395969664458,0.008688962490278672,Cells × year of first action
+3600,cites_ns,Small − large,Train on citations (granted only),implied,0.25349230594194916,0.07713472021808848,Cells × year of first action
+3600,cites_ns,Small − large,"LLM, zero-shot",implied,0.003525992202947581,0.006361243105678319,Cells × year of first action
+3600,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.23165952985882898,0.4403924131480093,Cells × year of first action
+3600,cites_ns,Small − large,Train on grant,error,0.22757338194841828,0.44033008431316445,Cells × year of first action
+3600,cites_ns,Small − large,Train on first action,error,0.204065401880869,0.4402065465469002,Cells × year of first action
+3600,cites_ns,Small − large,Train on citations (granted only),error,0.48471166751948125,0.4322654219208371,Cells × year of first action
+3600,cites_ns,Small − large,"LLM, zero-shot",error,0.23474535378045236,0.440259496004754,Cells × year of first action
+1600,cites_ns,Female − male,Human record (truth),marginal,-0.18592353131943073,0.3765303082355726,Cells × year of first action
+1600,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,0.003103397093964899,0.0021613622117027686,Cells × year of first action
+1600,cites_ns,Female − male,Train on grant,implied,0.005298159615319209,0.0030266537153289083,Cells × year of first action
+1600,cites_ns,Female − male,Train on first action,implied,0.031034256019347062,0.017635274964442543,Cells × year of first action
+1600,cites_ns,Female − male,Train on citations (granted only),implied,-0.0843247511096068,0.08245628238481828,Cells × year of first action
+1600,cites_ns,Female − male,"LLM, zero-shot",implied,0.00015782817484621958,0.008961972868101927,Cells × year of first action
+1600,cites_ns,Female − male,No model: mean outcome of accepted cases,error,0.1890269284134024,0.37688946293235737,Cells × year of first action
+1600,cites_ns,Female − male,Train on grant,error,0.19122169093474992,0.3771068778471825,Cells × year of first action
+1600,cites_ns,Female − male,Train on first action,error,0.2169577873387814,0.3758939718841219,Cells × year of first action
+1600,cites_ns,Female − male,Train on citations (granted only),error,0.1015987802098198,0.3734772856431193,Cells × year of first action
+1600,cites_ns,Female − male,"LLM, zero-shot",error,0.18608135949427085,0.37785791694336773,Cells × year of first action
+1600,cites_ns,Small − large,Human record (truth),marginal,-0.7013343693677874,0.39047985957954945,Cells × year of first action
+1600,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,0.001147026661405759,0.003160801980313642,Cells × year of first action
+1600,cites_ns,Small − large,Train on grant,implied,0.0058507231470030785,0.007027816624680315,Cells × year of first action
+1600,cites_ns,Small − large,Train on first action,implied,0.06576455712428486,0.014059695710387227,Cells × year of first action
+1600,cites_ns,Small − large,Train on citations (granted only),implied,-0.23488566947631484,0.08141424176372392,Cells × year of first action
+1600,cites_ns,Small − large,"LLM, zero-shot",implied,-0.05998908333311226,0.009222608555133693,Cells × year of first action
+1600,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.7024813960291941,0.3905405028387596,Cells × year of first action
+1600,cites_ns,Small − large,Train on grant,error,0.7071850925147972,0.3910111300049547,Cells × year of first action
+1600,cites_ns,Small − large,Train on first action,error,0.7670989264920798,0.3902827327814854,Cells × year of first action
+1600,cites_ns,Small − large,Train on citations (granted only),error,0.46644869989147464,0.38020069995935574,Cells × year of first action
+1600,cites_ns,Small − large,"LLM, zero-shot",error,0.641345286034676,0.3911410957188001,Cells × year of first action
+Both,cites_ns,Female − male,Human record (truth),marginal,0.31427876359773377,0.3952831082931884,Cells × year of first action
+Both,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,-0.30093085592144786,0.039571760277712816,Cells × year of first action
+Both,cites_ns,Female − male,Train on grant,implied,-0.3023753012525934,0.039015315055875605,Cells × year of first action
+Both,cites_ns,Female − male,Train on first action,implied,-0.26556139711268933,0.04109348599170882,Cells × year of first action
+Both,cites_ns,Female − male,Train on citations (granted only),implied,-0.19130577140971883,0.08016336899700154,Cells × year of first action
+Both,cites_ns,Female − male,"LLM, zero-shot",implied,-0.3090588221857624,0.040588112742731955,Cells × year of first action
+Both,cites_ns,Female − male,No model: mean outcome of accepted cases,error,-0.6152096195191696,0.3952122705362317,Cells × year of first action
+Both,cites_ns,Female − male,Train on grant,error,-0.6166540648503496,0.39530973081402127,Cells × year of first action
+Both,cites_ns,Female − male,Train on first action,error,-0.5798401607104433,0.39478692685045064,Cells × year of first action
+Both,cites_ns,Female − male,Train on citations (granted only),error,-0.5055845350074737,0.39291755990835253,Cells × year of first action
+Both,cites_ns,Female − male,"LLM, zero-shot",error,-0.6233375857835025,0.395377726086708,Cells × year of first action
+Both,cites_ns,Small − large,Human record (truth),marginal,-0.5960775781280037,0.3136256650741565,Cells × year of first action
+Both,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,-0.21844618329770293,0.03125675761833108,Cells × year of first action
+Both,cites_ns,Small − large,Train on grant,implied,-0.21694333277330458,0.031135704281832353,Cells × year of first action
+Both,cites_ns,Small − large,Train on first action,implied,-0.21178341722397187,0.03148377414534955,Cells × year of first action
+Both,cites_ns,Small − large,Train on citations (granted only),implied,-0.10920859939942407,0.06267456900867828,Cells × year of first action
+Both,cites_ns,Small − large,"LLM, zero-shot",implied,-0.24466334120043554,0.032123033044147,Cells × year of first action
+Both,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.37763139483030145,0.3126369745572821,Cells × year of first action
+Both,cites_ns,Small − large,Train on grant,error,0.3791342453547203,0.31262846416620627,Cells × year of first action
+Both,cites_ns,Small − large,Train on first action,error,0.3842941609040543,0.31265960084720973,Cells × year of first action
+Both,cites_ns,Small − large,Train on citations (granted only),error,0.48686897872860774,0.3066794478533893,Cells × year of first action
+Both,cites_ns,Small − large,"LLM, zero-shot",error,0.3514142369275506,0.3125892838333243,Cells × year of first action

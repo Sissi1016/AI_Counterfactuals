@@ -1,0 +1,17 @@
+{
+  "scope": "Files distributed in this code upload folder",
+  "status": "passed",
+  "checks": [
+    "Author names, affiliations, user names, and local paths",
+    "Credentials, tokens, and private-key patterns",
+    "Email addresses",
+    "Package-index URLs (PyPI only)",
+    "PNG metadata, EXIF, and PDF author metadata",
+    "Examiner names and identifier fields in every CSV",
+    "Estimates for single examiners or for groups of five examiners",
+    "Internal comments on hardware incidents and correspondence",
+    "Private directories, documents, symlinks, compiled bytecode, and caches"
+  ],
+  "sensitive_findings_remaining": 0,
+  "public_geographic_names_and_third_party_license_notices_preserved": true
+}

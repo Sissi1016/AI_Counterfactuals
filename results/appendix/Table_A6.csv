@@ -1,0 +1,10 @@
+Group,Instrument,All centers,"Centers, CI <0 / >0 (of 8)"
+All,Leave-one-out,"0.966 [0.951, 0.981]",0 / 8
+Female,Leave-one-out,"0.938 [0.895, 0.981]",0 / 8
+Male,Leave-one-out,"0.969 [0.954, 0.985]",0 / 8
+"Pred. grant, quartile 1",Leave-one-out,"0.951 [0.923, 0.980]",0 / 8
+"Pred. grant, quartile 2",Leave-one-out,"1.044 [1.018, 1.069]",0 / 8
+"Pred. grant, quartile 3",Leave-one-out,"0.975 [0.948, 1.002]",0 / 8
+"Pred. grant, quartile 4",Leave-one-out,"0.823 [0.795, 0.851]",0 / 8
+Female,Reverse: male,"0.928 [0.884, 0.972]",0 / 8
+Male,Reverse: female,"0.615 [0.596, 0.634]",0 / 8

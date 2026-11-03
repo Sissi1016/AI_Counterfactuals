@@ -1,0 +1,109 @@
+sample,outcome,contrast,series,kind,estimate,se,half
+3600,cites_ns,Female − male,Human record (truth),marginal,-0.051944084331996265,2.1690133322093743,More familiar half
+3600,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,-0.005313296476904039,0.011916650151850434,More familiar half
+3600,cites_ns,Female − male,"LLM, zero-shot",implied,-0.004575769921447925,0.014612208971533976,More familiar half
+3600,cites_ns,Female − male,Train on grant,implied,-0.033100710992938875,0.016047711699011747,More familiar half
+3600,cites_ns,Female − male,Train on citations (granted only),implied,0.2250917958008234,0.48192601578469385,More familiar half
+3600,cites_ns,Female − male,No model: mean outcome of accepted cases,error,0.04663078785509156,2.1717830728254084,More familiar half
+3600,cites_ns,Female − male,"LLM, zero-shot",error,0.04736831441054257,2.173225685264177,More familiar half
+3600,cites_ns,Female − male,Train on grant,error,0.01884337333904984,2.172516447494085,More familiar half
+3600,cites_ns,Female − male,Train on citations (granted only),error,0.27703588013281155,2.1212284740679124,More familiar half
+3600,cites_ns,Small − large,Human record (truth),marginal,-3.209445520900064,1.3978817303973898,More familiar half
+3600,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,0.00766565363248306,0.008861902205729981,More familiar half
+3600,cites_ns,Small − large,"LLM, zero-shot",implied,0.015965513134458043,0.010280865777154423,More familiar half
+3600,cites_ns,Small − large,Train on grant,implied,0.0005307826291165441,0.009881740835638577,More familiar half
+3600,cites_ns,Small − large,Train on citations (granted only),implied,-0.029392475711698562,0.264695737271823,More familiar half
+3600,cites_ns,Small − large,No model: mean outcome of accepted cases,error,3.217111174532547,1.3978954998265414,More familiar half
+3600,cites_ns,Small − large,"LLM, zero-shot",error,3.225411034034524,1.3977208471511484,More familiar half
+3600,cites_ns,Small − large,Train on grant,error,3.2099763035291753,1.3973722522144425,More familiar half
+3600,cites_ns,Small − large,Train on citations (granted only),error,3.1800530451883597,1.3444903877843297,More familiar half
+1600,cites_ns,Female − male,Human record (truth),marginal,-0.7532761839204836,0.8290139933479689,More familiar half
+1600,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,0.010858217643016532,0.004562510014862819,More familiar half
+1600,cites_ns,Female − male,"LLM, zero-shot",implied,0.0027752132111704686,0.017076564182359498,More familiar half
+1600,cites_ns,Female − male,Train on grant,implied,0.01970255347822847,0.006560117565908987,More familiar half
+1600,cites_ns,Female − male,Train on citations (granted only),implied,-0.3169784183467035,0.18036106189635273,More familiar half
+1600,cites_ns,Female − male,No model: mean outcome of accepted cases,error,0.7641344015634983,0.8293490973413211,More familiar half
+1600,cites_ns,Female − male,"LLM, zero-shot",error,0.7560513971316538,0.831025216042869,More familiar half
+1600,cites_ns,Female − male,Train on grant,error,0.772978737398708,0.8302314818744208,More familiar half
+1600,cites_ns,Female − male,Train on citations (granted only),error,0.4362977655737797,0.803499614347127,More familiar half
+1600,cites_ns,Small − large,Human record (truth),marginal,-0.7837589925841482,0.650327512959089,More familiar half
+1600,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,-0.0014518573001567336,0.005050125376753941,More familiar half
+1600,cites_ns,Small − large,"LLM, zero-shot",implied,-0.06804032822782702,0.017863182237545513,More familiar half
+1600,cites_ns,Small − large,Train on grant,implied,0.005671187271898415,0.011733160765219576,More familiar half
+1600,cites_ns,Small − large,Train on citations (granted only),implied,-0.1248992649890468,0.1780713014273079,More familiar half
+1600,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.7823071352839877,0.649888105074781,More familiar half
+1600,cites_ns,Small − large,"LLM, zero-shot",error,0.7157186643563203,0.6502835472983799,More familiar half
+1600,cites_ns,Small − large,Train on grant,error,0.7894301798560466,0.6523343884660415,More familiar half
+1600,cites_ns,Small − large,Train on citations (granted only),error,0.6588597275950994,0.6063987379671371,More familiar half
+Both,cites_ns,Female − male,Human record (truth),marginal,-1.2790294369744788,0.8205674084268275,More familiar half
+Both,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,-0.39845863954107785,0.06690198770339831,More familiar half
+Both,cites_ns,Female − male,"LLM, zero-shot",implied,-0.4055425492243583,0.06909003032089504,More familiar half
+Both,cites_ns,Female − male,Train on grant,implied,-0.39676653256185435,0.0659306543543749,More familiar half
+Both,cites_ns,Female − male,Train on citations (granted only),implied,-0.5096094183143323,0.1850792254035849,More familiar half
+Both,cites_ns,Female − male,No model: mean outcome of accepted cases,error,0.8805707974334059,0.823819748443198,More familiar half
+Both,cites_ns,Female − male,"LLM, zero-shot",error,0.8734868877501196,0.8246226718660028,More familiar half
+Both,cites_ns,Female − male,Train on grant,error,0.8822629044126277,0.8240116134010483,More familiar half
+Both,cites_ns,Female − male,Train on citations (granted only),error,0.7694200186601434,0.8081357263867117,More familiar half
+Both,cites_ns,Small − large,Human record (truth),marginal,-2.0361782619135536,0.7526472123499279,More familiar half
+Both,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,-0.2105144503524894,0.06428654386830773,More familiar half
+Both,cites_ns,Small − large,"LLM, zero-shot",implied,-0.2472496410209375,0.0655444586841134,More familiar half
+Both,cites_ns,Small − large,Train on grant,implied,-0.2079202390417214,0.06398334575471998,More familiar half
+Both,cites_ns,Small − large,Train on citations (granted only),implied,-0.2539115134795429,0.15555573814118764,More familiar half
+Both,cites_ns,Small − large,No model: mean outcome of accepted cases,error,1.8256638115610628,0.7547268503900408,More familiar half
+Both,cites_ns,Small − large,"LLM, zero-shot",error,1.788928620892616,0.7548525219316439,More familiar half
+Both,cites_ns,Small − large,Train on grant,error,1.8282580228718297,0.7550243155167451,More familiar half
+Both,cites_ns,Small − large,Train on citations (granted only),error,1.7822667484340142,0.7244219376749782,More familiar half
+3600,cites_ns,Female − male,Human record (truth),marginal,0.6234453937454192,1.4173733472150933,Less familiar half
+3600,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,0.026382382259938275,0.011213071305146483,Less familiar half
+3600,cites_ns,Female − male,"LLM, zero-shot",implied,0.029364855943679213,0.014801354353583377,Less familiar half
+3600,cites_ns,Female − male,Train on grant,implied,0.020060419330158563,0.013232109550403486,Less familiar half
+3600,cites_ns,Female − male,Train on citations (granted only),implied,0.23622426907684213,0.3009074009228116,Less familiar half
+3600,cites_ns,Female − male,No model: mean outcome of accepted cases,error,-0.5970630114854903,1.415978949126733,Less familiar half
+3600,cites_ns,Female − male,"LLM, zero-shot",error,-0.5940805378017459,1.4168029850755288,Less familiar half
+3600,cites_ns,Female − male,Train on grant,error,-0.6033849744152665,1.4170920041108388,Less familiar half
+3600,cites_ns,Female − male,Train on citations (granted only),error,-0.38722112466858144,1.4400127034061119,Less familiar half
+3600,cites_ns,Small − large,Human record (truth),marginal,0.09684214556335302,1.0199105716698882,Less familiar half
+3600,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,0.007557110594134997,0.009053273481026056,Less familiar half
+3600,cites_ns,Small − large,"LLM, zero-shot",implied,0.01876821612649282,0.010239210306822845,Less familiar half
+3600,cites_ns,Small − large,Train on grant,implied,-0.0009128434660423679,0.0108685704760968,Less familiar half
+3600,cites_ns,Small − large,Train on citations (granted only),implied,0.32896886629078015,0.2395825930204451,Less familiar half
+3600,cites_ns,Small − large,No model: mean outcome of accepted cases,error,-0.08928503496922291,1.020566865896218,Less familiar half
+3600,cites_ns,Small − large,"LLM, zero-shot",error,-0.07807392943686525,1.0207991182438148,Less familiar half
+3600,cites_ns,Small − large,Train on grant,error,-0.09775498902939311,1.020957736661597,Less familiar half
+3600,cites_ns,Small − large,Train on citations (granted only),error,0.23212672072742507,1.0127069045527946,Less familiar half
+1600,cites_ns,Female − male,Human record (truth),marginal,0.6929293946760795,0.8954983173628699,Less familiar half
+1600,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,0.0047941480172761786,0.004698894600703462,Less familiar half
+1600,cites_ns,Female − male,"LLM, zero-shot",implied,-0.02956058421777441,0.018920702662981705,Less familiar half
+1600,cites_ns,Female − male,Train on grant,implied,0.006846819970890428,0.005604395181534749,Less familiar half
+1600,cites_ns,Female − male,Train on citations (granted only),implied,0.036584381562156265,0.19344240464658774,Less familiar half
+1600,cites_ns,Female − male,No model: mean outcome of accepted cases,error,-0.6881352466588084,0.8958102800625228,Less familiar half
+1600,cites_ns,Female − male,"LLM, zero-shot",error,-0.7224899788938585,0.8965285266562425,Less familiar half
+1600,cites_ns,Female − male,Train on grant,error,-0.6860825747051934,0.8958668880697842,Less familiar half
+1600,cites_ns,Female − male,Train on citations (granted only),error,-0.6563450131139241,0.8480805854549959,Less familiar half
+1600,cites_ns,Small − large,Human record (truth),marginal,-0.15552124780653398,1.1298625510207336,Less familiar half
+1600,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,0.0032894317236074055,0.0036098429669783475,Less familiar half
+1600,cites_ns,Small − large,"LLM, zero-shot",implied,-0.06531688742769348,0.013906911699758922,Less familiar half
+1600,cites_ns,Small − large,Train on grant,implied,0.00218840594948011,0.004993622710041673,Less familiar half
+1600,cites_ns,Small − large,Train on citations (granted only),implied,-0.3080151419250532,0.20014504589566942,Less familiar half
+1600,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.15881067953013706,1.129867110038935,Less familiar half
+1600,cites_ns,Small − large,"LLM, zero-shot",error,0.0902043603788386,1.1295894681566667,Less familiar half
+1600,cites_ns,Small − large,Train on grant,error,0.1577096537560121,1.129791726645219,Less familiar half
+1600,cites_ns,Small − large,Train on citations (granted only),error,-0.15249389411851916,1.107427871010819,Less familiar half
+Both,cites_ns,Female − male,Human record (truth),marginal,0.3200084814089279,0.7274326554031761,Less familiar half
+Both,cites_ns,Female − male,No model: mean outcome of accepted cases,implied,-0.27130157198442717,0.08034906263770333,Less familiar half
+Both,cites_ns,Female − male,"LLM, zero-shot",implied,-0.3023312984170188,0.0840781557269792,Less familiar half
+Both,cites_ns,Female − male,Train on grant,implied,-0.2671506257512364,0.07896510984053452,Less familiar half
+Both,cites_ns,Female − male,Train on citations (granted only),implied,-0.11103817851296016,0.17585729829892977,Less familiar half
+Both,cites_ns,Female − male,No model: mean outcome of accepted cases,error,-0.5913100533933543,0.7299520783076935,Less familiar half
+Both,cites_ns,Female − male,"LLM, zero-shot",error,-0.6223397798259493,0.7304450026718079,Less familiar half
+Both,cites_ns,Female − male,Train on grant,error,-0.5871591071601681,0.7300112797755752,Less familiar half
+Both,cites_ns,Female − male,Train on citations (granted only),error,-0.4310466599218885,0.7045375648864698,Less familiar half
+Both,cites_ns,Small − large,Human record (truth),marginal,-0.22538697619295567,0.7630619311603126,Less familiar half
+Both,cites_ns,Small − large,No model: mean outcome of accepted cases,implied,-0.11632218805289596,0.05965084713497167,Less familiar half
+Both,cites_ns,Small − large,"LLM, zero-shot",implied,-0.15591353548493347,0.06109418106449285,Less familiar half
+Both,cites_ns,Small − large,Train on grant,implied,-0.11869288246548981,0.059131338804956274,Less familiar half
+Both,cites_ns,Small − large,Train on citations (granted only),implied,-0.1506743190866806,0.15698194645299468,Less familiar half
+Both,cites_ns,Small − large,No model: mean outcome of accepted cases,error,0.10906478814006287,0.7602835589635444,Less familiar half
+Both,cites_ns,Small − large,"LLM, zero-shot",error,0.06947344070802147,0.7598776106065657,Less familiar half
+Both,cites_ns,Small − large,Train on grant,error,0.10669409372746623,0.7603105073053287,Less familiar half
+Both,cites_ns,Small − large,Train on citations (granted only),error,0.0747126571062762,0.7480715245596787,Less familiar half

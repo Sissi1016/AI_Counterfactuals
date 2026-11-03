@@ -1,0 +1,125 @@
+quantity,version,value,lo,hi
+"Table III: examiners' change, citations (%)",squared error,-19.958974221462665,-28.768210469688842,-10.2272008875305
+Table III (test + imputation): Algorithm (trained on citations) − examiners (pp),squared error,4.771987916977391,-4.206609199746031,12.722781276178988
+Table III (test + imputation): Algorithm trained on the most lenient quintile's grants − examiners (pp),squared error,2.9804310604275686,-6.193845828117054,10.937023975925847
+Table III (test + imputation): Algorithm trained on prior-art citations (all applications) − examiners (pp),squared error,5.524431520507919,-3.3404963040616376,13.260279931773269
+Table III (test + imputation): Predicted examiner (trained on grants) − examiners (pp),squared error,1.3536615343086562,-8.05501753124708,9.590152320132042
+Table III (test + imputation): Random − examiners (pp),squared error,-0.14579474628153843,-10.067003458167589,8.029633420912846
+Table III (lock box): Algorithm (trained on citations) − examiners (pp),squared error,8.800568172397469,-6.115334875659401,22.93531607604993
+Table III (lock box): Algorithm trained on the most lenient quintile's grants − examiners (pp),squared error,8.438447500936,-6.147896349215276,22.290600796380296
+Table III (lock box): Algorithm trained on prior-art citations (all applications) − examiners (pp),squared error,9.061613005245581,-5.090998446742077,22.707619033216343
+Table III (lock box): Predicted examiner (trained on grants) − examiners (pp),squared error,4.270637025111654,-10.120350839618638,19.0975074970814
+Table III (lock box): Random − examiners (pp),squared error,4.417584516916009,-11.196358133054684,19.274816913618793
+Table III (balanced cells): Algorithm (trained on citations) − examiners (pp),squared error,5.088183677408945,-3.673509534332542,12.602871282732266
+Table III (balanced cells): Algorithm trained on the most lenient quintile's grants − examiners (pp),squared error,3.7803700704726273,-5.573431499997387,11.543135944695754
+Table III (balanced cells): Algorithm trained on prior-art citations (all applications) − examiners (pp),squared error,6.1332305004953565,-2.9385886423061596,13.573868347249322
+Table III (balanced cells): Predicted examiner (trained on grants) − examiners (pp),squared error,1.679933546291712,-8.197735002837172,9.670309908343363
+Table III (balanced cells): Random − examiners (pp),squared error,0.8071783935090254,-8.38965972426005,8.002458020028124
+"Table V, renew: algorithm − examiners (pp)",squared error,1.0652227816731086,0.6189783216040711,1.5278191373120242
+"Table V, top10: algorithm − examiners (pp)",squared error,6.912029691916924,3.9319673064234437,9.760827332341888
+"Table V, pa_granted: algorithm − examiners (pp)",squared error,6.5929010762560525,4.005607884212483,9.069723749816324
+"Table IV, cites, α = 1.0: algorithm's change (%)",squared error,18.723374530299548,15.83847842848097,22.017138927216877
+"Table IV, cites, α = 1.5: algorithm's change (%)",squared error,11.251464677191223,9.359064467430594,13.579347157742378
+"Table IV, cites, α = 2.0: algorithm's change (%)",squared error,7.515509750637451,6.1088994952867814,9.26457070211347
+"Table IV, cites, α = inf: algorithm's change (%)",squared error,-3.692355029025597,-5.376685551221901,-2.120358445720941
+"Table IV, pa_obs, α = 1.0: algorithm's change (%)",squared error,24.99869433691582,22.369210090601293,28.11219110570701
+"Table IV, pa_obs, α = observed: algorithm's change (%)",squared error,12.567014104599522,10.482837064841217,14.750564551740094
+Levels at the margin (pooled): observed citations,squared error,2.9765387743707707,1.450921127182661,4.1339719576781215
+Levels at the margin (pooled): Counterfactual score (text),squared error,3.010127361143057,2.778501052837888,3.2836223365091595
+Levels at the margin (pooled): Counterfactual score (text) − observed citations,squared error,0.03358858677228759,-1.1280653689593094,1.6468146325845643
+Levels at the margin (pooled): Counterfactual score (text + prior-art citations),squared error,2.652636567240247,2.397077060036251,2.9278117595796624
+Levels at the margin (pooled): Counterfactual score (text + prior-art citations) − observed citations,squared error,-0.3239022071305227,-1.5374350866376871,1.2093892371687922
+"Score validation, Counterfactual score (text): corr_cites_granted",squared error,0.3528946455935267,,
+"Score validation, Counterfactual score (text): spearman_cites_granted",squared error,0.15201054132061478,,
+"Score validation, Counterfactual score (text): spearman_prior_art_granted",squared error,0.21659653025280376,,
+"Score validation, Counterfactual score (text): spearman_prior_art_rejected",squared error,0.2077477478704648,,
+"Score validation, Counterfactual score (text): mean_granted",squared error,3.168725209081123,,
+"Score validation, Counterfactual score (text): mean_rejected",squared error,2.877518458269427,,
+"Score validation, Counterfactual score (text): share_rejected_above_granted_median",squared error,0.5145899221700325,,
+"Score validation, Counterfactual score (text): share_rejected_top_quarter",squared error,0.24961852233882037,,
+"Score validation, Counterfactual score (text + prior-art citations): corr_cites_granted",squared error,0.4524048860458303,,
+"Score validation, Counterfactual score (text + prior-art citations): spearman_cites_granted",squared error,0.36034389997702,,
+"Score validation, Counterfactual score (text + prior-art citations): spearman_prior_art_granted",squared error,0.579043607980399,,
+"Score validation, Counterfactual score (text + prior-art citations): spearman_prior_art_rejected",squared error,0.5294044695724646,,
+"Score validation, Counterfactual score (text + prior-art citations): mean_granted",squared error,3.1719210034550063,,
+"Score validation, Counterfactual score (text + prior-art citations): mean_rejected",squared error,2.44991248479757,,
+"Score validation, Counterfactual score (text + prior-art citations): share_rejected_above_granted_median",squared error,0.43356321447142965,,
+"Score validation, Counterfactual score (text + prior-art citations): share_rejected_top_quarter",squared error,0.2073789287936781,,
+"α on prior-art citations, counterfactual score",squared error,1.364923925923344,,
+Figure II / fit: corr_cites,squared error,0.4040528978968637,,
+Figure II / fit: spearman_cites,squared error,0.15867770152272734,,
+Figure II / fit: auc_grant_by_predicted_cites,squared error,0.5077449132097832,,
+Figure II / fit: lowest1_grant_rate,squared error,0.6605374823196606,,
+Figure II / fit: lowest1_cites,squared error,1.6980728051391862,,
+"Figure II: predicted citations, lowest percentile bin",squared error,-3.8327660433317523,,
+Figure II: percentile bins with negative mean prediction,squared error,7.0,,
+"Share of negative predictions: training model, all applications",squared error,0.07404753212452281,,
+"Share of negative predictions: imputation model, all applications",squared error,0.07532530163924082,,
+"Share of negative predictions: counterfactual score, all applications",squared error,0.07476191120065263,,
+"Share of negative predictions: counterfactual score, rejected applications",squared error,0.07911788654044845,,
+"Table III: examiners' change, citations (%)",Poisson,-19.958974221462665,-28.768210469688842,-10.2272008875305
+Table III (test + imputation): Algorithm (trained on citations) − examiners (pp),Poisson,6.18959516428306,-2.4103757744963525,13.936391074132418
+Table III (test + imputation): Algorithm trained on the most lenient quintile's grants − examiners (pp),Poisson,5.508143922849859,-3.3247027365398827,13.476959663210927
+Table III (test + imputation): Algorithm trained on prior-art citations (all applications) − examiners (pp),Poisson,6.424857139781192,-2.3822844965936905,14.364511952604778
+Table III (test + imputation): Predicted examiner (trained on grants) − examiners (pp),Poisson,1.3536615343086562,-8.05501753124708,9.590152320132042
+Table III (test + imputation): Random − examiners (pp),Poisson,-0.14579474628153843,-10.067003458167589,8.029633420912846
+Table III (lock box): Algorithm (trained on citations) − examiners (pp),Poisson,10.243894697439218,-3.9460046767596713,23.704765569961
+Table III (lock box): Algorithm trained on the most lenient quintile's grants − examiners (pp),Poisson,8.400383767367423,-5.871198691182925,22.638655732914838
+Table III (lock box): Algorithm trained on prior-art citations (all applications) − examiners (pp),Poisson,9.190713865526373,-4.763439229970619,22.815731083604632
+Table III (lock box): Predicted examiner (trained on grants) − examiners (pp),Poisson,4.270637025111654,-10.120350839618638,19.0975074970814
+Table III (lock box): Random − examiners (pp),Poisson,4.417584516916009,-11.196358133054684,19.274816913618793
+Table III (balanced cells): Algorithm (trained on citations) − examiners (pp),Poisson,7.34005726386345,-0.011608610454089846,13.392535110882037
+Table III (balanced cells): Algorithm trained on the most lenient quintile's grants − examiners (pp),Poisson,6.744237473470657,-0.9546185970539437,13.284566169573846
+Table III (balanced cells): Algorithm trained on prior-art citations (all applications) − examiners (pp),Poisson,7.806096915313995,0.7663404435384862,14.03718176163832
+Table III (balanced cells): Predicted examiner (trained on grants) − examiners (pp),Poisson,2.3558588860455836,-5.985179033118341,9.17082955612659
+Table III (balanced cells): Random − examiners (pp),Poisson,1.496772581100156,-6.170028104583223,8.052086081240507
+"Table V, renew: algorithm − examiners (pp)",Poisson,1.0251225237707662,0.5466700359415007,1.487299374341306
+"Table V, top10: algorithm − examiners (pp)",Poisson,8.505666458188271,5.457604833741564,11.411239918143979
+"Table V, pa_granted: algorithm − examiners (pp)",Poisson,8.016860204214849,5.354270169990031,10.571012335937402
+"Table IV, cites, α = 1.0: algorithm's change (%)",Poisson,19.87192422301525,16.93660493462721,23.159740162934995
+"Table IV, cites, α = 1.5: algorithm's change (%)",Poisson,12.7854071112363,10.82725711974239,15.0871737177906
+"Table IV, cites, α = 2.0: algorithm's change (%)",Poisson,9.242148555346361,7.571641554375097,10.976457811591555
+"Table IV, cites, α = inf: algorithm's change (%)",Poisson,-1.387627112323497,-2.952962931519063,-0.30596070190905084
+"Table IV, pa_obs, α = 1.0: algorithm's change (%)",Poisson,25.96827065087644,23.540729549038822,28.85207539665514
+"Table IV, pa_obs, α = observed: algorithm's change (%)",Poisson,15.977543084604584,13.696039876973915,18.12049039919572
+Levels at the margin (pooled): observed citations,Poisson,2.9765387743707707,1.4203858343397435,4.163496813886443
+Levels at the margin (pooled): Counterfactual score (text),Poisson,2.822555386164245,2.6483175548654914,3.0273697700717603
+Levels at the margin (pooled): Counterfactual score (text) − observed citations,Poisson,-0.15398338820652366,-1.3483568389460163,1.5108379674770005
+Levels at the margin (pooled): Counterfactual score (text + prior-art citations),Poisson,2.33316489523251,2.04646047897719,2.5952063372616494
+Levels at the margin (pooled): Counterfactual score (text + prior-art citations) − observed citations,Poisson,-0.6433738791382594,-1.790260426903784,0.8225328901283783
+"Score validation, Counterfactual score (text): corr_cites_granted",Poisson,0.2896781725859885,,
+"Score validation, Counterfactual score (text): spearman_cites_granted",Poisson,0.22213555459789652,,
+"Score validation, Counterfactual score (text): spearman_prior_art_granted",Poisson,0.2882477176907799,,
+"Score validation, Counterfactual score (text): spearman_prior_art_rejected",Poisson,0.26947954187484463,,
+"Score validation, Counterfactual score (text): mean_granted",Poisson,2.9508856746733256,,
+"Score validation, Counterfactual score (text): mean_rejected",Poisson,2.708238096005105,,
+"Score validation, Counterfactual score (text): share_rejected_above_granted_median",Poisson,0.5136181131560776,,
+"Score validation, Counterfactual score (text): share_rejected_top_quarter",Poisson,0.2512126301073252,,
+"Score validation, Counterfactual score (text + prior-art citations): corr_cites_granted",Poisson,0.3536476632519028,,
+"Score validation, Counterfactual score (text + prior-art citations): spearman_cites_granted",Poisson,0.4520486486602138,,
+"Score validation, Counterfactual score (text + prior-art citations): spearman_prior_art_granted",Poisson,0.7492064142110204,,
+"Score validation, Counterfactual score (text + prior-art citations): spearman_prior_art_rejected",Poisson,0.7028290245900989,,
+"Score validation, Counterfactual score (text + prior-art citations): mean_granted",Poisson,3.0037483994509704,,
+"Score validation, Counterfactual score (text + prior-art citations): mean_rejected",Poisson,2.280439751735132,,
+"Score validation, Counterfactual score (text + prior-art citations): share_rejected_above_granted_median",Poisson,0.4245526694911642,,
+"Score validation, Counterfactual score (text + prior-art citations): share_rejected_top_quarter",Poisson,0.19628837153793038,,
+"α on prior-art citations, counterfactual score",Poisson,1.352548930848251,,
+Figure II / fit: corr_cites,Poisson,0.32878373616969153,,
+Figure II / fit: spearman_cites,Poisson,0.23473273497041225,,
+Figure II / fit: auc_grant_by_predicted_cites,Poisson,0.5077120869349966,,
+Figure II / fit: lowest1_grant_rate,Poisson,0.6746817538896747,,
+Figure II / fit: lowest1_cites,Poisson,0.6289308176100629,,
+"Figure II: predicted citations, lowest percentile bin",Poisson,0.6407904013078897,,
+Figure II: percentile bins with negative mean prediction,Poisson,0.0,,
+"Share of negative predictions: training model, all applications",Poisson,0.0,,
+"Share of negative predictions: imputation model, all applications",Poisson,0.0,,
+"Share of negative predictions: counterfactual score, all applications",Poisson,0.0,,
+"Share of negative predictions: counterfactual score, rejected applications",Poisson,0.0,,
+"Table III, raw citations: algorithm − examiners (pp)",squared error,4.771987916977391,-4.993233222725615,12.163171776371547
+"Table III, raw citations: algorithm − random, expected curve (pp)",squared error,5.883546116894631,3.7809645302524557,7.914195117063963
+"Table III, top-coded citations: algorithm − examiners (pp)",squared error,6.873829315531857,3.694685989924156,10.056705220229924
+"Table III, top-coded citations: algorithm − random, expected curve (pp)",squared error,4.148257439111013,3.138790893951129,5.117569155609507
+"Table III, raw citations: algorithm − examiners (pp)",Poisson,6.18959516428306,-3.9489151769091504,13.724224966120172
+"Table III, raw citations: algorithm − random, expected curve (pp)",Poisson,7.3011533642002995,5.604445346716913,8.922666342757935
+"Table III, top-coded citations: algorithm − examiners (pp)",Poisson,8.374158246292938,5.2640040371289505,11.297187517957722
+"Table III, top-coded citations: algorithm − random, expected curve (pp)",Poisson,5.648586369872094,4.697185608459666,6.561738838199058

@@ -1,0 +1,5 @@
+tc,sample,n,cells,examiners_per_cell_quintile,single_examiner_quintiles
+3600,Cells with at least ten examiners,23598,307,3.0,0.11009771986970684
+3600,Cells with at least fifteen examiners,16002,173,4.0,0.04277456647398844
+1600,Cells with at least ten examiners,11589,233,2.0,0.1682403433476395
+1600,Cells with at least fifteen examiners,4370,63,3.0,0.06666666666666667

@@ -1,0 +1,485 @@
+{
+  "tables": [
+    {
+      "id": "Table 1",
+      "caption": "Citations forgone and gender differences under alternative rejection rules, at the stricter examiners’ rejection rates within each cell; F − M is female minus male. Test and imputation samples; 95% CIs from 500 bootstrap draws of art units",
+      "section": "Proposal",
+      "layout": [
+        [
+          "",
+          "How accurate",
+          "",
+          "For whom",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Citations lost (%)",
+          "Gain over examiners (pp)",
+          "Women rejected (%)",
+          "F − M grants (pp)",
+          "F − M citations at margin"
+        ],
+        [
+          "Stricter examiners",
+          {
+            "template": "{0}",
+            "formats": [
+              "20.0"
+            ],
+            "refs": [
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 1,
+                "column": 1,
+                "number": 0,
+                "row_label": "Examiners"
+              }
+            ]
+          },
+          "",
+          {
+            "template": "{0} [{1}, {2}]",
+            "formats": [
+              "9.5",
+              "7.3",
+              "11.6"
+            ],
+            "refs": [
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 1,
+                "column": 3,
+                "number": 0,
+                "row_label": "Examiners"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 1,
+                "column": 3,
+                "number": 1,
+                "row_label": "Examiners"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 1,
+                "column": 3,
+                "number": 2,
+                "row_label": "Examiners"
+              }
+            ]
+          },
+          {
+            "template": "{0} [{1}, {2}]",
+            "formats": [
+              "−3.3",
+              "−4.6",
+              "−2.1"
+            ],
+            "refs": [
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 1,
+                "column": 4,
+                "number": 0,
+                "row_label": "Examiners"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 1,
+                "column": 4,
+                "number": 1,
+                "row_label": "Examiners"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 1,
+                "column": 4,
+                "number": 2,
+                "row_label": "Examiners"
+              }
+            ]
+          },
+          {
+            "template": "{0} [{1}, {2}]",
+            "formats": [
+              "0.31",
+              "−2.74",
+              "4.61"
+            ],
+            "refs": [
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 1,
+                "column": 5,
+                "number": 0,
+                "row_label": "Examiners"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 1,
+                "column": 5,
+                "number": 1,
+                "row_label": "Examiners"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 1,
+                "column": 5,
+                "number": 2,
+                "row_label": "Examiners"
+              }
+            ]
+          }
+        ],
+        [
+          "Random rejections",
+          {
+            "template": "{0}",
+            "formats": [
+              "21.1"
+            ],
+            "refs": [
+              {
+                "file": "derived:random_loss",
+                "row": 1,
+                "column": 1,
+                "number": 0,
+                "row_label": "Random rejections"
+              }
+            ]
+          },
+          {
+            "template": "{0} [{1}, {2}]",
+            "formats": [
+              "−1.1",
+              "−10.7",
+              "7.0"
+            ],
+            "refs": [
+              {
+                "file": "output/latex/ext_tab_kllm_contraction.tex",
+                "row": 8,
+                "column": 7,
+                "number": 0,
+                "row_label": "Rule − examiners, mean"
+              },
+              {
+                "file": "output/latex/ext_tab_kllm_contraction.tex",
+                "row": 8,
+                "column": 7,
+                "number": 1,
+                "row_label": "Rule − examiners, mean"
+              },
+              {
+                "file": "output/latex/ext_tab_kllm_contraction.tex",
+                "row": 8,
+                "column": 7,
+                "number": 2,
+                "row_label": "Rule − examiners, mean"
+              }
+            ]
+          },
+          "",
+          "",
+          ""
+        ],
+        [
+          "Model learning citations",
+          {
+            "template": "{0}",
+            "formats": [
+              "13.8"
+            ],
+            "refs": [
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 2,
+                "column": 1,
+                "number": 0,
+                "row_label": "Algorithm (trained on citations)"
+              }
+            ]
+          },
+          {
+            "template": "{0} [{1}, {2}]",
+            "formats": [
+              "6.2",
+              "−2.4",
+              "13.9"
+            ],
+            "refs": [
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 2,
+                "column": 2,
+                "number": 0,
+                "row_label": "Algorithm (trained on citations)"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 2,
+                "column": 2,
+                "number": 1,
+                "row_label": "Algorithm (trained on citations)"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 2,
+                "column": 2,
+                "number": 2,
+                "row_label": "Algorithm (trained on citations)"
+              }
+            ]
+          },
+          {
+            "template": "{0} [{1}, {2}]",
+            "formats": [
+              "8.7",
+              "7.9",
+              "9.5"
+            ],
+            "refs": [
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 2,
+                "column": 3,
+                "number": 0,
+                "row_label": "Algorithm (trained on citations)"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 2,
+                "column": 3,
+                "number": 1,
+                "row_label": "Algorithm (trained on citations)"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 2,
+                "column": 3,
+                "number": 2,
+                "row_label": "Algorithm (trained on citations)"
+              }
+            ]
+          },
+          {
+            "template": "{0} [{1}, {2}]",
+            "formats": [
+              "−0.3",
+              "−1.2",
+              "0.7"
+            ],
+            "refs": [
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 2,
+                "column": 4,
+                "number": 0,
+                "row_label": "Algorithm (trained on citations)"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 2,
+                "column": 4,
+                "number": 1,
+                "row_label": "Algorithm (trained on citations)"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 2,
+                "column": 4,
+                "number": 2,
+                "row_label": "Algorithm (trained on citations)"
+              }
+            ]
+          },
+          {
+            "template": "{0} [{1}, {2}]",
+            "formats": [
+              "0.56",
+              "−0.55",
+              "2.01"
+            ],
+            "refs": [
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 2,
+                "column": 5,
+                "number": 0,
+                "row_label": "Algorithm (trained on citations)"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 2,
+                "column": 5,
+                "number": 1,
+                "row_label": "Algorithm (trained on citations)"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 2,
+                "column": 5,
+                "number": 2,
+                "row_label": "Algorithm (trained on citations)"
+              }
+            ]
+          }
+        ],
+        [
+          "Model learning decisions",
+          {
+            "template": "{0}",
+            "formats": [
+              "18.6"
+            ],
+            "refs": [
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 3,
+                "column": 1,
+                "number": 0,
+                "row_label": "Predicted examiner (trained on grants)"
+              }
+            ]
+          },
+          {
+            "template": "{0} [{1}, {2}]",
+            "formats": [
+              "1.4",
+              "−8.1",
+              "9.6"
+            ],
+            "refs": [
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 3,
+                "column": 2,
+                "number": 0,
+                "row_label": "Predicted examiner (trained on grants)"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 3,
+                "column": 2,
+                "number": 1,
+                "row_label": "Predicted examiner (trained on grants)"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 3,
+                "column": 2,
+                "number": 2,
+                "row_label": "Predicted examiner (trained on grants)"
+              }
+            ]
+          },
+          {
+            "template": "{0} [{1}, {2}]",
+            "formats": [
+              "9.0",
+              "8.3",
+              "9.9"
+            ],
+            "refs": [
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 3,
+                "column": 3,
+                "number": 0,
+                "row_label": "Predicted examiner (trained on grants)"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 3,
+                "column": 3,
+                "number": 1,
+                "row_label": "Predicted examiner (trained on grants)"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 3,
+                "column": 3,
+                "number": 2,
+                "row_label": "Predicted examiner (trained on grants)"
+              }
+            ]
+          },
+          {
+            "template": "{0} [{1}, {2}]",
+            "formats": [
+              "−4.0",
+              "−5.1",
+              "−2.9"
+            ],
+            "refs": [
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 3,
+                "column": 4,
+                "number": 0,
+                "row_label": "Predicted examiner (trained on grants)"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 3,
+                "column": 4,
+                "number": 1,
+                "row_label": "Predicted examiner (trained on grants)"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 3,
+                "column": 4,
+                "number": 2,
+                "row_label": "Predicted examiner (trained on grants)"
+              }
+            ]
+          },
+          {
+            "template": "{0} [{1}, {2}]",
+            "formats": [
+              "−1.09",
+              "−1.90",
+              "−0.38"
+            ],
+            "refs": [
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 3,
+                "column": 5,
+                "number": 0,
+                "row_label": "Predicted examiner (trained on grants)"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 3,
+                "column": 5,
+                "number": 1,
+                "row_label": "Predicted examiner (trained on grants)"
+              },
+              {
+                "file": "output/latex/c1x_poisson_tab_forwhom.tex",
+                "row": 3,
+                "column": 5,
+                "number": 2,
+                "row_label": "Predicted examiner (trained on grants)"
+              }
+            ]
+          }
+        ]
+      ],
+      "scripts": [
+        "code/35_c1_kllm.py",
+        "code/43_c1_extra.py"
+      ],
+      "sources": [
+        "output/latex/c1x_poisson_tab_forwhom.tex",
+        "output/latex/ext_tab_kllm_contraction.tex",
+        "output/latex/ext_tab_kllm_gender.tex",
+        "derived:random_loss"
+      ]
+    }
+  ]
+}

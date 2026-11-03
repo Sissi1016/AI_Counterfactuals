@@ -1,0 +1,43 @@
+Exhibit,Section,Source scripts,Analysis sources,Final selection
+Table A1,A1. Data and sample,code/01_patex_to_parquet.py; code/02_build_applications.py; code/03_infer_gender.py; code/04_examiner_leniency.py; code/06_pilot_sample.py; code/06b_self_citations.py; code/06c_prior_art_citations.py; code/24_human_record.py; code/34_extension_tables.py; code/38_all_centers.py,output/latex/ext_tab_sample_all.tex,Sample by technology center
+Table A2,A2. Examiners and leniency,code/04_examiner_leniency.py; code/04b_leniency_window.py; code/22_examiners.py; code/41_design_examiners.py,output/latex/design_tab_examiners.tex,Selected examiner and assignment-cell statistics
+Table A3,A3. Assumptions and tests,code/18_assignment_checks.py; code/35_c1_kllm.py; code/41_design_examiners.py; code/46_tests_extra.py,output/latex/design_tab_permutation.tex,Poisson citation index and grant index; squared-error row omitted
+Table A4,A3. Assumptions and tests,code/42_design_balance.py,output/latex/design_tab_balance.tex,Within-cell balance
+Table A5,A3. Assumptions and tests,code/42_design_balance.py,output/latex/design_tab_calibration.tex,Pooled calibration; TC 3600 column omitted
+Table A6,A3. Assumptions and tests,code/42_design_balance.py,output/latex/design_tab_first_stage.tex,Pooled first stages; TC 3600 column omitted
+Table A7,A3. Assumptions and tests,code/39_c3_checks.py; code/46_tests_extra.py,output/latex/tx_tab_fll.tex,Permutation p-values and support; misfit-ratio columns omitted
+Table A8,A3. Assumptions and tests,code/42_design_balance.py,output/latex/design_tab_exclusion.tex,Claims at grant and pendency
+Table A9,A3. Assumptions and tests,code/46_tests_extra.py,output/latex/design_tab_claims.tex,Claims at filing and removed; at-grant row is in A8
+Table A10,A3. Assumptions and tests,code/04b_leniency_window.py; code/34_extension_tables.py; code/35_c1_kllm.py; code/39_c3_checks.py,output/latex/ext_tab_robust_groups.tex,Robustness; single-docketing row omitted
+Table A11,A4. Has the language model seen these applications?,code/23_memorization.py; code/46_tests_extra.py,output/latex/tx_tab_memorization.tex,Familiarity halves
+Table A12,A5. C1: Counterfactual Outcomes,code/35_c1_kllm.py; code/51_c1_table2_tails.py,output/latex/tb_tab_table2.tex,Both prediction tails
+Table A13,A5. C1: Counterfactual Outcomes,code/06c_prior_art_citations.py; code/34_extension_tables.py; code/35_c1_kllm.py; code/47_c1_margin_validation.py,derived:marginal_metrics; output/latex/ext_tab_kllm_levels.tex,Merged marginal-score check and prior-art levels; selected metrics only
+Table A14,A5. C1: Counterfactual Outcomes,code/34_extension_tables.py; code/35_c1_kllm.py,output/latex/ext_tab_kllm_contraction.tex,"Contraction, including held-out estimates"
+Table A15,A5. C1: Counterfactual Outcomes,code/34_extension_tables.py; code/35_c1_kllm.py,output/latex/ext_tab_kllm_rerank.tex,Reranking and alpha sensitivity
+Table A16,A5. C1: Counterfactual Outcomes,code/34_extension_tables.py; code/35_c1_kllm.py,output/latex/ext_tab_kllm_other.tex,Other outcomes
+Table A17,A5. C1: Counterfactual Outcomes,code/06c_prior_art_citations.py; code/34_extension_tables.py; code/35_c1_kllm.py,output/latex/ext_tab_kllm_prior_art.tex,Observed and imputed prior-art outcomes
+Table A18,A5. C1: Counterfactual Outcomes,code/34_extension_tables.py; code/35_c1_kllm.py; code/43_c1_extra.py,output/latex/ext_tab_kllm_scores.tex; derived:within_rank_correlations,Text score only; within-cell correlations added
+Table A19,A5. C1: Counterfactual Outcomes,code/35_c1_kllm.py; code/43_c1_extra.py,output/latex/c1x_poisson_tab_forwhom.tex; output/latex/ext_tab_kllm_contraction.tex; output/latex/ext_tab_kllm_gender.tex; derived:random_loss,Accuracy and group comparisons
+Table A20,A5. C1: Counterfactual Outcomes,code/34_extension_tables.py; code/35_c1_kllm.py,output/latex/ext_tab_kllm_gender.tex,Contraction constraints only; reranking panel omitted
+Table A21,A5. C1: Counterfactual Outcomes,code/50_field_mix.py,output/latex/fx_tab_fieldmix.tex,Field composition
+Table A22,A5. C1: Counterfactual Outcomes,code/38_all_centers.py; code/40_llm_all_centers.py; code/44_c3_extra.py,output/latex/c3x_tab_allcenters.tex,Grant gaps by center
+Table A23,A5. C1: Counterfactual Outcomes,code/30_finetune_llm.py; code/38_all_centers.py; code/40_llm_all_centers.py; code/44_c3_extra.py,output/latex/c3x_tab_gaps.tex,All evaluators
+Table A24,A5. C1: Counterfactual Outcomes,code/38_all_centers.py; code/40_llm_all_centers.py; code/44_c3_extra.py,output/latex/c3x_tab_prob.tex,Decisions and probabilities
+Table A25,A5. C1: Counterfactual Outcomes,code/30_finetune_llm.py; code/34_extension_tables.py,output/latex/ext_tab_finetune.tex,Fine-tuned Qwen3-8B and embedding benchmarks
+Table A26,A5. C1: Counterfactual Outcomes,code/38_all_centers.py; code/44_c3_extra.py,output/latex/c3x_lite_tab_temporal.tex,Earlier-filings training
+Table A27,A5. C1: Counterfactual Outcomes,code/24_human_record.py; code/34_extension_tables.py; code/39_c3_checks.py,output/latex/ext_tab_outcome_test.tex,Examiner outcome test
+Table A28,A5. C1: Counterfactual Outcomes,code/24_human_record.py; code/34_extension_tables.py; code/39_c3_checks.py,output/latex/ext_tab_outcome_cohorts.tex,2004–2009 cohort only
+Table A29,A5. C1: Counterfactual Outcomes,code/33_ethnicity.py; code/44_c3_extra.py,output/latex/c3x_tab_ethnicity.tex,Race and ethnicity
+Table A30,A6. C2: Counterfactual Examiner Decisions,code/16_ai_examiner_inputs.py; code/17_ai_examiners.py; code/45_twins_c4_extra.py,output/latex/c2x_tab_examiners.tex,All 20 twins pooled; four group rows omitted
+Table A31,A6. C2: Counterfactual Examiner Decisions,code/17_ai_examiners.py; code/45_twins_c4_extra.py,output/latex/c2x_tab_lottery.tex,Three thresholded-decision rows only
+Table A32,A7. C3: Information-Set Counterfactuals,code/32_twins_names.py; code/34_extension_tables.py; code/48_name_swaps.py,output/latex/nsw_tab_swaps.tex; output/latex/ext_tab_twins_names.tex; derived:twin_name_gap,"Merged name/surname swaps, twin probabilities, and hidden/shown gaps"
+Table A33,A7. C3: Information-Set Counterfactuals,code/34_extension_tables.py; code/39_c3_checks.py,output/latex/ext_tab_names.tex,Common and rare first names
+Figure A1,A2. Examiners and leniency,code/36_geography_industry.py,output/figures/journal/fig_map_strict_lenient.png (source graphic not distributed),Within-cell leniency map only (original panel c)
+Figure A2,A5. C1: Counterfactual Outcomes,code/35_c1_kllm.py; code/49_c1_zheng_figures.py,output/figures/journal/fig_c1z_grant_rate.png,"Final grant, first action, and later grant"
+Figure A3,A5. C1: Counterfactual Outcomes,code/35_c1_kllm.py; code/49_c1_zheng_figures.py,output/figures/journal/fig_c1z_reject_cites.png,All three citation-bin panels
+Figure A4,A5. C1: Counterfactual Outcomes,code/35_c1_kllm.py; code/49_c1_zheng_figures.py,output/figures/journal/fig_c1z_reject_grant.png,Both grant-score panels
+Figure A5,A5. C1: Counterfactual Outcomes,code/35_c1_kllm.py; code/49_c1_zheng_figures.py,output/figures/journal/fig_c1z_calibration.png,Calibration scatter
+Figure A6,A5. C1: Counterfactual Outcomes,code/35_c1_kllm.py,output/figures/journal/fig_c1_kllm_all_poisson.png (source graphic not distributed),Lenient quintile's model by quintile (original panel c) and contraction (original panel d) only
+Figure A7,A5. C1: Counterfactual Outcomes,code/35_c1_kllm.py; code/43_c1_extra.py; code/47_c1_margin_validation.py,output/figures/journal/fig_c1_score_check_poisson.png,All score-validation panels
+Figure A8,A6. C2: Counterfactual Examiner Decisions,code/17_ai_examiners.py; code/45_twins_c4_extra.py,output/figures/journal/fig_c2_twins_ab.png (source graphic not distributed),Decision disagreement by grant-rate gap only (original panel b)
+Figure A9,A6. C2: Counterfactual Examiner Decisions,code/17_ai_examiners.py; code/45_twins_c4_extra.py,output/figures/journal/fig_c2_twins_cd.png (source graphic not distributed),Threshold zones only (original panel d)

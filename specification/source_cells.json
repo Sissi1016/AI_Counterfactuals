@@ -1,0 +1,2891 @@
+{
+  "macro_hashes": {
+    "output/latex/c1mv_poisson_numbers.tex": "3562fccddf1530ebc5b487f7c6d5a07fefb365651b48525eba45682dd4d56263",
+    "output/latex/ext_numbers.tex": "7d7dd5e968d7d76a11b1f7b02cae25cd14e0236679b633b943d5d9435a5d3085",
+    "output/latex/c1x_poisson_numbers.tex": "cbba30afcc87c2b809a616095c96a0a27db758e8730a91d0de472ec4bf91b5ed",
+    "output/latex/nsw_numbers.tex": "deb19c2f8c8917a84e0cb43f4132b21f193cf8fd323cdaeace0df30400e9a88e",
+    "output/latex/c3x_numbers.tex": "b2aa703ce95fe216fb6e8b59d51ec1adddac2c06ea0dfbde756bd1d94a80e771",
+    "output/latex/c2c4x_numbers.tex": "1218bc5cb6a040acb010630cc90d260585a0c4a7f1539eb77373bedb6d620ece",
+    "output/latex/design_numbers.tex": "62ee46ba1d2f8bef55d60ece86e3d5bc54436f5c89f87549ddde151132a8a3d7",
+    "output/latex/balance_numbers.tex": "33896c7be734c06bd975ba5bdc5500aa6e4f2ae648f8d9c36c7891049925f14a",
+    "output/latex/tx_numbers.tex": "3b35118919e4cc92e9888f20347625d6faafb6b76731355d4fff9ea676015e5b",
+    "output/latex/tb_numbers.tex": "a8b98fb3bd31f08393395751b1bc71db05ddd73c4fc6e7610391e2e0cac4a7ae",
+    "output/latex/fx_numbers.tex": "38cf2eea0840616333360f4575083a8d0dcf76b80275a385023bce741cde4888",
+    "output/latex/c1z_numbers.tex": "cc359171d8e188d952e93fc9173bfb38cfe04c506f03360187dabb851dba9e00",
+    "output/latex/c1x_sq_numbers.tex": "702d924d127887bc92738f8e722dd8b965448c05ca71f116a19fedf573f9c9d6"
+  },
+  "sources": {
+    "output/latex/c1x_poisson_tab_forwhom.tex": {
+      "rows": [
+        [
+          "",
+          "Citations lost (%)",
+          "Rule − examiners (pp)",
+          "Women among extra rejections (%)",
+          "Female − male grant rate, reranked (pp)",
+          "Outcome test: female − male citations"
+        ],
+        [
+          "Examiners",
+          "20.0",
+          "",
+          "9.5 [7.3, 11.6]",
+          "−3.3 [−4.6, −2.1]",
+          "0.31 [−2.74, 4.61]"
+        ],
+        [
+          "Algorithm (trained on citations)",
+          "13.8",
+          "6.2 [−2.4, 13.9]",
+          "8.7 [7.9, 9.5]",
+          "−0.3 [−1.2, 0.7]",
+          "0.56 [−0.55, 2.01]"
+        ],
+        [
+          "Predicted examiner (trained on grants)",
+          "18.6",
+          "1.4 [−8.1, 9.6]",
+          "9.0 [8.3, 9.9]",
+          "−4.0 [−5.1, −2.9]",
+          "−1.09 [−1.90, −0.38]"
+        ],
+        [
+          "Algorithm, equal grant rates for women and men",
+          "13.9",
+          "6.1 [−2.8, 14.1]",
+          "8.5 [7.9, 9.0]",
+          "5.5 [4.6, 6.5]",
+          "0.34 [−0.33, 1.34]"
+        ]
+      ],
+      "sha256": "c2faaa704095174599754a043d7fadbce7a4d899c8b40c91c1c96bd90821586c"
+    },
+    "output/latex/c2x_tab_examiners.tex": {
+      "rows": [
+        [
+          "",
+          "Examiners’ leniency (%)",
+          "Twins’ grant rate (%)",
+          "Twins’ AUC",
+          "Examiners’ gap",
+          "Twins’ gap, probabilities",
+          "Twins’ gap, decisions"
+        ],
+        [
+          "All 20",
+          "74",
+          "68",
+          "0.69",
+          "−9.1",
+          "−4.1",
+          "−14.5"
+        ]
+      ],
+      "sha256": "8b0732d114db27aa07a2a2e83fe675d156a1c3da9ea9b63cc190553ea274cd06"
+    },
+    "output/latex/c2x_tab_lottery.tex": {
+      "rows": [
+        [
+          "",
+          "All (3,972)",
+          "Female (315)",
+          "Male (3,657)",
+          "Female − male [95% CI]"
+        ],
+        [
+          "Thresholded decisions: each twin grants its top share (as in 17)"
+        ],
+        [
+          "Leniency alone, thresholds at the examiners’ grant rates",
+          "16.9",
+          "23.3",
+          "16.4",
+          "6.9 [3.0, 10.9]"
+        ],
+        [
+          "Leniency alone, thresholds at the twins’ grant rates",
+          "16.6",
+          "20.6",
+          "16.3",
+          "4.3 [0.9, 7.7]"
+        ],
+        [
+          "Leniency-only twins",
+          "17.1",
+          "20.9",
+          "16.8",
+          "4.1 [0.7, 7.5]"
+        ],
+        [
+          "Twins with 32 text components",
+          "28.2",
+          "34.1",
+          "27.7",
+          "6.4 [3.8, 9.1]"
+        ],
+        [
+          "Decisions drawn independently from each twin’s grant probability"
+        ],
+        [
+          "Grant rates alone (no text)",
+          "43.4",
+          "43.4",
+          "43.4",
+          "0.0"
+        ],
+        [
+          "of which: difference across twins",
+          "4.1",
+          "4.1",
+          "4.1",
+          "0.0"
+        ],
+        [
+          "Leniency-only twins",
+          "41.4",
+          "45.3",
+          "41.1",
+          "4.2 [2.9, 5.4]"
+        ],
+        [
+          "of which: same twin drawing twice",
+          "36.2",
+          "39.4",
+          "35.9",
+          "3.5 [2.3, 4.7]"
+        ],
+        [
+          "of which: difference across twins",
+          "5.3",
+          "5.9",
+          "5.2",
+          "0.7 [0.4, 0.9]"
+        ],
+        [
+          "Leniency-only twins, weakest penalty (C = 1)",
+          "36.9",
+          "42.4",
+          "36.4",
+          "6.1 [4.0, 8.2]"
+        ],
+        [
+          "of which: difference across twins",
+          "2.3",
+          "2.9",
+          "2.2",
+          "0.7 [0.5, 0.9]"
+        ],
+        [
+          "Twins with 32 text components",
+          "40.1",
+          "44.2",
+          "39.8",
+          "4.5 [3.3, 5.6]"
+        ],
+        [
+          "of which: difference across twins",
+          "6.3",
+          "6.9",
+          "6.3",
+          "0.6 [0.2, 1.0]"
+        ],
+        [
+          "Earlier layout: how many of the 20 twins grant (thresholded decisions)"
+        ],
+        [
+          "All 20",
+          "42.0",
+          "17.8",
+          "44.1",
+          "−26.3 [−34.7, −17.9]"
+        ],
+        [
+          "None",
+          "8.4",
+          "19.4",
+          "7.4",
+          "12.0 [7.2, 16.8]"
+        ],
+        [
+          "Depends on the twin (1–19)",
+          "49.7",
+          "62.9",
+          "48.5",
+          "14.3 [4.9, 23.7]"
+        ]
+      ],
+      "sha256": "02be49acccbe0140bbea1cc896390dd7ce5351b76b5b44ec6e79c738b7f260a3"
+    },
+    "output/latex/c3x_lite_tab_temporal.tex": {
+      "rows": [
+        [
+          "",
+          "All centers: cross-fitted",
+          "All centers: 2010–12 → 2013–14",
+          "TC 3600: cross-fitted",
+          "TC 3600: 2010–12 → 2013–14"
+        ],
+        [
+          "Examiners (actual decisions)",
+          "−4.0",
+          "−6.9"
+        ],
+        [
+          "",
+          "[−4.7, −3.2]",
+          "[−8.8, −5.1]"
+        ],
+        [
+          "Trained on grant",
+          "−6.9",
+          "−6.9",
+          "−12.7",
+          "−12.6"
+        ],
+        [
+          "",
+          "[−7.6, −6.1]",
+          "[−7.7, −6.1]",
+          "[−14.5, −11.0]",
+          "[−14.4, −10.7]"
+        ],
+        [
+          "Trained on first action",
+          "−5.4",
+          "−5.7",
+          "−8.7",
+          "−9.0"
+        ],
+        [
+          "",
+          "[−6.1, −4.7]",
+          "[−6.4, −5.0]",
+          "[−10.4, −7.0]",
+          "[−10.6, −7.3]"
+        ],
+        [
+          "Trained on citations",
+          "−0.5",
+          "−0.4",
+          "1.6",
+          "2.1"
+        ],
+        [
+          "",
+          "[−1.2, 0.2]",
+          "[−1.1, 0.4]",
+          "[−0.3, 3.5]",
+          "[0.2, 4.0]"
+        ]
+      ],
+      "sha256": "0cbbab146352224974d07cf80b820f5ba03d03f2431438341b372fe29da0776f"
+    },
+    "output/latex/c3x_tab_allcenters.tex": {
+      "rows": [
+        [
+          "Center",
+          "Applications",
+          "Female (%)",
+          "Examiners",
+          "Trained on grant",
+          "Trained on citations",
+          "LLM, zero-shot",
+          "Trained on first action"
+        ],
+        [
+          "All centers",
+          "443,742",
+          "9.0",
+          "−4.0",
+          "−7.0",
+          "−1.1",
+          "−4.1",
+          "−5.6"
+        ],
+        [
+          "",
+          "",
+          "",
+          "[−4.5, −3.4]",
+          "[−7.6, −6.4]",
+          "[−1.6, −0.6]",
+          "[−4.6, −3.5]",
+          "[−6.1, −5.0]"
+        ],
+        [
+          "TC 3700",
+          "90,640",
+          "9.3",
+          "−9.9",
+          "−16.6",
+          "−3.8",
+          "−12.7",
+          "−12.6"
+        ],
+        [
+          "",
+          "",
+          "",
+          "[−11.3, −8.4]",
+          "[−18.0, −15.3]",
+          "[−5.0, −2.5]",
+          "[−14.1, −11.3]",
+          "[−13.9, −11.3]"
+        ],
+        [
+          "TC 3600",
+          "80,528",
+          "7.7",
+          "−7.5",
+          "−14.1",
+          "1.3",
+          "−8.1",
+          "−9.9"
+        ],
+        [
+          "",
+          "",
+          "",
+          "[−8.9, −6.1]",
+          "[−15.7, −12.5]",
+          "[0.0, 2.6]",
+          "[−9.6, −6.6]",
+          "[−11.3, −8.6]"
+        ],
+        [
+          "TC 2800",
+          "69,834",
+          "6.3",
+          "−2.6",
+          "−3.6",
+          "−0.8",
+          "−0.9",
+          "−3.4"
+        ],
+        [
+          "",
+          "",
+          "",
+          "[−3.9, −1.2]",
+          "[−4.9, −2.2]",
+          "[−2.0, 0.5]",
+          "[−2.2, 0.4]",
+          "[−4.7, −2.1]"
+        ],
+        [
+          "TC 2600",
+          "38,574",
+          "7.4",
+          "−1.6",
+          "−4.3",
+          "1.2",
+          "−3.1",
+          "−2.0"
+        ],
+        [
+          "",
+          "",
+          "",
+          "[−3.2, 0.1]",
+          "[−6.0, −2.6]",
+          "[−0.4, 2.8]",
+          "[−4.8, −1.3]",
+          "[−3.6, −0.5]"
+        ],
+        [
+          "TC 2400",
+          "38,116",
+          "8.2",
+          "0.5",
+          "0.6",
+          "2.9",
+          "−0.6",
+          "−0.7"
+        ],
+        [
+          "",
+          "",
+          "",
+          "[−1.1, 2.2]",
+          "[−0.9, 2.0]",
+          "[1.3, 4.5]",
+          "[−2.1, 1.0]",
+          "[−2.3, 1.0]"
+        ],
+        [
+          "TC 2100",
+          "41,329",
+          "8.3",
+          "0.7",
+          "−1.9",
+          "−0.3",
+          "0.1",
+          "−2.4"
+        ],
+        [
+          "",
+          "",
+          "",
+          "[−1.0, 2.4]",
+          "[−3.4, −0.4]",
+          "[−1.9, 1.2]",
+          "[−1.4, 1.7]",
+          "[−3.8, −1.0]"
+        ],
+        [
+          "TC 1700",
+          "47,235",
+          "10.3",
+          "−0.9",
+          "−1.8",
+          "−1.0",
+          "2.1",
+          "−4.6"
+        ],
+        [
+          "",
+          "",
+          "",
+          "[−2.4, 0.6]",
+          "[−3.3, −0.2]",
+          "[−2.6, 0.6]",
+          "[0.7, 3.6]",
+          "[−6.1, −3.1]"
+        ],
+        [
+          "TC 1600",
+          "37,486",
+          "18.1",
+          "−2.1",
+          "−1.8",
+          "−3.9",
+          "−0.3",
+          "−0.3"
+        ],
+        [
+          "",
+          "",
+          "",
+          "[−3.5, −0.7]",
+          "[−3.1, −0.6]",
+          "[−5.2, −2.5]",
+          "[−1.6, 1.0]",
+          "[−1.6, 0.9]"
+        ]
+      ],
+      "sha256": "3d6e371685afafc1d3d61949267d68c084eb8ac96273d4841ea11c8299444e0c"
+    },
+    "output/latex/c3x_tab_ethnicity.tex": {
+      "rows": [
+        [
+          "Group",
+          "Applications",
+          "Examiners (pp)",
+          "Trained on grant",
+          "Trained on citations",
+          "LLM, zero-shot",
+          "Outcome test (citations)"
+        ],
+        [
+          "All eight centers"
+        ],
+        [
+          "Hispanic",
+          "9,671",
+          "−3.1",
+          "−3.7",
+          "2.1",
+          "−4.2",
+          "2.90"
+        ],
+        [
+          "",
+          "",
+          "[−4.1, −2.2]",
+          "[−4.6, −2.8]",
+          "[1.2, 3.0]",
+          "[−5.2, −3.3]",
+          "[−3.98, 11.10]"
+        ],
+        [
+          "Asian",
+          "56,626",
+          "1.0",
+          "3.6",
+          "1.3",
+          "3.6",
+          "0.51"
+        ],
+        [
+          "",
+          "",
+          "[0.6, 1.4]",
+          "[3.2, 4.0]",
+          "[0.8, 1.7]",
+          "[3.1, 4.0]",
+          "[−1.56, 2.84]"
+        ],
+        [
+          "Black",
+          "1,735",
+          "−4.7",
+          "−6.4",
+          "1.1",
+          "−8.7",
+          "1.56"
+        ],
+        [
+          "",
+          "",
+          "[−7.0, −2.5]",
+          "[−8.5, −4.3]",
+          "[−1.1, 3.2]",
+          "[−10.9, −6.4]",
+          "[−32.68, 42.58]"
+        ],
+        [
+          "White (reference)",
+          "272,685",
+          "",
+          "",
+          "",
+          "",
+          "3.33"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "[2.23, 4.42]"
+        ],
+        [
+          "TC 3600"
+        ],
+        [
+          "Hispanic",
+          "1,942",
+          "−5.1",
+          "−5.7",
+          "0.6",
+          "−6.5",
+          "8.10"
+        ],
+        [
+          "",
+          "",
+          "[−7.2, −3.0]",
+          "[−7.6, −3.9]",
+          "[−1.5, 2.7]",
+          "[−8.8, −4.3]",
+          "[−1.75, 23.26]"
+        ],
+        [
+          "Asian",
+          "6,082",
+          "1.6",
+          "1.7",
+          "1.1",
+          "4.4",
+          "1.26"
+        ],
+        [
+          "",
+          "",
+          "[0.4, 2.8]",
+          "[0.9, 2.6]",
+          "[−0.2, 2.3]",
+          "[3.1, 5.7]",
+          "[−2.10, 5.38]"
+        ],
+        [
+          "Black",
+          "302",
+          "−5.2",
+          "−8.5",
+          "2.0",
+          "−13.3",
+          "−7.38"
+        ],
+        [
+          "",
+          "",
+          "[−10.5, 0.0]",
+          "[−12.9, −4.1]",
+          "[−3.6, 7.5]",
+          "[−18.5, −8.1]",
+          "[−98.04, 43.48]"
+        ],
+        [
+          "White (reference)",
+          "54,830",
+          "",
+          "",
+          "",
+          "",
+          "2.49"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "[1.62, 3.44]"
+        ]
+      ],
+      "sha256": "9ae6c84e1ee820275ae755e28b1868bbf3d9d3354a0eb9e8cd7fd49dfa9faf78"
+    },
+    "output/latex/c3x_tab_gaps.tex": {
+      "rows": [
+        [
+          "Evaluator",
+          "All centers (pp)",
+          "× examiners",
+          "TC 3600 (pp)",
+          "× examiners"
+        ],
+        [
+          "Examiners and text-embedding evaluators"
+        ],
+        [
+          "Examiners",
+          "−4.0 [−4.5, −3.4]",
+          "1.00",
+          "−7.5 [−8.9, −6.1]",
+          "1.00"
+        ],
+        [
+          "Trained on grant",
+          "−7.0 [−7.6, −6.4]",
+          "1.77",
+          "−14.1 [−15.7, −12.5]",
+          "1.88"
+        ],
+        [
+          "Trained on grant + names",
+          "−7.3 [−7.9, −6.7]",
+          "1.84",
+          "−14.2 [−15.8, −12.6]",
+          "1.89"
+        ],
+        [
+          "Trained on first action",
+          "−5.6 [−6.1, −5.0]",
+          "1.41",
+          "−9.9 [−11.3, −8.6]",
+          "1.33"
+        ],
+        [
+          "Trained on citations",
+          "−1.1 [−1.6, −0.6]",
+          "0.27",
+          "1.3 [0.0, 2.6]",
+          "−0.18"
+        ],
+        [
+          "Trained on citations + names",
+          "−1.9 [−2.4, −1.3]",
+          "0.47",
+          "−1.1 [−2.4, 0.2]",
+          "0.15"
+        ],
+        [
+          "Qwen3-8B"
+        ],
+        [
+          "LLM, zero-shot",
+          "−4.1 [−4.6, −3.5]",
+          "1.02",
+          "−8.1 [−9.6, −6.6]",
+          "1.09"
+        ],
+        [
+          "LLM, lenient examiners’ examples",
+          "–",
+          "–",
+          "−6.1 [−7.5, −4.6]",
+          "0.81"
+        ],
+        [
+          "LLM, strict examiners’ examples",
+          "–",
+          "–",
+          "−5.1 [−6.5, −3.7]",
+          "0.68"
+        ],
+        [
+          "LLM fine-tuned on grant",
+          "–",
+          "–",
+          "−14.6 [−16.2, −12.9]",
+          "1.95"
+        ],
+        [
+          "LLM fine-tuned on citations",
+          "–",
+          "–",
+          "1.2 [−0.1, 2.6]",
+          "−0.16"
+        ]
+      ],
+      "sha256": "040712766578a064c52243f1ce2fcafd7c6dea0038f2a702e83a453ee265e7f3"
+    },
+    "output/latex/c3x_tab_prob.tex": {
+      "rows": [
+        [
+          "Comparison",
+          "Examiners",
+          "Grant-trained: decisions",
+          "Grant-trained: probability",
+          "LLM: decisions",
+          "LLM: probability"
+        ],
+        [
+          "All eight centers"
+        ],
+        [
+          "Female − male",
+          "−4.0",
+          "−7.0",
+          "−3.2",
+          "−4.1",
+          "−1.1"
+        ],
+        [
+          "",
+          "[−4.5, −3.4]",
+          "[−7.6, −6.4]",
+          "[−3.4, −2.9]",
+          "[−4.6, −3.5]",
+          "[−1.2, −1.0]"
+        ],
+        [
+          "Hispanic − White",
+          "−3.1",
+          "−3.7",
+          "−1.5",
+          "−4.2",
+          "−1.3"
+        ],
+        [
+          "",
+          "[−4.1, −2.2]",
+          "[−4.6, −2.8]",
+          "[−1.8, −1.2]",
+          "[−5.2, −3.3]",
+          "[−1.5, −1.0]"
+        ],
+        [
+          "Asian − White",
+          "1.0",
+          "3.6",
+          "1.4",
+          "3.6",
+          "0.9"
+        ],
+        [
+          "",
+          "[0.6, 1.4]",
+          "[3.2, 4.0]",
+          "[1.3, 1.5]",
+          "[3.1, 4.0]",
+          "[0.8, 1.0]"
+        ],
+        [
+          "Black − White",
+          "−4.7",
+          "−6.4",
+          "−3.3",
+          "−8.7",
+          "−2.4"
+        ],
+        [
+          "",
+          "[−7.0, −2.5]",
+          "[−8.5, −4.3]",
+          "[−4.1, −2.6]",
+          "[−10.9, −6.4]",
+          "[−2.9, −1.9]"
+        ],
+        [
+          "TC 3600"
+        ],
+        [
+          "Female − male",
+          "−7.5",
+          "−14.1",
+          "−6.5",
+          "−8.1",
+          "−2.6"
+        ],
+        [
+          "",
+          "[−8.9, −6.1]",
+          "[−15.7, −12.5]",
+          "[−7.2, −5.8]",
+          "[−9.6, −6.6]",
+          "[−3.0, −2.2]"
+        ],
+        [
+          "Hispanic − White",
+          "−5.1",
+          "−5.7",
+          "−2.1",
+          "−6.5",
+          "−2.0"
+        ],
+        [
+          "",
+          "[−7.2, −3.0]",
+          "[−7.6, −3.9]",
+          "[−2.9, −1.4]",
+          "[−8.8, −4.3]",
+          "[−2.6, −1.3]"
+        ],
+        [
+          "Asian − White",
+          "1.6",
+          "1.7",
+          "1.6",
+          "4.4",
+          "1.5"
+        ],
+        [
+          "",
+          "[0.4, 2.8]",
+          "[0.9, 2.6]",
+          "[1.2, 2.1]",
+          "[3.1, 5.7]",
+          "[1.1, 1.9]"
+        ],
+        [
+          "Black − White",
+          "−5.2",
+          "−8.5",
+          "−4.7",
+          "−13.3",
+          "−4.6"
+        ],
+        [
+          "",
+          "[−10.5, 0.0]",
+          "[−12.9, −4.1]",
+          "[−6.6, −2.9]",
+          "[−18.5, −8.1]",
+          "[−6.0, −3.1]"
+        ]
+      ],
+      "sha256": "788e23935e5950e47732b4699ce595f528a2ad8f44264475c14c5f3df079a4db"
+    },
+    "output/latex/design_tab_balance.tex": {
+      "rows": [
+        [
+          "",
+          "All centers",
+          "TC 3600",
+          "Centers, CI <0 / >0 (of 8)"
+        ],
+        [
+          "Cells: Art unit × year × USPC class"
+        ],
+        [
+          "Female first inventor",
+          "−0.12 [−0.20, −0.03]",
+          "0.04 [−0.16, 0.23]",
+          "1 / 0"
+        ],
+        [
+          "Small entity",
+          "−0.95 [−1.12, −0.79]",
+          "−0.91 [−1.29, −0.52]",
+          "7 / 0"
+        ],
+        [
+          "Inventors",
+          "0.015 [0.009, 0.021]",
+          "0.021 [0.009, 0.033]",
+          "0 / 3"
+        ],
+        [
+          "Pred. grant score (log-odds)",
+          "0.012 [0.009, 0.015]",
+          "0.009 [0.002, 0.017]",
+          "0 / 4"
+        ],
+        [
+          "Predicted citations (class cells)"
+        ],
+        [
+          "Trained on grant",
+          "0.010 [0.003, 0.017]",
+          "0.001 [0.000, 0.003]",
+          "1 / 1"
+        ],
+        [
+          "Trained on grant + names",
+          "0.012 [0.004, 0.019]",
+          "0.001 [0.000, 0.003]",
+          "1 / 1"
+        ],
+        [
+          "Trained on first action",
+          "−0.002 [−0.004, 0.000]",
+          "0.001 [−0.001, 0.003]",
+          "1 / 0"
+        ],
+        [
+          "Trained on citations",
+          "−0.004 [−0.026, 0.018]",
+          "0.002 [−0.007, 0.010]",
+          "1 / 1"
+        ],
+        [
+          "Trained on citations + names",
+          "−0.002 [−0.024, 0.020]",
+          "0.001 [−0.008, 0.009]",
+          "1 / 1"
+        ],
+        [
+          "LLM, zero-shot",
+          "0.007 [0.004, 0.010]",
+          "0.000 [0.000, 0.001]",
+          "0 / 2"
+        ]
+      ],
+      "sha256": "1816c44fa7aff0115ebb58b2ef020cb4fdc3b802d3f4a461d7de697809f2745e"
+    },
+    "output/latex/design_tab_calibration.tex": {
+      "rows": [
+        [
+          "",
+          "All centers",
+          "TC 3600",
+          "Centers, CI <0 / >0 (of 8)"
+        ],
+        [
+          "Strict examiners’ grants",
+          "118,359",
+          "19,000",
+          ""
+        ],
+        [
+          "Lenient examiners’ grants",
+          "179,234",
+          "26,705",
+          ""
+        ],
+        [
+          "Strict − lenient residual (log points)",
+          "−0.018 [−0.025, −0.011]",
+          "−0.009 [−0.027, 0.009]",
+          "3 / 0"
+        ]
+      ],
+      "sha256": "fb93495a99dc5a5108be8c61d148a4df8285a68d29b81dba20b8e1e40a470291"
+    },
+    "output/latex/design_tab_claims.tex": {
+      "rows": [
+        [
+          "Claims",
+          "All centers",
+          "TC 3600",
+          "Centers, CI <0 / >0 (of 8)"
+        ],
+        [
+          "At filing, all applications",
+          "0.17 [0.14, 0.20] (21.2)",
+          "0.18 [0.11, 0.25] (19.7)",
+          "0 / 6"
+        ],
+        [
+          "At filing, granted patents",
+          "0.03 [−0.02, 0.07] (21.9)",
+          "0.07 [−0.04, 0.17] (20.3)",
+          "0 / 1"
+        ],
+        [
+          "At grant",
+          "0.51 [0.47, 0.56] (18.5)",
+          "0.46 [0.36, 0.56] (17.4)",
+          "0 / 8"
+        ],
+        [
+          "Removed in examination",
+          "−0.49 [−0.53, −0.44] (3.4)",
+          "−0.39 [−0.49, −0.30] (2.9)",
+          "8 / 0"
+        ]
+      ],
+      "sha256": "2ab39849d53df2b02ae9b907e4aa80d3f07a61bf530128071dd3046c9e42b1bc"
+    },
+    "output/latex/design_tab_examiners.tex": {
+      "rows": [
+        [
+          "A. All applications in PatEx, 2004–2018"
+        ],
+        [
+          "Examiner names",
+          "13,647"
+        ],
+        [
+          "Applications without an examiner name (%)",
+          "0.18"
+        ],
+        [
+          "Applications whose examiner has <20 applications (%)",
+          "0.34"
+        ],
+        [
+          "Names in more than one technology center (% of names)",
+          "13.4"
+        ],
+        [
+          "B. Main sample (eight centers, filed 2010–2014)"
+        ],
+        [
+          "Applications",
+          "443,742"
+        ],
+        [
+          "Examiners",
+          "9,524"
+        ],
+        [
+          "Docketed to an examiner only once (%)",
+          "19.4"
+        ],
+        [
+          "Cells (art unit × year × class) with ≥5 examiners",
+          "4,884"
+        ],
+        [
+          "Applications in these cells (%)",
+          "92.4"
+        ],
+        [
+          "Examiners per cell (median)",
+          "12"
+        ],
+        [
+          "Applications per examiner in a cell (median)",
+          "4"
+        ],
+        [
+          "Examiners per cell × leniency quintile (median)",
+          "2"
+        ],
+        [
+          "Cell × quintiles with a single examiner (%)",
+          "32.7"
+        ],
+        [
+          "Applications in single-examiner quintiles (%)",
+          "13.8"
+        ],
+        [
+          "SD of leniency within cells",
+          "0.11"
+        ],
+        [
+          "Leniency of strict examiners (mean, %)",
+          "58"
+        ],
+        [
+          "Leniency of lenient examiners (mean, %)",
+          "77"
+        ]
+      ],
+      "sha256": "15b17b4ac363a2fe0ca62fe621224f4b72c1534afb9b3a8b58e408415e9291b2"
+    },
+    "output/latex/design_tab_exclusion.tex": {
+      "rows": [
+        [
+          "",
+          "All centers",
+          "TC 3600",
+          "Centers, CI <0 / >0 (of 8)"
+        ],
+        [
+          "Granted patents",
+          "297,593",
+          "45,705",
+          ""
+        ],
+        [
+          "Claims at grant",
+          "0.51 [0.47, 0.56] (18.5)",
+          "0.46 [0.36, 0.56] (17.4)",
+          "0 / 8"
+        ],
+        [
+          "Pendency to grant (years)",
+          "−0.32 [−0.33, −0.31] (3.2)",
+          "−0.31 [−0.34, −0.29] (3.1)",
+          "8 / 0"
+        ]
+      ],
+      "sha256": "df18c5e75d6ab1b4e5b51a59182c8787b70ba14a811e564d56a85c81d4f8ed4b"
+    },
+    "output/latex/design_tab_first_stage.tex": {
+      "rows": [
+        [
+          "Group",
+          "Instrument",
+          "All centers",
+          "TC 3600",
+          "Centers, CI <0 / >0 (of 8)"
+        ],
+        [
+          "All",
+          "Leave-one-out",
+          "0.966 [0.951, 0.981]",
+          "0.816 [0.776, 0.856]",
+          "0 / 8"
+        ],
+        [
+          "Female",
+          "Leave-one-out",
+          "0.938 [0.895, 0.981]",
+          "0.756 [0.652, 0.859]",
+          "0 / 8"
+        ],
+        [
+          "Male",
+          "Leave-one-out",
+          "0.969 [0.954, 0.985]",
+          "0.822 [0.783, 0.861]",
+          "0 / 8"
+        ],
+        [
+          "Small entity",
+          "Leave-one-out",
+          "0.946 [0.920, 0.971]",
+          "0.706 [0.652, 0.761]",
+          "0 / 8"
+        ],
+        [
+          "Large entity",
+          "Leave-one-out",
+          "0.978 [0.960, 0.995]",
+          "0.912 [0.865, 0.959]",
+          "0 / 8"
+        ],
+        [
+          "Pred. grant, quartile 1",
+          "Leave-one-out",
+          "0.951 [0.923, 0.980]",
+          "0.663 [0.606, 0.719]",
+          "0 / 8"
+        ],
+        [
+          "Pred. grant, quartile 2",
+          "Leave-one-out",
+          "1.044 [1.018, 1.069]",
+          "0.985 [0.927, 1.044]",
+          "0 / 8"
+        ],
+        [
+          "Pred. grant, quartile 3",
+          "Leave-one-out",
+          "0.975 [0.948, 1.002]",
+          "0.979 [0.903, 1.055]",
+          "0 / 8"
+        ],
+        [
+          "Pred. grant, quartile 4",
+          "Leave-one-out",
+          "0.823 [0.795, 0.851]",
+          "0.745 [0.673, 0.817]",
+          "0 / 8"
+        ],
+        [
+          "Female",
+          "Reverse: male",
+          "0.928 [0.884, 0.972]",
+          "0.739 [0.634, 0.844]",
+          "0 / 8"
+        ],
+        [
+          "Male",
+          "Reverse: female",
+          "0.615 [0.596, 0.634]",
+          "0.496 [0.451, 0.540]",
+          "0 / 8"
+        ],
+        [
+          "Small entity",
+          "Reverse: large-entity",
+          "0.901 [0.873, 0.930]",
+          "0.621 [0.567, 0.675]",
+          "0 / 8"
+        ],
+        [
+          "Large entity",
+          "Reverse: small-entity",
+          "0.701 [0.682, 0.720]",
+          "0.816 [0.760, 0.873]",
+          "0 / 8"
+        ]
+      ],
+      "sha256": "53d1a6a6fede6c7484d9aef1baded27b9e9b3e5eeda3ca45fda09de61c8a7bb4"
+    },
+    "output/latex/design_tab_permutation.tex": {
+      "rows": [
+        [
+          "",
+          "All centers",
+          "TC 3600"
+        ],
+        [
+          "Cells: art unit × year ×",
+          "Cells",
+          "Covered (%)",
+          "p < 0.05 (%)",
+          "Cells",
+          "Covered (%)",
+          "p < 0.05 (%)"
+        ],
+        [
+          "Index: predicted grant (text score, gender, entity size, inventors)"
+        ],
+        [
+          "USPC class",
+          "4,884",
+          "92.4",
+          "11.5",
+          "667",
+          "89.7",
+          "9.6"
+        ],
+        [
+          "USPC subclass",
+          "10,869",
+          "28.4",
+          "5.4",
+          "1,967",
+          "31.8",
+          "5.9"
+        ],
+        [
+          "USPC class, residualized leniency",
+          "4,884",
+          "92.4",
+          "11.3",
+          "667",
+          "89.7",
+          "11.5"
+        ],
+        [
+          "Index: predicted citations (C1; test and imputation sets)"
+        ],
+        [
+          "USPC class, Poisson model (main)",
+          "4,154",
+          "90.3",
+          "6.8",
+          "578",
+          "87.1",
+          "6.6"
+        ],
+        [
+          "USPC class, squared-error model (first version)",
+          "4,154",
+          "90.3",
+          "5.5",
+          "578",
+          "87.1",
+          "5.7"
+        ]
+      ],
+      "sha256": "720aa9d30553bf7ab394548689e41eee299e6388751a633d468d235c30e11642"
+    },
+    "output/latex/ext_tab_finetune.tex": {
+      "rows": [
+        [
+          "TC",
+          "Evaluator",
+          "AUC, grant",
+          "Corr., log citations",
+          "Gender gap (pp)"
+        ],
+        [
+          "3600",
+          "LLM fine-tuned: grant",
+          "0.781",
+          "0.012",
+          "−14.6 (1.95×)"
+        ],
+        [
+          "3600",
+          "LLM fine-tuned: citations",
+          "0.537",
+          "0.216",
+          "1.2 (−0.16×)"
+        ],
+        [
+          "3600",
+          "Embedding: grant",
+          "0.783",
+          "0.031",
+          "−14.1 (1.89×)"
+        ],
+        [
+          "3600",
+          "Embedding: citations",
+          "0.548",
+          "0.290",
+          "1.3 (−0.17×)"
+        ],
+        [
+          "3600",
+          "LLM, zero-shot",
+          "0.659",
+          "0.012",
+          "−8.2 (1.09×)"
+        ],
+        [
+          "1600",
+          "LLM fine-tuned: grant",
+          "0.682",
+          "0.023",
+          "−2.7 (1.27×)"
+        ],
+        [
+          "1600",
+          "LLM fine-tuned: citations",
+          "0.491",
+          "0.145",
+          "−2.1 (1.02×)"
+        ],
+        [
+          "1600",
+          "Embedding: grant",
+          "0.688",
+          "0.015",
+          "−1.7 (0.82×)"
+        ],
+        [
+          "1600",
+          "Embedding: citations",
+          "0.516",
+          "0.243",
+          "−4.1 (1.98×)"
+        ],
+        [
+          "1600",
+          "LLM, zero-shot",
+          "0.638",
+          "0.042",
+          "−0.3 (0.15×)"
+        ]
+      ],
+      "sha256": "b9b56966dc854e4f77df8a852a7e7ea39c4a7aa200e5fecc17d60c4806b94b6d"
+    },
+    "output/latex/ext_tab_kllm_contraction.tex": {
+      "rows": [
+        [
+          "Stricter quintile",
+          "Extra rejections (pp)",
+          "Examiners",
+          "Algorithm",
+          "Lenient-trained",
+          "Prior-art-trained",
+          "Predicted examiner",
+          "Random"
+        ],
+        [
+          "Change in citations per application relative to the most lenient quintile (%)"
+        ],
+        [
+          "2",
+          "7.3",
+          "−11.3",
+          "−5.6",
+          "−5.8",
+          "−5.1",
+          "−7.4",
+          "−9.1"
+        ],
+        [
+          "3",
+          "12.9",
+          "−8.8",
+          "−10.0",
+          "−10.7",
+          "−9.4",
+          "−13.7",
+          "−16.0"
+        ],
+        [
+          "4",
+          "18.9",
+          "−19.8",
+          "−15.0",
+          "−15.8",
+          "−14.6",
+          "−20.6",
+          "−23.2"
+        ],
+        [
+          "5",
+          "29.4",
+          "−39.9",
+          "−24.6",
+          "−25.5",
+          "−25.1",
+          "−32.8",
+          "−36.0"
+        ],
+        [
+          "Mean",
+          "17.1",
+          "−20.0",
+          "−13.8",
+          "−14.5",
+          "−13.5",
+          "−18.6",
+          "−21.1"
+        ],
+        [
+          "Rule − examiners (pp, 95% CI)"
+        ],
+        [
+          "Rule − examiners, mean",
+          "",
+          "",
+          "6.2 [−2.4, 13.9]",
+          "5.5 [−3.3, 13.5]",
+          "6.4 [−2.4, 14.4]",
+          "1.4 [−8.1, 9.6]",
+          "−1.1 [−10.7, 7.0]"
+        ],
+        [
+          "Lock box: rule − examiners",
+          "",
+          "",
+          "10.2 [−3.9, 23.7]",
+          "8.4 [−5.9, 22.6]",
+          "9.2 [−4.8, 22.8]",
+          "4.3 [−10.1, 19.1]",
+          ""
+        ]
+      ],
+      "sha256": "2ed4e5c0123dd951a5f4167eb71564c574b484f78a34d17dd6735c8f025ce955"
+    },
+    "output/latex/ext_tab_kllm_gender.tex": {
+      "rows": [
+        [
+          "Rule",
+          "Citations per application (%)",
+          "Female − other grant rate (pp)",
+          "Female share of (extra) rejections (%)"
+        ],
+        [
+          "Contraction (Table VI), mean over the stricter quintiles",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Stricter examiners",
+          "−20.0",
+          "–",
+          "9.5 [7.3, 11.6]"
+        ],
+        [
+          "Algorithm",
+          "−13.8",
+          "–",
+          "8.7 [7.9, 9.5]"
+        ],
+        [
+          "Algorithm, examiners’ female share",
+          "−13.2",
+          "–",
+          "9.2 [9.2, 9.2]"
+        ],
+        [
+          "Algorithm, equal rates for women and men",
+          "−13.9",
+          "–",
+          "8.5 [7.9, 9.0]"
+        ],
+        [
+          "Random",
+          "−21.1",
+          "–",
+          "8.5 [7.9, 9.0]"
+        ],
+        [
+          "Reranking (Table VII), at the examiners’ grant rate, α = 1",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Examiners",
+          "–",
+          "−7.4 [−9.3, −5.5]",
+          "10.7 [9.9, 11.8]"
+        ],
+        [
+          "Algorithm",
+          "19.9 [16.8, 22.9]",
+          "−5.9 [−8.6, −3.5]",
+          "10.4 [9.5, 11.2]"
+        ],
+        [
+          "Algorithm, examiners’ female share",
+          "19.8 [16.8, 22.9]",
+          "−7.4 [−9.3, −5.5]",
+          "10.7 [9.9, 11.8]"
+        ],
+        [
+          "Algorithm, equal rates for women and men",
+          "19.7 [16.7, 22.9]",
+          "0.0 [0.0, 0.0]",
+          "8.9 [8.4, 9.6]"
+        ]
+      ],
+      "sha256": "b3b0dd78978447a3ce97159d733291355334c2e49b975812cac13cf243acd4e2"
+    },
+    "output/latex/ext_tab_kllm_levels.tex": {
+      "rows": [
+        [
+          "Mean over the extra rejections",
+          "Quintile 2",
+          "3",
+          "4",
+          "5",
+          "Pooled"
+        ],
+        [
+          "Citations, observed (granted by the most lenient quintile)",
+          "3.94 [1.31, 6.16]",
+          "1.75 [−3.45, 4.85]",
+          "2.68 [1.84, 3.47]",
+          "3.47 [2.77, 4.30]",
+          "2.98 [1.42, 4.16]"
+        ],
+        [
+          "Counterfactual score (text)",
+          "2.87 [2.60, 3.19]",
+          "2.77 [2.59, 2.98]",
+          "2.87 [2.64, 3.13]",
+          "2.80 [2.63, 3.02]",
+          "2.82 [2.65, 3.03]"
+        ],
+        [
+          "Counterfactual score (text + prior art)",
+          "2.16 [1.45, 2.78]",
+          "2.32 [1.90, 2.69]",
+          "2.50 [2.20, 2.85]",
+          "2.28 [2.06, 2.50]",
+          "2.33 [2.05, 2.60]"
+        ],
+        [
+          "Prior-art citations, as rejected (stricter quintile)",
+          "3.10 [2.44, 3.82]",
+          "3.23 [2.80, 3.70]",
+          "2.96 [2.57, 3.33]",
+          "2.72 [2.46, 3.00]",
+          "2.92 [2.64, 3.21]"
+        ],
+        [
+          "Prior-art citations, as granted (most lenient quintile)",
+          "4.97 [3.41, 6.48]",
+          "4.54 [3.69, 5.47]",
+          "4.17 [3.56, 4.79]",
+          "4.30 [3.89, 4.73]",
+          "4.38 [3.86, 4.94]"
+        ]
+      ],
+      "sha256": "ccc38b121fcc3286e7d460e8c364cdf9c589995bf8cc5e055beccf3953401964"
+    },
+    "output/latex/ext_tab_kllm_other.tex": {
+      "rows": [
+        [
+          "Outcome",
+          "Examiners (%)",
+          "Algorithm (%)",
+          "Algorithm better by (pp)",
+          "Predicted examiner better by (pp)"
+        ],
+        [
+          "Citations",
+          "−20.0",
+          "−13.8",
+          "6.2 [−2.4, 13.9]",
+          "1.4 [−8.1, 9.6]"
+        ],
+        [
+          "Granted but never cited (fewer is better)",
+          "−21.6",
+          "−24.2",
+          "2.6 [1.3, 3.8]",
+          "−0.1 [−1.3, 1.2]"
+        ],
+        [
+          "Renewed at four years",
+          "−22.3",
+          "−21.3",
+          "1.0 [0.5, 1.5]",
+          "1.7 [1.2, 2.1]"
+        ],
+        [
+          "Top-decile citations",
+          "−24.1",
+          "−15.6",
+          "8.5 [5.5, 11.4]",
+          "3.4 [0.3, 6.7]"
+        ],
+        [
+          "Prior-art citations of granted applications",
+          "−24.8",
+          "−16.8",
+          "8.0 [5.4, 10.6]",
+          "2.1 [−0.4, 4.9]"
+        ]
+      ],
+      "sha256": "306db8cdd1aa150650bdfa7e7a8f8ad8cbc073b2e36c3a596156ccb92dfef314"
+    },
+    "output/latex/ext_tab_kllm_prior_art.tex": {
+      "rows": [
+        [
+          "Rule",
+          "Imputed, α = 1",
+          "Imputed, α = 1.5",
+          "Imputed, α = ∞",
+          "Observed"
+        ],
+        [
+          "Algorithm (citations)",
+          "26.0 [23.5, 28.9]",
+          "17.7 [15.8, 19.9]",
+          "1.2 [0.0, 2.3]",
+          "16.0 [13.7, 18.1]"
+        ],
+        [
+          "Algorithm (prior art, granted only)",
+          "36.3 [33.7, 39.9]",
+          "27.3 [25.3, 29.9]",
+          "9.1 [8.3, 10.2]",
+          "25.5 [23.2, 28.2]"
+        ],
+        [
+          "Algorithm (prior art, all applications)",
+          "36.4 [33.6, 39.8]",
+          "27.4 [25.3, 30.0]",
+          "9.4 [8.4, 10.4]",
+          "25.8 [23.4, 28.5]"
+        ]
+      ],
+      "sha256": "522aa7c58139a8603a4f18d87dfb5ad6d4df148e7d3ca4e0ab12f316622a5af2"
+    },
+    "output/latex/ext_tab_kllm_rerank.tex": {
+      "rows": [
+        [
+          "Rule",
+          "α = 1",
+          "α = 1.5",
+          "α = 2",
+          "α = ∞"
+        ],
+        [
+          "Algorithm",
+          "19.9 [16.9, 23.2]",
+          "12.8 [10.8, 15.1]",
+          "9.2 [7.6, 11.0]",
+          "−1.4 [−3.0, −0.3]"
+        ],
+        [
+          "Lenient-trained",
+          "17.6 [14.9, 21.0]",
+          "10.7 [8.8, 13.1]",
+          "7.2 [5.5, 9.2]",
+          "−3.2 [−5.1, −1.6]"
+        ],
+        [
+          "Prior-art-trained",
+          "9.6 [2.5, 15.7]",
+          "3.0 [−3.0, 8.1]",
+          "−0.2 [−5.8, 4.4]",
+          "−10.0 [−14.3, −6.7]"
+        ],
+        [
+          "Predicted examiner",
+          "4.2 [2.5, 5.9]",
+          "−0.1 [−1.9, 1.7]",
+          "−2.3 [−4.1, −0.4]",
+          "−8.8 [−11.0, −6.4]"
+        ]
+      ],
+      "sha256": "89f12d1356c668fda8c51543a21d4824e2eeacab5e54922ec3cb5f996b3095b5"
+    },
+    "output/latex/ext_tab_kllm_scores.tex": {
+      "rows": [
+        [
+          "TC",
+          "Score",
+          "Corr., citations (granted)",
+          "Spearman, prior art (granted)",
+          "Spearman, prior art (rejected)",
+          "Mean, granted",
+          "Mean, rejected",
+          "Rejected above granted median (%)",
+          "Rejected in granted top quarter (%)"
+        ],
+        [
+          "All",
+          "Text",
+          "0.29",
+          "0.29",
+          "0.27",
+          "2.95",
+          "2.71",
+          "51",
+          "25"
+        ],
+        [
+          "All",
+          "Text + prior art",
+          "0.35",
+          "0.75",
+          "0.70",
+          "3.00",
+          "2.28",
+          "42",
+          "20"
+        ]
+      ],
+      "sha256": "80850850cbbd5491b0cbb115cf8ee1718110fa4ebe479848e0349315b0d03002"
+    },
+    "output/latex/ext_tab_names.tex": {
+      "rows": [
+        [
+          "Sample",
+          "Women, common name",
+          "Women, rare name",
+          "Gap: common (pp)",
+          "Gap: rare (pp)",
+          "Common − rare (pp)"
+        ],
+        [
+          "All centers",
+          "20,021",
+          "20,018",
+          "−4.6 [−5.3, −3.8]",
+          "−3.4 [−4.1, −2.7]",
+          "−1.2 [−2.1, −0.3]"
+        ],
+        [
+          "TC 3600",
+          "3,505",
+          "2,695",
+          "−7.5 [−9.2, −5.8]",
+          "−7.5 [−9.4, −5.5]",
+          "−0.1 [−2.3, 2.2]"
+        ],
+        [
+          "TC 1600",
+          "3,433",
+          "3,338",
+          "−2.3 [−4.1, −0.5]",
+          "−1.9 [−3.6, −0.1]",
+          "−0.5 [−2.7, 1.8]"
+        ]
+      ],
+      "sha256": "bcb6bab81f266e9df139a1522a38bb17cb4a117202326a3e488ef5de56510c86"
+    },
+    "output/latex/ext_tab_outcome_cohorts.tex": {
+      "rows": [
+        [
+          "Center",
+          "Cohort",
+          "Applications",
+          "Grant gap (pp)",
+          "Extra grants: citations",
+          "Female − male"
+        ],
+        [
+          "TC 1600",
+          "2004–2009",
+          "30,321",
+          "0.0 [−1.5, 1.5]",
+          "1.50 [0.75, 2.20]",
+          "0.21 [−2.01, 2.08]"
+        ],
+        [
+          "TC 1600",
+          "2010–2014",
+          "34,454",
+          "−2.1 [−3.5, −0.7]",
+          "2.10 [1.22, 3.00]",
+          "−0.83 [−2.02, 0.38]"
+        ],
+        [
+          "TC 1700",
+          "2004–2009",
+          "34,487",
+          "−1.6 [−3.4, 0.1]",
+          "2.00 [1.32, 2.69]",
+          "−1.33 [−2.61, −0.36]"
+        ],
+        [
+          "TC 1700",
+          "2010–2014",
+          "38,817",
+          "−0.9 [−2.4, 0.6]",
+          "1.72 [0.80, 3.08]",
+          "−1.24 [−2.91, 0.36]"
+        ],
+        [
+          "TC 2100",
+          "2004–2009",
+          "33,693",
+          "0.5 [−1.3, 2.4]",
+          "5.15 [3.75, 6.46]",
+          "0.73 [−2.77, 5.45]"
+        ],
+        [
+          "TC 2100",
+          "2010–2014",
+          "40,002",
+          "0.7 [−1.0, 2.4]",
+          "3.11 [2.06, 4.13]",
+          "−0.10 [−2.69, 2.45]"
+        ],
+        [
+          "TC 2400",
+          "2004–2009",
+          "27,004",
+          "1.7 [−0.2, 3.6]",
+          "6.98 [4.99, 9.98]",
+          "5.11 [−6.98, 32.52]"
+        ],
+        [
+          "TC 2400",
+          "2010–2014",
+          "36,962",
+          "0.5 [−1.1, 2.2]",
+          "3.30 [1.55, 4.91]",
+          "−2.70 [−6.99, 0.75]"
+        ],
+        [
+          "TC 2600",
+          "2004–2009",
+          "35,898",
+          "−2.3 [−4.2, −0.4]",
+          "5.01 [3.36, 6.88]",
+          "−1.02 [−3.75, 1.47]"
+        ],
+        [
+          "TC 2600",
+          "2010–2014",
+          "36,482",
+          "−1.6 [−3.2, 0.1]",
+          "4.58 [3.11, 6.14]",
+          "−3.52 [−7.89, 0.99]"
+        ],
+        [
+          "TC 2800",
+          "2004–2009",
+          "60,597",
+          "−3.9 [−5.4, −2.5]",
+          "3.56 [2.47, 4.69]",
+          "1.22 [−3.65, 8.89]"
+        ],
+        [
+          "TC 2800",
+          "2010–2014",
+          "66,366",
+          "−2.6 [−3.9, −1.2]",
+          "3.41 [1.91, 5.29]",
+          "−4.56 [−9.43, −0.33]"
+        ],
+        [
+          "TC 3600",
+          "2004–2009",
+          "55,866",
+          "−9.2 [−11.0, −7.4]",
+          "3.53 [1.71, 7.06]",
+          "−0.49 [−4.57, 2.63]"
+        ],
+        [
+          "TC 3600",
+          "2010–2014",
+          "72,252",
+          "−7.5 [−8.9, −6.1]",
+          "2.68 [1.88, 3.62]",
+          "3.76 [1.45, 7.53]"
+        ],
+        [
+          "TC 3700",
+          "2004–2009",
+          "68,213",
+          "−10.3 [−11.9, −8.6]",
+          "5.25 [3.53, 7.50]",
+          "−2.10 [−4.65, 1.15]"
+        ],
+        [
+          "TC 3700",
+          "2010–2014",
+          "84,804",
+          "−9.9 [−11.3, −8.4]",
+          "3.94 [0.45, 7.50]",
+          "2.18 [−5.70, 14.89]"
+        ],
+        [
+          "All centers",
+          "2004–2009",
+          "346,079",
+          "−4.2 [−4.8, −3.5]",
+          "4.11 [3.48, 4.84]",
+          "−0.72 [−2.03, 0.79]"
+        ],
+        [
+          "All centers",
+          "2010–2014",
+          "410,139",
+          "−4.0 [−4.5, −3.4]",
+          "3.18 [2.20, 4.09]",
+          "−0.11 [−2.24, 2.54]"
+        ]
+      ],
+      "sha256": "7f1c6416470c2dc2f368873bc7dbbd25b632bfab77175d2c31b37ade0527cadc"
+    },
+    "output/latex/ext_tab_outcome_test.tex": {
+      "rows": [
+        [
+          "Sample",
+          "Applications",
+          "All",
+          "Female",
+          "Male",
+          "Female − male"
+        ],
+        [
+          "By center (all cells)"
+        ],
+        [
+          "TC 1600",
+          "34,454",
+          "2.10 [1.24, 2.95]",
+          "1.51 [0.51, 2.63]",
+          "2.34 [1.40, 3.28]",
+          "−0.83 [−1.93, 0.49]"
+        ],
+        [
+          "TC 1700",
+          "38,817",
+          "1.72 [0.79, 3.16]",
+          "0.54 [−0.82, 1.97]",
+          "1.79 [0.84, 3.25]",
+          "−1.24 [−3.10, 0.38]"
+        ],
+        [
+          "TC 2100",
+          "40,002",
+          "3.11 [2.13, 4.11]",
+          "3.07 [0.40, 5.41]",
+          "3.16 [2.05, 4.17]",
+          "−0.10 [−2.75, 2.34]"
+        ],
+        [
+          "TC 2400",
+          "36,962",
+          "3.30 [1.53, 4.86]",
+          "0.78 [−3.65, 4.09]",
+          "3.48 [1.46, 5.29]",
+          "−2.70 [−7.26, 0.95]"
+        ],
+        [
+          "TC 2600",
+          "36,482",
+          "4.58 [3.08, 6.16]",
+          "1.31 [−3.73, 5.53]",
+          "4.83 [3.36, 6.46]",
+          "−3.52 [−8.71, 0.81]"
+        ],
+        [
+          "TC 2800",
+          "66,366",
+          "3.41 [1.79, 4.95]",
+          "−1.00 [−4.34, 2.28]",
+          "3.56 [1.74, 5.17]",
+          "−4.56 [−9.05, −0.42]"
+        ],
+        [
+          "TC 3600",
+          "72,252",
+          "2.68 [1.81, 3.55]",
+          "6.13 [3.71, 9.22]",
+          "2.37 [1.49, 3.29]",
+          "3.76 [1.12, 6.83]"
+        ],
+        [
+          "TC 3700",
+          "84,804",
+          "3.94 [0.35, 7.35]",
+          "6.01 [0.81, 15.20]",
+          "3.83 [−0.58, 8.07]",
+          "2.18 [−5.70, 14.14]"
+        ],
+        [
+          "All centers",
+          "410,139",
+          "3.18 [2.29, 4.14]",
+          "3.10 [1.47, 5.18]",
+          "3.20 [2.13, 4.37]",
+          "−0.11 [−2.29, 2.76]"
+        ],
+        [
+          "Alternative designs"
+        ],
+        [
+          "All centers, cells that pass the permutation test",
+          "350,724",
+          "3.14 [2.09, 4.20]",
+          "3.10 [1.24, 5.55]",
+          "3.20 [1.92, 4.44]",
+          "−0.10 [−2.57, 3.31]"
+        ],
+        [
+          "TC 3600, cells that pass the permutation test",
+          "63,764",
+          "2.61 [1.76, 3.53]",
+          "6.59 [3.97, 10.00]",
+          "2.29 [1.42, 3.32]",
+          "4.30 [1.51, 7.87]"
+        ],
+        [
+          "All centers, subclass cells",
+          "126,038",
+          "4.15 [2.60, 5.72]",
+          "6.89 [0.53, 21.64]",
+          "4.39 [2.14, 6.56]",
+          "2.50 [−4.77, 18.95]"
+        ],
+        [
+          "TC 3600, subclass cells",
+          "25,571",
+          "3.23 [1.80, 4.92]",
+          "4.35 [1.35, 8.51]",
+          "3.07 [1.57, 4.75]",
+          "1.28 [−2.04, 5.73]"
+        ],
+        [
+          "All centers, without classes 705, 435, 436, 536",
+          "378,491",
+          "3.26 [2.31, 4.17]",
+          "3.15 [1.34, 5.98]",
+          "3.28 [2.14, 4.33]",
+          "−0.13 [−2.41, 3.40]"
+        ],
+        [
+          "TC 3600, without classes 705, 435, 436, 536",
+          "49,447",
+          "2.71 [1.41, 4.22]",
+          "10.18 [6.16, 18.78]",
+          "2.22 [0.74, 3.67]",
+          "7.96 [3.84, 16.32]"
+        ]
+      ],
+      "sha256": "8108d62ad51d85e4ee2883b6750b6a5366dfbaef121dfbc85c90c94d436f4f7f"
+    },
+    "output/latex/ext_tab_robust_groups.tex": {
+      "rows": [
+        [
+          "Design",
+          "Cells",
+          "Examiners per group",
+          "Single-examiner groups (%)",
+          "C1: algorithm − examiners (pp)",
+          "Bar test: female − male, all centers",
+          "TC 3600",
+          "TC 2800"
+        ],
+        [
+          "Main: five or more examiners, quintiles",
+          "4,884",
+          "2",
+          "33",
+          "6.2 [−2.4, 13.9]",
+          "−0.11 [−2.29, 2.76]",
+          "3.76 [1.12, 6.83]",
+          "−4.56 [−9.05, −0.42]"
+        ],
+        [
+          "Ten or more examiners",
+          "3,165",
+          "3",
+          "12",
+          "8.2 [−1.7, 16.6]",
+          "0.01 [−2.18, 3.63]",
+          "4.04 [1.19, 7.76]",
+          "−4.97 [−10.04, −1.09]"
+        ],
+        [
+          "Fifteen or more examiners",
+          "1,524",
+          "4",
+          "4",
+          "12.2 [5.0, 18.6]",
+          "0.03 [−2.94, 4.36]",
+          "4.20 [0.82, 8.62]",
+          "−4.14 [−10.17, 0.76]"
+        ],
+        [
+          "Terciles",
+          "4,884",
+          "4",
+          "9",
+          "",
+          "1.01 [−0.85, 3.81]",
+          "3.17 [0.75, 6.69]",
+          "1.06 [−2.34, 4.78]"
+        ],
+        [
+          "Halves",
+          "4,884",
+          "6",
+          "1",
+          "",
+          "0.63 [−1.13, 3.19]",
+          "2.05 [0.02, 4.55]",
+          "−0.04 [−3.09, 3.29]"
+        ],
+        [
+          "Same-period leniency",
+          "4,874",
+          "2",
+          "33",
+          "7.3 [2.1, 13.0]",
+          "0.41 [−1.20, 2.23]",
+          "3.77 [1.54, 6.36]",
+          "−0.38 [−4.49, 4.16]"
+        ],
+        [
+          "Docketed only once",
+          "1,489",
+          "2",
+          "50",
+          "10.7 [−2.3, 22.9]",
+          "−2.33 [−4.26, −0.80]",
+          "0.45 [−3.19, 3.59]",
+          "−21.47 [−45.66, −2.96]"
+        ],
+        [
+          "Citations top-coded at the 99th percentile",
+          "4,884",
+          "2",
+          "33",
+          "",
+          "−0.81 [−1.59, 0.04]",
+          "1.63 [0.45, 2.98]",
+          "−1.53 [−3.42, 0.61]"
+        ]
+      ],
+      "sha256": "8efc29f50ac1a7a329eb7d2b95ee9f5c862540b73376bc1425e4e01fe7632a98"
+    },
+    "output/latex/ext_tab_sample_all.tex": {
+      "rows": [
+        [
+          "Center",
+          "Field",
+          "Applications",
+          "Examiners",
+          "Female (%)",
+          "Granted (%)",
+          "Citations (granted)",
+          "Prior-art cit., granted",
+          "Prior-art cit., rejected"
+        ],
+        [
+          "TC 3700",
+          "Mechanical engineering, manufacturing, medical devices",
+          "90,640",
+          "1,488",
+          "9.3",
+          "61.8",
+          "5.73",
+          "2.86",
+          "1.89"
+        ],
+        [
+          "TC 3600",
+          "Transportation, construction, e-commerce, business methods",
+          "80,528",
+          "1,344",
+          "7.7",
+          "56.8",
+          "2.70",
+          "2.70",
+          "2.52"
+        ],
+        [
+          "TC 2800",
+          "Semiconductors, electrical and optical systems",
+          "69,834",
+          "1,667",
+          "6.3",
+          "79.8",
+          "2.73",
+          "2.71",
+          "1.95"
+        ],
+        [
+          "TC 1700",
+          "Chemical and materials engineering",
+          "47,235",
+          "1,074",
+          "10.3",
+          "62.1",
+          "1.31",
+          "1.74",
+          "1.40"
+        ],
+        [
+          "TC 2100",
+          "Computer architecture, software, information security",
+          "41,329",
+          "1,058",
+          "8.3",
+          "73.4",
+          "2.57",
+          "4.34",
+          "3.85"
+        ],
+        [
+          "TC 2600",
+          "Communications",
+          "38,574",
+          "1,179",
+          "7.4",
+          "75.5",
+          "3.35",
+          "4.90",
+          "4.00"
+        ],
+        [
+          "TC 2400",
+          "Networking, multiplexing, cable, security",
+          "38,116",
+          "1,175",
+          "8.2",
+          "75.1",
+          "3.03",
+          "5.65",
+          "4.37"
+        ],
+        [
+          "TC 1600",
+          "Biotechnology, organic chemistry",
+          "37,486",
+          "725",
+          "18.1",
+          "60.8",
+          "1.27",
+          "1.83",
+          "1.60"
+        ],
+        [
+          "All centers",
+          "",
+          "443,742",
+          "9,524",
+          "9.0",
+          "67.1",
+          "3.11",
+          "3.24",
+          "2.40"
+        ]
+      ],
+      "sha256": "1ab858ef4d4ed2bd04da21d1969f47d5dc1e1b1a9b6e0c5fea9287ef590be693"
+    },
+    "output/latex/ext_tab_twins_names.tex": {
+      "rows": [
+        [
+          "AI twins",
+          "Gap, names hidden",
+          "Gap, names shown",
+          "Δ probability, F − M name",
+          "Δ grants, F − M name",
+          "Decisions changed by the name (%)",
+          "Changed by showing names, F / M (%)"
+        ],
+        [
+          "Leniency twins (main)",
+          "−15.1",
+          "−14.9",
+          "−0.17 [−0.21, −0.13]",
+          "−0.75 [−1.01, −0.50]",
+          "2.03",
+          "8.7 / 7.2"
+        ],
+        [
+          "Twins with text dimensions",
+          "−12.3",
+          "−9.9",
+          "−0.15 [−0.19, −0.10]",
+          "−0.40 [−0.53, −0.27]",
+          "2.03",
+          "9.2 / 7.7"
+        ]
+      ],
+      "sha256": "f39385804991ac41175ff5a947225079417ae81baec3262aea12e4bb07bcda30"
+    },
+    "output/latex/fx_tab_fieldmix.tex": {
+      "rows": [
+        [
+          "",
+          "TC 1600",
+          "TC 1700"
+        ],
+        [
+          "Female − male, within",
+          "art unit × year",
+          "+ subclass",
+          "art unit × year",
+          "+ subclass"
+        ],
+        [
+          "Decisions at the examiners’ grant rate (pp)"
+        ],
+        [
+          "Examiners: grants",
+          "−2.1 [−3.5, −0.7]",
+          "−1.3 [−2.6, 0.1]",
+          "−0.9 [−2.4, 0.6]",
+          "−1.0 [−2.7, 0.6]"
+        ],
+        [
+          "Evaluator trained on grants: decisions",
+          "−1.8 [−3.1, −0.6]",
+          "−0.6 [−1.9, 0.7]",
+          "−1.8 [−3.3, −0.2]",
+          "−1.5 [−3.2, 0.2]"
+        ],
+        [
+          "Evaluator trained on citations: decisions",
+          "−3.9 [−5.2, −2.5]",
+          "−2.8 [−4.1, −1.5]",
+          "−1.0 [−2.6, 0.6]",
+          "0.2 [−1.5, 1.8]"
+        ],
+        [
+          "Qwen3-8B, zero-shot: decisions",
+          "−0.3 [−1.6, 1.0]",
+          "−0.1 [−1.5, 1.3]",
+          "2.1 [0.7, 3.6]",
+          "0.2 [−1.4, 1.8]"
+        ],
+        [
+          "Outcomes (% for logs, pp for renewal)"
+        ],
+        [
+          "Log citations, granted patents",
+          "−5.0 [−7.5, −2.5]",
+          "−4.0 [−6.7, −1.3]",
+          "−1.4 [−4.0, 1.3]",
+          "−2.4 [−5.7, 0.8]"
+        ],
+        [
+          "Log prior-art citations, published applications",
+          "−3.5 [−5.6, −1.4]",
+          "−3.2 [−5.5, −1.0]",
+          "−1.1 [−3.1, 0.9]",
+          "−0.8 [−3.2, 1.5]"
+        ],
+        [
+          "Renewed at four years, granted patents",
+          "−1.7 [−3.0, −0.3]",
+          "−1.2 [−2.6, 0.2]",
+          "−0.1 [−1.5, 1.3]",
+          "−0.8 [−2.5, 0.8]"
+        ]
+      ],
+      "sha256": "3c654843c7ea479b7ddfd05d0242474e4855f450e8bc6afcfc1df82e44cc03b0"
+    },
+    "output/latex/nsw_tab_swaps.tex": {
+      "rows": [
+        [
+          "",
+          "Eight-center evaluator (trained on grant + names)",
+          "TC 3600 AI twins (pooled over 20)"
+        ],
+        [
+          "First inventor’s name",
+          "Δ grants (pp)",
+          "Decisions changed (%)",
+          "Δ grants (pp)",
+          "Decisions changed (%)"
+        ],
+        [
+          "Female vs. male first name",
+          "−0.69 [−0.89, −0.48]",
+          "2.14",
+          "−0.76 [−1.02, −0.51]",
+          "2.01"
+        ],
+        [
+          "Hispanic vs. White surname",
+          "−1.07 [−1.30, −0.85]",
+          "2.54",
+          "−1.34 [−1.64, −1.05]",
+          "2.41"
+        ],
+        [
+          "Asian vs. White surname",
+          "−0.18 [−0.39, 0.04]",
+          "2.46",
+          "0.27 [0.15, 0.40]",
+          "1.81"
+        ],
+        [
+          "Placebo: same text embedded twice",
+          "−0.02",
+          "0.12",
+          "0.04",
+          "0.44"
+        ],
+        [
+          "Applications",
+          "20,000 (eight centers)",
+          "3,972 × 20 twins"
+        ]
+      ],
+      "sha256": "b111686dee0024615b9cb915f8ab2e5c3424be6fa0c7c917e2f5a779cd1d22df"
+    },
+    "output/latex/tb_tab_table2.tex": {
+      "rows": [
+        [
+          "",
+          "",
+          "Citations, granted applications flagged by one model only: boosted / linear",
+          "Boosted − linear"
+        ],
+        [
+          "Share of test applications",
+          "Overlap (%)",
+          "Mean",
+          "Median",
+          "Mean, top-coded",
+          "Mean",
+          "Mean, top-coded"
+        ],
+        [
+          "Lowest predicted (the tail a rule rejects from; fewer is better)"
+        ],
+        [
+          "1%",
+          "22",
+          "0.61 / 0.76",
+          "0 / 0",
+          "0.61 / 0.76",
+          "−0.16 [−0.45, 0.10]",
+          "−0.16 [−0.45, 0.10]"
+        ],
+        [
+          "5%",
+          "43",
+          "0.87 / 1.31",
+          "0 / 0",
+          "0.83 / 1.20",
+          "−0.44 [−0.74, −0.18]",
+          "−0.37 [−0.57, −0.17]"
+        ],
+        [
+          "10%",
+          "53",
+          "1.07 / 1.49",
+          "0 / 0",
+          "1.01 / 1.38",
+          "−0.42 [−0.64, −0.19]",
+          "−0.37 [−0.55, −0.20]"
+        ],
+        [
+          "25%",
+          "64",
+          "1.57 / 2.52",
+          "0 / 1",
+          "1.35 / 2.05",
+          "−0.95 [−1.40, −0.55]",
+          "−0.69 [−0.88, −0.52]"
+        ],
+        [
+          "Highest predicted (more is better)"
+        ],
+        [
+          "1%",
+          "55",
+          "10.45 / 17.99",
+          "2 / 1",
+          "7.38 / 6.82",
+          "−7.53 [−20.67, 2.35]",
+          "0.56 [−2.06, 2.85]"
+        ],
+        [
+          "5%",
+          "51",
+          "7.34 / 4.37",
+          "1 / 1",
+          "5.10 / 3.46",
+          "2.97 [1.16, 5.04]",
+          "1.64 [0.86, 2.39]"
+        ],
+        [
+          "10%",
+          "53",
+          "5.04 / 3.51",
+          "1 / 1",
+          "4.06 / 3.05",
+          "1.53 [0.79, 2.38]",
+          "1.01 [0.53, 1.45]"
+        ],
+        [
+          "25%",
+          "61",
+          "4.20 / 2.61",
+          "1 / 1",
+          "3.41 / 2.31",
+          "1.59 [1.08, 2.12]",
+          "1.10 [0.81, 1.37]"
+        ],
+        [
+          "Lowest predicted within each center × filing year"
+        ],
+        [
+          "1%",
+          "18",
+          "1.44 / 1.19",
+          "0 / 0",
+          "1.19 / 1.19",
+          "0.25 [−0.29, 1.15]",
+          "−0.00 [−0.37, 0.39]"
+        ],
+        [
+          "5%",
+          "29",
+          "1.36 / 1.76",
+          "0 / 0",
+          "1.25 / 1.64",
+          "−0.40 [−0.74, −0.07]",
+          "−0.40 [−0.62, −0.17]"
+        ],
+        [
+          "10%",
+          "38",
+          "1.59 / 2.39",
+          "0 / 0",
+          "1.41 / 1.91",
+          "−0.80 [−1.33, −0.31]",
+          "−0.50 [−0.74, −0.27]"
+        ],
+        [
+          "25%",
+          "54",
+          "1.72 / 2.53",
+          "0 / 1",
+          "1.61 / 2.14",
+          "−0.81 [−1.14, −0.51]",
+          "−0.53 [−0.72, −0.36]"
+        ],
+        [
+          "Highest predicted within each center × filing year"
+        ],
+        [
+          "1%",
+          "26",
+          "21.39 / 12.46",
+          "1 / 1",
+          "7.68 / 5.12",
+          "8.92 [−4.05, 25.12]",
+          "2.55 [−0.24, 5.96]"
+        ],
+        [
+          "5%",
+          "36",
+          "5.60 / 5.18",
+          "1 / 1",
+          "4.06 / 3.28",
+          "0.42 [−1.75, 2.35]",
+          "0.79 [0.17, 1.40]"
+        ],
+        [
+          "10%",
+          "43",
+          "5.13 / 3.43",
+          "1 / 1",
+          "3.74 / 2.86",
+          "1.71 [0.87, 2.61]",
+          "0.88 [0.46, 1.32]"
+        ],
+        [
+          "25%",
+          "57",
+          "3.74 / 2.44",
+          "1 / 1",
+          "3.02 / 2.15",
+          "1.29 [0.85, 1.77]",
+          "0.87 [0.63, 1.12]"
+        ]
+      ],
+      "sha256": "681081ae1a39c8a2fa130f3526cb7da30ee009b5319b87cf5e04c58d2d28b6b6"
+    },
+    "output/latex/tx_tab_fll.tex": {
+      "rows": [
+        [
+          "",
+          "All",
+          "Women",
+          "Men"
+        ],
+        [
+          "Minimum applications",
+          "Examiners",
+          "p",
+          "Examiners",
+          "Applications used (%)",
+          "p",
+          "Examiners",
+          "p"
+        ],
+        [
+          "20",
+          "7,489",
+          "0.40",
+          "36",
+          "3",
+          "0.04",
+          "7,116",
+          "0.16"
+        ],
+        [
+          "10",
+          "9,642",
+          "0.12",
+          "335",
+          "15",
+          "0.20",
+          "9,407",
+          "0.36"
+        ],
+        [
+          "5",
+          "11,384",
+          "0.58",
+          "1,664",
+          "45",
+          "0.32",
+          "11,129",
+          "0.62"
+        ],
+        [
+          "Women, 499 shuffles"
+        ],
+        [
+          "20",
+          "",
+          "",
+          "36",
+          "",
+          "0.014",
+          "",
+          ""
+        ],
+        [
+          "10",
+          "",
+          "",
+          "335",
+          "",
+          "0.254",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "",
+          "",
+          "1,664",
+          "",
+          "0.272",
+          "",
+          ""
+        ]
+      ],
+      "sha256": "98b59f77176b72d5607365b9a8b1ccf7bdebb6419709bfb54028adca079ab97e"
+    },
+    "output/latex/tx_tab_memorization.tex": {
+      "rows": [
+        [
+          "",
+          "AUC of the LLM − AUC of the text model",
+          "",
+          ""
+        ],
+        [
+          "",
+          "More familiar half",
+          "Less familiar half",
+          "Difference",
+          "95% CI"
+        ],
+        [
+          "TC 3600",
+          "−0.139",
+          "−0.120",
+          "−0.019",
+          "[−0.039, −0.002]"
+        ],
+        [
+          "TC 1600",
+          "−0.047",
+          "−0.039",
+          "−0.007",
+          "[−0.025, 0.010]"
+        ]
+      ],
+      "sha256": "8174496bea10092db7a8c4eefedff3df9adf4614b74a3103003596ca886efec4"
+    },
+    "derived:marginal_metrics": {
+      "rows": [
+        [
+          "Measure",
+          "Estimate",
+          "95% CI"
+        ],
+        [
+          "Mean citations of the marginal applications",
+          "2.98",
+          "[1.78, 4.31]"
+        ],
+        [
+          "Mean score of the same applications",
+          "2.75",
+          "[2.31, 3.44]"
+        ],
+        [
+          "computed from the rejected side (check)",
+          "2.82",
+          "[2.63, 3.02]"
+        ],
+        [
+          "Score − citations",
+          "−0.22",
+          "[−1.16, 0.72]"
+        ],
+        [
+          "Mean guess",
+          "3.34",
+          "[3.14, 3.57]"
+        ],
+        [
+          "Mean absolute error: score",
+          "3.18",
+          "[2.88, 3.53]"
+        ],
+        [
+          "guess",
+          "3.14",
+          "[2.82, 3.58]"
+        ],
+        [
+          "share of the guess's error removed (%)",
+          "−1",
+          "[−6, 3]"
+        ],
+        [
+          "Factor that holds 50% of marginal applications: score",
+          "2.3",
+          "[2.25, 2.4]"
+        ],
+        [
+          "guess, 50%",
+          "2.4",
+          "[2.35, 2.6]"
+        ],
+        [
+          "Factor that holds 80% of marginal applications: score",
+          "3.65",
+          "[3.5, 3.85]"
+        ],
+        [
+          "guess, 80%",
+          "4.25",
+          "[4.05, 4.4]"
+        ],
+        [
+          "ratio, granted to rejected",
+          "1.50",
+          "[1.31, 1.72]"
+        ]
+      ],
+      "inputs": [
+        "output/latex/c1mv_poisson_numbers.tex",
+        "output/latex/ext_numbers.tex"
+      ],
+      "generator": "tools/supplementary_sources.py"
+    },
+    "derived:within_rank_correlations": {
+      "rows": [
+        [
+          "Grouping",
+          "Granted",
+          "Rejected"
+        ],
+        [
+          "TcYear",
+          "0.166",
+          "0.162"
+        ],
+        [
+          "AuYear",
+          "0.115",
+          "0.106"
+        ]
+      ],
+      "inputs": [
+        "output/tables/c1x_poisson_within.csv"
+      ],
+      "generator": "tools/supplementary_sources.py"
+    },
+    "derived:twin_name_gap": {
+      "rows": [
+        [
+          "Measure",
+          "Gap, hidden / shown"
+        ],
+        [
+          "Gender gap in decisions, names hidden / shown",
+          "−15.1 / −14.9"
+        ]
+      ],
+      "inputs": [
+        "output/latex/ext_tab_twins_names.tex"
+      ],
+      "generator": "tools/supplementary_sources.py"
+    },
+    "derived:random_loss": {
+      "rows": [
+        [
+          "Rule",
+          "Citations lost (%)"
+        ],
+        [
+          "Random rejections",
+          "21.1"
+        ]
+      ],
+      "inputs": [
+        "output/tables/c1_kllm_all_poisson_contraction.csv"
+      ],
+      "generator": "tools/supplementary_sources.py"
+    }
+  }
+}

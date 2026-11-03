@@ -1,0 +1,443 @@
+% C1 follow-ups (43_c1_extra.py)
+\newcommand{\xSqCeFamRejAny}{10.3}
+\newcommand{\xSqCeFamRejFamily}{7.0}
+\newcommand{\xSqCeFamRejChild}{6.7}
+\newcommand{\xSqCeFamGrAny}{32.0}
+\newcommand{\xSqCeFamGrFamily}{28.0}
+\newcommand{\xSqCeFamGrChild}{27.9}
+\newcommand{\xSqCeFamTopOneAny}{15.2}
+\newcommand{\xSqCeFamTopOneFamily}{9.9}
+\newcommand{\xSqCeFamTopOneChild}{9.2}
+\newcommand{\xSqCeFamTopTenAny}{50.0}
+\newcommand{\xSqCeFamTopTenFamily}{30.0}
+\newcommand{\xSqCeFamTopTenChild}{30.0}
+\newcommand{\xSqCeFamTopTenN}{5}
+\newcommand{\xSqCeFamTcMin}{8.2}
+\newcommand{\xSqCeFamTcMax}{15.6}
+\newcommand{\xSqCeFamDecLow}{9.7}
+\newcommand{\xSqCeFamDecHigh}{12.1}
+\newcommand{\xSqCeFamSpAll}{0.21}
+\newcommand{\xSqCeFamSpClean}{0.20}
+\newcommand{\xSqCeExNTopRel}{0}
+\newcommand{\xSqCeExN}{8}
+\newcommand{\xSqCeUncEx}{21.6}
+\newcommand{\xSqCeUncAlgo}{24.2}
+\newcommand{\xSqCeUncRnd}{21.4}
+\newcommand{\xSqCeUncJudge}{21.5}
+\newcommand{\xSqCeUncAlgoMore}{2.6}
+\newcommand{\xSqCeUncAlgoMoreCI}{[1.3, 3.8]}
+\newcommand{\xSqCeUncJudgeMore}{$-$0.1}
+\newcommand{\xSqCeUncJudgeMoreCI}{[$-$1.3, 1.2]}
+\newcommand{\xSqCeVCitesAlgo}{4.8}
+\newcommand{\xSqCeVCitesAlgoCI}{[$-$4.2, 12.7]}
+\newcommand{\xSqCeVCitesJudge}{1.4}
+\newcommand{\xSqCeVCitesJudgeCI}{[$-$8.1, 9.6]}
+\newcommand{\xSqCeVCitesRnd}{$-$1.1}
+\newcommand{\xSqCeVCitesRndCI}{[$-$10.7, 7.0]}
+\newcommand{\xSqCeVRenewAlgo}{1.1}
+\newcommand{\xSqCeVRenewAlgoCI}{[0.6, 1.5]}
+\newcommand{\xSqCeVRenewJudge}{1.7}
+\newcommand{\xSqCeVRenewJudgeCI}{[1.2, 2.1]}
+\newcommand{\xSqCeVRenewRnd}{0.9}
+\newcommand{\xSqCeVRenewRndCI}{[0.4, 1.3]}
+\newcommand{\xSqCeVTopAlgo}{6.9}
+\newcommand{\xSqCeVTopAlgoCI}{[3.9, 9.8]}
+\newcommand{\xSqCeVTopJudge}{3.4}
+\newcommand{\xSqCeVTopJudgeCI}{[0.3, 6.7]}
+\newcommand{\xSqCeVTopRnd}{2.6}
+\newcommand{\xSqCeVTopRndCI}{[$-$0.5, 5.6]}
+\newcommand{\xSqCeVPaGAlgo}{6.6}
+\newcommand{\xSqCeVPaGAlgoCI}{[4.0, 9.1]}
+\newcommand{\xSqCeVPaGJudge}{2.1}
+\newcommand{\xSqCeVPaGJudgeCI}{[$-$0.4, 4.9]}
+\newcommand{\xSqCeVPaGRnd}{3.2}
+\newcommand{\xSqCeVPaGRndCI}{[0.8, 5.7]}
+\newcommand{\xSqCeSixExLow}{25.4}
+\newcommand{\xSqCeSixExHigh}{26.3}
+\newcommand{\xSqCeSixAlgoLow}{44.9}
+\newcommand{\xSqCeSixAlgoHigh}{8.1}
+\newcommand{\xSqCeSixAlgoBins}{20}
+\newcommand{\xSqCeSixExMin}{3.9}
+\newcommand{\xSqCeSixExMax}{5.5}
+\newcommand{\xSqCeMeanCitesGranted}{3.17}
+\newcommand{\xSqCeCfPaAbove}{43}
+\newcommand{\xSqCeCfPaTopQ}{21}
+\newcommand{\xSqCeCfAbove}{51}
+\newcommand{\xSqCeCfTopQ}{25}
+\newcommand{\xSqCeRawAlgoOverRnd}{5.9}
+\newcommand{\xSqCeRawAlgoOverRndCI}{[4.0, 7.9]}
+\newcommand{\xSqCeRawJudgeOverRnd}{2.5}
+\newcommand{\xSqCeRawJudgeOverRndCI}{[0.9, 4.1]}
+\newcommand{\xSqCeLogAlgoOverRnd}{2.2}
+\newcommand{\xSqCeLogAlgoOverRndCI}{[1.8, 2.6]}
+\newcommand{\xSqCeLogJudgeOverRnd}{0.3}
+\newcommand{\xSqCeLogJudgeOverRndCI}{[$-$0.2, 0.9]}
+\newcommand{\xSqCeTrimAlgoOverRnd}{4.1}
+\newcommand{\xSqCeTrimAlgoOverRndCI}{[3.2, 5.1]}
+\newcommand{\xSqCeTrimJudgeOverRnd}{1.1}
+\newcommand{\xSqCeTrimJudgeOverRndCI}{[0.0, 2.1]}
+\newcommand{\xSqCeVUncAlgoOverRnd}{2.8}
+\newcommand{\xSqCeVUncAlgoOverRndCI}{[2.4, 3.2]}
+\newcommand{\xSqCeVUncJudgeOverRnd}{0.1}
+\newcommand{\xSqCeVUncJudgeOverRndCI}{[$-$0.3, 0.5]}
+\newcommand{\xSqCeVRenewAlgoOverRnd}{0.2}
+\newcommand{\xSqCeVRenewAlgoOverRndCI}{[0.1, 0.3]}
+\newcommand{\xSqCeVRenewJudgeOverRnd}{0.8}
+\newcommand{\xSqCeVRenewJudgeOverRndCI}{[0.7, 1.0]}
+\newcommand{\xSqCeVTopAlgoOverRnd}{4.3}
+\newcommand{\xSqCeVTopAlgoOverRndCI}{[3.4, 5.3]}
+\newcommand{\xSqCeVTopJudgeOverRnd}{0.8}
+\newcommand{\xSqCeVTopJudgeOverRndCI}{[$-$0.3, 1.9]}
+\newcommand{\xSqCeVPaGAlgoOverRnd}{3.4}
+\newcommand{\xSqCeVPaGAlgoOverRndCI}{[2.7, 4.0]}
+\newcommand{\xSqCeVPaGJudgeOverRnd}{$-$1.1}
+\newcommand{\xSqCeVPaGJudgeOverRndCI}{[$-$2.1, $-$0.1]}
+\newcommand{\xSqCeRawEx}{20.0}
+\newcommand{\xSqCeRawExCI}{[9.4, 28.0]}
+\newcommand{\xSqCeRawAlgo}{15.2}
+\newcommand{\xSqCeRawRnd}{21.1}
+\newcommand{\xSqCeRawJudge}{18.6}
+\newcommand{\xSqCeRawDiff}{4.8}
+\newcommand{\xSqCeRawDiffCI}{[$-$4.2, 12.4]}
+\newcommand{\xSqCeRawRndDiff}{$-$1.1}
+\newcommand{\xSqCeRawJudgeDiff}{1.4}
+\newcommand{\xSqCeRawJudgeDiffCI}{[$-$8.2, 8.8]}
+\newcommand{\xSqCeLogEx}{22.7}
+\newcommand{\xSqCeLogExCI}{[21.0, 24.4]}
+\newcommand{\xSqCeLogAlgo}{19.1}
+\newcommand{\xSqCeLogRnd}{21.4}
+\newcommand{\xSqCeLogJudge}{21.0}
+\newcommand{\xSqCeLogDiff}{3.6}
+\newcommand{\xSqCeLogDiffCI}{[2.2, 5.0]}
+\newcommand{\xSqCeLogRndDiff}{1.4}
+\newcommand{\xSqCeLogJudgeDiff}{1.7}
+\newcommand{\xSqCeLogJudgeDiffCI}{[0.2, 3.1]}
+\newcommand{\xSqCeTrimEx}{24.0}
+\newcommand{\xSqCeTrimExCI}{[20.6, 27.8]}
+\newcommand{\xSqCeTrimAlgo}{17.1}
+\newcommand{\xSqCeTrimRnd}{21.2}
+\newcommand{\xSqCeTrimJudge}{20.1}
+\newcommand{\xSqCeTrimDiff}{6.9}
+\newcommand{\xSqCeTrimDiffCI}{[3.9, 10.2]}
+\newcommand{\xSqCeTrimRndDiff}{2.7}
+\newcommand{\xSqCeTrimJudgeDiff}{3.8}
+\newcommand{\xSqCeTrimJudgeDiffCI}{[0.5, 7.2]}
+\newcommand{\xSqCeTrimShare}{0.98}
+\newcommand{\xSqCeTrimMean}{2.36}
+\newcommand{\xSqCeRawMean}{3.11}
+\newcommand{\xSqCeTrimMain}{6.9}
+\newcommand{\xSqCeTrimMainCI}{[3.5, 10.0]}
+\newcommand{\xSqCeDiffMain}{4.8}
+\newcommand{\xSqCeDiffMainCI}{[$-$4.4, 12.3]}
+\newcommand{\xSqCeSelMain}{5.9}
+\newcommand{\xSqCeSelMainCI}{[3.7, 7.8]}
+\newcommand{\xSqCeRndGapMain}{$-$1.1}
+\newcommand{\xSqCeRndGapMainCI}{[$-$11.6, 6.4]}
+\newcommand{\xSqCeSelTrimMain}{4.1}
+\newcommand{\xSqCeSelTrimMainCI}{[3.1, 5.1]}
+\newcommand{\xSqCeRndGapTrimMain}{2.7}
+\newcommand{\xSqCeRndGapTrimMainCI}{[$-$0.3, 5.8]}
+\newcommand{\xSqCeTrimTen}{7.9}
+\newcommand{\xSqCeTrimTenCI}{[4.5, 11.6]}
+\newcommand{\xSqCeDiffTen}{6.8}
+\newcommand{\xSqCeDiffTenCI}{[$-$2.2, 15.7]}
+\newcommand{\xSqCeSelTen}{6.6}
+\newcommand{\xSqCeSelTenCI}{[4.2, 8.3]}
+\newcommand{\xSqCeRndGapTen}{0.2}
+\newcommand{\xSqCeRndGapTenCI}{[$-$9.1, 8.8]}
+\newcommand{\xSqCeSelTrimTen}{4.6}
+\newcommand{\xSqCeSelTrimTenCI}{[3.4, 5.6]}
+\newcommand{\xSqCeRndGapTrimTen}{3.3}
+\newcommand{\xSqCeRndGapTrimTenCI}{[0.3, 6.6]}
+\newcommand{\xSqCeTrimFifteen}{8.7}
+\newcommand{\xSqCeTrimFifteenCI}{[4.1, 13.0]}
+\newcommand{\xSqCeDiffFifteen}{10.6}
+\newcommand{\xSqCeDiffFifteenCI}{[2.4, 18.4]}
+\newcommand{\xSqCeSelFifteen}{6.7}
+\newcommand{\xSqCeSelFifteenCI}{[3.9, 9.3]}
+\newcommand{\xSqCeRndGapFifteen}{3.9}
+\newcommand{\xSqCeRndGapFifteenCI}{[$-$3.0, 10.2]}
+\newcommand{\xSqCeSelTrimFifteen}{4.9}
+\newcommand{\xSqCeSelTrimFifteenCI}{[3.4, 6.4]}
+\newcommand{\xSqCeRndGapTrimFifteen}{3.8}
+\newcommand{\xSqCeRndGapTrimFifteenCI}{[$-$0.6, 7.6]}
+\newcommand{\xSqCeTrimWin}{7.2}
+\newcommand{\xSqCeTrimWinCI}{[4.6, 10.1]}
+\newcommand{\xSqCeDiffWin}{6.3}
+\newcommand{\xSqCeDiffWinCI}{[0.8, 11.6]}
+\newcommand{\xSqCeSelWin}{6.0}
+\newcommand{\xSqCeSelWinCI}{[3.9, 7.9]}
+\newcommand{\xSqCeRndGapWin}{0.3}
+\newcommand{\xSqCeRndGapWinCI}{[$-$6.1, 6.0]}
+\newcommand{\xSqCeSelTrimWin}{4.1}
+\newcommand{\xSqCeSelTrimWinCI}{[3.2, 5.1]}
+\newcommand{\xSqCeRndGapTrimWin}{3.1}
+\newcommand{\xSqCeRndGapTrimWinCI}{[0.3, 6.0]}
+\newcommand{\xSqCeTrimDock}{4.7}
+\newcommand{\xSqCeTrimDockCI}{[$-$4.1, 12.6]}
+\newcommand{\xSqCeDiffDock}{9.0}
+\newcommand{\xSqCeDiffDockCI}{[$-$5.4, 20.8]}
+\newcommand{\xSqCeSelDock}{3.7}
+\newcommand{\xSqCeSelDockCI}{[1.5, 5.7]}
+\newcommand{\xSqCeRndGapDock}{5.4}
+\newcommand{\xSqCeRndGapDockCI}{[$-$8.2, 15.8]}
+\newcommand{\xSqCeSelTrimDock}{3.1}
+\newcommand{\xSqCeSelTrimDockCI}{[1.2, 4.8]}
+\newcommand{\xSqCeRndGapTrimDock}{1.6}
+\newcommand{\xSqCeRndGapTrimDockCI}{[$-$6.1, 8.9]}
+\newcommand{\xSqCeNoAuDiff}{8.9}
+\newcommand{\xSqCeNoAuDiffCI}{[3.7, 13.0]}
+\newcommand{\xSqCeNoAuEx}{25.0}
+\newcommand{\xSqCeNoAuSel}{5.2}
+\newcommand{\xSqCeNoAuSelCI}{[3.6, 6.7]}
+\newcommand{\xSqCeNoAuTrimDiff}{7.5}
+\newcommand{\xSqCeNoAuTrimDiffCI}{[4.7, 10.3]}
+\newcommand{\xSqCeNoTcDiff}{8.2}
+\newcommand{\xSqCeNoTcDiffCI}{[3.9, 13.0]}
+\newcommand{\xSqCeNoTcEx}{24.6}
+\newcommand{\xSqCeNoTcSel}{3.6}
+\newcommand{\xSqCeNoTcSelCI}{[2.5, 4.8]}
+\newcommand{\xSqCeNoTcTrimDiff}{6.4}
+\newcommand{\xSqCeNoTcTrimDiffCI}{[3.5, 9.1]}
+\newcommand{\xSqCeStapleCells}{5}
+\newcommand{\xSqCeStapleApps}{0.14}
+\newcommand{\xSqCeStapleWeight}{6.6}
+\newcommand{\xSqCeStapleCitesLenient}{118.0}
+\newcommand{\xSqCeOtherCitesLenient}{2.39}
+\newcommand{\xSqCeTimeDiff}{1.2}
+\newcommand{\xSqCeTimeDiffCI}{[$-$11.0, 13.1]}
+\newcommand{\xSqCeTimeMainDiff}{1.1}
+\newcommand{\xSqCeTimeMainDiffCI}{[$-$11.1, 13.0]}
+\newcommand{\xSqCeTimeRefitDiff}{1.1}
+\newcommand{\xSqCeTimeRefitDiffCI}{[$-$11.1, 13.0]}
+\newcommand{\xSqCeTimeEx}{15.4}
+\newcommand{\xSqCeTimeTrimDiff}{4.6}
+\newcommand{\xSqCeTimeTrimDiffCI}{[0.6, 8.8]}
+\newcommand{\xSqCeTimeTrimMainDiff}{4.9}
+\newcommand{\xSqCeTimeTrimMainDiffCI}{[0.7, 9.1]}
+\newcommand{\xSqCeTimeTrimRefitDiff}{4.9}
+\newcommand{\xSqCeTimeTrimRefitDiffCI}{[0.7, 9.1]}
+\newcommand{\xSqCeTimeTrimEx}{22.0}
+\newcommand{\xSqCeNoEntityDiff}{4.3}
+\newcommand{\xSqCeNoEntityDiffCI}{[$-$4.9, 11.6]}
+\newcommand{\xSqCeNoEntityMainDiff}{4.8}
+\newcommand{\xSqCeNoEntityMainDiffCI}{[$-$4.5, 11.9]}
+\newcommand{\xSqCeNoEntityRefitDiff}{4.8}
+\newcommand{\xSqCeNoEntityRefitDiffCI}{[$-$4.5, 11.9]}
+\newcommand{\xSqCeNoEntityEx}{20.0}
+\newcommand{\xSqCeNoEntityTrimDiff}{6.5}
+\newcommand{\xSqCeNoEntityTrimDiffCI}{[3.4, 9.8]}
+\newcommand{\xSqCeNoEntityTrimMainDiff}{6.9}
+\newcommand{\xSqCeNoEntityTrimMainDiffCI}{[3.7, 10.0]}
+\newcommand{\xSqCeNoEntityTrimRefitDiff}{6.9}
+\newcommand{\xSqCeNoEntityTrimRefitDiffCI}{[3.7, 10.0]}
+\newcommand{\xSqCeNoEntityTrimEx}{24.0}
+\newcommand{\xSqCeTimeCorr}{0.37}
+\newcommand{\xSqCeTimeMainCorr}{0.49}
+\newcommand{\xSqCeNoEntityCorr}{0.40}
+\newcommand{\xSqCeNoEntityMainCorr}{0.40}
+\newcommand{\xSqCeTimeN}{71,344}
+\newcommand{\xSqCePoisTrimDiff}{8.4}
+\newcommand{\xSqCePoisTrimDiffCI}{[5.3, 11.3]}
+\newcommand{\xSqCePoisSel}{7.3}
+\newcommand{\xSqCePoisSelCI}{[5.6, 8.9]}
+\newcommand{\xSqCePoisTrimSel}{5.6}
+\newcommand{\xSqCePoisTrimSelCI}{[4.7, 6.6]}
+\newcommand{\xSqCePoisDiff}{6.2}
+\newcommand{\xSqCePoisDiffCI}{[$-$2.4, 13.9]}
+\newcommand{\xSqCePoisRerank}{19.9}
+\newcommand{\xSqCePoisRerankCI}{[16.9, 23.2]}
+\newcommand{\xSqCePoisLevelScore}{2.82}
+\newcommand{\xSqCePoisLevelObs}{2.98}
+\newcommand{\xSqCePoisCorr}{0.29}
+\newcommand{\xSqCePoisSpRej}{0.27}
+\newcommand{\xSqCePoisSpGr}{0.29}
+\newcommand{\xSqCeNegTrain}{7.4}
+\newcommand{\xSqCeNegScoreRej}{7.9}
+\newcommand{\xSqCePermShare}{5.5}
+\newcommand{\xSqCePermShareTen}{10.8}
+\newcommand{\xSqCePermCells}{4,154}
+\newcommand{\xSqCePermThreeSix}{5.7}
+\newcommand{\xSqCePermMax}{6.8}
+\newcommand{\xSqCePermMaxTC}{1700}
+\newcommand{\xSqCePermMin}{4.1}
+\newcommand{\xSqCePermMinTC}{2100}
+\newcommand{\xSqCeFwExLost}{20.0}
+\newcommand{\xSqCeFwExFem}{9.5}
+\newcommand{\xSqCeFwExFemCI}{[7.3, 11.6]}
+\newcommand{\xSqCeFwExGap}{$-$3.3}
+\newcommand{\xSqCeFwExGapCI}{[$-$4.6, $-$2.1]}
+\newcommand{\xSqCeFwExGapPooled}{$-$7.4}
+\newcommand{\xSqCeFwExOt}{0.31}
+\newcommand{\xSqCeFwExOtCI}{[$-$2.74, 4.61]}
+\newcommand{\xSqCeFwExOtFem}{3.26}
+\newcommand{\xSqCeFwExOtMale}{2.95}
+\newcommand{\xSqCeFwExOtTrim}{$-$0.70}
+\newcommand{\xSqCeFwExOtTrimCI}{[$-$1.72, 0.63]}
+\newcommand{\xSqCeFwExOtTrimFem}{2.13}
+\newcommand{\xSqCeFwExOtTrimMale}{2.83}
+\newcommand{\xSqCeFwAlgoLost}{15.2}
+\newcommand{\xSqCeFwAlgoBetter}{4.8}
+\newcommand{\xSqCeFwAlgoBetterCI}{[$-$4.2, 12.7]}
+\newcommand{\xSqCeFwAlgoRerank}{18.7}
+\newcommand{\xSqCeFwAlgoRerankCI}{[16.2, 21.8]}
+\newcommand{\xSqCeFwAlgoFem}{8.3}
+\newcommand{\xSqCeFwAlgoFemCI}{[7.5, 9.0]}
+\newcommand{\xSqCeFwAlgoGap}{0.2}
+\newcommand{\xSqCeFwAlgoGapCI}{[$-$0.9, 1.3]}
+\newcommand{\xSqCeFwAlgoGapPooled}{$-$2.8}
+\newcommand{\xSqCeFwAlgoOt}{$-$0.56}
+\newcommand{\xSqCeFwAlgoOtCI}{[$-$1.25, 0.09]}
+\newcommand{\xSqCeFwAlgoOtFem}{1.97}
+\newcommand{\xSqCeFwAlgoOtMale}{2.53}
+\newcommand{\xSqCeFwAlgoOtWithin}{$-$0.34}
+\newcommand{\xSqCeFwAlgoOtWithinCI}{[$-$1.03, 0.31]}
+\newcommand{\xSqCeFwAlgoOtTrim}{$-$0.26}
+\newcommand{\xSqCeFwAlgoOtTrimCI}{[$-$0.71, 0.22]}
+\newcommand{\xSqCeFwAlgoOtTrimFem}{1.85}
+\newcommand{\xSqCeFwAlgoOtTrimMale}{2.11}
+\newcommand{\xSqCeFwAlgoOtTrimWithin}{$-$0.07}
+\newcommand{\xSqCeFwAlgoOtTrimWithinCI}{[$-$0.53, 0.41]}
+\newcommand{\xSqCeFwJudgeLost}{18.6}
+\newcommand{\xSqCeFwJudgeBetter}{1.4}
+\newcommand{\xSqCeFwJudgeBetterCI}{[$-$8.1, 9.6]}
+\newcommand{\xSqCeFwJudgeRerank}{5.2}
+\newcommand{\xSqCeFwJudgeRerankCI}{[3.0, 6.9]}
+\newcommand{\xSqCeFwJudgeFem}{9.0}
+\newcommand{\xSqCeFwJudgeFemCI}{[8.3, 9.9]}
+\newcommand{\xSqCeFwJudgeGap}{$-$4.0}
+\newcommand{\xSqCeFwJudgeGapCI}{[$-$5.1, $-$2.9]}
+\newcommand{\xSqCeFwJudgeGapPooled}{$-$12.4}
+\newcommand{\xSqCeFwJudgeOt}{$-$1.09}
+\newcommand{\xSqCeFwJudgeOtCI}{[$-$1.90, $-$0.38]}
+\newcommand{\xSqCeFwJudgeOtFem}{1.93}
+\newcommand{\xSqCeFwJudgeOtMale}{3.02}
+\newcommand{\xSqCeFwJudgeOtWithin}{$-$0.90}
+\newcommand{\xSqCeFwJudgeOtWithinCI}{[$-$1.61, $-$0.24]}
+\newcommand{\xSqCeFwJudgeOtTrim}{$-$0.57}
+\newcommand{\xSqCeFwJudgeOtTrimCI}{[$-$0.97, $-$0.17]}
+\newcommand{\xSqCeFwJudgeOtTrimFem}{1.82}
+\newcommand{\xSqCeFwJudgeOtTrimMale}{2.39}
+\newcommand{\xSqCeFwJudgeOtTrimWithin}{$-$0.44}
+\newcommand{\xSqCeFwJudgeOtTrimWithinCI}{[$-$0.84, $-$0.04]}
+\newcommand{\xSqCeFwEqLost}{15.5}
+\newcommand{\xSqCeFwEqBetter}{4.5}
+\newcommand{\xSqCeFwEqBetterCI}{[$-$4.6, 12.5]}
+\newcommand{\xSqCeFwEqRerank}{18.7}
+\newcommand{\xSqCeFwEqRerankCI}{[16.2, 21.9]}
+\newcommand{\xSqCeFwEqFem}{8.5}
+\newcommand{\xSqCeFwEqFemCI}{[7.9, 9.0]}
+\newcommand{\xSqCeFwEqGap}{3.0}
+\newcommand{\xSqCeFwEqGapCI}{[1.8, 4.1]}
+\newcommand{\xSqCeFwEqGapPooled}{0.0}
+\newcommand{\xSqCeFwEqOt}{$-$0.27}
+\newcommand{\xSqCeFwEqOtCI}{[$-$0.91, 0.48]}
+\newcommand{\xSqCeFwEqOtFem}{2.32}
+\newcommand{\xSqCeFwEqOtMale}{2.59}
+\newcommand{\xSqCeFwEqOtWithin}{$-$0.09}
+\newcommand{\xSqCeFwEqOtWithinCI}{[$-$0.71, 0.64]}
+\newcommand{\xSqCeFwEqOtTrim}{$-$0.25}
+\newcommand{\xSqCeFwEqOtTrimCI}{[$-$0.57, 0.11]}
+\newcommand{\xSqCeFwEqOtTrimFem}{1.89}
+\newcommand{\xSqCeFwEqOtTrimMale}{2.14}
+\newcommand{\xSqCeFwEqOtTrimWithin}{$-$0.11}
+\newcommand{\xSqCeFwEqOtTrimWithinCI}{[$-$0.43, 0.23]}
+\newcommand{\xSqCeFwRate}{17.1}
+\newcommand{\xSqCeExPoolPaMean}{51}
+\newcommand{\xSqCeExPoolPaAboveFifty}{46}
+\newcommand{\xSqCeExPoolPaAboveSeventyFive}{23}
+\newcommand{\xSqCeExAllPaMean}{50}
+\newcommand{\xSqCeExAllPaAboveFifty}{42}
+\newcommand{\xSqCeExAllPaAboveSeventyFive}{24}
+\newcommand{\xSqCeExOldPaMean}{54}
+\newcommand{\xSqCeExOldPaAboveFifty}{50}
+\newcommand{\xSqCeExOldPaAboveSeventyFive}{25}
+\newcommand{\xSqCeExDrawPaMean}{53}
+\newcommand{\xSqCeExDrawPaAboveFifty}{62}
+\newcommand{\xSqCeExDrawPaAboveSeventyFive}{12}
+\newcommand{\xSqCeExPoolN}{694}
+\newcommand{\xSqCeExPoolMinN}{40}
+\newcommand{\xSqCeExPoolMaxN}{167}
+\newcommand{\xSqCeExPoolFallback}{1.3}
+\newcommand{\xSqCeExDrawFallback}{0}
+\newcommand{\xSqCeExDrawAboveFiftyN}{5}
+\newcommand{\xSqCeExDrawAboveSeventyFiveN}{1}
+\newcommand{\xSqCeExOldN}{16}
+\newcommand{\xSqCeExOldRel}{3}
+\newcommand{\xSqCeExSeed}{20261101}
+\newcommand{\xSqCeWrRejPooled}{0.208}
+\newcommand{\xSqCeWrRejPooledCI}{[0.193, 0.218]}
+\newcommand{\xSqCeWrGrPooled}{0.217}
+\newcommand{\xSqCeWrGrPooledCI}{[0.201, 0.227]}
+\newcommand{\xSqCeWrCitesGrPooled}{0.152}
+\newcommand{\xSqCeWrCitesGrPooledCI}{[0.139, 0.165]}
+\newcommand{\xSqCeWrDiffPooled}{$-$0.009}
+\newcommand{\xSqCeWrDiffPooledCI}{[$-$0.020, 0.000]}
+\newcommand{\xSqCeWrRejTcYear}{0.124}
+\newcommand{\xSqCeWrRejTcYearCI}{[0.114, 0.134]}
+\newcommand{\xSqCeWrGrTcYear}{0.123}
+\newcommand{\xSqCeWrGrTcYearCI}{[0.113, 0.130]}
+\newcommand{\xSqCeWrCitesGrTcYear}{0.096}
+\newcommand{\xSqCeWrCitesGrTcYearCI}{[0.086, 0.106]}
+\newcommand{\xSqCeWrDiffTcYear}{0.001}
+\newcommand{\xSqCeWrDiffTcYearCI}{[$-$0.010, 0.011]}
+\newcommand{\xSqCeWrRejAuYear}{0.081}
+\newcommand{\xSqCeWrRejAuYearCI}{[0.074, 0.088]}
+\newcommand{\xSqCeWrGrAuYear}{0.084}
+\newcommand{\xSqCeWrGrAuYearCI}{[0.078, 0.090]}
+\newcommand{\xSqCeWrCitesGrAuYear}{0.073}
+\newcommand{\xSqCeWrCitesGrAuYearCI}{[0.066, 0.079]}
+\newcommand{\xSqCeWrDiffAuYear}{$-$0.003}
+\newcommand{\xSqCeWrDiffAuYearCI}{[$-$0.011, 0.006]}
+\newcommand{\xSqCeWrRejClsYear}{0.079}
+\newcommand{\xSqCeWrRejClsYearCI}{[0.072, 0.087]}
+\newcommand{\xSqCeWrGrClsYear}{0.082}
+\newcommand{\xSqCeWrGrClsYearCI}{[0.076, 0.087]}
+\newcommand{\xSqCeWrCitesGrClsYear}{0.069}
+\newcommand{\xSqCeWrCitesGrClsYearCI}{[0.063, 0.074]}
+\newcommand{\xSqCeWrDiffClsYear}{$-$0.002}
+\newcommand{\xSqCeWrDiffClsYearCI}{[$-$0.010, 0.006]}
+\newcommand{\xSqCeExTsApp}{12843477}
+\newcommand{\xSqCeExTsTitle}{Disposable hospital curtain system with sliding...}
+\newcommand{\xSqCeExTsYear}{2010}
+\newcommand{\xSqCeExTsUspc}{160}
+\newcommand{\xSqCeExTsScore}{20.3}
+\newcommand{\xSqCeExTsFieldPct}{100.0}
+\newcommand{\xSqCeExTsPaPct}{66}
+\newcommand{\xSqCeExTsPaRaw}{4}
+\newcommand{\xSqCeSixJudgeLow}{26.5}
+\newcommand{\xSqCeSixJudgeHigh}{25.4}
+\newcommand{\xSqCeSixAlgoPooledLow}{66.3}
+\newcommand{\xSqCeLvObsTrimTwo}{2.84}
+\newcommand{\xSqCeLvObsTrimTwoCI}{[1.74, 3.98]}
+\newcommand{\xSqCeLvObsTrimThree}{2.79}
+\newcommand{\xSqCeLvObsTrimThreeCI}{[2.13, 3.47]}
+\newcommand{\xSqCeLvObsTrimFour}{2.66}
+\newcommand{\xSqCeLvObsTrimFourCI}{[2.25, 3.10]}
+\newcommand{\xSqCeLvObsTrimFive}{2.80}
+\newcommand{\xSqCeLvObsTrimFiveCI}{[2.48, 3.12]}
+\newcommand{\xSqCeLvObsTrimPooled}{2.77}
+\newcommand{\xSqCeLvObsTrimPooledCI}{[2.34, 3.23]}
+\newcommand{\xSqCeLvScoreTrimTwo}{2.95}
+\newcommand{\xSqCeLvScoreTrimTwoCI}{[2.53, 3.37]}
+\newcommand{\xSqCeLvScoreTrimThree}{2.93}
+\newcommand{\xSqCeLvScoreTrimThreeCI}{[2.66, 3.18]}
+\newcommand{\xSqCeLvScoreTrimFour}{2.97}
+\newcommand{\xSqCeLvScoreTrimFourCI}{[2.71, 3.29]}
+\newcommand{\xSqCeLvScoreTrimFive}{2.99}
+\newcommand{\xSqCeLvScoreTrimFiveCI}{[2.77, 3.25]}
+\newcommand{\xSqCeLvScoreTrimPooled}{2.97}
+\newcommand{\xSqCeLvScoreTrimPooledCI}{[2.74, 3.19]}
+\newcommand{\xSqCeLvGrantedTrim}{2.46}
+\newcommand{\xSqCeLvGrantedRaw}{3.25}
+\newcommand{\xSqCeCapCells}{160}
+\newcommand{\xSqCeCapCellsAll}{4,154}
+\newcommand{\xSqCeCapCellsShare}{3.9}
+\newcommand{\xSqCeCapAppsShare}{3.2}
+\newcommand{\xSqCeCapAlgoDrop}{15.2}
+\newcommand{\xSqCeCapAlgoCap}{15.3}
+\newcommand{\xSqCeCapAlgoDropFive}{27.0}
+\newcommand{\xSqCeCapAlgoCapFive}{27.3}
+\newcommand{\xSqCeGridMaxTrees}{2,500}
+\newcommand{\xSqCeGridModels}{10}
+\newcommand{\xSqCeGridAtMax}{6}

@@ -1,0 +1,127 @@
+[
+  {
+    "id": "Figure A1",
+    "caption": "Applications by the first inventor’s state (not the examiner’s). Mean, over the state’s applications, of the deciding examiner’s leave-one-out leniency minus the mean leniency of the applications in the same cell (percentage points; zero in every state under random assignment), standard errors clustered by examiner; states with |z|<1.96 are faded, which here is all of them. Small states have few applications and noisy shades.",
+    "section": "A2. Examiners and leniency",
+    "sha256": "e0b3b9328766f47a01107b26c214068e1199c5bc8fb3a1178d929b653866a123",
+    "file": "results/appendix/figures/Figure_A1.png",
+    "source_figure": "output/figures/journal/fig_map_strict_lenient.png",
+    "scripts": [
+      "code/36_geography_industry.py"
+    ],
+    "selection": "Within-cell leniency map only (original panel c)",
+    "source_figure_distributed": false
+  },
+  {
+    "id": "Figure A2",
+    "caption": "Examiners’ decisions by the algorithm’s predicted citations, test applications: 1,000 equal-size bins with a LOWESS smooth and the means of 20 bins with 95% CI (1,000 bootstrap draws of art units). (a) Final grant. (b) First-action allowance, the examiner’s first reading, before the applicant replies. (c) Granted in the end, among applications whose first action was not an allowance. The lines show how far decisions follow what this text model predicts, not whether they follow quality: its predictions barely separate granted from rejected applications (AUC 0.51; a model of the grant decision on the same inputs reaches 0.72).",
+    "section": "A5. C1: Counterfactual Outcomes",
+    "sha256": "5d7a723f7028f3027147ca6743ee46dc709cb9b83f2161d4758be2b6bde7e3dd",
+    "file": "results/appendix/figures/Figure_A2.png",
+    "source_figure": "output/figures/journal/fig_c1z_grant_rate.png",
+    "scripts": [
+      "code/35_c1_kllm.py",
+      "code/49_c1_zheng_figures.py"
+    ],
+    "selection": "Final grant, first action, and later grant",
+    "source_figure_distributed": true
+  },
+  {
+    "id": "Figure A3",
+    "caption": "Reject rates by twenty bins of predicted citations, within cells (test and imputation sets): the most lenient quintile’s rejections (gray) and, on top, the additional rejections of (a) the strictest quintile, (b) the algorithm (learns citations), and (c) the predicted examiner (learns grant decisions), each rule rejecting within every cell as many more applications as the strictest quintile.",
+    "section": "A5. C1: Counterfactual Outcomes",
+    "sha256": "0c94f89fda8dac33b7c1e3179cdccada1ec8de81e8131944255fc3d6880965a6",
+    "file": "results/appendix/figures/Figure_A3.png",
+    "source_figure": "output/figures/journal/fig_c1z_reject_cites.png",
+    "scripts": [
+      "code/35_c1_kllm.py",
+      "code/49_c1_zheng_figures.py"
+    ],
+    "selection": "All three citation-bin panels",
+    "source_figure_distributed": true
+  },
+  {
+    "id": "Figure A4",
+    "caption": "As Figure A3, by twenty bins of the predicted examiner’s grant probability: (a) the strictest quintile, (b) the predicted examiner.",
+    "section": "A5. C1: Counterfactual Outcomes",
+    "sha256": "174e22dcb326899ee815765dfa377221c50047b984d52e711031a99ba4fea9e3",
+    "file": "results/appendix/figures/Figure_A4.png",
+    "source_figure": "output/figures/journal/fig_c1z_reject_grant.png",
+    "scripts": [
+      "code/35_c1_kllm.py",
+      "code/49_c1_zheng_figures.py"
+    ],
+    "selection": "Both grant-score panels",
+    "source_figure_distributed": true
+  },
+  {
+    "id": "Figure A5",
+    "caption": "Observed against predicted citations of granted test applications, 200 equal-size bins, with a LOWESS smooth and the 45-degree line.",
+    "section": "A5. C1: Counterfactual Outcomes",
+    "sha256": "d548c16be446d7ee5efdc0a71be684eae1d553e2f01e63ec40f39e864af67205",
+    "file": "results/appendix/figures/Figure_A5.png",
+    "source_figure": "output/figures/journal/fig_c1z_calibration.png",
+    "scripts": [
+      "code/35_c1_kllm.py",
+      "code/49_c1_zheng_figures.py"
+    ],
+    "selection": "Calibration scatter",
+    "source_figure_distributed": true
+  },
+  {
+    "id": "Figure A6",
+    "caption": "C1 as in Kleinberg et al. (2018). Left: a model trained on the most lenient quintile’s grants in the imputation set, applied to each quintile’s granted test applications, Q1 most lenient (their Figure IV). Right: contraction: citations per application lost relative to the most lenient quintile (%) against extra rejections, for each rule (lenient-trained: a model trained on the training set’s most lenient quintile’s grants; random: the expected loss) and the stricter quintiles, 95% CI (their Figure V); single quintiles’ intervals are wide because citations are heavy-tailed, and quintile 3’s extends below zero, a loss that monotonicity rules out for the true value. Examiners’ grant rates by predicted citations and the calibration of granted patents are in Figures A2a and A5.",
+    "section": "A5. C1: Counterfactual Outcomes",
+    "sha256": "ea61a189de45d7ed3384bf29420981eb3fda1411a5b390c45418140a3a44c968",
+    "file": "results/appendix/figures/Figure_A6.png",
+    "source_figure": "output/figures/journal/fig_c1_kllm_all_poisson.png",
+    "scripts": [
+      "code/35_c1_kllm.py"
+    ],
+    "selection": "Lenient-trained calibration and contraction only",
+    "source_figure_distributed": false
+  },
+  {
+    "id": "Figure A7",
+    "caption": "C1: the counterfactual scores checked against the record. (a) At the margin (applications the most lenient quintile grants and a stricter one rejects): mean citations observed, the model’s mean score, and a guess that knows only the center and filing year (mean citations of granted training applications); each stricter quintile top-coded at the 99th percentile of granted applications of the same center and year (the guess: the mean of top-coded citations), the four quintiles pooled without top-coding. (b) Share of the guess’s error that the model removes, application by application, with the guess top-coded like the outcome. (c) Prior-art citations by decile of the score within center × filing year, rejected and granted applications filed 2010–2012; the lines are parallel: the score ranks rejected applications as well as granted ones, and weakly. (d) Distribution at the margin of observed ÷ predicted, (1+citations)/(1+prediction), for the score and the guess; lines mark the factors that hold 50% and 80% of marginal applications around the score. 95% CI from 500 bootstrap draws of art units.",
+    "section": "A5. C1: Counterfactual Outcomes",
+    "sha256": "35da1e461dcf2a253b7fbb37159bcea1d80d36386071526b60e40aab24638d05",
+    "file": "results/appendix/figures/Figure_A7.png",
+    "source_figure": "output/figures/journal/fig_c1_score_check_poisson.png",
+    "scripts": [
+      "code/35_c1_kllm.py",
+      "code/43_c1_extra.py",
+      "code/47_c1_margin_validation.py"
+    ],
+    "selection": "All score-validation panels",
+    "source_figure_distributed": true
+  },
+  {
+    "id": "Figure A8",
+    "caption": "AI twins, TC 3600. Share of the 3,972 common applications that two twins decide differently, pairs of twins binned by the gap in their grant rates, for thresholded decisions (filled circles: leniency-only twins; hollow circles: twins with text components), with the share that leniency alone implies (dashed). Squares: decisions drawn from the twins’ probabilities, which mix in the disagreement of the same twin with itself and are not used in the text.",
+    "section": "A6. C2: Counterfactual Examiner Decisions",
+    "sha256": "f244e49f6325d6fdc54087dccb9264276206ab9d34decaf9042df4ee4cc8bfeb",
+    "file": "results/appendix/figures/Figure_A8.png",
+    "source_figure": "output/figures/journal/fig_c2_twins_ab.png",
+    "scripts": [
+      "code/17_ai_examiners.py",
+      "code/45_twins_c4_extra.py"
+    ],
+    "selection": "Decision disagreement by grant-rate gap only (original panel b)",
+    "source_figure_distributed": false
+  },
+  {
+    "id": "Figure A9",
+    "caption": "AI twins, TC 3600: who bears the randomness of who decides. Women’s and men’s common applications below the strictest twin’s threshold (rejected by every twin), between the strictest and the most lenient twin’s threshold (depends on the twin), and above it (granted by every twin). The probability that the decision changes on reassignment, by gender, is in Table A31.",
+    "section": "A6. C2: Counterfactual Examiner Decisions",
+    "sha256": "a63fee75d007cbb0d6c492b2cb2e27d98bae745ab2c93bb047dec57a8554f6df",
+    "file": "results/appendix/figures/Figure_A9.png",
+    "source_figure": "output/figures/journal/fig_c2_twins_cd.png",
+    "scripts": [
+      "code/17_ai_examiners.py",
+      "code/45_twins_c4_extra.py"
+    ],
+    "selection": "Threshold zones only (original panel d)",
+    "source_figure_distributed": false
+  }
+]

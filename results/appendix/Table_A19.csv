@@ -1,0 +1,6 @@
+,Citations lost (%),Rule − examiners (pp),Women among extra rejections (%),"Female − male grant rate, reranked (pp)",Outcome test: female − male citations
+Examiners,20.0,,"9.5 [7.3, 11.6]","−3.3 [−4.6, −2.1]","0.31 [−2.74, 4.61]"
+Random rejections,21.1,"−1.1 [−10.7, 7.0]","8.5 [7.9, 9.0]",–,–
+Algorithm (trained on citations),13.8,"6.2 [−2.4, 13.9]","8.7 [7.9, 9.5]","−0.3 [−1.2, 0.7]","0.56 [−0.55, 2.01]"
+Predicted examiner (trained on grants),18.6,"1.4 [−8.1, 9.6]","9.0 [8.3, 9.9]","−4.0 [−5.1, −2.9]","−1.09 [−1.90, −0.38]"
+"Algorithm, equal grant rates for women and men",13.9,"6.1 [−2.8, 14.1]","8.5 [7.9, 9.0]","5.5 [4.6, 6.5]","0.34 [−0.33, 1.34]"
